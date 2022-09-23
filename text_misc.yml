@@ -1,0 +1,128 @@
+Ailments:
+  Ailment 01: Nieprzytomność
+  Ailment 02: Diamentyzacja
+  Ailment 03: Paraliż
+  Ailment 04: Mdłości
+  Ailment 05: Zatrucie
+  Ailment 06: Porażenie
+  Ailment 07: Przeziębienie
+  Ailment 08: Zgrzybienie
+  Ailment 09: Opętanie
+  Ailment 10: Tęsknota
+Battle Menu:
+  Auto Fight: Auto Walka
+  Bash: Uderzaj
+  Defend: Obrona
+  Do Nothing: Nic nie rób
+  Goods: Plecak
+  Mirror: Odbicie
+  PSI: PSI
+  Pray: Modlitwa
+  Run Away: Uciekaj
+  Shoot: Strzelaj
+  Spy: Podpatrz
+Equip Menu:
+  Arms: 'Ramiona'
+  Arms Window Title: Ramiona
+  Body: '     Ciało'
+  Body Window Title: Ciało
+  Defense: Defense # Przeniesione do asm_new_stats_window.ccs
+  No Equip: '(Pusto)   '
+  Offense: Offense # Przeniesione do asm_new_stats_window.ccs
+  Other: '      Inne'
+  Other Window Title: Inne
+  To: 'Do:'
+  Unequip: Brak
+  Weapon: '      Broń'
+  Weapon Window Title: Bronie
+Item Menu: # Przeniesione do asm_code.ccs
+  Drop: Drop
+  Give: Give
+  Help: Help!
+  Use: Use
+Menu Action Targets:
+  Where: Gdzie?
+  Where 2: Gdzie?
+  Which: Które?
+  Who: Kto?
+  Whom: Komu?
+Other:
+  Lumine Hall Text: "Ja, ....  Dotarcie tutaj było długą drogą...  Niedługo będę...  Niedługo
+    będę...  Niedługo będę...  Co się z nami stanie?  C...co się stanie?  Moje
+    myśli są wypisywane na ścianie...  naprawdę tak jest?            "
+  Player Name Prompt: Zarejestruj swoje imię.
+Out of Battle Menu:
+  Check: Sprawdź
+  Equip: Status
+  Goods: Ekwipunek
+  PSI: PSI
+  Status: Status
+  Talk to: Plecak
+PSI Menu:
+  PP Cost: Cena PP
+  Row Back: Tylny rząd
+  Row Front: Przedni rząd
+  Row To: ''
+  To all enemies: Na każdego wroga.
+  To all of us: Na wszystkich.
+  To all of us 2: Na wszystkich.
+  To enemy: Na wroga.
+  To one enemy: Na jednego wroga.
+  To one enemy 2: Na jednego wroga.
+  To one of us: Na jednego z nas.
+  To one of us 2: Na jednego z nas.
+  To row of foes: Na rząd wrogów.
+  himself: siebie samego
+PSI Types:
+  Assist: Asysta
+  Offense: Atak
+  Other: Inne
+  Recover: Zdrowie
+Starting Text:
+  Ask Name 1: Nazwij go.
+  Ask Name 2: Ją też nazwij.
+  Ask Name 3: Nazwij swojego przyjaciela.
+  Ask Name 4: Jego też nazwij.
+  Ask Name Food: Ulubione domowe jedzenie?
+  Ask Name PSI: Twoja ulubiona rzecz?
+  Ask Name Pet: Nazwij swojego psa.
+  Confirm All: Zgadza się?
+  Confirm All No: Nie
+  Confirm All Yes: Tak
+  Confirm Delete: Czy na pewno chcesz usunąć?
+  Confirm Delete No: 'Nie'
+  Confirm Delete Yes: 'Tak'
+  Confirm Food: 'Ulu. jedzenie:'
+  Confirm PSI: 'Fajna rzecz:'
+  Continue: Kontynuuj
+  Copy: Kopiuj
+  Copy to where?: Gdzie chcesz?
+  Delete: Usuń
+  Select Sound: Wybierz tryb dźwięku.
+  Select Sound Mono: Mono
+  Select Sound Stereo: Stereo
+  Select Speed: Wybierz prędkość tekstu.
+  Select Style: Który styl okien ci się podoba?
+  Set Up: Opcje
+  Start New Game: Rozpocznij grę
+  Text Speed: 'Pr. tekstu:'
+  Text Speed Fast: Szybka
+  Text Speed Medium: Śred.
+  Text Speed Slow: Wolna
+Status Window: # Przeniesione do asm_status_menu_text.ccs
+  Defense: 'Defense:'
+  Exp. for next level: Exp. for next level.
+  Experience Points: 'Experience Points:'
+  Guts: 'Guts:'
+  Hit Points: 'Hit Points:'
+  IQ: 'IQ:'
+  Level: 'Level:'
+  Luck: 'Luck:'
+  Offense: 'Offense:'
+  PSI Prompt: '@Naciśnij A, by zobaczyć moce PSI.'
+  Psychic Points: 'Psychic Points:'
+  Speed: 'Speed:'
+  Vitality: 'Vitality:'
+Window Titles:
+  Escargo Express Window Title: Przedmioty
+  Phone Window Title: 'Dzwoń'

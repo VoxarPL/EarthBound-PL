@@ -1,0 +1,397 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xef7696:
+    newline
+    "@Nie ma to widocznie wp[C4]ywu na {target}![03]" eob
+
+l_0xef76b3:
+    newline
+    "@To nie dzia[C4]a na {target}![03]" eob
+
+l_0xef76c7:
+    newline
+    "{sound(34)}@Pud[C4]uje![03]" eob
+
+l_0xef76d8:
+    newline
+    "{sound(34)}@...ledwo trafia w cel![03]" eob
+
+l_0xef76fd:
+    newline
+    "@Ale {target} ju[C8] nie ma...[03]" eob
+
+l_0xef7710:
+    newline
+    "@{user} wysysa swoje w[C4]asne HP![03]" eob
+
+l_0xef7729:
+    newline
+    "@Wyssano {delta} HP z {target}![03]" eob
+
+l_0xef773f:
+    newline
+    "@Wyssano {delta} PP z {target}![03]" eob
+
+l_0xef7755:
+    newline
+    "@{target} traci {delta} PP![03]" eob
+
+l_0xef7768:
+    newline
+    "@{user} czuj[C3] si[C3] chory i otrzymuje {delta} HP obra[C8]e[C5]![03]" eob
+
+l_0xef7787:
+    newline
+    "@{target} czuj[C3] b[C6]l od trucizny i otrzymuje" next
+    "  {delta} HP obra[C8]e[C5].[03]" eob
+
+l_0xef77b1:
+    newline
+    "@{target} czuj[C3] zawroty g[C4]owy i os[C4]abienie oraz otrzymuje {delta} HP obra[C8]e[C5]![03]" eob
+
+l_0xef77db:
+    newline
+    "@{target} kicha i otrzymuje {delta} HP obra[C8]e[C5]![03]" eob
+
+l_0xef77fd:
+    newline
+    "@{target} do[C4][C1]cza do bitwy.[03]" eob
+
+l_0xef7810:
+    newline
+    "@{target} zaczyna rosn[C1][C2].[03]" eob
+
+l_0xef7824:
+    newline
+    "@Ale nikt nie przyszed[C4].[03]" eob
+
+l_0xef7830:
+    newline
+    "@Ale ziarno nie wykie[C4]kowa[C4]o.[03]" eob
+
+l_0xef7843:
+    "{music(98)}" newline
+    "@Czas zacz[C1][C4] si[C3] od nowa.[03]" eob
+
+l_0xef7858:
+    newline
+    "@" call(l_0xef790b) " atakuje![03]" eob
+
+l_0xef7866:
+    newline
+    "@" call(l_0xef790b) " blokuje drog[C3]![03]" eob
+
+l_0xef7879:
+    newline
+    "@" call(l_0xef790b) " szed[C4] za tob[C1]![03]" eob
+
+l_0xef788b:
+    newline
+    "@" call(l_0xef790b) " z[C4]apa[C4] ci[C3] w pu[C4]apk[C3]![03]" eob
+
+l_0xef789c:
+    "@Spotykasz " call(l_0xef794b) "[03]" eob
+
+l_0xef78ab:
+    "@Napotykasz " call(l_0xef794b) "[03]" eob
+
+l_0xef78b8:
+    "@Pojawia si[C3] " call(l_0xef794b) "[03]" eob
+
+l_0xef78c7:
+    "@Konfrontujesz si[C3] z " call(l_0xef794b) "[03]" eob
+
+l_0xef78d8:
+    newline
+    "@Oto szansa na niespodziewany atak znienacka![03]" eob
+
+l_0xef78f7:
+    newline
+    "@Oto atak znienacka wroga![03]" eob
+
+l_0xef790b:
+    "[1C 14 02][09 03 {e(l_0xef792b)} {e(l_0xef792e)} {e(l_0xef793c)}]{user} wraz z towarzyszami" eob
+
+l_0xef792b:
+    "{user}" eob
+
+l_0xef792e:
+    "{user} wraz z towarzyszem" eob
+
+l_0xef793c:
+    "{user} wraz z towarzyszami" eob
+
+l_0xef794b:
+    "[1C 14 02][09 03 {e(l_0xef796c)} {e(l_0xef7970)} {e(l_0xef797f)}]{user} i jego towarzysze." eob
+
+l_0xef796c:
+    "{user}." eob
+
+l_0xef7970:
+    "{user} i jego towarzysz." eob
+
+l_0xef797f:
+    "{user} i jego towarzysze." eob
+
+l_0xef798f:
+    "[1C 14 02][09 03 {e(l_0xef79b1)} {e(l_0xef79b6)} {e(l_0xef79c6)}]{user} wraz z towarzyszami" eob
+
+l_0xef79b1:
+    "{user}" eob
+
+l_0xef79b6:
+    "{user} wraz z towarzyszem" eob
+
+l_0xef79c6:
+    "{user} wraz z towarzyszami" eob
+
+l_0xef79d7:
+    "{window_clear}{music(5)}" linebreak
+    "                      [1C 08 02]" linebreak
+    "{pause(120)}" goto(l_0xef79e6)
+
+l_0xef79e6:
+    "[1F 41 11][1B 03 {e(l_0xef7a0a)}]" goto(l_0xef79ef)
+
+l_0xef79ef:
+    next
+    "@" call(data_37.l_0xc7e6d7) " uzyskuje {delta} pkt" linebreak
+    "  do[C7]wiadczenia" call(data_65.l_0xef8fad) "{prompt}" eob
+
+l_0xef7a0a:
+    "[19 05 01 06 02]" goto(l_0xef79ef)
+
+l_0xef7a14:
+    "{window_clear}{music(184)}" linebreak
+    "                      [1C 08 02]" linebreak
+    "{pause(120)}" goto(l_0xef79e6)
+
+l_0xef7a28:
+    "{window_clear}" linebreak
+    "                      [1C 08 02]" linebreak
+    "{pause(90)}" linebreak
+    "@" call(data_37.l_0xc7e6d7) " uzyskuje {delta} pkt" linebreak
+    "  do[C7]wiadczenia" call(data_65.l_0xef8fad) "{prompt}" eob
+
+l_0xef7a4d:
+    newline
+    "{pause(10)}{music(7)}@" call(data_37.l_0xc7e6d7) " przegrywa bitw[C3]...{prompt}" eob
+
+l_0xef7a66:
+    newline
+    "@{target} awansuje na poziom {delta}!{prompt}" eob
+
+l_0xef7a7d:
+    newline
+    "@" call(l_0xef7bbf) "Atak wzr[C6]s[C4] o {delta} pkt!{prompt}" eob
+
+l_0xef7a97:
+    newline
+    "@" call(l_0xef7bbf) "Obrona wzros[C4]a o {delta} pkt!{prompt}" eob
+
+l_0xef7ab1:
+    newline
+    "@" call(l_0xef7bbf) "Pr[C3]dko[C7][C2] wzros[C4]a o {delta} pkt!{prompt}" eob
+
+l_0xef7ac9:
+    newline
+    "@" call(l_0xef7bbf) "[B7]mia[C4]o[C7][C2] wzros[C4]a o {delta} pkt!{prompt}" eob
+
+l_0xef7ae0:
+    newline
+    "@" call(l_0xef7bbf) "Witalno[C7][C2] wzros[C4]a o {delta} pkt!{prompt}" eob
+
+l_0xef7afb:
+    newline
+    "@" call(l_0xef7bbf) "Inteligencja wzros[C4]a o {delta} pkt!{prompt}" eob
+
+l_0xef7b11:
+    newline
+    "@" call(l_0xef7bbf) "Szcz[C3][C7]cie wzros[C4]o o {delta} pkt!{prompt}" eob
+
+l_0xef7b28:
+    newline
+    "@" call(l_0xef7b83) "Maksymalne HP wzros[C4]o o {delta} pkt!{prompt}" eob
+
+l_0xef7b46:
+    newline
+    "@" call(l_0xef7ba0) "Maksymalne PP wzros[C4]o o {delta} pkt!{prompt}" eob
+
+l_0xef7b64:
+    newline
+    "{sound(103)}@{target} zdaje sobie spraw[C3] z mocy" linebreak
+    "[19 1F]{swap}  [1C 12 00].{prompt}" eob
+
+l_0xef7b83:
+    "{store_registers}[19 1E][18 07 14 00 00 00 00][1B 02 {e(l_0xef7b9d)}]S[C4]odko!" linebreak
+    "  " goto(l_0xef7b9d)
+
+l_0xef7b9d:
+    "{load_registers}" eob
+
+l_0xef7ba0:
+    "{store_registers}[19 1E][18 07 08 00 00 00 00][1B 02 {e(l_0xef7bbc)}]To wymiata!" linebreak
+    "  " goto(l_0xef7bbc)
+
+l_0xef7bbc:
+    "{load_registers}" eob
+
+l_0xef7bbf:
+    "{store_registers}[19 1E][18 07 03 00 00 00 00][1B 02 {e(l_0xef7bdc)}]O stary!" linebreak
+    "  " goto(l_0xef7bdc)
+
+l_0xef7bdc:
+    "{load_registers}" eob
+
+l_0xef7bdf:
+    newline
+    "@Wr[C6]g zostawi[C4] po sobie prezent!{prompt}" linebreak
+    "{sound(16)}{pause(1)}@Wewn[C1]trz prezentu [19 1F]{swap}jest [1C 05 00]!{prompt}" linebreak
+    "[1D 03 FF][1B 02 {e(l_0xef7c73)}]{store_registers}" call(data_36.l_0xc7dc85) "[1B 03 {e(l_0xef7c42)}]{load_registers}{swap}"
+    "@[1C 02 00]{swap} bierze to.[1D 0E 00 00]{sound(116)}{prompt}" eob
+
+l_0xef7c42:
+    "[19 10 01]{swap}" newline
+    "@[1C 02 00] dodaje{load_registers} [1C 05 00] do" linebreak
+    "  {swap}plecaka [1C 02 00].{swap}[1D 0E 00 00]{sound(116)}{prompt}" eob
+
+l_0xef7c73:
+    "@Ale " call(data_37.l_0xc7e6d7) " nie mo[C8]e ju[C8] nosi[C2] wi[C3]cej przedmiot[C6]w.{prompt}" linebreak
+    goto(l_0xef7c89)
+
+l_0xef7c89:
+    "@Czy chcesz co[C7] wyrzuci[C2]?{prompt}" linebreak
+    "[19 02]Tak" eob
+
+l_0xef7c9e:
+    "  [19 02]Nie" eob
+
+l_0xef7ca5:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xef7d0f)} {e(l_0xef7cb4)}]" goto(l_0xef7cb4)
+
+l_0xef7cb4:
+    "[19 1F]{swap}@Czy wyrzuci[C2] wi[C3]c [1C 05 00]?{prompt}" linebreak
+    "[19 02]Tak" eob
+
+l_0xef7cd9:
+    "[19 02]Nie" eob
+
+l_0xef7cde:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xef7cf8)} {e(l_0xef7ced)}]" goto(l_0xef7ced)
+
+l_0xef7ced:
+    "@A wi[C3]c...{prompt}" linebreak
+    goto(l_0xef7c89)
+
+l_0xef7cf8:
+    "@" call(data_37.l_0xc7e74e) " wyrzuca [1C 05 00].{prompt}" eob
+
+l_0xef7d0f:
+    newline
+    "@Co chcesz wyrzuci[C2]?{prompt}" call(data_15.l_0xc5e4c3) newline
+    "[1B 02 {e(l_0xef7cb4)}]{store_registers}[19 19 00 00][1D 0B 00][1B 02 {e(l_0xef7dbe)}]{load_registers}[19 19 00 00]@Wi[C3]c chcesz wyrzuci[C2] [1C 05 00]?{prompt}" linebreak
+    "[19 02]Wyrzu[C2]" eob
+
+l_0xef7d61:
+    "[19 02]Nie r[C6]b tego" eob
+
+l_0xef7d6f:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xef7d83)} {e(l_0xef7cb4)}]" goto(l_0xef7cb4)
+
+l_0xef7d83:
+    "{load_registers}[1D 0F 00 00]{swap}@[1C 02 00]{swap} wyrzuca [1C 05 00]{prompt}" linebreak
+    "{swap}[19 1F]{swap}@i bierze [1C 05 00].[1D 0E 00 00]{sound(116)}{pause(1)}[03]" eob
+
+l_0xef7dbe:
+    "@Nie mo[C8]esz wyrzuci[C2] [1C 05 00].{prompt}" goto(l_0xef7d0f)
+
+l_0xef7dd5:
+    newline
+    "@{user} widzi prezent za wrogiem." next
+    "{sound(16)}@Wewn[C1]trz prezentu [19 1F]{swap}jest [1C 05 00]." next
+    "@[1C 02 03] bierze to.[1D 0E 03 00]{sound(116)}[03]" eob
+
+l_0xef7e25:
+    newline
+    "{sound(25)}@{user} obraca si[C3] wok[C6][C4] w[C4]asnej osi![03]" eob
+
+l_0xef7e3e:
+    newline
+    "{sound(25)}@{user} traci panowanie nad sob[C1]![03]" eob
+
+l_0xef7e55:
+    newline
+    "{sound(25)}@{user} m[C6]wi co[C7] paskudnego!{sound(84)}[03]{pause(1)}" eob
+
+l_0xef7e70:
+    newline
+    "{sound(25)}@{user} u[C8]ywa ataku pr[C6][C8]niowego![03]" eob
+
+l_0xef7e88:
+    newline
+    "{sound(25)}@{user} uzupe[C4]nia zapasy paliwa!{sound(89)}[03]{pause(1)}" eob
+
+l_0xef7eac:
+    newline
+    "{sound(25)}@{user} gryzie, u[C8]ywaj[C1]c truj[C1]cych k[C4][C6]w![03]" eob
+
+l_0xef7ed5:
+    newline
+    "{sound(25)}@{user} wystrzeliwuje pocisk, powoduj[C1]c zawroty g[C4]owy.{sound(70)}[03]{pause(1)}" eob
+
+l_0xef7f02:
+    newline
+    "{sound(25)}@{user} rozpoczyna ci[C1]g[C4]y atak![03]" eob
+
+l_0xef7f1e:
+    newline
+    "{sound(25)}@{user} broni si[C3].[03]" eob
+
+l_0xef7f32:
+    newline
+    "{sound(25)}@{user} wyrzuca p[C4]on[C1]c[C1] kul[C3] ognia!{sound(75)}[03]{pause(1)}" eob
+
+l_0xef7f5a:
+    newline
+    "{sound(25)}@{user} wpada i splata si[C3] z tob[C1]![03]" eob
+
+l_0xef7f7b:
+    newline
+    "{sound(25)}@{user} atakuje mia[C8]d[C8][C1]cym ciosem![03]" eob
+
+l_0xef7f9a:
+    newline
+    "{sound(25)}@{user} boryka si[C3] i u[C8]ywa swojej zdolno[C7]ci pokory![03]" eob
+
+l_0xef7fc3:
+    newline
+    "{sound(25)}@{user} przyspiesza pr[C3]dko[C7][C2]!" linebreak
+    "[03]" eob
+
+l_0xef7fe0:
+    newline
+    "{sound(25)}@{user} wymachuje no[C8]em![03]" eob
+
+l_0xef7ffc:
+    newline
+    "{sound(25)}@{user} wdziera si[C3] w ciebie![03]" eob
+
+l_0xef8010:
+    newline
+    "{sound(25)}@{user} u[C8]ywa gryz[C1]cego ataku![03]" eob
+
+l_0xef8026:
+    newline
+    "{sound(25)}@{user} drapie swoimi ostrymi pazurami![03]" eob
+
+l_0xef804b:
+    newline
+    "{sound(25)}@{user} wymachuje bardzo mocno swoim ogonem![03]" eob
+

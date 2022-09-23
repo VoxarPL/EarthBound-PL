@@ -1,0 +1,447 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc56253:
+    newline
+    " <[1C 05 EA]>" next // Baton Seroworzechowy
+    "@To jedna z ulubionych przek[C1]sek Pana Saturna." next
+    "@Smakuje ca[C4]kiem wybornie." next
+    call(l_0xc56cb5) "100" call(l_0xc56cd6) end
+
+l_0xc5629b:
+    newline
+    " <[1C 05 EB]>" next // Galareta Prosiątka
+    "@To jedna z ulubionych przek[C1]sek Pana Saturna." next
+    "@Smakuje ca[C4]kiem dobrze." next
+    call(l_0xc56cb5) "300" call(l_0xc56cd6) end
+
+l_0xc562dd:
+    newline
+    " <[1C 05 EC]>" next // Miska Kleiku Ryżowego
+    "@Codzienne danie w Dalaam." next
+    call(l_0xc56cb5) "200" call(l_0xc56cd6) end
+
+l_0xc5630a:
+    newline
+    " <[1C 05 ED]>" next // Krokiet z Fasoli
+    "@Krokiet z puree i ciecierzycy, a nast[C3]pnie panierowany i sma[C8]ony na g[C4][C3]bokim t[C4]uszczu." next
+    "@Gen-san w Scaraba uwielbia to gotowa[C2]." next
+    "@S[C6]l go doprawia, a oliwa z oliwek nadaje mu wspania[C4]y smak." next
+    call(l_0xc56cb5) "40" call(l_0xc56cd6) end
+
+l_0xc563a9:
+    newline
+    " <[1C 05 EE]>" next // Zupa Molokheiya
+    "@Molokheiya jest letnim warzywem z Scaraba." next
+    "@Jest bogaty w sk[C4]adniki od[C8]ywcze i ma lekki smak, kt[C6]ry kochaj[C1] Scarabianie." next
+    call(l_0xc56cc5) "80" call(l_0xc56cd6) end
+
+l_0xc56417:
+    newline
+    " <[1C 05 EF]>" next // Zwykła Rolka
+    "@Nie mam wiele do powiedzenia na ten temat." next
+    "@S[C1]dz[C3], [C8]e s[C1] ludzie, kt[C6]rzy my[C7]l[C1], [C8]e to dobre." next
+    call(l_0xc56cb5) "80" call(l_0xc56cd6) end
+
+l_0xc5645d:
+    newline
+    " <[1C 05 F0]>" next // Kabob
+    "@Pieczona w[C1]troba jagni[C3]ca itp. wszystko podawane na szpikulcu." next
+    "@Czasami mi[C3]so jest inne ni[C8] jagni[C3]cina..." next
+    "@tak mi kto[C7] powiedzia[C4]..." next
+    call(l_0xc56cb5) "120" call(l_0xc56cd6) end
+
+l_0xc564d1:
+    newline
+    " <[1C 05 F1]>" next // Zwykły Jogurt
+    "@Pod niekt[C6]rymi wzgl[C3]dami smakuje dobrze." next
+    call(l_0xc56cb5) "160" call(l_0xc56cd6) end
+
+l_0xc564ff:
+    newline
+    " <[1C 05 F2]>" next // Suszona Wołowina
+    "@Przepis na zrobienie wo[C4]owiny." next
+    "@Zdob[C1]d[C9] jaki[C7] rodzaj mi[C3]sa, pokr[C6]j go na kawa[C4]ki o grubo[C7]ci oko[C4]o p[C6][C4] cala." next
+    "@Zawie[C7] kawa[C4]ki na lince do prania lub czym[C7] podobnym" next
+    "@i pozostaw je na s[C4]o[C5]cu przez oko[C4]o 6 miesi[C3]cy..." next
+    "@Tak w[C4]a[C7]nie m[C6]wi m[C6]j przepis." next
+    call(l_0xc56cb5) "150" call(l_0xc56cd6) end
+
+l_0xc565bc:
+    newline
+    " <[1C 05 F3]>" next // Mamuci Burger
+    call(l_0xc56cb5) "200" call(l_0xc56cd6) end
+
+l_0xc565d4:
+    newline
+    " <[1C 05 F4]>" next // Pikantna Wołowina
+    "@Przepis na zrobienie pikantnej wo[C4]owiny." next
+    "@Zdob[C1]d[C9] jaki[C7] rodzaj mi[C3]sa," next
+    "@pokr[C6]j go na kawa[C4]ki o grubo[C7]ci oko[C4]o p[C6][C4] cala." next
+    "@Przypraw kawa[C4]ki jak najlepiej," next
+    "@zawie[C7] kawa[C4]ki na lince do prania lub czym[C7] podobnym" next
+    "@i pozostaw je na s[C4]o[C5]cu przez oko[C4]o 8 miesi[C3]cy..." next
+    "@Tak w[C4]a[C7]nie m[C6]wi m[C6]j przepis..." next
+    call(l_0xc56cb5) "250" call(l_0xc56cd6) end
+
+l_0xc566b7:
+    newline
+    " <[1C 05 F5]>" next // Luksusowa Wołowina
+    "@Wy[C7]mienita wersja suszonej wo[C4]owiny, uwa[C8]ana za przysmak." next
+    "@Stworzy[C4] j[C1] zr[C3]czny rzemie[C7]lnik," next
+    "@kt[C6]ry od 60 lat robi wo[C4]owin[C3]." next
+    "@Fani wo[C4]owiny uwa[C8]aj[C1] to za kawior wszystkich wo[C4]owin." next
+    "@Rozumiem, [C8]e nie susz[C1] wo[C4]owiny na lince do prania..." next
+    call(l_0xc56cb5) "300" call(l_0xc56cd6) end
+
+l_0xc5678d:
+    newline
+    " <[1C 05 F6]>" next // Butelka Wody DX
+    "@Bardzo droga woda," next
+    "@ale prawie taka sama jak ta, kt[C6]r[C1] pijesz w mie[C7]cie." next
+    "@Przywraca nieco PP." end
+
+l_0xc567dc:
+    newline
+    " <[1C 05 F7]>" next // Magiczny Budyń
+    "@Przywraca oko[C4]o 40 PP." end
+
+l_0xc567f4:
+    newline
+    " <[1C 05 F8]>" next // Idealna Patelnia
+    call(l_0xc56b97) end
+
+l_0xc56804:
+    newline
+    " <[1C 05 F9]>" next // Moneta Pana Saturna
+    call(l_0xc56c54) next
+    "@To nie pieni[C1]dz, chocia[C8] nazywa si[C3] j[C1] monet[C1]." end
+
+l_0xc5682e:
+    newline
+    " <[1C 05 FA]>" next // Meteornium
+    "@Mo[C8]e by[C2] sprzedany za bardzo wysok[C1] cen[C3]." next
+    "@Nic si[C3] nie stanie, je[C7]li to u[C8]yjesz." next
+    "@Dobre wyt[C4]umaczenie jest dosy[C2] trudne..." end
+
+l_0xc5687b:
+    newline
+    " <[1C 05 FB]>" next // Lód na Patyku
+    call(l_0xc56cb5) "18" call(l_0xc56cd6) end
+
+l_0xc56892:
+    " <[1C 05 FC]>" next // Kubek Życiowych Nudli
+    goto(data_03.l_0xc54a08)
+
+l_0xc5689f:
+    newline
+    " <[1C 05 FD]>" next // Marchewkowy Klucz
+    "@Specjalny rodzaj ulubionej marchewki kr[C6]lik[C6]w." end
+
+l_0xc568c9:
+    "@[B7]miertelny atak PSI, kt[C6]rego mo[C8]e u[C8]ywa[C2] tylko [1C 02 01]." linebreak
+    "@Fala psychokinetyczna generowana przez koncentracj[C3]" eob
+
+l_0xc56913:
+    "@Z palc[C6]w wystrzeliwuje ogie[C5] na szereg wrog[C6]w i zadaje" eob
+
+l_0xc56935:
+    "@Powoduje, [C8]e zimny wiatr wiruje wok[C6][C4] jednego wroga," eob
+
+l_0xc56955:
+    "@Mo[C8]e ca[C4]kowicie zamrozi[C2] wroga." eob
+
+l_0xc5696c:
+    "@Mo[C8]esz spud[C4]owa[C2], gdy jest ma[C4]o wrog[C6]w." linebreak
+    "@Eliminuje psychiczn[C1] tarcz[C3] mocy." eob
+
+l_0xc569a9:
+    "@Generuje silny b[C4]ysk i mo[C8]e sprawi[C2], [C8]e wr[C6]g" eob
+
+l_0xc569ca:
+    " zacznie p[C4]aka[C2] w niekontrolowany spos[C6]b" eob
+
+l_0xc569df:
+    "@Metoda <zrzucania gwiazd>, kt[C6]rej [1C 02 04] nauczy[C4] si[C3] podczas treningu." eob
+
+l_0xc56a14:
+    "@Zmniejsza o po[C4]ow[C3] obra[C8]enia zadawane przez trafienie wroga." eob
+
+l_0xc56a42:
+    "@Zmniejsza o po[C4]ow[C3] obra[C8]enia spowodowane trafieniem wroga.  Zablokowane obra[C8]enia nast[C3]pnie wracaj[C1] w stron[C3] wroga." eob
+
+l_0xc56a8a:
+    "@Mo[C8]e zablokowa[C2] atak PSI wroga." eob
+
+l_0xc56aa0:
+    "@Odzwierciedla atak PSI wroga z powrotem na atakuj[C1]cego." eob
+
+l_0xc56ac0:
+    eob
+
+l_0xc56ac1:
+    eob
+
+l_0xc56ac2:
+    " stanu <sparali[C8]owany>." eob
+
+l_0xc56ad3:
+    " Sprawia, [C8]e cel czuj[C3] si[C3] dziwnie." eob
+
+l_0xc56ae4:
+    "@Umo[C8]liwia natychmiastowy powr[C6]t do miejsca, w kt[C6]rym ju[C8] by[C4]e[C7]." eob
+
+l_0xc56b0d:
+    "@Jest najbardziej skuteczny, je[C7]li u[C8]yjesz tej mocy wiele razy, aby <zwi[C3]kszy[C2]> efekt." eob
+
+l_0xc56b3e:
+    "@Mo[C8]e nie by[C2] skuteczny przeciwko niekt[C6]rym wrogom." eob
+
+l_0xc56b5d:
+    "S[C4]odki pluszowy mi[C7]!" eob
+
+teddy:	// l_0xc56b5d (2)
+    "Bardzo s[C4]odki pluszowy mi[C7]!" eob
+
+l_0xc56b6f:
+    "@Ten geniusz [1C 02 03] powinien kiedy[C7] to naprawi[C2]." eob
+
+l_0xc56b8e:
+    "@[1C 02 01]" goto(l_0xc56bb2)
+
+l_0xc56b97:
+    "@[1C 02 02]" goto(l_0xc56bb2)
+
+l_0xc56ba0:
+    "@[1C 02 03]" goto(l_0xc56bb2)
+
+l_0xc56ba9:
+    "@[1C 02 04]" goto(l_0xc56bb2)
+
+l_0xc56bb2:
+    " mo[C8]e wyposa[C8]y[C2] t[C1] bro[C5]." eob
+
+l_0xc56bc0:
+    call(l_0xc56bdf) "@Chroni ci[C3] przed atakami parali[C8]u." eob
+
+l_0xc56bdf:
+    "@Mo[C8]e by[C2] wyposa[C8]ony na ciele." next
+    eob
+
+rabbit:
+    "@Mo[C8]e by[C2] wyposa[C8]ona na ciele." next
+    "@Chroni ci[C3] przed atakami parali[C8]u." eob
+
+l_0xc56bf4:
+    "@Mo[C8]e by[C2] wyposa[C8]ona na ramieniu." next
+    "@Zwi[C3]ksza Obron[C3]." eob
+
+l_0xc56c16:
+    "@Pomaga uchroni[C2] ci[C3] przed zahipnotyzowaniem, a tak[C8]e zwi[C3]ksza Szcz[C3][C7]cie." eob
+
+l_0xc56c40:
+    "@Mo[C8]e by[C2] wyposa[C8]ona jako <Inne>." eob
+
+hardhat:
+    "@Mo[C8]e by[C2] wyposa[C8]ony jako <Inne>." eob
+
+l_0xc56c54:
+    call(l_0xc56c40) next
+    "@Zwi[C3]ksza Obron[C3] i Szcz[C3][C7]cie." eob
+
+l_0xc56c6d:
+    "@R[C6][C8]norodne wyposa[C8]enie, z kt[C6]rego mo[C8]e korzysta[C2] tylko [1C 02 02]." eob
+
+l_0xc56c91:
+    "@R[C6][C8]norodne wyposa[C8]enie, z kt[C6]rego mo[C8]e korzysta[C2] tylko [1C 02 04]." eob
+
+l_0xc56cb5:
+    "@Po zjedzeniu odzyskasz oko[C4]o " eob
+
+l_0xc56cc5:
+    "@Po wypiciu odzyskasz oko[C4]o " eob
+
+l_0xc56cd6:
+    " HP." eob
+
+l_0xc56cdb:
+    "@Ponadto dzia[C4]a r[C6]wnie[C8] na trucizn[C3], md[C4]o[C7]ci," next
+    eob
+
+l_0xc56d02:
+    "@przezi[C3]bienie, udar s[C4]oneczny, zasypianie, niekontrolowany p[C4]acz i dziwne uczucie." eob
+
+l_0xc56d36:
+    eob
+
+l_0xc56d37:
+    eob
+
+l_0xc56d38:
+    "@Jest skuteczny, gdy masz parali[C8] lub jeste[C7] zdiamentyzowany." eob
+
+l_0xc56d63:
+    "@Aby u[C8]y[C2], posyp jedzeniem." next
+    "@Dobra kombinacja zwi[C3]ksza si[C4][C3] twojego powrotu do zdrowia." eob
+
+l_0xc56d9b:
+    "@Mo[C8]e by[C2] u[C8]ywany wiele razy." eob
+
+item_extra:
+    "@Mo[C8]e by[C2] u[C8]ywana wiele razy." eob
+
+l_0xc56dab:
+    "@Znika po jednym u[C8]yciu." eob
+
+item_extra2:
+    "@Znikaj[C1] po jednym u[C8]yciu." eob
+
+l_0xc56db7:
+    "@Przedmiot dla [1C 02 03]a." next
+    eob
+
+l_0xc56dc5:
+    "@Zadaje obra[C8]enia wrogowi, gdy jest u[C8]ywana podczas walki." eob
+
+l_0xc56ddd:
+    "@Po wyposa[C8]eniu zwi[C3]ksza twoje Szcz[C3][C7]cie." eob
+
+l_0xc56df3:
+    call(data_13.l_0xc5d4c1) eob
+
+l_0xc56df9:
+    call(data_13.l_0xc5d4f1) eob
+
+l_0xc56dff:
+    "@Nie, nie chc[C3] [C8]adnych banda[C8]y mumii!" next
+    "@Prosimy o niedozwolone proszenie!" end
+
+l_0xc56e2c:
+    "@Nigdy was tu nie widzia[C4]em." next
+    "@Czego chcecie?{pause(20)}  Nie mam niczego, czego by[C7]cie chcieli." end
+
+l_0xc56e5b:
+    call(data_47.l_0xc900dd) eob
+
+l_0xc56e61:
+    call(data_47.l_0xc90077) eob
+
+l_0xc56e67:
+    "@Przybyli[C7]cie statkiem z Toto?" next
+    "@Na morzu jest straszny potw[C6]r..." next
+    "@...Pokonali[C7]cie go?{pause(20)}  A mo[C8]e uciekli[C7]cie?" next
+    "@Tak czy inaczej,{pause(15)} jeste[C7]cie fantastyczni!" end
+
+l_0xc56eca:
+    "@W[C3][C8]e s[C1] takie nieprzyjemne, ale takie s[C4]odkie..." next
+    "@Och, nie wiem co w og[C6]le m[C6]wi[C3]." end
+
+l_0xc56efd:
+    "@Powinienem trzyma[C2] w[C3][C8]a w domu?" next
+    "@Mo[C8]e powinienem zapyta[C2] eksperta." end
+
+l_0xc56f32:
+    "@Truj[C1]ce w[C3][C8]e kosztuj[C1] wi[C3]cej." next
+    "[19 10 01]@Dlaczego " call(l_0xc56f6d) " jak ty, potrzebuje jednego?" end
+
+l_0xc56f6d:
+    "[19 10 01]{result_is(2)}[1B 03 {e(l_0xc56f7b)}]taki m[C4]ody m[C3][C8]czyzna" eob
+
+l_0xc56f7b:
+    "taka m[C4]oda panienka" eob
+
+l_0xc56f80:
+    "@[1C 05 8D] mo[C8]e trzyma[C2] [C8]ywe w[C3][C8]e!{pause(20)}  W worku s[C1] w[C3][C8]e!" next
+    "@Jest to bardzo przydatny przedmiot!" next
+    "@Chcesz kupi[C2]?{pause(20)}  Pokornie oferuj[C3] ci to..." next
+    "[19 02]Tak" eob
+
+l_0xc56fe7:
+    "[19 02]Nie" eob
+
+l_0xc56fec:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc5701f)} {e(l_0xc56ffb)}]" goto(l_0xc56ffb)
+
+l_0xc56ffb:
+    "@Boisz si[C3] w[C3][C8]y,{pause(15)} prawda?  Che che che." end
+
+l_0xc5701f:
+    "[1D 03 FF][1B 02 {e(l_0xc570f2)}]@To b[C3]dzie 290 dolar[C6]w, [19 10 01]" call(data_37.l_0xc7e6b3) "." linebreak
+    "{open_wallet}[19 02]Tak" eob
+
+l_0xc5704e:
+    "[19 02]Nie" eob
+
+l_0xc57053:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc57067)} {e(l_0xc56ffb)}]" goto(l_0xc56ffb)
+
+l_0xc57067:
+    "[1D 14 22 01 00 00][1B 03 {e(l_0xc570db)}][1D 03 FF][1D 0E 00 8D]{sound(118)}[1D 09 62 00]{open_wallet}{sound(120)}"
+    "@Dam ci zni[C8]k[C3], bo worek ma dziur[C3]." next
+    "@(Sprzedawca work[C6]w z w[C3][C8]ami obni[C8]y[C4] cen[C3] do 98 dolar[C6]w z 290 dolar[C6]w.){wait}" end
+
+l_0xc570db:
+    "@Bez pieni[C3]dzy nie mog[C3] ci tego sprzeda[C2]..." end
+
+l_0xc570f2:
+    "@Poniewa[C8] masz za du[C8]o przedmiot[C6]w,{pause(15)} z pokor[C1] zatrzymam t[C1] wa[C8]n[C1] Torb[C3] W[C3][C8]y." end
+
+l_0xc5711a:
+    call(data_13.l_0xc5d4cd) eob
+
+l_0xc57120:
+    call(data_13.l_0xc5d4df) eob
+
+l_0xc57126:
+    "@Kupi[C4]em <[1C 05 A2]>." next
+    "@Pomo[C8]e to w du[C8]ej mierze," next
+    "@kiedy pokornie szukam Magicznych Trufli w G[C4][C3]bokiej Ciemno[C7]ci." next
+    "@Mo[C8]esz te[C8] nauczy[C2] si[C3] korzysta[C2] z Nosa Prosi[C1]tka za pomoc[C1] polecenia <U[C8]yj> w sekcji <Plecak>." next
+    "@Wi[C3]c odpoczywaj spokojnie." end
+
+l_0xc571b9:
+    "[06 49 00 {e(l_0xc5725a)}]@Och, masz znak pecha na swojej twarzy..." next
+    "@Nie... Nie martw si[C3]..." next
+    "@Je[C7]li chcesz wiedzie[C2], pokornie ci powiem." next
+    "@<Wr[C6]cisz tutaj..." next
+    "@Po napotkaniu niebezpiecznej sytuacji.>" next
+    "@Jednak[C8]e mog[C3] si[C3] myli[C2], a je[C7]li tak... stukrotnie przebaczam." end
+
+l_0xc5725a:
+    "@Och!" next
+    "@Masz znak pecha na swojej twarzy..." next
+    "@Mog[C3] si[C3] jednak myli[C2], poniewa[C8] ostatnio nie my[C4]e[C7] twarzy." end
+
+l_0xc572a0:
+    "@W piramidzie jest ukryty skarb." next
+    "@M[C6]j m[C1][C8] w[C4]a[C7]nie tego szuka[C4]." next
+    "@Zanim to znalaz[C4]... po[C7]lizgn[C1][C4] si[C3] na sk[C6]rce od banana." next
+    "@...Wi[C3]c zrezygnowa[C4] z poszukiwa[C5]." end
+
+l_0xc5730d:
+    "@Mieszka[C4]o tu plemi[C3] Tenda." next
+    "@Poszli na koniec G[C4][C3]bokiej Ciemno[C7]ci, poniewa[C8] byli zbyt niewinni." next
+    "@Zastanawiam si[C3], czy nadal [C8]yj[C1]." end
+
+l_0xc57361:
+    "@Je[C7]li wybieracie si[C3] do Piramidy, przygotujcie si[C3] dobrze" next
+    "@i b[C1]d[C9]cie got[C6]wi na wszystko, co mo[C8]e si[C3] zdarzy[C2]." end
+
+l_0xc57399:
+    call(data_20.l_0xc6500f) eob
+
+l_0xc5739f:
+    "{window_open(1)}"
+    title(1, Star)
+    "@Dobra robota." next
+    "@Uda[C4]o wam si[C3]![03]{window_closeall}" call(data_49.l_0xc915f4) "{sound(37)}{pause(90)}{window_open(1)}"
+    title(1, Star)
+    "@W ko[C5]cu si[C3] spotykamy," linebreak
+    "  Ksi[C1][C8][C3] [1C 01 4A].[03]{window_closeall}" eob

@@ -1,0 +1,188 @@
+0: # Picky Minch
+  begin: 0
+  misc: false
+  size: 4
+1: # Landra Minch
+  begin: 4
+  misc: false
+  size: 4
+2: # Aloysius Minch
+  begin: 8
+  misc: false
+  size: 4
+3: # Porky Minch
+  begin: 12
+  misc: false
+  size: 4
+4: # Bzyk Bzyk
+  begin: 16
+  misc: false
+  size: 3
+5: # Lier X. Agerate
+  begin: 19
+  misc: false
+  size: 4
+6: # Frank Fly
+  begin: 23
+  misc: false
+  size: 3
+7: # Rekiny
+  begin: 26
+  misc: false
+  size: 2
+8: # B. H. Pirkle
+  begin: 28
+  misc: false
+  size: 3
+9: # Kapitan Silny
+  begin: 31
+  misc: false
+  size: 4
+10: # Policja Onett
+  begin: 35
+  misc: false
+  size: 4
+11: # pusto
+  begin: 39
+  misc: false
+  size: 5
+12: # pusto
+  begin: 44
+  misc: false
+  size: 5
+13: # Jabłkowy Dzieciak
+  begin: 49
+  misc: false
+  size: 5
+14: # Mysz (nieużywane)
+  begin: 54
+  misc: false
+  size: 2
+15: # Pomarańczowy Dzieciak
+  begin: 54
+  misc: false
+  size: 7
+16: # Pan Everdred
+  begin: 61
+  misc: false
+  size: 4
+17: # Runaway Five
+  begin: 65
+  misc: false
+  size: 4
+18: # Happy Happyniści
+  begin: 69
+  misc: false
+  size: 5
+19: # Lakiernik
+  begin: 74
+  misc: false
+  size: 3
+20: # Bąbelkowa Małpa
+  begin: 79
+  misc: false
+  size: 5
+21: # Tony
+  begin: 84
+  misc: false
+  size: 2
+22: # Maxwell
+  begin: 86
+  misc: false
+  size: 3
+23: # Tessie
+  begin: 89
+  misc: false
+  size: 2
+24: # Klub Obserwacyjny Tessie
+  begin: 91
+  misc: false
+  size: 7
+25: # Ceglana Droga
+  begin: 98
+  misc: false
+  size: 4
+26: # Dr. Andonuts
+  begin: 102
+  misc: false
+  size: 4
+27: # Panowie Saturn (nieużywane)
+  begin: 102
+  misc: false
+  size: 3
+28: # Mistrz Bek
+  begin: 106
+  misc: false
+  size: 3
+29: # George Montague
+  begin: 109
+  misc: false
+  size: 5
+30: # Gerardo Montague
+  begin: 114
+  misc: false
+  size: 5
+31: # Talah Rama
+  begin: 119
+  misc: false
+  size: 4
+32: # Geldegarde Monotoli
+  begin: 123
+  misc: false
+  size: 6
+33: # Venus
+  begin: 129
+  misc: false
+  size: 2
+34: # Gwiezdny Mistrz
+  begin: 131
+  misc: false
+  size: 5
+35: # pusto
+  begin: 136
+  misc: false
+  size: 6
+36: # Człowiek Loch
+  begin: 142
+  misc: false
+  size: 4
+37: # Włócznik
+  begin: 146
+  misc: false
+  size: 3
+38: # Plemię Tenda
+  begin: 150
+  misc: false
+  size: 4
+39: # Ludzie Ptaki
+  begin: 154
+  misc: false
+  size: 4
+40: # Tata
+  begin: 158
+  misc: false
+  size: 2
+41: # Tracy
+  begin: 160
+  misc: false
+  size: 2
+42: # symbol diamentu
+  begin: 162
+  misc: false
+  size: 1
+43: # Mama
+  begin: 163
+  misc: false
+  size: 2
+44: # OBSADA
+  begin: 0
+  misc: true
+  size: 3
+45: # ______
+  begin: 3
+  misc: true
+  size: 3
+46: # PANOWIE SATURN
+  begin: 6
+  misc: true
+  size: 8

@@ -1,0 +1,22 @@
+import asm65816
+
+// Copy horizontal alignment
+ROM[0xC1F0DC] = LDX_i (0x0007)
+
+// Delete horizontal alignment
+ROM[0xC1F117] = LDX_i (0x000C)
+
+// Set Up horizontal alignment
+ROM[0xC1F135] = LDX_i (0x0010)
+
+ROM[0xC1EE9B] = ASMLoadAddress12 (level)
+ROM[0xC1F326] = ASMLoadAddress0E (level)
+
+level:
+" Poz.:[00]"
+
+/* "Copy to where?" Animation Data */
+ROM[0xC1F208] = ASMLoadAddress0E (CopyToWhere)
+
+CopyToWhere:
+"Gdzie chcesz?[00]"

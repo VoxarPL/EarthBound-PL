@@ -1,0 +1,434 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc856fc:
+    "@Dzie[C5] dobry!" next
+    "@To wyj[C1]tkowa us[C4]uga, dost[C3]pna wy[C4][C1]cznie w naszym hotelu!" next
+    "@Jestem tutaj, aby przeczyta[C2] ci dzisiejszy nag[C4][C6]wek." next
+    eob
+
+l_0xc8574a:
+    "@Na pierwszej stronie Fourside Post..." next
+    eob
+
+l_0xc85767:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Ponad 70% obywateli Fourside popiera Monotoly'ego>" end
+
+l_0xc85791:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Ponad 80% obywateli Fourside popiera Monotoly'ego>" end
+
+l_0xc857bb:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Ponad 90% obywateli Fourside popiera Monotoly'ego>" next
+    "@Nast[C3]pnie na stronie 17, " next
+    "@<Tajemnicze zaciemnienie domu towarowego spowodowane przez mysz>" end
+
+l_0xc8581b:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Ponad 50% obywateli Fourside wspiera teraz kampani[C3] Anty-Monotoly'ego>" next
+    "@A na stronie 23 Fourside Post." next
+    "@<Samotna [C7]mier[C2] w mie[C7]cie.  D[C4]ugow[C4]osy m[C3][C8]czyzna z brod[C1]," next
+    "@okularami przeciws[C4]onecznymi i koszul[C1] aloha znaleziony na ulicy>" end
+
+l_0xc858ba:
+    call(l_0xc856fc) call(l_0xc8574a) "@<S[C4]ynny Pan Monotoly opuszcza Fourside.  Stwierdza, [C8]e jedzie na wycieczk[C3]>" end
+
+l_0xc858f0:
+    call(l_0xc856fc) "  Fourside Post m[C6]wi..." next
+    "@Jaj[C2]!  Pope[C4]ni[C4]em b[C4][C1]d i przynios[C4]em gazet[C3] o nazwie Fourside Star." next
+    "@Mimo to pozw[C6]l mi j[C1] przeczyta[C2]..." next
+    "@<Lucky z Runaway Five, okazuje si[C3], [C8]e przebywa w stanowej" next
+    "@Izbie Reprezentant[C6]w>" next
+    "@...To musi by[C2] k[C4]amstwo..." end
+
+l_0xc85985:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Ksi[C1][C8][C3] [1C 02 04] z Dalaam odwiedza potajemnie Fourside?>" end
+
+l_0xc859b5:
+    call(l_0xc856fc) "  Na stronie 25 Fourside Post..." next
+    "@<Venus staje si[C3] toastem [B4]owc[C6]w Autograf[C6]w Fourside, co stwarza problemy dla s[C4]ynnej piosenkarki>" end
+
+l_0xc85a11:
+    call(l_0xc856fc) "  Na stronie 3 Fourside Post..." next
+    "@<Dzia[C4]alno[C7][C2] przest[C3]pcza w Scaraba?" next
+    "@[B7]wi[C3]ty skarb piramidy, [1C 05 AF] zostaje skradzione>" end
+
+l_0xc85a6c:
+    call(l_0xc856fc) "  Oto reklama w dzisiejszym Fourside Post." next
+    "@<Wy[C8]szy ni[C8] wsz[C3]dzie indziej!" linebreak
+    " (To wysoko[C7][C2], a nie cena)" linebreak
+    " Wielki Hotel Monotoly>" next
+    "@Hej!  To nasz hotel!" end
+
+l_0xc85ad8:
+    call(l_0xc856fc) "  Na stronie 13 Fourside Post..." next
+    "@<Czytanie gazet przez portier[C6]w nie jest wy[C4][C1]czn[C1] spraw[C1] dla Fourside," next
+    "@Ale nie s[C1] przyjmowane przez portier[C6]w szukaj[C1]cych napiwk[C6]w>" next
+    "@...Jestem taki zawstydzony..." end
+
+l_0xc85b55:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Najlepsza gazeta ze wszystkich innych" next
+    "@Ka[C8]dy czyta Fourside Post ka[C8]dego ranka>" next
+    "@...Czy to nag[C4][C6]wek pierwszej strony?" end
+
+l_0xc85bab:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Megalopolia Fourside ma kolejny pracowity dzie[C5]>" end
+
+l_0xc85bd4:
+    call(data_40.l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85cd3)} {e(l_0xc85d13)} {e(l_0xc85d45)} {e(l_0xc85de3)} {e(l_0xc85e27)} {e(l_0xc85e65)} {e(l_0xc85eb1)} {e(l_0xc85f32)}]" eob
+
+l_0xc85c55:
+    "@Ach, [19 10 01]" call(data_37.l_0xc7e6b3) "..." linebreak
+    "  Jest " call (sir) " w drodze na pla[C8][C3]?" next
+    eob
+
+sir:
+    "[19 10 01]{result_is(2)}[1B 03 {e(maam)}]pan" eob
+
+maam:
+    "pani" eob
+
+l_0xc85c76:
+    "@Oto dzisiejsze nag[C4][C6]wki z Daily Summers..." next
+    eob
+
+l_0xc85c99:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Ludzie zg[C4]aszali zagini[C3]cie jeden po drugim w naszym siostrzanym mie[C7]cie Winters>" end
+
+l_0xc85cd3:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Wczoraj by[C4]o tak samo jak przedwczoraj" next
+    "@Dzisiaj b[C3]dzie tak samo jak wczoraj>" end
+
+l_0xc85d13:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Ksi[C1][C8][C3] [1C 02 04] z Dalaam potajemnie odwiedza Summers?>" end
+
+l_0xc85d45:
+    call(l_0xc85c55) "@Dzisiejsze Daily Summers m[C6]wi..." next
+    "@Uuu la la,{pause(10)} przez pomy[C4]k[C3] przynios[C4]em niew[C4]a[C7]ciw[C1] gazet[C3].  To Summer Enquirerer." next
+    "@Pos[C4]uchaj tego nag[C4][C6]wka..." next
+    "@<Ogromny szczur [C8]yj[C1]cy w kanalizacji>" next
+    "@...Naprawd[C3] tak nie uwa[C8]am..." end
+
+l_0xc85de3:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Intruzi w Piramidzie Scaraba!{pause(10)} Summers pozostaje spokojnym rajem>" end
+
+l_0xc85e27:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Zesz[C4]ej nocy bryza wia[C4]a przez palmy>" next
+    "@...{pause(10)} To wielka wiadomo[C7][C2]." end
+
+l_0xc85e65:
+    call(l_0xc85c55) call(l_0xc85c76) "@<P[C4]etwy krakena wynurzaj[C1] si[C3] na pla[C8]y," next
+    "@zrobiono z nich zup[C3] i nowe danie w restauracji>" end
+
+l_0xc85eb1:
+    call(l_0xc85c55) "@W dzisiejszych porannym Daily Summers jest [C7]wietna reklama" next
+    "@<Przesta[C5] robi[C2] cokolwiek skomplikowanego." next
+    "@Zapomnij o rozwi[C1]zywaniu zagadek i ko[C5]czeniu etap[C6]w!" next
+    "@Witamy w spokojnym [C8]yciu w Summers!>" end
+
+l_0xc85f32:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Wczoraj by[C4]o tak samo jak przedwczoraj" next
+    "@Dzisiaj b[C3]dzie tak samo jak wczoraj>" end
+
+l_0xc85f76:
+    call(data_40.l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86088)} {e(l_0xc860b9)} {e(l_0xc860e4)} {e(l_0xc86112)} {e(l_0xc86147)} {e(l_0xc86186)}]" eob
+
+l_0xc85ff7:
+    "@Dzie[C5] dobry, " call(good_sir) "!" next
+    "@Prosz[C3] pozwoli[C2] mi przeczyta[C2] lokaln[C1] gazet[C3]," next
+    "@Papirus Scaraba..." next
+    eob
+
+good_sir:
+    "[19 10 01]{result_is(2)}[1B 03 {e(good_maam)}]dobry panie" eob
+
+good_maam:
+    "dobra pani" eob
+
+l_0xc8603c:
+    "@...{pause(10)}Wed[C4]ug plotek!" end
+
+l_0xc86059:
+    call(l_0xc85ff7) "@<Kraken, z[C4]y potw[C6]r morski, odszed[C4] na zawsze!>" next
+    call(l_0xc8603c) eob
+
+l_0xc86088:
+    call(l_0xc85ff7) "@<Pierwsza dzia[C4]alno[C7][C2] w piramidzie od 300 lat>" next
+    call(l_0xc8603c) eob
+
+l_0xc860b9:
+    call(l_0xc85ff7) "@<[1C 05 AF] skradzione z piramidy na pustyni!>" next
+    call(l_0xc8603c) eob
+
+l_0xc860e4:
+    call(l_0xc85ff7) "@<Tajemnicza ruchoma wie[C8]a widziana na pustyni!>" next
+    call(l_0xc8603c) eob
+
+l_0xc86112:
+    call(l_0xc85ff7) "@<Cudowne dzieci z zagranicy pokonuj[C1] Krakena!>" next
+    call(l_0xc8603c) eob
+
+l_0xc86147:
+    call(l_0xc85ff7) "@<Dzieci, kt[C6]re p[C3]dz[C1], potem znikaj[C1] z pola widzenia, ale tylko na chwil[C3]>" next
+    call(l_0xc8603c) eob
+
+l_0xc86186:
+    call(l_0xc85ff7) "@<Niedawno us[C4]ysza[C4]em straszny d[C9]wi[C3]k" next
+    "@By[C2] mo[C8]e d[C9]wi[C3]k zniszczenia z[C4]a poza naszym czasem i przestrzeni[C1]>" next
+    call(l_0xc8603c) eob
+
+l_0xc861dd:
+    "@Dzie[C5] dobr...{pause(10)}  Uchhh... nie dzie[C5].{pause(10)}" next
+    "@Tutaj,{pause(5)} w Moonside, zawsze jest [C7]rodek nocy." next
+    "@To nag[C4][C6]wek dzisiejszej prasy Moonside Press..." next
+    "@<Mani Mani jest{pause(10)} zawsze Mani Mani{pause(10)} w Mani Mani przez ca[C4]y{pause(10)} Mani Mani{pause(10)} Mani>" end
+
+l_0xc86279:
+    "[06 4F 00 {e(l_0xc86320)}][06 84 00 {e(l_0xc862b8)}]@(Uwaga!{pause(30)}  Tu i tam p[C4]onie jeszcze wiele po[C8]ar[C6]w.{pause(20)}  Ale GOR[B1]CO!)" end
+
+l_0xc862b8:
+    "@Jest co[C7] b[C4]yszcz[C1]cego, co mo[C8]esz si[C3]gn[C1][C2]." next
+    "@Chcesz spr[C6]bowa[C2] to wzi[C1][C2]?" linebreak
+    "[19 02]Tak" eob
+
+l_0xc862e3:
+    "[19 02]Nie" eob
+
+l_0xc862e8:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc862f8)} {e(l_0xc862f7)}]" goto(l_0xc862f7)
+
+l_0xc862f7:
+    eob
+
+l_0xc862f8:
+    "[1D 03 FF][1B 02 {e(l_0xc86311)}][1D 0E 00 C1][1B 05]" call(data_36.l_0xc7dcb6) "{set(flag 79)}" end
+
+l_0xc86311:
+    "@Nie masz ju[C8] wolnego miejsca." end
+
+l_0xc86320:
+    "@(Wygl[C1]da na to, [C8]e niedawno wyl[C1]dowa[C4] tu wielki meteoryt.)" end
+
+l_0xc8634c:
+    "@Nawet je[C7]li jeste[C7] biedny, przyjd[C9] i przekonaj si[C3], jak [C4]atwo jest mie[C2] luksusowy drugi dom!" next
+    "@<Nieruchomo[C7][C2] Prawdziwego Dzioba>" end
+
+l_0xc86399:
+    "@<Krzaczasty Szpital>" next
+    "@Najlepsza opieka szpitalna w Onett!{pause(15)}  Wk[C4]adamy [C8]ycie w dzia[C4]anie na ciebie!" end
+
+l_0xc863da:
+    "@(Kwiaty w ogrodzie s[C1] reprezentatywne dla tych w twoim sercu." next
+    "@Traktuj ich oboje dobrze.)" end
+
+l_0xc86419:
+    "@Chata podr[C6][C8]nych artyst[C6]w." end
+
+l_0xc86431:
+    "@<Wielki Krok>" next
+    "@P[C6][C4]noc, na szczycie g[C6]ry" linebreak
+    "  Uwaga!  Nie wchodzi[C2]!" end
+
+l_0xc86467:
+    "@Ratusz Onett" end
+
+l_0xc86477:
+    "@Droga do Twoson." end
+
+l_0xc86483:
+    "@Mama naprawd[C3] gotuje.  <Down Home Burgers>" end
+
+l_0xc864a7:
+    "@Prze[C4]am bieg przemocy.  Nie prze[C4]amuj wiatru zmian." next
+    "@<Ruch [B7]wie[C8]ej Bryzy>" end
+
+l_0xc864e6:
+    "@<Publiczna Biblioteka Onett>{pause(20)}" linebreak
+    "  Korzystaj z biblioteki cz[C3][C7]ciej!" end
+
+l_0xc86511:
+    "@Na po[C4]udnie od przedmie[C7][C2] Onett." end
+
+l_0xc8652a:
+    "@Nie w[C3]druj tak daleko od miasta." linebreak
+    "  <Ruch [B7]wie[C8]ej Bryzy>" end
+
+l_0xc86554:
+    "@Witamy w Wiosce Happy Happy!" end
+
+l_0xc86568:
+    "@<Skromna [B8]ywa Farma>" linebreak
+    "  (Dost[C3]pne zakwaterowanie)" end
+
+l_0xc86591:
+    "@<Wej[C7]cie do Parku Burglin>" next
+    "@Brak wst[C3]pu dla dobrych dzieci lub policjant[C6]w." end
+
+l_0xc865cb:
+    "@Twoson..." linebreak
+    "  Otrzymali[C7]my t[C1] nazw[C3], poniewa[C8] nie byli[C7]my pierwsi." end
+
+l_0xc865f3:
+    "@Je[C7]li zobaczysz podejrzanego faceta,{pause(15)} udawaj, [C8]e go nie widzisz." end
+
+l_0xc8661b:
+    "@Je[C7]li masz czas, aby to przeczyta[C2], natychmiast udaj si[C3] do Teatru Chaosu." end
+
+l_0xc86646:
+    "@<Sekretne Wej[C7]cie do Parku Burglin>" end
+
+l_0xc86663:
+    "@Jeste[C7] teraz szcz[C3][C7]liwy?{pause(20)}" linebreak
+    "  <Grupa Religijna Happy Happy>" end
+
+l_0xc86689:
+    "@<Dwa-Trzy Tunel>{pause(20)}" linebreak
+    "  Do miasteczka Threed." end
+
+l_0xc866ab:
+    "@(Dom wynalazcy, Pomara[C5]czowego Dzieciaka)" end
+
+l_0xc866c4:
+    "@(Dom wynalazcy, Jab[C4]kowego Dzieciaka)" end
+
+l_0xc866dd:
+    "@(Udzielanie wskaz[C6]wek od ponad 40 lat:" linebreak
+    "  <Realizacja Sklepu ze Wskaz[C6]wkami>)" end
+
+l_0xc866f3:
+    "@(Ta Tablica Og[C4]osze[C5] wita ci[C3] dzi[C7] wieczorem." linebreak
+    "  Wszystko w porz[C1]dku, dobranoc.)" end
+
+l_0xc8672b:
+    end
+
+l_0xc8672d:
+    "@(Chcesz uciec na pla[C8][C3]?{pause(15)}  Je[C7]li to twoje wielkie marzenie..." next
+    "@Przyjd[C9] na pla[C8][C3] Carrillon w Summers!{pause(20)}" linebreak
+    "  Biuro Turystyczne Summers.)" end
+
+l_0xc86787:
+    "@Je[C7]li t[C3]sknisz za [C4]adnym, przytulnym [C4][C6][C8]kiem, id[C9] na zach[C6]d...  Jeste[C7]my ju[C8] na miejscu!" next
+    "@<Threed Sunset Hotel>" end
+
+l_0xc867c5:
+    "@(<Konie <r[C8][C1]>, ale Sklep ze Wskaz[C6]wkami m[C6]wi <tak>, aby da[C2] ci wskaz[C6]wk[C3].>" next
+    "@Wsp[C6]lnota Wskaz[C6]wek Orlandii)" end
+
+l_0xc86813:
+    "@Bez pozwolenia nie mo[C8]na rozstawia[C2] namiot[C6]w w tym miejcu." end
+
+l_0xc8683d:
+    "[19 10 01]{swap}@[1C 02 00] sprawdza szuflady." next
+    "[06 F3 02 {e(l_0xc8688e)}][19 10 01]{swap}@W szufladzie jest [1C 05 CE]." next
+    "[1D 03 FF][1B 02 {e(l_0xc8689c)}][1D 0E 00 CE]" call(data_36.l_0xc7dccf) "{set(flag 755)}" end
+
+l_0xc8688e:
+    "@Ale nic nie by[C4]o." end
+
+l_0xc8689c:
+    "@Ale nie masz ju[C8] wolnego miejsca." end
+
+l_0xc868ad:
+    "@(Jest mn[C6]stwo takich [C7]mieci jak ta tablica og[C4]osze[C5] w [C7]mieciowym sklepie <Odpad[C4]>," next
+    "@znajduj[C1]cym si[C3] w bocznej uliczce domu towarowego.)" end
+
+l_0xc86900:
+    "@(Spotkanie Planistyczne EarthBound 2." next
+    "@Tylko osoby zwi[C1]zane z tym projektem mog[C1] wej[C7][C2]." next
+    "@Zesp[C6][C4] Deweloperski APE)" end
+
+l_0xc86961:
+    "@Pierwsze Pi[C3]tro <Piekarnia Fourside>" next
+    "@Drugie Pi[C3]tro <2. Pi[C3]tro Piekarni>" end
+
+l_0xc86995:
+    "@(Wyczuwam..." linebreak
+    "  [C8]e... trzymasz kontroler... w swoich... d[C4]oniach...)" end
+
+l_0xc869be:
+    "@Hej!  To Magicant!" end
+
+l_0xc869cb:
+    "@Wejd[C9] do Magicant!" end
+
+l_0xc869dd:
+    "@Muzeum Kultury Scaraba" next
+    "@(Wystawa hieroglif[C6]w obecnie w trakcie przebudowy.)" end
+
+l_0xc86a25:
+    "@(Niedawno jaki[C7] dziwny cz[C4]owiek b[C4][C1]ka si[C3] po tym szpitalu, m[C6]wi[C1]c," next
+    "@[C8]e mo[C8]e wyleczy[C2] ci[C3] z dolegliwo[C7]ci, kt[C6]rych nie mo[C8]emy wyleczy[C2]." next
+    "@Informujemy, [C8]e nie ma on zwi[C1]zku z naszym szpitalem." next
+    "@Dyrekcja Szpitalu Fourside)" end
+
+l_0xc86ab2:
+    eob
+
+l_0xc86ab3:
+    "@To nie jest hotel." linebreak
+    "  Nocowanie tu nie jest dozwolone." end
+
+l_0xc86ad7:
+    "@(Nie utkn[C1][C4]e[C7] czasem?{pause(20)}  Je[C7]li chcesz podpowied[C9], przyjd[C9] i we[C9] j[C1]!" next
+    "@Wsp[C6]lnota Wskaz[C6]wek Orlandii)" end
+
+l_0xc86b10:
+    "@(<Wyprzeda[C8] Nagrobk[C6]w>" linebreak
+    "  Mamy specjaln[C1] zni[C8]k[C3]" next
+    "@dla os[C6]b, kt[C6]re by[C4]y w tym szpitalu." next
+    "@Co chcia[C4]by[C7] napisa[C2] na swoim nagrobku?" next
+    "@Zesp[C6][C4] Chirurgii Szpitalnej Onett)" end
+
+l_0xc86b8f:
+    "@(<Potrzebni cz[C4]onkowie>" linebreak
+    "  Popularnego Klubu Muzycznego." next
+    "@Ci, kt[C6]rzy maj[C1] gitar[C3], bas lub perkusj[C3], ubiegaj[C1] si[C3] teraz." next
+    "@Carcass and Cathedral," linebreak
+    "  Napalm Death," linebreak
+    "  The Cadillacs," next
+    "@Dust Bunnies," linebreak
+    "  The Creeps," next
+    "@Run Around Town KinKi Kids," linebreak
+    "  Bjork," next
+    "@Takashi Hosokawa" linebreak
+    "  lub Horenso." next
+    "@Zapraszamy ka[C8]dego, kto lubi s[C4]ucha[C2] tych zespo[C4][C6]w." next
+    "@Niech przyjd[C1] tylko powa[C8]ni, dojrzali fani." next
+    "@Prosz[C3] skontaktowa[C2] si[C3] z Koji.)" end
+
+l_0xc86cb4:
+    "@(Zrelaksuj si[C3], odpocznij!" linebreak
+    "  Wszystko jest w twojej g[C4]owie..." next
+    "@Zdrowy umys[C4] to zdrowe cia[C4]o.)" end
+
+l_0xc86cf4:
+    "@(Istnieje dobrze znana teoria, [C8]e je[C7]li ugryz[C1] ci[C3] zombie," next
+    "@odgry[C9] si[C3] a mo[C8]esz wyzdrowie[C2]." next
+    "@Oczywi[C7]cie nie ma naukowych dowod[C6]w na poparcie tej teorii.)" end
+
+l_0xc86d59:
+    "@(Powr[C6]t do zdrowia zale[C8]y od szcz[C3][C7]cia." next
+    "@Uwierz w swoje szcz[C3][C7]cie.  Uwierz te[C8] swojemu doktorowi." next
+    "@Doktor wierzy w swoje szcz[C3][C7]cie.)" end
+
+l_0xc86da8:
+    "@(Uwa[C8]a si[C3], [C8]e ko[C7]ci dinozaur[C6]w pochodz[C1] z po[C4]udniowej cz[C3][C7]ci Scaraba." next
+    "@Nie pytaj o [C8]adne szczeg[C6][C4]y." linebreak
+    "  Nasze badania s[C1] kontynuowane.)" end
+
+l_0xc86dfb:
+    "[06 4B 00 {e(l_0xc86e2f)}][06 91 00 {e(l_0xc86e14)}]@Nie ma problemu." end
+
+l_0xc86e14:
+    call(data_24.l_0xc69082) "[19 10 01]{swap}@?{pause(30)}?{pause(30)}?{wait}{wait}[1F 21 99][19 26 00]" eob
+
+l_0xc86e2f:
+    "@Nie ma problemu.{wait}[19 26 05]" eob
+
+l_0xc86e3d:
+    "{counter(4)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(data_43.l_0xc8709d)}][06 49 00 {e(data_43.l_0xc870a4)}][06 11 00 {e(data_43.l_0xc8709d)}]" goto(data_43.l_0xc86e58)

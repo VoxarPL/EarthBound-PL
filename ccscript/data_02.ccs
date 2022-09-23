@@ -1,0 +1,536 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc52dcc:
+    "@Czy to b[C3]dzie wszystko?" linebreak
+    "  Powodzenia, kolego!" end
+
+l_0xc52de8:
+    "@Wi[C3]c to wszystko?" linebreak
+    "  Uwa[C8]aj na z[C4]ych go[C7]ci." end
+
+l_0xc52e0d:
+    "@Mam to, czego potrzebujesz.[03]" eob
+
+l_0xc52e1c:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc52e24:
+    "@Kto to b[C3]dzie z was nosi[C4]?[03]" eob
+
+l_0xc52e3a:
+    "@OK.  Przypuszczam, [C8]e chcesz to tu wyposa[C8]y[C2]?" linebreak
+    eob
+
+l_0xc52e59:
+    "@[1C 05 00]...?" linebreak
+    "  Powiedzia[C4]bym jakie[C7] {swap}$[1C 0A 00 00 00 00]." next
+    "@Bierzesz to, czy nie?" linebreak
+    eob
+
+l_0xc52e85:
+    "@[1C 02 00] nie b[C3]dzie w stanie tego wyposa[C8]y[C2]." next
+    "@Czy mimo tego masz zamiar to kupi[C2]?" linebreak
+    eob
+
+l_0xc52eb2:
+    "@No c[C6][C8], to ma sens.  Nie powiniene[C7] nadmiernie si[C3] m[C3]czy[C2]." next
+    eob
+
+l_0xc52ed7:
+    "@Poczekaj chwil[C3]!  Masz za ma[C4]o pieni[C3]dzy!" next
+    eob
+
+l_0xc52ef5:
+    "@Nie b[C3]dziesz m[C6]g[C4] w stanie nosi[C2] wi[C3]cej rzeczy." next
+    "@Nosisz ze sob[C1] wszystkie te [C7]mieci..." next
+    "@Chyba m[C6]g[C4]bym ci pom[C6]c, kupuj[C1]c te rzeczy, kt[C6]rych nie potrzebujesz..." next
+    eob
+
+l_0xc52f4a:
+    "@Co zamierzasz mi zostawi[C2]?[03]" eob
+
+l_0xc52f5f:
+    "@[1C 05 00]?" linebreak
+    "  Mog[C3] da[C2] ci {swap}$[1C 0A 00 00 00 00] i ani grosza wi[C3]cej." next
+    "@Bierzesz to, czy nie?" linebreak
+    eob
+
+l_0xc52f94:
+    "@...Nie s[C1]dz[C3], [C8]e nigdzie indziej znajdziesz lepsz[C1] cen[C3]." next
+    eob
+
+l_0xc52fb6:
+    "@W ka[C8]dym razie, co pr[C6]bujesz zrobi[C2]?" next
+    "@M[C6]wisz mi, [C8]e chcesz co[C7] sprzeda[C2], ale nie masz nic do zaoferowania?!" next
+    "@Masz nerwy, dzieciaku!" next
+    eob
+
+l_0xc52ffa:
+    "@Zapomnij!" linebreak
+    "  Nie chc[C3] kupowa[C2] takich [C7]mieci!" next
+    eob
+
+l_0xc53018:
+    "@Doskonale." linebreak
+    "  Ciesz[C3] si[C3], [C8]e mogli[C7]my co[C7] wymy[C7]li[C2]." next
+    eob
+
+l_0xc53037:
+    "@Dzi[C3]kuj[C3].{pause(20)}  Rzeczy musz[C1] by[C2] ci[C3][C8]kie, zw[C4]aszcza dla takiego dziecka jak ty." next
+    eob
+
+l_0xc53063:
+    "@Czy b[C3]dzie co[C7] jeszcze?" linebreak
+    eob
+
+l_0xc53072:
+    "@Co to teraz jest?" linebreak
+    eob
+
+l_0xc5307d:
+    "@[1C 02 00] nie mo[C8]e wi[C3]cej nosi[C2]." next
+    "@Czy kto[C7] inny b[C3]dzie chcia[C4] to nosi[C2]?" linebreak
+    eob
+
+l_0xc530a2:
+    "{font_saturn}@Cze[C7][C2] Cze[C7][C2] Cze[C7][C2]." linebreak
+    "  Przyszed[C4]e[C7]" linebreak
+    "  co[C7] kupi[C2]?" next
+    "@Tak[C8]e mo[C8]esz" linebreak
+    "  co[C7] sprzeda[C2]." next
+    "@Ja, Pan Saturn, boing" next
+    "@jestem do us[C4]ug." next
+    "@Co by[C7]" linebreak
+    "  chcia[C4], zum?" linebreak
+    "{font_normal}" eob
+
+l_0xc530fc:
+    "{font_saturn}@Och," linebreak
+    "  ci dzi[C3]kuj[C3]!{wait}{font_normal}" eob
+
+l_0xc5310f:
+    "{font_saturn}@Dzi[C3]kuj[C3]." linebreak
+    "  Boing!{wait}{font_normal}" eob
+
+l_0xc5311f:
+    "{font_saturn}@Co chcesz" linebreak
+    "  kupi[C2], zum?[03]{font_normal}" eob
+
+l_0xc53134:
+    "{font_saturn}@To" linebreak
+    "  [1C 05 00]?" next
+    "{font_normal}" eob
+
+l_0xc53144:
+    "{font_saturn}@Kto b[C3]dzie" linebreak
+    "  d[C9]wiga[C2]" linebreak
+    "  ten ci[C3][C8]ar?[03]{font_normal}" eob
+
+l_0xc53161:
+    "{font_saturn}@Wyposa[C8]y[C2]" linebreak
+    "  na miejscu?" linebreak
+    "{font_normal}" eob
+
+l_0xc53172:
+    "{font_saturn}@[1C 05 00]?" next
+    "@Uch," linebreak
+    "  to b[C3]dzie" linebreak
+    "  {swap}$[1C 0A 00 00 00 00]." next
+    "@Co my[C7]lisz o" next
+    "@tej cenie..." linebreak
+    "  zum?" linebreak
+    "{font_normal}" eob
+
+l_0xc531ba:
+    "{font_saturn}@[1C 02 00] nie mo[C8]e tego wyposa[C8]y[C2]." next
+    "@Boing!" next
+    "@Nadal chcesz" linebreak
+    "  kupi[C2]?" linebreak
+    "{font_normal}" eob
+
+l_0xc531ea:
+    "{font_saturn}@Je[C7]li nie" linebreak
+    "  chcesz kupi[C2]," next
+    "@nie" linebreak
+    "  kupuj, zum!" next
+    "{font_normal}" eob
+
+l_0xc53212:
+    "{font_saturn}@Uch," next
+    "@na pierwszy rzut oka," linebreak
+    "  bez szans." next
+    "@Za" linebreak
+    "  ma[C4]o" next
+    "@kasioooooory." linebreak
+    "  Zoinks!" next
+    "{font_normal}" eob
+
+l_0xc53259:
+    "{font_saturn}@Co za mi[C4]a, mi[C4]a" next
+    "@niespodzianka." linebreak
+    "  Zum..." next
+    "@Masz bardzo" linebreak
+    "  du[C8]o" linebreak
+    "  [C7]mieci." next
+    "{font_normal}" eob
+
+l_0xc5328f:
+    "{font_saturn}@Chcesz" linebreak
+    "  mi co[C7]" linebreak
+    "  sprzeda[C2]," next
+    "@boing?[03]{font_normal}" eob
+
+l_0xc532b3:
+    "{font_saturn}@[1C 05 00]?" next
+    "@Najwy[C8]sza kwota" linebreak
+    "  jak[C1] p[C4]acimy" linebreak
+    "  to {swap}$[1C 0A 00 00 00 00]." next
+    "@W porz[C1]dalu" linebreak
+    "  dla ciebie?" next
+    "@Ding! Ding!" linebreak
+    "{font_normal}" eob
+
+l_0xc532fa:
+    "{font_saturn}@O rado[C7]ci!  Zuuuum!" next
+    "{font_normal}" eob
+
+l_0xc53312:
+    "{font_saturn}@A-ciuuu!  Cze[C7][C2] Cze[C7][C2] Cze[C7][C2]!" next
+    "@spr[C6]buj" linebreak
+    "  sztuczek, boing?" next
+    "@Bo nic" linebreak
+    "  mi nie" linebreak
+    "  chcesz" next
+    "@sprzeda[C2].  Ding Ding!" next
+    "{font_normal}" eob
+
+l_0xc53363:
+    "{font_saturn}@Drogi, drogi, drogi...  Boing!" next
+    "@Nie mog[C3]" linebreak
+    "  kupi[C2] tego." next
+    "{font_normal}" eob
+
+l_0xc5338f:
+    "{font_saturn}@Och," linebreak
+    "  ci dzi[C3]kuj[C3]." next
+    "{font_normal}" eob
+
+l_0xc533a3:
+    "{font_saturn}@Dzi[C3]ki!  Ding Zum!" next
+    "{font_normal}" eob
+
+l_0xc533b6:
+    "{font_saturn}@Czy co[C7] jeszcze, zum," next
+    "@potrzebujesz?" next
+    "{font_normal}" eob
+
+l_0xc533d5:
+    "{font_saturn}@Co dalej, Boing?" linebreak
+    "{font_normal}" eob
+
+l_0xc533e5:
+    "{font_saturn}@[1C 02 00] ma" linebreak
+    "  za du[C8]o" linebreak
+    "  [C7]mieci?" next
+    "@Czy kto[C7]" linebreak
+    "  chce pom[C6]c," linebreak
+    "  Zum?" next
+    "{font_normal}" eob
+
+l_0xc5341d:
+    "@Zagrajmy w sklep.  M[C6]j przyjaciel Aj-go uwielbia t[C3] gr[C3].  Wi[C3]c..." next
+    "@Cze[C7][C2]!  Mog[C3] w czym[C7] pom[C6]c?" linebreak
+    eob
+
+l_0xc53454:
+    "@Pa, pa!" linebreak
+    "  Zagrajmy kiedy[C7] jeszcze raz!" end
+
+l_0xc5346f:
+    "@Pa, pa!" linebreak
+    "  Zagrajmy kiedy[C7] jeszcze raz!" end
+
+l_0xc5348a:
+    "@Szukasz czego[C7] konkretnego?[03]" eob
+
+l_0xc5349f:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc534a7:
+    "@Kto z was b[C3]dzie to nosi[C2]?[03]" eob
+
+l_0xc534b6:
+    "@Czy chcesz spr[C6]bowa[C2] to tutaj wyposa[C8]y[C2]?" linebreak
+    eob
+
+l_0xc534c8:
+    "@Czy chcesz, [C8]ebym kupi[C4] [1C 05 00]" next
+    "@za {swap}$[1C 0A 00 00 00 00]?" linebreak
+    eob
+
+l_0xc534e9:
+    "@Zdajesz sobie spraw[C3], [C8]e [1C 02 00] nie mo[C8]e tego wyposa[C8]y[C2]?" next
+    "@Czy nadal chcesz to kupi[C2]?" linebreak
+    eob
+
+l_0xc53515:
+    "@No c[C6][C8], klient zawsze ma racj[C3]." next
+    eob
+
+l_0xc5352c:
+    "[19 10 01]@" call(data_37.l_0xc7e6c5) ", wygl[C1]da na to, [C8]e nie masz pieni[C3]dzy potrzebnych do tej transakcji." next
+    eob
+
+l_0xc53562:
+    "@Naprawd[C3] nie s[C1]dz[C3], [C8]eby[C7] m[C6]g[C4] mie[C2] wi[C3]cej zakup[C6]w." next
+    "@Mo[C8]esz przyj[C7][C2] ponownie po sprzedaniu czego[C7]," next
+    "@albo po prostu wyrzu[C2] przedmiot, aby zmniejszy[C2] ci[C3][C8]ar." next
+    "@Albo mo[C8]e chcesz sprzeda[C2] co[C7], czego nie potrzebujesz!" next
+    eob
+
+l_0xc535d3:
+    "@Co chcia[C4]by[C7] mi sprzeda[C2]?[03]" eob
+
+l_0xc535df:
+    "@[1C 05 00]?" linebreak
+    "  Jestem upowa[C8]niony do zap[C4]aty" linebreak
+    "  {swap}$[1C 0A 00 00 00 00] za to." next
+    "@Co ty na to?" linebreak
+    eob
+
+l_0xc53615:
+    "@W porz[C1]dku.  Klient zawsze ma prawo zmieni[C2] zdanie." next
+    eob
+
+l_0xc53645:
+    "@Chocia[C8] naprawd[C3] chcia[C4]bym co[C7] od ciebie kupi[C2], nie masz nic do zaoferowania." next
+    eob
+
+l_0xc5366d:
+    "@Wybacz, nie jestem upowa[C8]niony do zakupu tego." next
+    eob
+
+l_0xc53687:
+    "[19 10 01]@Dzi[C3]kuj[C3] ci bardzo," linebreak
+    "  " call(data_37.l_0xc7e6b3) "." next
+    eob
+
+l_0xc5369d:
+    "@Dam Aj-go te kolorowe papiery, kt[C6]re mi da[C4]e[C7]." next
+    eob
+
+l_0xc536c1:
+    "@Czy dzisiaj b[C3]dzie co[C7] jeszcze?" linebreak
+    eob
+
+l_0xc536d2:
+    "@Co zamierzasz teraz zrobi[C2]?" linebreak
+    eob
+
+l_0xc536e1:
+    "@Zdaje si[C3], [C8]e [1C 02 00] jest przeci[C1][C8]ony przedmiotami." next
+    "@Chcesz, aby nosi[C4] to jeden z twoich przyjaci[C6][C4]?" linebreak
+    eob
+
+l_0xc53711:
+    newline
+    " <[1C 05 01]>" next // Odznaka Franklina
+    "@Trzymaj[C1]c j[C1] jako jeden z twoich przedmiot[C6]w," next
+    "@odbija atak b[C4]yskawicy z powrotem na atakuj[C1]cego." end
+
+l_0xc53750:
+    newline
+    " <[1C 05 02]>" next // Pluszowy Miś
+    "@" call(data_05.l_0xc56b5d) end
+
+l_0xc53761:
+    newline
+    " <[1C 05 03]>" next // Super Pluszowy Miś
+    "@" call(data_05.teddy) end
+
+l_0xc53772:
+    newline
+    " <[1C 05 04]>" next // Zepsuta Maszyna
+    "@Nie ma mo[C8]liwo[C7]ci poznania jej pierwotnego zastosowania." next
+    "@To tylko jaki[C7] zepsuty gad[C8]et." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc537bc:
+    newline
+    " <[1C 05 05]>" next // Zepsute Urządzenie
+    "@Nie ma mo[C8]liwo[C7]ci poznania jego pierwotnego zastosowania." next
+    "@To tylko jaki[C7] zepsuty mechanizm." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53809:
+    newline
+    " <[1C 05 06]>" next // Zepsuta Wiatrówka
+    call(data_05.l_0xc56b6f) end
+
+l_0xc5382a:
+    newline
+    " <[1C 05 07]>" next // Zepsuty Spray
+    call(data_05.l_0xc56b6f) end
+
+l_0xc5384d:
+    newline
+    " <[1C 05 08]>" next // Zepsuty Laser
+    "@Zepsuty pistolet laserowy." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53870:
+    newline
+    " <[1C 05 09]>" next // Zepsute Żelazo
+    "@Urz[C1]dzenie, kt[C6]re wygl[C1]da jak [C8]elazo." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53897:
+    newline
+    " <[1C 05 0A]>" next // Zepsuta Rura
+    "@Wygl[C1]da jak zepsuta rura wodna." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc538bc:
+    newline
+    " <[1C 05 0B]>" next // Zepsuta Armata
+    "@Zepsuta armata wi[C1]zki." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc538e0:
+    newline
+    " <[1C 05 0C]>" next // Zepsuta Tuba
+    "@Zepsuty przedmiot w kszta[C4]cie tuby." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53908:
+    newline
+    " <[1C 05 0D]>" next // Zepsuta Bazuka
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53929:
+    newline
+    " <[1C 05 0E]>" next // Zepsuta Trąbka
+    "@Zepsuty aparatura w kszta[C4]cie tr[C1]bki." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53960:
+    newline
+    " <[1C 05 0F]>" next // Zepsuta Harmonijka
+    "@Zepsute urz[C1]dzenie, kt[C6]re wygl[C1]da jak harmonijka." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc5398e:
+    newline
+    " <[1C 05 10]>" next // Zepsuta Antena
+    "@Zepsuty sprz[C3]t, kt[C6]ry wygl[C1]da jak antena satelitarna." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc539c4:
+    newline
+    " <[1C 05 11]>" next // Pęknięty Kij
+    call(data_05.l_0xc56b8e) end
+
+l_0xc539d4:
+    newline
+    " <[1C 05 12]>" next // Kij do Tee Balla
+    call(data_05.l_0xc56b8e) end
+
+l_0xc539e4:
+    newline
+    " <[1C 05 13]>" next // Kij do Sand Lota
+    call(data_05.l_0xc56b8e) end
+
+l_0xc539f4:
+    newline
+    " <[1C 05 14]>" next // Kij Mniejszej Ligi
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a04:
+    newline
+    " <[1C 05 15]>" next // Kij Baseballisty
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a14:
+    newline
+    " <[1C 05 16]>" next // Kij Wielkiej Ligi
+    call(data_05.l_0xc56b8e) next
+    "@Ten przedmiot wygl[C1]da, jakby m[C6]g[C4] wbi[C2] korek do rdzenia!" end
+
+l_0xc53a47:
+    newline
+    " <[1C 05 17]>" next // Kij Hali Sławy
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a57:
+    newline
+    " <[1C 05 18]>" next // Kij Magicant
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a67:
+    newline
+    " <[1C 05 19]>" next // Legendarny Kij
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a77:
+    newline
+    " <[1C 05 1A]>" next // Kij Determinacji
+    call(data_05.l_0xc56b8e) next
+    "@Po wyposa[C8]eniu, zwi[C3]ksza twoj[C1] [B7]mia[C4]o[C7][C2]." end
+
+l_0xc53a9f:
+    newline
+    " <[1C 05 1B]>" next // Kij Casey
+    call(data_05.l_0xc56b8e) next
+    "@Nie mo[C8]esz powstrzyma[C2] si[C3] od machania tym kijem z ca[C4]ej si[C4]y." next
+    "@Istnieje du[C8]a szansa, [C8]e po prostu chybisz." end
+
+l_0xc53ae6:
+    newline
+    " <[1C 05 1C]>" next // Patelnia
+    call(data_05.l_0xc56b97) end
+
+l_0xc53af6:
+    newline
+    " <[1C 05 1D]>" next // Ciężka Patelnia
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b06:
+    newline
+    " <[1C 05 1E]>" next // Luksusowa Patelnia
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b16:
+    newline
+    " <[1C 05 1F]>" next // Patelnia Szefa Kuchni
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b26:
+    newline
+    " <[1C 05 20]>" next // Francuska Patelnia
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b36:
+    newline
+    " <[1C 05 21]>" next // Magiczna Patelnia
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b46:
+    newline
+    " <[1C 05 22]>" next // Święta Patelnia
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b56:
+    newline
+    " <[1C 05 23]>" next // Miecz Królów
+    call(data_05.l_0xc56ba9) next
+    "@Zwi[C3]ksza atak." end
+

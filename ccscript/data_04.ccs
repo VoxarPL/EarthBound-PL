@@ -1,0 +1,617 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc54b67:
+    newline
+    " <[1C 05 87]>" next // Przyssawka HP
+    call(data_05.l_0xc56db7) "@Wysysa troch[C3] HP z docelowego stworzenia." next
+    "@Im wi[C3]cej HP ma przeciwnik, tym wi[C3]cej zyskujesz." next
+    call(data_05.item_extra) end
+
+l_0xc54bb0:
+    newline
+    " <[1C 05 88]>" next // Głodna Przyssawka HP
+    call(data_05.l_0xc56db7) "@Wysysa troch[C3] HP ze wszystkich wrog[C6]w." next
+    "@Im wi[C3]cej HP maj[C1] przeciwnicy, tym wi[C3]cej zyskujesz." next
+    call(data_05.item_extra) end
+
+l_0xc54bfa:
+    newline
+    " <[1C 05 89]>" next // Spray do Tępienia
+    "@Zadaje 200 punkt[C6]w obra[C8]e[C5] ka[C8]demu robakowi, gdy jest u[C8]ywany podczas walki." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54c32:
+    newline
+    " <[1C 05 8A]>" next // Generator Szlamu
+    call(data_05.l_0xc56db7) "@Rozpyla lepk[C1] substancj[C3], kt[C6]ra powstrzymuje wroga przed poruszaniem si[C3]." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54c6d:
+    newline
+    " <[1C 05 8B]>" next // Dozownik Jogurtu
+    call(data_05.l_0xc56db7) "@Wymy[C7]lone przez Jab[C4]kowego Dzieciaka." next
+    "@Je[C7]li zostanie u[C8]yty podczas walki, wrogowi zostan[C1] zadane pewne obra[C8]enia," next
+    "@cho[C2] nie wiadomo, dlaczego tak si[C3] dzieje... w ko[C5]cu to tylko jogurt..." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54ceb:
+    newline
+    " <[1C 05 8C]>" next // Linijka
+    "@Mo[C8]esz nawet jej u[C8]y[C2] podczas walki!" next
+    call(data_05.item_extra) end
+
+l_0xc54d10:
+    newline
+    " <[1C 05 8D]>" next // Torba Węży
+    "@Podczas walki w[C1][C8] wyskakuje z torby i gryzie wroga." next
+    "@W torbie [C8]yje tysi[C1]ce ma[C4]ych w[C3][C8]y," next
+    "@wi[C3]c powiniene[C7] by[C2] w stanie u[C8]ywa[C2] tego w k[C6][C4]ko." next
+    "@Mo[C8]esz r[C6]wnie[C8] tym otru[C2] wroga." end
+
+l_0xc54d99:
+    newline
+    " <[1C 05 8E]>" next // Chusta Mumii
+    "@Je[C7]li zostanie u[C8]yta jako bicz podczas walki, wr[C6]g odniesie pewne obra[C8]enia" next
+    "@i przestanie si[C3] porusza[C2] na chwil[C3]." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54ddc:
+    newline
+    " <[1C 05 8F]>" next // Kątomierz
+    "@Mo[C8]esz nawet tego u[C8]y[C2] podczas walki!" next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54e01:
+    newline
+    " <[1C 05 90]>" next // Butlorakieta
+    call(data_05.l_0xc56db7) call(data_05.l_0xc56dc5) next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54e1d:
+    "akm" goto(l_0xc54e20)
+
+l_0xc54e20:
+    newline
+    " <[1C 05 91]>" next // Duża Butlorakieta
+    call(data_05.l_0xc56db7) "@Wystrzeliwuje szybk[C1], pot[C3][C8]n[C1] butelkow[C1] rakiet[C3]." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54e54:
+    newline
+    " <[1C 05 92]>" next // Multi Butlorakieta
+    call(data_05.l_0xc56db7) "@Prawdopodobnie najsilniejsza bro[C5] na [C7]wiecie," next
+    "@zadaje ogromne obra[C8]enia dzi[C3]ki swojej pot[C3][C8]nej g[C4]owicy." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54ea7:
+    newline
+    " <[1C 05 93]>" next // Bomba
+    call(data_05.l_0xc56dc5) next
+    "@Ze wzgl[C3]du na swoj[C1] wybuchow[C1] moc," next
+    "@mo[C8]e mie[C2] wp[C4]yw na innych opr[C6]cz docelowego stworzenia." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54ef7:
+    newline
+    " <[1C 05 94]>" next // Super Bomba
+    "@Potrafi zada[C2] ci[C3][C8]kie obra[C8]enia w walce." next
+    "@Ze wzgl[C3]du na swoj[C1] wybuchow[C1] moc," next
+    "@mo[C8]e mie[C2] wp[C4]yw na innych opr[C6]cz docelowego stworzenia." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54f6a:
+    newline
+    " <[1C 05 95]>" next // Spray Owadobójczy
+    "@Zadaje 100 punkt[C6]w obra[C8]e[C5] ka[C8]demu robakowi, gdy jest u[C8]ywany podczas walki." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54fa2:
+    newline
+    " <[1C 05 96]>" next // Promotor Rdzy
+    "@Szybko rdzewieje metalowych wrog[C6]w, gdy jest u[C8]ywany podczas walki." next
+    "@Wr[C6]g odniesie oko[C4]o 200 punkt[C6]w obra[C8]e[C5]." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54ff0:
+    newline
+    " <[1C 05 97]>" next // Promotor Rdzy DX
+    "@Powoduje niemal natychmiastowe zardzewienie," next
+    "@gdy zostanie u[C8]yty na metalowych wrogach podczas walki." next
+    "@Wr[C6]g otrzymuje oko[C4]o 400 punkt[C6]w obra[C8]e[C5]." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc55057:
+    newline
+    " <[1C 05 98]>" next // Para Brudnych Skarpet
+    "@Kiedy s[C1] u[C8]ywane podczas walki, wr[C6]g staje si[C3] tak md[C4]y od dojrza[C4]ego zapachu," next
+    "@[C8]e nie mo[C8]e walczy[C2]." next
+    call(data_05.item_extra2) end
+
+l_0xc5509e:
+    newline
+    " <[1C 05 99]>" next // Dzikie Chrząszcze
+    "@Rzucaj[C1]c je w przeciwnika podczas walki," next
+    "@wr[C6]g staje si[C3] zszokowany i przestaje si[C3] rusza[C2]." next
+    call(data_05.item_extra2) end
+
+l_0xc550e3:
+    newline
+    " <[1C 05 9A]>" next // Szczoteczka do Zębów
+    "@Mo[C8]e by[C2] u[C8]ywana podczas walki." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc55105:
+    newline
+    " <[1C 05 9B]>" next // Pasek na Torebkę
+    "@Gdy zostanie u[C8]yty jako bicz podczas walki," next
+    "@wr[C6]g otrzymuje wystarczaj[C1]co obra[C8]e[C5], aby zatrzyma[C2] si[C3] na kr[C6]tki czas." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc5514f:
+    newline
+    " <[1C 05 9C]>" next // Klątwa Faraona
+    "@Ektoplazmatyczny wyciek jest wyrzucany z przera[C8]aj[C1]cego pude[C4]ka," next
+    "@a wr[C6]g mo[C8]e zosta[C2] otruty." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc5519f:
+    newline
+    " <[1C 05 9D]>" next // Tusz Obronny
+    "@Zwi[C3]ksza Obron[C3] wszystkich przyjaci[C6][C4]." next
+    call(data_05.l_0xc56b0d) next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc551cd:
+    newline
+    " <[1C 05 9E]>" next // List od Mamy
+    "@List od mamy do [1C 02 01]a." end
+
+l_0xc551ea:
+    newline
+    " <[1C 05 9F]>" next // Pigułka Nagłej Śmiałości
+    "@Podwaja twoj[C1] [B7]mia[C4]o[C7][C2] podczas walki." next
+    "@Jednak[C8]e po walce, twoja [B7]mia[C4]o[C7][C2] wraca do normy. " next
+    call(data_05.l_0xc56dab) end
+
+l_0xc55230:
+    newline
+    " <[1C 05 A0]>" next // Torba Smokonitu
+    "@Je[C7]li podczas walki posypiesz jednego ze swoich przyjaci[C6][C4] proszkiem," next
+    "@zamieni si[C3] w smoka i zaatakuje wszystkich wrog[C6]w." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc5528d:
+    newline
+    " <[1C 05 A1]>" next // Spray Obronny
+    "@Zwi[C3]ksza Obron[C3] jednego z przyjaci[C6][C4] podczas walki." next
+    call(data_05.l_0xc56b0d) next
+    call(data_05.l_0xc56dab) end
+
+l_0xc552c4:
+    newline
+    " <[1C 05 A2]>" next // Nos Prosiątka
+    "@Je[C7]li nosisz go na nosie, mo[C8]esz znale[C9][C2] i wykorzeni[C2] Magiczne Trufle." next
+    call(data_05.l_0xc56d9b) next
+    "@...pozw[C6]l, [C8]e wyja[C7]ni[C3] troch[C3] o Magicznych Truflach." next
+    "@S[C1] rodzajem grzyba, kt[C6]ry ro[C7]nie w wilgotnych miejscach, takich jak u podn[C6][C8]a du[C8]ych drzew." next
+    "@Prawie zawsze s[C1] pochowane," next
+    "@wi[C3]c nie mo[C8]na ich zobaczy[C2]." next
+    "@Je[C7]li j[C1] znajdziesz i zjesz, m[C6]wi si[C3], [C8]e znacznie odzyskuje PP!" next
+    "@Mo[C8]esz zobaczy[C2] wi[C3]cej informacji o cudownej Magicznej Trufli po jej zdobyciu." end
+
+l_0xc553d7:
+    newline
+    " <[1C 05 A3]>" next // Znak <Na Sprzedaż>
+    "@Zaprasza ludzi, aby przychodzili i kupowali niepotrzebne rzeczy." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc55409:
+    newline
+    " <[1C 05 A4]>" next // Książka na Nieśmiałość
+    "@Jak m[C6]wi tytu[C4], pomaga przezwyci[C3][C8]y[C2] nie[C7]mia[C4]o[C7][C2]." end
+
+l_0xc55433:
+    newline
+    " <[1C 05 A5]>" next // Pocztówka ze Zdjęciem
+    "@Nie tak bardzo okropna, ale obrazek z przodu nie sprawia, [C8]e chcesz tam i[C7][C2]." end
+
+l_0xc5546c:
+    newline
+    " <[1C 05 A6]>" next // Królewski Banan
+    "@Banan wielko[C7]ci kr[C6]la." linebreak
+    "  Niejadalny." end
+
+l_0xc55496:
+    newline
+    " <[1C 05 A7]>" next // List od Tony'ego
+    "@List od Tony'ego do [1C 02 03]a." end
+
+l_0xc554b3:
+    newline
+    " <[1C 05 A8]>" next // Pisklę
+    "@Piskl[C3], kt[C6]re w[C4]a[C7]nie si[C3] wyklu[C4]o." end
+
+l_0xc554cf:
+    newline
+    " <[1C 05 A9]>" next // Kurczak
+    "@Prawdziwy, [C8]ywy kurczak." next
+    "@Prosz[C3], nie jedz go." end
+
+l_0xc554f6:
+    newline
+    " <[1C 05 AA]>" next // Klucz do Chaty
+    "@Klucz do chaty podr[C6][C8]nych artyst[C6]w." end
+
+l_0xc5551d:
+    newline
+    " <[1C 05 AB]>" next // Klucz do Kabiny
+    "@Klucz do celi, w kt[C6]rej przetrzymywana jest [1C 02 02]." end
+
+l_0xc55546:
+    newline
+    " <[1C 05 AC]>" next // Maszyna Złych Kluczy
+    "@<Maszyna, kt[C6]ra Otwiera Drzwi," next
+    "@szczeg[C6]lnie gdy masz nieco z[C4]y klucz.>" end
+
+l_0xc5558a:
+    newline
+    " <[1C 05 AD]>" next // Tymczasowe Rzeczy
+    "@Klucz otrzymany od pokoj[C6]wki pracuj[C1]cej w budynku Monotoly." end
+
+l_0xc555b8:
+    newline
+    " <[1C 05 AE]>" next // Lep na Zombie
+    "@Wynalazek Jab[C4]kowego Dzieciaka." next
+    "@Po[C4][C6][C8] go w namiocie, a nast[C3]pnego dnia znajdzie si[C3] tam mn[C6]stwo zombie." end
+
+l_0xc55602:
+    newline
+    " <[1C 05 AF]>" next // Jastrzębie Oko
+    "@Co za cudo! Teraz mo[C8]esz widzie[C2] w ciemno[C7]ci!" end
+
+l_0xc55627:
+    newline
+    " <[1C 05 B0]>" next // Rower
+    "@Jazda na nim sprawia, [C8]e masz ochot[C3] gwizda[C2]!" next
+    "@Mo[C8]esz nawet dzwoni[C2] dzwonkiem, naciskaj[C1]c Przycisk R." end
+
+l_0xc5566b:
+    newline
+    " <[1C 05 B1]>" next // Karta Bankomatowa
+    "@Wiesz, [C8]e nie powiniene[C7] wychodzi[C2] z domu bez niej..." next
+    "@Dzia[C4]a nawet za granic[C1]!" end
+
+l_0xc5569c:
+    newline
+    " <[1C 05 B2]>" next // Bilet na Występ
+    "@Pisz[C3] na nim: <Sekcja B, siedzenie 3D>" end
+
+l_0xc556c1:
+    newline
+    " <[1C 05 B3]>" next // List od Dzieci
+    "@List od dzieci z przedszkola do [1C 02 02]." end
+
+l_0xc556e3:
+    newline
+    " <[1C 05 B4]>" next // Walizka Banknotów
+    "@Walizka zupe[C4]nie nowych, wyra[C9]nych banknot[C6]w." end
+
+l_0xc5570b:
+    newline
+    " <[1C 05 B5]>" next // Odbiornik Telefonu
+    "@Wynalazek Jab[C4]kowego Dzieciaka." next
+    "@Teraz mo[C8]esz odbiera[C2] wa[C8]ne po[C4][C1]czenia." end
+
+l_0xc55740:
+    newline
+    " <[1C 05 B6]>" next // Diament
+    "@Wielki, pi[C3]kny i drogi klejnot." end
+
+l_0xc5576a:
+    newline
+    " <[1C 05 B7]>" next // Podpisany Banan
+    "@Sk[C6]rka od banana z autografem Venus." end
+
+l_0xc55794:
+    newline
+    " <[1C 05 B8]>" next // Wymazywacz Ołówków
+    "@Wynalazek Jab[C4]kowego Dzieciaka." next
+    "@Sprawia, [C8]e co[C7] co blokuje ci drog[C3]" next
+    "@i wygl[C1]da jak o[C4][C6]wek, znika w ci[C1]gu sekundy." end
+
+l_0xc557e7:
+    newline
+    " <[1C 05 B9]>" next // Kopia Hieroglifów
+    "@Co[C7] wa[C8]nego zapisane jest za pomoc[C1] staro[C8]ytnych znak[C6]w." end
+
+l_0xc55831:
+    newline
+    " <[1C 05 BA]>" next // Meteotyt
+    "@Mo[C8]e by[C2] sprzedany za bardzo wysok[C1] cen[C3]." next
+    "@Nic si[C3] nie stanie, je[C7]li go u[C8]yjesz." next
+    "@Dobre wyt[C4]umaczenie jest dosy[C2] trudne..." end
+
+l_0xc5587e:
+    newline
+    " <[1C 05 BB]>" next // Soczewki Kontaktowe
+    "@One musz[C1] do kogo[C7] nale[C8]e[C2]." end
+
+l_0xc55897:
+    newline
+    " <[1C 05 BC]>" next // Pomocna Dłoń
+    "@R[C3]cznie wykonana Pomocna D[C4]o[C5]." next
+    "@Leczy twoje zranione cia[C4]o." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc558ca:
+    newline
+    " <[1C 05 BD]>" next // Jogurt Pstrągowy
+    "@Modna uczta dla snobistycznych, haute cuisine w niekt[C6]rych du[C8]ych miastach." next
+    call(data_05.l_0xc56cb5) "30" call(data_05.l_0xc56cd6) end
+
+l_0xc55915:
+    newline
+    " <[1C 05 BE]>" next // Banan
+    call(data_05.l_0xc56cb5) "25" call(data_05.l_0xc56cd6) end
+
+l_0xc5592c:
+    newline
+    " <[1C 05 BF]>" next // Kaloryczny Kij
+    call(data_05.l_0xc56cb5) "60" call(data_05.l_0xc56cd6) end
+
+l_0xc55943:
+    newline
+    " <[1C 05 C0]>" next // Klucz do Wieży
+    "@Stary klucz." end
+
+l_0xc55957:
+    newline
+    " <[1C 05 C1]>" next // Kawałek Meteorytu
+    "@Wygl[C1]da jak zwyk[C4]a stara ska[C4]a," next
+    "@ale dla kogo[C7], kto o tym wie, jest to bardzo cenny, niezwyk[C4]y element." end
+
+l_0xc559a8:
+    newline
+    " <[1C 05 C2]>" next // Ziemski Wisiorek
+    call(data_05.l_0xc56bdf) "@Chroni ci[C3] przed ognistymi, mro[C9]nymi i b[C4]yskawicznymi atakami." end
+
+l_0xc559d9:
+    newline
+    " <[1C 05 C3]>" next // Neutralizator
+    call(data_05.l_0xc56db7) "@U[C8]ywany podczas walki," next
+    "@przedmiot ten resetuje zdolno[C7]ci wszystkich stworze[C5] (przyjaci[C6][C4] lub wrog[C6]w)" next
+    "@do ich normalnych poziom[C6]w." next
+    "@Wszelkie zmiany, kt[C6]re mia[C4]y miejsce z powodu PSI s[C1] neutralizowane." next
+    "@Neutralizuje tak[C8]e wszystkie dzia[C4]aj[C1]ce tarcze (przyjaci[C6][C4] lub wrog[C6]w)." next
+    "@(Pami[C3]taj, [C8]e zdolno[C7]ci," next
+    "@o kt[C6]rych m[C6]wi[C3], to Atak, Obrona, [B7]mia[C4]o[C7][C2], itp.)" end
+
+l_0xc55ad5:
+    newline
+    " <[1C 05 C4]>" next // Kamień Dźwiękowy
+    "@Je[C7]li dotkniesz go o czo[C4]o i skoncentrujesz si[C3] na my[C7]lach," next
+    "@us[C4]yszysz melodie Twojego Sanktuarium." end
+
+l_0xc55b21:
+    newline
+    " <[1C 05 C5]>" next // Mysz Wyjścia
+    "@Je[C7]li u[C8]yjesz jej w lochu lub w innym miejscu," next
+    "@mysz przeniesie ci[C3] z powrotem do miejsca, w kt[C6]rym wszed[C4]e[C7]." next
+    "@To bardzo inteligentna mysz." end
+
+l_0xc55b79:
+    newline
+    " <[1C 05 C6]>" next // Lody Włoskie
+    "@Lody, kt[C6]re s[C1] modne w[C7]r[C6]d m[C4]odych kobiet." next
+    call(data_05.l_0xc56cb5) "30" call(data_05.l_0xc56cd6) end
+
+l_0xc55bc1:
+    newline
+    " <[1C 05 C7]>" next // Wąż
+    "@Kiedy zostanie u[C8]yty podczas walki, ugryzie wroga i znika." next
+    "@Mo[C8]e r[C6]wnie[C8] zatru[C2] wroga." end
+
+l_0xc55c03:
+    newline
+    " <[1C 05 C8]>" next // Żmija
+    "@Kiedy zostanie u[C8]yta podczas walki, ugryzie wroga i znika." next
+    "@Zawsze zatruje wroga." end
+
+l_0xc55c46:
+    newline
+    " <[1C 05 C9]>" next // Kamień Mózgowy
+    "@Cudowny kamie[C5], kt[C6]ry pomaga ci si[C3] <skoncentrowa[C2]>" next
+    "@bez korzystania z w[C4]asnego m[C6]zgu." next
+    "@Osi[C1]ga si[C3] to tylko przez zachowanie tego przedmiotu." next
+    "@Jest [C7]wietny, poniewa[C8] je[C7]li nie mo[C8]esz si[C3] skoncentrowa[C2], nie mo[C8]esz u[C8]ywa[C2] mocy PSI." end
+
+l_0xc55cce:
+    newline
+    " <[1C 05 CA]>" next // Mapa Miast
+    "@Por[C3]czna mapa miast. Mo[C8]e by[C2] u[C8]ywana w Onett, a tak[C8]e w innych miastach." next
+    "@Mo[C8]esz szybko wy[C7]wietli[C2] map[C3], po prostu naciskaj[C1]c Przycisk Start." end
+
+l_0xc55d2e:
+    newline
+    " <[1C 05 CB]>" next // Relaksujące Wideo
+    "@Hej, co to jest?" end
+
+l_0xc55d46:
+    newline
+    " <[1C 05 CC]>" next // Suporma
+    "@Wynalazek Pomara[C5]czowego Dzieciaka." next
+    "@Pe[C4]na nazwa to <Super Pomara[C5]czowa Maszyna>." end
+
+l_0xc55d82:
+    newline
+    " <[1C 05 CD]>" next // Klucz do Szafki
+    "@Klucz do zwyk[C4]ej szafki." end
+
+l_0xc55da1:
+    newline
+    " <[1C 05 CE]>" next // Nieistotny Przedmiot
+    "@Nie wygl[C1]da na to, [C8]e zrobi[C4]by co[C7] wiele, ale..." end
+
+l_0xc55dc8:
+    newline
+    " <[1C 05 CF]>" next // Magiczna Tarta
+    "@Przywraca oko[C4]o 20 PP." end
+
+l_0xc55de0:
+    newline
+    " <[1C 05 D0]>" next // Malutki Rubin
+    "@Stary skarb z Dalaam." end
+
+l_0xc55dfe:
+    newline
+    " <[1C 05 D1]>" next // Miłość Małpy
+    "@Prezent od ma[C4]py." next
+    "@Mo[C8]e by[C2] u[C8]ywany podczas walki." end
+
+l_0xc55e28:
+    newline
+    " <[1C 05 D2]>" next // Wymazywacz Gumek
+    "@Wynalazek Jab[C4]kowego Dzieciaka." next
+    "@Usuwa co[C7], co wygl[C1]da jak gumka," next
+    "@kt[C6]ra r[C6]wnie[C8] mo[C8]e blokowa[C2] ci drog[C3]." end
+
+l_0xc55e77:
+    newline
+    " <[1C 05 D3]>" next // Tendapusta
+    "@Bardzo silnie pachn[C1]ce danie." next
+    "@Ci, kt[C6]rzy to lubi[C1], wariuj[C1]..." end
+
+l_0xc55eab:
+    newline
+    " <[1C 05 D4]>" next // Kij T-rexa
+    call(data_05.l_0xc56b8e) end
+
+l_0xc55ebb:
+    newline
+    " <[1C 05 D5]>" next // Kij Wielkiej Ligi
+    call(data_05.l_0xc56b8e) next
+    "@[B4]a[C4]! Sp[C6]jrz na smo[C4][C3] sosnow[C1]! Idzie prawie do samego ko[C5]ca!" end
+
+l_0xc55ef6:
+    newline
+    " <[1C 05 D6]>" next // Ostateczny Kij
+    call(data_05.l_0xc56b8e) end
+
+l_0xc55f06:
+    newline
+    " <[1C 05 D7]>" next // Podwójny Promień
+    call(data_05.l_0xc56ba0) end
+
+l_0xc55f16:
+    newline
+    " <[1C 05 D8]>" next // Platynowa Obręcz
+    call(data_05.l_0xc56bf4) end
+
+l_0xc55f26:
+    newline
+    " <[1C 05 D9]>" next // Diamentowa Obręcz
+    call(data_05.l_0xc56bf4) end
+
+l_0xc55f36:
+    newline
+    " <[1C 05 DA]>" next // Wstążka Obrony
+    call(data_05.l_0xc56c6d) next
+    "@Po wyposa[C8]eniu, Szcz[C3][C7]cie wzro[C7]nie." end
+
+l_0xc55f5d:
+    newline
+    " <[1C 05 DB]>" next // Wstążka Talizman
+    call(data_05.l_0xc56c6d) next
+    "@Po wyposa[C8]eniu, Szcz[C3][C7]cie wzro[C7]nie." end
+
+l_0xc55f84:
+    newline
+    " <[1C 05 DC]>" next // Wstążka Saturna
+    call(data_05.l_0xc56c6d) next
+    "@Po wyposa[C8]eniu, Szcz[C3][C7]cie wzro[C7]nie." next
+    "@Jest taka sama jak ta, kt[C6]r[C1] Pan Saturn nosi na g[C4]owie.{wait}" linebreak
+    eob
+
+l_0xc55fcc:
+    newline
+    " <[1C 05 DD]>" next // Moneta Ciszy
+    call(data_05.l_0xc56c54) end
+
+l_0xc55fdc:
+    newline
+    " <[1C 05 DE]>" next // Moneta Wdzięku
+    call(data_05.l_0xc56c54) end
+
+l_0xc55fec:
+    newline
+    " <[1C 05 DF]>" next // Kubek Nudli
+    "@Wiesz co to jest..." next
+    call(data_05.l_0xc56cb5) "40" call(data_05.l_0xc56cd6) end
+
+l_0xc56011:
+    newline
+    " <[1C 05 E0]>" next // Kanapka Przeskoku
+    "@Daje ci [C9]r[C6]d[C4]o zdrowia." next
+    "@Przywraca oko[C4]o 90 HP." end
+
+l_0xc56054:
+    newline
+    " <[1C 05 E1]>" next // Kanapka Przeskoku DX
+    "@Daje ci [C9]r[C6]d[C4]o zdrowia." next
+    "@Przywraca oko[C4]o 200 HP." end
+
+l_0xc56097:
+    newline
+    " <[1C 05 E2]>" next // Kanapka Szczęścia
+    "@Pomaga ci odzyska[C2] twoj[C1] moc..." next
+    "@Ile i co dok[C4]adnie odzyskasz, zale[C8]y od twojego Szcz[C3][C7]cia!" end
+
+l_0xc560d3:
+    newline
+    " <[1C 05 E3]>" next // Kanapka Szczęścia
+    "@Pomaga ci odzyska[C2] twoj[C1] moc..." next
+    "@Ile i co dok[C4]adnie odzyskasz, zale[C8]y od twojego Szcz[C3][C7]cia!" end
+
+l_0xc5610f:
+    newline
+    " <[1C 05 E4]>" next // Kanapka Szczęścia
+    "@Pomaga ci odzyska[C2] twoj[C1] moc..." next
+    "@Ile i co dok[C4]adnie odzyskasz, zale[C8]y od twojego Szcz[C3][C7]cia!" end
+
+l_0xc5614b:
+    newline
+    " <[1C 05 E5]>" next // Kanapka Szczęścia
+    "@Pomaga ci odzyska[C2] twoj[C1] moc..." next
+    "@Ile i co dok[C4]adnie odzyskasz, zale[C8]y od twojego Szcz[C3][C7]cia!" end
+
+l_0xc56187:
+    newline
+    " <[1C 05 E6]>" next // Kanapka Szczęścia
+    "@Pomaga ci odzyska[C2] twoj[C1] moc..." next
+    "@Ile i co dok[C4]adnie odzyskasz, zale[C8]y od twojego Szcz[C3][C7]cia!" end
+
+l_0xc561c3:
+    newline
+    " <[1C 05 E7]>" next // Kanapka Szczęścia
+    "@Pomaga ci odzyska[C2] twoj[C1] moc..." next
+    "@Ile i co dok[C4]adnie odzyskasz, zale[C8]y od twojego Szcz[C3][C7]cia!" end
+
+l_0xc561ff:
+    newline
+    " <[1C 05 E8]>" next // Kubek Kawy
+    call(data_05.l_0xc56cc5) "12" call(data_05.l_0xc56cd6) next
+    "@My[C7]l[C3], [C8]e to dobrze smakuje doros[C4]ym." end
+
+l_0xc56230:
+    newline
+    " <[1C 05 E9]>" next // Podwójny Burger
+    call(data_05.l_0xc56cb5) "90" call(data_05.l_0xc56cd6) next
+    "@100% wo[C4]owiny." end
+

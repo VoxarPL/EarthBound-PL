@@ -1,0 +1,1059 @@
+command e(label) "{long label}"
+
+death1:
+    newline
+    "@{target} zostaje pokonana!{sound(33)}" eob
+
+death2:
+    newline
+    "@{target} zostaje oswojona!{sound(33)}" eob
+
+death3:
+    newline
+    "@{target} zostaje ca[C4]kowicie zez[C4]omowana!{sound(33)}" eob
+
+death4:
+    newline
+    "@{target} zostaje zniszczona na kawa[C4]ki!{sound(33)}" eob
+
+death5:
+    newline
+    "@{target} zostaje oswojone!{sound(33)}" eob
+
+death6:
+    newline
+    "@{target} zostaj[C1] oswojeni!{sound(33)}" eob
+
+death7:
+    newline
+    "@{target} zostaje zniszczone!{sound(33)}" eob
+
+cohorts1:
+    " i jego towarzyszy.[03]" eob
+
+cohorts2:
+    " i jej towarzyszy.[03]" eob
+
+cohorts3:
+    " i jego towarzyszami.[03]" eob
+
+cohorts4:
+    " i jej towarzyszami.[03]" eob
+
+cohort1:
+    " i jego towarzysza.[03]" eob
+
+cohort2:
+    " i jej towarzysza.[03]" eob
+
+cohort3:
+    " i jego towarzyszem.[03]" eob
+
+cohort4:
+    " i jej towarzyszem.[03]" eob
+
+encounter_text1:
+    "@Spotykasz" eob
+
+encounter_text2:
+    "@Konfrontujesz si[C3] z" eob
+
+encounter_text3:
+    "@Napotykasz" eob
+
+encounter_text4:
+    "@Pojawia si[C3] " call(encounter_text4_1) "[03]" eob
+
+encounter_text4_1:
+    "[1C 14 02][09 03 {e(encounter_text4_2)} {e(encounter_text4_3)} {e(encounter_text4_4)}]{user} i jej towarzysze.[03]" eob
+
+encounter_text4_2:
+    "{user}.[03]" eob
+
+encounter_text4_3:
+    "{user} i jej towarzysz.[03]" eob
+
+encounter_text4_4:
+    "{user} i jej towarzysze.[03]" eob
+
+// Wędrujący Zły Grzyb
+encounter1_name:
+    "W[C3]druj[C1]cego Z[C4]ego Grzyba" eob
+
+encounter1:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter1_1)} {e(encounter1_2)} {e(encounter1_3)}]" call(encounter1_name) call(cohorts1) eob
+
+encounter1_1:
+    call(encounter1_name) ".[03]" eob
+
+encounter1_2:
+    call(encounter1_name) call(cohort1) eob
+
+encounter1_3:
+    call(encounter1_name) call(cohorts1) eob
+
+// Dumnie Kroczący Zły Grzyb
+encounter2_name:
+    "Dumnie Krocz[C1]cego Z[C4]ego Grzyba" eob
+
+encounter2:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter2_1)} {e(encounter2_2)} {e(encounter2_3)}]" call(encounter2_name) call(cohorts1) eob
+
+encounter2_1:
+    call(encounter2_name) ".[03]" eob
+
+encounter2_2:
+    call(encounter2_name) call(cohort1) eob
+
+encounter2_3:
+    call(encounter2_name) call(cohorts1) eob
+
+// Ruchliwy Pęd
+encounter3_name:
+    "Ruchliwym P[C3]dem" eob
+
+encounter3:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter3_1)} {e(encounter3_2)} {e(encounter3_3)}]" call(encounter3_name) call(cohorts3) eob
+
+encounter3_1:
+    call(encounter3_name) ".[03]" eob
+
+encounter3_2:
+    call(encounter3_name) call(cohort3) eob
+
+encounter3_3:
+    call(encounter3_name) call(cohorts3) eob
+
+// Mocny Ruchliwy Pęd
+encounter4_name:
+    "Mocnym Ruchliwym P[C3]dem" eob
+
+encounter4:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter4_1)} {e(encounter4_2)} {e(encounter4_3)}]" call(encounter4_name) call(cohorts3) eob
+
+encounter4_1:
+    call(encounter4_name) ".[03]" eob
+
+encounter4_2:
+    call(encounter4_name) call(cohort3) eob
+
+encounter4_3:
+    call(encounter4_name) call(cohorts3) eob
+
+// Rozwścieczony Hydrant
+encounter5_name:
+    "Rozw[C7]cieczonym Hydrantem" eob
+
+encounter5:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter5_1)} {e(encounter5_2)} {e(encounter5_3)}]" call(encounter5_name) call(cohorts3) eob
+
+encounter5_1:
+    call(encounter5_name) ".[03]" eob
+
+encounter5_2:
+    call(encounter5_name) call(cohort3) eob
+
+encounter5_3:
+    call(encounter5_name) call(cohorts3) eob
+
+// Atomowy Robot Mocy
+encounter6_name:
+    "Atomowym Robotem Mocy" eob
+
+encounter6:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter6_1)} {e(encounter6_2)} {e(encounter6_3)}]" call(encounter6_name) call(cohorts3) eob
+
+encounter6_1:
+    call(encounter6_name) ".[03]" eob
+
+encounter6_2:
+    call(encounter6_name) call(cohort3) eob
+
+encounter6_3:
+    call(encounter6_name) call(cohorts3) eob
+
+// Nuklearny Robot Reaktor
+encounter7_name:
+    "Nuklearnym Robotem Reaktorem" eob
+
+encounter7:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter7_1)} {e(encounter7_2)} {e(encounter7_3)}]" call(encounter7_name) call(cohorts3) eob
+
+encounter7_1:
+    call(encounter7_name) ".[03]" eob
+
+encounter7_2:
+    call(encounter7_name) call(cohort3) eob
+
+encounter7_3:
+    call(encounter7_name) call(cohorts3) eob
+
+// Elektro-Szum, Miłosny Pocałunek Śmierci, Tangoo
+encounter8:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter8_1)} {e(encounter8_2)} {e(encounter8_3)}]{user} " call(cohorts1) eob
+
+encounter8_1:
+    "{user}.[03]" eob
+
+encounter8_2:
+    "{user} " call(cohort1) eob
+
+encounter8_3:
+    "{user} " call(cohorts1) eob
+
+// Przewodzący Rozrabiaka
+encounter9_name:
+    "Przewodz[C1]cym Rozrabiak[C1]" eob
+
+encounter9:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter9_1)} {e(encounter9_2)} {e(encounter9_3)}]" call(encounter9_name) call(cohorts3) eob
+
+encounter9_1:
+    call(encounter9_name) ".[03]" eob
+
+encounter9_2:
+    call(encounter9_name) call(cohort3) eob
+
+encounter9_3:
+    call(encounter9_name) call(cohorts3) eob
+
+// Przewodząca Dusza
+encounter10_name:
+    "Przewodz[C1]c[C1] Dusz[C1]" eob
+
+encounter10:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter10_1)} {e(encounter10_2)} {e(encounter10_3)}]" call(encounter10_name) call(cohorts3) eob
+
+encounter10_1:
+    call(encounter10_name) ".[03]" eob
+
+encounter10_2:
+    call(encounter10_name) call(cohort3) eob
+
+encounter10_3:
+    call(encounter10_name) call(cohorts3) eob
+
+// Zły Żywiołak
+encounter11_name:
+    "Z[C4]ego [B8]ywio[C4]aka" eob
+
+encounter11:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter11_1)} {e(encounter11_2)} {e(encounter11_3)}]" call(encounter11_name) call(cohorts1) eob
+
+encounter11_1:
+    call(encounter11_name) ".[03]" eob
+
+encounter11_2:
+    call(encounter11_name) call(cohort1) eob
+
+encounter11_3:
+    call(encounter11_name) call(cohorts1) eob
+
+// Irytujący Imprezowicz
+encounter12_name:
+    "Irytuj[C1]cego Imprezowicza" eob
+
+encounter12:
+    call(encounter_text3) " [1C 14 02][09 03 {e(encounter12_1)} {e(encounter12_2)} {e(encounter12_3)}]" call(encounter12_name) call(cohorts1) eob
+
+encounter12_1:
+    call(encounter12_name) ".[03]" eob
+
+encounter12_2:
+    call(encounter12_name) call(cohort1) eob
+
+encounter12_3:
+    call(encounter12_name) call(cohorts1) eob
+
+// Irytujący Biesiadnik
+encounter13_name:
+    "Irytuj[C1]cego Biesiadnika" eob
+
+encounter13:
+    call(encounter_text3) " [1C 14 02][09 03 {e(encounter13_1)} {e(encounter13_2)} {e(encounter13_3)}]" call(encounter13_name) call(cohorts1) eob
+
+encounter13_1:
+    call(encounter13_name) ".[03]" eob
+
+encounter13_2:
+    call(encounter13_name) call(cohort1) eob
+
+encounter13_3:
+    call(encounter13_name) call(cohorts1) eob
+
+// Skromny Miejscowy
+encounter14_name:
+    "Skromnego Miejscowego" eob
+
+encounter14:
+    call(encounter_text3) " [1C 14 02][09 03 {e(encounter14_1)} {e(encounter14_2)} {e(encounter14_3)}]" call(encounter14_name) call(cohorts1) eob
+
+encounter14_1:
+    call(encounter14_name) ".[03]" eob
+
+encounter14_2:
+    call(encounter14_name) call(cohort1) eob
+
+encounter14_3:
+    call(encounter14_name) call(cohorts1) eob
+
+// Retro Hipis Nowej Ery
+encounter15_name:
+    "Retro Hipisa Nowej Ery" eob
+
+encounter15:
+    call(encounter_text3) " [1C 14 02][09 03 {e(encounter15_1)} {e(encounter15_2)} {e(encounter15_3)}]" call(encounter15_name) call(cohorts1) eob
+
+encounter15_1:
+    call(encounter15_name) ".[03]" eob
+
+encounter15_2:
+    call(encounter15_name) call(cohort1) eob
+
+encounter15_3:
+    call(encounter15_name) call(cohorts1) eob
+
+// Burzowe Maleństwo
+encounter16_name:
+    "Burzowym Male[C5]stwem" eob
+
+encounter16:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter16_1)} {e(encounter16_2)} {e(encounter16_3)}]" call(encounter16_name) call(cohorts3) eob
+
+encounter16_1:
+    call(encounter16_name) ".[03]" eob
+
+encounter16_2:
+    call(encounter16_name) call(cohort3) eob
+
+encounter16_3:
+    call(encounter16_name) call(cohorts3) eob
+
+// Nieznośna Pani
+encounter17_name:
+    "Niezno[C7]n[C1] Pani[C1]" eob
+
+encounter17:
+    call(encounter_text3) " [1C 14 02][09 03 {e(encounter17_1)} {e(encounter17_2)} {e(encounter17_3)}]" call(encounter17_name) call(cohorts2) eob
+
+encounter17_1:
+    call(encounter17_name) ".[03]" eob
+
+encounter17_2:
+    call(encounter17_name) call(cohort2) eob
+
+encounter17_3:
+    call(encounter17_name) call(cohorts2) eob
+
+// Ekstra Nieznośna Pani
+encounter18_name:
+    "Ekstra Niezno[C7]n[C1] Pani[C1]" eob
+
+encounter18:
+    call(encounter_text3) " [1C 14 02][09 03 {e(encounter18_1)} {e(encounter18_2)} {e(encounter18_3)}]" call(encounter18_name) call(cohorts2) eob
+
+encounter18_1:
+    call(encounter18_name) ".[03]" eob
+
+encounter18_2:
+    call(encounter18_name) call(cohort2) eob
+
+encounter18_3:
+    call(encounter18_name) call(cohorts2) eob
+
+// Śluzowata Mała Kupa
+encounter19_name:
+    "[B7]luzowat[C1] Ma[C4][C1] Kup[C3]" eob
+
+encounter19:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter19_1)} {e(encounter19_2)} {e(encounter19_3)}]" call(encounter19_name) call(cohorts2) eob
+
+encounter19_1:
+    call(encounter19_name) ".[03]" eob
+
+encounter19_2:
+    call(encounter19_name) call(cohort2) eob
+
+encounter19_3:
+    call(encounter19_name) call(cohorts2) eob
+
+// Bardziej Śluzowata Kupa
+encounter20_name:
+    "Bardziej [B7]luzowat[C1] Kup[C3]" eob
+
+encounter20:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter20_1)} {e(encounter20_2)} {e(encounter19_3)}]" call(encounter20_name) call(cohorts2) eob
+
+encounter20_1:
+    call(encounter20_name) ".[03]" eob
+
+encounter20_2:
+    call(encounter20_name) call(cohort2) eob
+
+encounter20_3:
+    call(encounter20_name) call(cohorts2) eob
+
+// Bioniczny Kraken
+encounter21_name:
+    "Bionicznym Krakenem" eob
+
+encounter21:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter21_1)} {e(encounter21_2)} {e(encounter21_3)}]" call(encounter21_name) call(cohorts3) eob
+
+encounter21_1:
+    call(encounter21_name) ".[03]" eob
+
+encounter21_2:
+    call(encounter21_name) call(cohort3) eob
+
+encounter21_3:
+    call(encounter21_name) call(cohorts3) eob
+
+// Obrotowy Robot
+encounter22_name:
+    "Obrotowym Robotem" eob
+
+encounter22:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter22_1)} {e(encounter22_2)} {e(encounter22_3)}]" call(encounter22_name) call(cohorts3) eob
+
+encounter22_1:
+    call(encounter22_name) ".[03]" eob
+
+encounter22_2:
+    call(encounter22_name) call(cohort3) eob
+
+encounter22_3:
+    call(encounter22_name) call(cohorts3) eob
+
+// Wirujący Robot
+encounter23_name:
+    "Wiruj[C1]cym Robotem" eob
+
+encounter23:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter23_1)} {e(encounter23_2)} {e(encounter23_3)}]" call(encounter23_name) call(cohorts3) eob
+
+encounter23_1:
+    call(encounter23_name) ".[03]" eob
+
+encounter23_2:
+    call(encounter23_name) call(cohort3) eob
+
+encounter23_3:
+    call(encounter23_name) call(cohorts3) eob
+
+// Hiper Obrotowy Robot
+encounter24_name:
+    "Hiper Obrotowym Robotem" eob
+
+encounter24:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter24_1)} {e(encounter24_2)} {e(encounter24_3)}]" call(encounter24_name) call(cohorts3) eob
+
+encounter24_1:
+    call(encounter24_name) ".[03]" eob
+
+encounter24_2:
+    call(encounter24_name) call(cohort3) eob
+
+encounter24_3:
+    call(encounter24_name) call(cohorts3) eob
+
+// Zwariowany Znak
+encounter25_name:
+    "Zwariowanym Znakiem" eob
+
+encounter25:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter25_1)} {e(encounter25_2)} {e(encounter25_3)}]" call(encounter25_name) call(cohorts3) eob
+
+encounter25_1:
+    call(encounter25_name) ".[03]" eob
+
+encounter25_2:
+    call(encounter25_name) call(cohort3) eob
+
+encounter25_3:
+    call(encounter25_name) call(cohorts3) eob
+
+// Wełnisty Łazik
+encounter26_name:
+    "We[C4]nistego [B4]azika" eob
+
+encounter26:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter26_1)} {e(encounter26_2)} {e(encounter26_3)}]" call(encounter26_name) call(cohorts1) eob
+
+encounter26_1:
+    call(encounter26_name) ".[03]" eob
+
+encounter26_2:
+    call(encounter26_name) call(cohort1) eob
+
+encounter26_3:
+    call(encounter26_name) call(cohorts1) eob
+
+// Dziki Wełnisty Łazik
+encounter27_name:
+    "Dzikiego We[C4]nistego [B4]azika" eob
+
+encounter27:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter27_1)} {e(encounter27_2)} {e(encounter27_3)}]" call(encounter27_name) call(cohorts1) eob
+
+encounter27_1:
+    call(encounter27_name) ".[03]" eob
+
+encounter27_2:
+    call(encounter27_name) call(cohort1) eob
+
+encounter27_3:
+    call(encounter27_name) call(cohorts1) eob
+
+// Starman
+encounter28:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter28_1)} {e(encounter28_2)} {e(encounter28_3)}]{user}em " call(cohorts3) eob
+
+encounter28_1:
+    "{user}em.[03]" eob
+
+encounter28_2:
+    "{user}em " call(cohort3) eob
+
+encounter28_3:
+    "{user}em " call(cohorts3) eob
+
+// Starman Super
+encounter29_name:
+    "Starmanem Super" eob
+
+encounter29:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter29_1)} {e(encounter29_2)} {e(encounter29_3)}]" call(encounter29_name) call(cohorts3) eob
+
+encounter29_1:
+    call(encounter29_name) ".[03]" eob
+
+encounter29_2:
+    call(encounter29_name) call(cohort3) eob
+
+encounter29_3:
+    call(encounter29_name) call(cohorts3) eob
+
+// Duch Starmana
+encounter30_name:
+    "Duchem Starmana" eob
+
+encounter30:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter30_1)} {e(encounter30_2)} {e(encounter30_3)}]" call(encounter30_name) call(cohorts3) eob
+
+encounter30_1:
+    call(encounter30_name) ".[03]" eob
+
+encounter30_2:
+    call(encounter30_name) call(cohort3) eob
+
+encounter30_3:
+    call(encounter30_name) call(cohorts3) eob
+
+// Uśmiechnięta Sfera
+encounter31_name:
+    "U[C7]miechni[C3]t[C1] Sfer[C3]" eob
+
+encounter31:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter31_1)} {e(encounter31_2)} {e(encounter31_3)}]" call(encounter31_name) call(cohorts2) eob
+
+encounter31_1:
+    call(encounter31_name) ".[03]" eob
+
+encounter31_2:
+    call(encounter31_name) call(cohort2) eob
+
+encounter31_3:
+    call(encounter31_name) call(cohorts2) eob
+
+// Niekontrolowana Sfera
+encounter32_name:
+    "Niekontrolowan[C1] Sfer[C3]" eob
+
+encounter32:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter32_1)} {e(encounter32_2)} {e(encounter32_3)}]" call(encounter32_name) call(cohorts2) eob
+
+encounter32_1:
+    call(encounter32_name) ".[03]" eob
+
+encounter32_2:
+    call(encounter32_name) call(cohort2) eob
+
+encounter32_3:
+    call(encounter32_name) call(cohorts2) eob
+
+// Ostateczny Starman
+encounter33_name:
+  "Ostatecznym Starmanem" eob
+
+encounter33:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter33_1)} {e(encounter33_2)} {e(encounter33_3)}]" call(encounter33_name) call(cohorts3) eob
+
+encounter33_1:
+    call(encounter33_name) ".[03]" eob
+
+encounter33_2:
+    call(encounter33_name) call(cohort3) eob
+
+encounter33_3:
+    call(encounter33_name) call(cohorts3) eob
+
+// Maruder Ośmiornibot
+encounter34_name:
+    "Maruderem O[C7]miornibotem" eob
+
+encounter34:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter34_1)} {e(encounter34_2)} {e(encounter34_3)}]" call(encounter34_name) call(cohorts3) eob
+
+encounter34_1:
+    call(encounter34_name) ".[03]" eob
+
+encounter34_2:
+    call(encounter34_name) call(cohort3) eob
+
+encounter34_3:
+    call(encounter34_name) call(cohorts3) eob
+
+// Militarny Ośmiornibot
+encounter35_name:
+    "Militarnym O[C7]miornibotem" eob
+
+encounter35:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter35_1)} {e(encounter35_2)} {e(encounter35_3)}]" call(encounter35_name) call(cohorts3) eob
+
+encounter35_1:
+    call(encounter35_name) ".[03]" eob
+
+encounter35_2:
+    call(encounter35_name) call(cohort3) eob
+
+encounter35_3:
+    call(encounter35_name) call(cohorts3) eob
+
+// Mechaniczny Ośmiornibot
+encounter36_name:
+    "Mechanicznym O[C7]miornibotem" eob
+
+encounter36:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter36_1)} {e(encounter36_2)} {e(encounter36_3)}]" call(encounter36_name) call(cohorts3) eob
+
+encounter36_1:
+    call(encounter36_name) ".[03]" eob
+
+encounter36_2:
+    call(encounter36_name) call(cohort3) eob
+
+encounter36_3:
+    call(encounter36_name) call(cohorts3) eob
+
+// Ostateczny Ośmiornibot
+encounter37_name:
+    "Ostatecznym O[C7]miornibotem" eob
+
+encounter37:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter37_1)} {e(encounter37_2)} {e(encounter37_3)}]" call(encounter37_name) call(cohorts3) eob
+
+encounter37_1:
+    call(encounter37_name) ".[03]" eob
+
+encounter37_2:
+    call(encounter37_name) call(cohort3) eob
+
+encounter37_3:
+    call(encounter37_name) call(cohorts3) eob
+
+// Duża Kupa Wymiocin
+encounter38_name:
+    "Du[C8][C1] Kup[C1] Wymiocin" eob
+
+encounter38:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter38_1)} {e(encounter38_2)} {e(encounter38_3)}]" call(encounter38_name) call(cohorts4) eob
+
+encounter38_1:
+    call(encounter38_name) ".[03]" eob
+
+encounter38_2:
+    call(encounter38_name) call(cohort4) eob
+
+encounter38_3:
+    call(encounter38_name) call(cohorts4) eob
+
+// Pocałunek Śmierci
+encounter39_name:
+    "Poca[C4]unkiem [B7]mierci" eob
+
+encounter39:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter39_1)} {e(encounter39_2)} {e(encounter39_3)}]" call(encounter39_name) call(cohorts3) eob
+
+encounter39_1:
+    call(encounter39_name) ".[03]" eob
+
+encounter39_2:
+    call(encounter39_name) call(cohort3) eob
+
+encounter39_3:
+    call(encounter39_name) call(cohorts3) eob
+
+// Foppy, Fobby, UFO Wysokiej Klasy
+encounter40:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter40_1)} {e(encounter40_2)} {e(encounter40_3)}]{user} " call(cohorts3) eob
+
+encounter40_1:
+    "{user}.[03]" eob
+
+encounter40_2:
+    "{user} " call(cohort3) eob
+
+encounter40_3:
+    "{user} " call(cohorts3) eob
+
+// Dziki Lokator Demon
+encounter41_name:
+    "Dzikiego Lokatora Demona" eob
+
+encounter41:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter41_1)} {e(encounter41_2)} {e(encounter41_3)}]" call(encounter41_name) call(cohorts1) eob
+
+encounter41_1:
+    call(encounter41_name) ".[03]" eob
+
+encounter41_2:
+    call(encounter41_name) call(cohort1) eob
+
+encounter41_3:
+    call(encounter41_name) call(cohorts1) eob
+
+// Pomniejszy Mook
+encounter42_name:
+    "Pomniejszego Mooka" eob
+
+encounter42:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter42_1)} {e(encounter42_2)} {e(encounter42_3)}]" call(encounter42_name) call(cohorts1) eob
+
+encounter42_1:
+    call(encounter42_name) ".[03]" eob
+
+encounter42_2:
+    call(encounter42_name) call(cohort1) eob
+
+encounter42_3:
+    call(encounter42_name) call(cohorts1) eob
+
+// Senior Mook
+encounter43_name:
+    "Seniora Mooka" eob
+
+encounter43:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter43_1)} {e(encounter43_2)} {e(encounter43_3)}]" call(encounter43_name) call(cohorts1) eob
+
+encounter43_1:
+    call(encounter43_name) ".[03]" eob
+
+encounter43_2:
+    call(encounter43_name) call(cohort1) eob
+
+encounter43_3:
+    call(encounter43_name) call(cohorts1) eob
+
+// Beztroska Bomba
+encounter44_name:
+    "Beztrosk[C1] Bomb[C3]" eob
+
+encounter44:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter44_1)} {e(encounter44_2)} {e(encounter44_3)}]" call(encounter44_name) call(cohorts2) eob
+
+encounter44_1:
+    call(encounter44_name) ".[03]" eob
+
+encounter44_2:
+    call(encounter44_name) call(cohort2) eob
+
+encounter44_3:
+    call(encounter44_name) call(cohorts2) eob
+
+// Przystojny Tom
+encounter45_name:
+    "Przystojnego Toma" eob
+
+encounter45:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter45_1)} {e(encounter45_2)} {e(encounter45_3)}]" call(encounter45_name) call(cohorts1) eob
+
+encounter45_1:
+    call(encounter45_name) ".[03]" eob
+
+encounter45_2:
+    call(encounter45_name) call(cohort1) eob
+
+encounter45_3:
+    call(encounter45_name) call(cohorts1) eob
+
+// Uśmiechnięty Sam
+encounter46_name:
+    "U[C7]miechni[C3]tego Sama" eob
+
+encounter46:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter46_1)} {e(encounter46_2)} {e(encounter46_3)}]" call(encounter46_name) call(cohorts1) eob
+
+encounter46_1:
+    call(encounter46_name) ".[03]" eob
+
+encounter46_2:
+    call(encounter46_name) call(cohort1) eob
+
+encounter46_3:
+    call(encounter46_name) call(cohorts1) eob
+
+// Męska Ryba
+encounter47_name:
+    "M[C3]sk[C1] Ryb[C3]" eob
+
+encounter47:
+    call(encounter_text3) " [1C 14 02][09 03 {e(encounter47_1)} {e(encounter47_2)} {e(encounter47_3)}]" call(encounter47_name) call(cohorts2) eob
+
+encounter47_1:
+    call(encounter47_name) ".[03]" eob
+
+encounter47_2:
+    call(encounter47_name) call(cohort2) eob
+
+encounter47_3:
+    call(encounter47_name) call(cohorts2) eob
+
+// Brat Męskiej Ryby
+encounter48_name:
+    "Brata M[C3]skiej Ryby" eob
+
+encounter48:
+    call(encounter_text3) " [1C 14 02][09 03 {e(encounter48_1)} {e(encounter48_2)} {e(encounter48_3)}]" call(encounter48_name) call(cohorts1) eob
+
+encounter48_1:
+    call(encounter48_name) ".[03]" eob
+
+encounter48_2:
+    call(encounter48_name) call(cohort1) eob
+
+encounter48_3:
+    call(encounter48_name) call(cohorts1) eob
+
+// Dzieciak od Psikusów
+encounter49_name:
+    "Dzieciakiem od Psikus[C6]w" eob
+
+encounter49:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter49_1)} {e(encounter49_2)} {e(encounter49_3)}]" call(encounter49_name) call(cohorts3) eob
+
+encounter49_1:
+    call(encounter49_name) ".[03]" eob
+
+encounter49_2:
+    call(encounter49_name) call(cohort3) eob
+
+encounter49_3:
+    call(encounter49_name) call(cohorts3) eob
+
+// Abstrakcyjna Sztuka
+encounter50_name:
+    "Abstrakcyjn[C1] Sztuk[C1]" eob
+
+encounter50:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter50_1)} {e(encounter50_2)} {e(encounter50_3)}]" call(encounter50_name) call(cohorts4) eob
+
+encounter50_1:
+    call(encounter50_name) ".[03]" eob
+
+encounter50_2:
+    call(encounter50_name) call(cohort4) eob
+
+encounter50_3:
+    call(encounter50_name) call(cohorts4) eob
+
+// Ego Kula
+encounter51_name:
+    "Ego Kul[C1]" eob
+
+encounter51:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter51_1)} {e(encounter51_2)} {e(encounter51_3)}]" call(encounter51_name) call(cohorts4) eob
+
+encounter51_1:
+    call(encounter51_name) ".[03]" eob
+
+encounter51_2:
+    call(encounter51_name) call(cohort4) eob
+
+encounter51_3:
+    call(encounter51_name) call(cohorts4) eob
+
+// Grzmot i Burza
+encounter52:
+    newline
+    "@" call(data_63.l_0xef790b) " atakuj[C1]![03]" eob
+
+// Urocze Małe UFO
+encounter53_name:
+    "Uroczym Ma[C4]ym UFO" eob
+
+encounter53:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter53_1)} {e(encounter53_2)} {e(encounter53_3)}]" call(encounter53_name) call(cohorts3) eob
+
+encounter53_1:
+    call(encounter53_name) ".[03]" eob
+
+encounter53_2:
+    call(encounter53_name) call(cohort3) eob
+
+encounter53_3:
+    call(encounter53_name) call(cohorts3) eob
+
+// Piękne UFO
+encounter54_name:
+    "Pi[C3]knym UFO" eob
+
+encounter54:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter54_1)} {e(encounter54_2)} {e(encounter54_3)}]" call(encounter54_name) call(cohorts3) eob
+
+encounter54_1:
+    call(encounter54_name) ".[03]" eob
+
+encounter54_2:
+    call(encounter54_name) call(cohort3) eob
+
+encounter54_3:
+    call(encounter54_name) call(cohorts3) eob
+
+// Twardziel
+encounter55:
+    call(encounter_text3) " [1C 14 02][09 03 {e(encounter55_1)} {e(encounter55_2)} {e(encounter55_3)}]{user}a " call(cohorts1) eob
+
+encounter55_1:
+    "{user}a.[03]" eob
+
+encounter55_2:
+    "{user}a " call(cohort1) eob
+
+encounter55_3:
+    "{user}a " call(cohorts1) eob
+
+// Pan Cząsteczka
+encounter56_name:
+    "Pana Cz[C1]steczk[C3]" eob
+
+encounter56:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter56_1)} {e(encounter56_2)} {e(encounter56_3)}]" call(encounter56_name) call(cohorts1) eob
+
+encounter56_1:
+    call(encounter56_name) ".[03]" eob
+
+encounter56_2:
+    call(encounter56_name) call(cohort1) eob
+
+encounter56_3:
+    call(encounter56_name) call(cohorts1) eob
+
+// Psychiczny Psychol
+encounter57_name:
+    "Psychicznego Psychola" eob
+
+encounter57:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter57_1)} {e(encounter57_2)} {e(encounter57_3)}]" call(encounter57_name) call(cohorts1) eob
+
+encounter57_1:
+    call(encounter57_name) ".[03]" eob
+
+encounter57_2:
+    call(encounter57_name) call(cohort1) eob
+
+encounter57_3:
+    call(encounter57_name) call(cohorts1) eob
+
+// Główny Psychiczny Psychol
+encounter58_name:
+    "G[C4][C6]wnego Psychicznego Psychola" eob
+
+encounter58:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter58_1)} {e(encounter58_2)} {e(encounter58_3)}]" call(encounter58_name) call(cohorts1) eob
+
+encounter58_1:
+    call(encounter58_name) ".[03]" eob
+
+encounter58_2:
+    call(encounter58_name) call(cohort1) eob
+
+encounter58_3:
+    call(encounter58_name) call(cohorts1) eob
+
+// Ogień Pochłaniający Dusze
+encounter59_name:
+    "Ogniem Poch[C4]aniaj[C1]cym Dusze" eob
+
+encounter59:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter59_1)} {e(encounter59_2)} {e(encounter59_3)}]" call(encounter59_name) call(cohorts3) eob
+
+encounter59_1:
+    call(encounter59_name) ".[03]" eob
+
+encounter59_2:
+    call(encounter59_name) call(cohort3) eob
+
+encounter59_3:
+    call(encounter59_name) call(cohorts3) eob
+
+// Ranboob
+encounter60:
+    call(encounter_text1) " [1C 14 02][09 03 {e(encounter60_1)} {e(encounter60_2)} {e(encounter60_3)}]{user}a " call(cohorts1) eob
+
+encounter60_1:
+    "{user}a.[03]" eob
+
+encounter60_2:
+    "{user}a " call(cohort1) eob
+
+encounter60_3:
+    "{user}a " call(cohorts1) eob
+
+// Małe UFO
+encounter61_name:
+    "Ma[C4]ym UFO" eob
+
+encounter61:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter61_1)} {e(encounter61_2)} {e(encounter61_3)}]" call(encounter61_name) call(cohorts3) eob
+
+encounter61_1:
+    call(encounter61_name) ".[03]" eob
+
+encounter61_2:
+    call(encounter61_name) call(cohort3) eob
+
+encounter61_3:
+    call(encounter61_name) call(cohorts3) eob
+
+// Człowiek Lasso
+encounter62_name:
+    "Cz[C4]owiekiem Lasso" eob
+
+encounter62:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter62_1)} {e(encounter62_2)} {e(encounter62_3)}]" call(encounter62_name) call(cohorts3) eob
+
+encounter62_1:
+    call(encounter62_name) ".[03]" eob
+
+encounter62_2:
+    call(encounter62_name) call(cohort3) eob
+
+encounter62_3:
+    call(encounter62_name) call(cohorts3) eob
+
+// Robo-pompa
+encounter63_name:
+    "Robo-pomp[C1]" eob
+
+encounter63:
+    call(encounter_text2) " [1C 14 02][09 03 {e(encounter63_1)} {e(encounter63_2)} {e(encounter63_3)}]" call(encounter63_name) call(cohorts4) eob
+
+encounter63_1:
+    call(encounter63_name) ".[03]" eob
+
+encounter63_2:
+    call(encounter63_name) call(cohort4) eob
+
+encounter63_3:
+    call(encounter63_name) call(cohorts4) eob

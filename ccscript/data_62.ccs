@@ -1,0 +1,437 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xef6bef:
+    newline
+    "@Cia[C4]o {target} zosta[C4]o unieruchomione!{sound(83)}[03]" eob
+
+l_0xef6c0b:
+    newline
+    "@{target} nie mo[C8]e si[C3] skoncentrowa[C2]!{sound(83)}" next
+    "@{target} nie mo[C8]e u[C8]y[C2] mocy PSI![03]" eob
+
+l_0xef6c3a:
+    newline
+    "@{target} czuj[C3] si[C3] troch[C3] dziwnie...{sound(83)}[03]" eob
+
+l_0xef6c55:
+    newline
+    "@{target} czuj[C3] si[C3] [C7]pi[C1]co!{sound(83)}[03]" eob
+
+l_0xef6c6b:
+    newline
+    "@{target} zostaje ranny i upada...{sound(32)}[03]" eob
+
+l_0xef6c84:
+    newline
+    "@{target} zostaje ranny i upada...{sound(32)}{unset(flag 587)}" next
+    "[06 CF 00 {e(l_0xef6ce2)}][06 CE 00 {e(l_0xef6cd9)}][06 CD 00 {e(l_0xef6cd0)}][06 CC 00 {e(l_0xef6cc7)}]{set(flag 204)}" call(l_0xef6ceb) eob
+
+l_0xef6cc7:
+    "{set(flag 205)}" call(l_0xef6ceb) eob
+
+l_0xef6cd0:
+    "{set(flag 206)}" call(l_0xef6ceb) eob
+
+l_0xef6cd9:
+    "{set(flag 207)}" call(l_0xef6ceb) eob
+
+l_0xef6ce2:
+    "{set(flag 208)}" call(l_0xef6ceb) eob
+
+l_0xef6ceb:
+    "[19 10 02]{store_registers}{result_is(11)}[1B 02 {e(l_0xef6cfc)}][1F 12 0B]" eob
+
+l_0xef6cfc:
+    "{load_registers}{result_is(12)}[1B 02 {e(l_0xef6d0a)}][1F 12 0C]" eob
+
+l_0xef6d0a:
+    "{load_registers}{result_is(13)}[1B 02 {e(l_0xef6d18)}][1F 12 0D]" eob
+
+l_0xef6d18:
+    "{load_registers}{result_is(14)}[1B 02 {e(l_0xef6d26)}][1F 12 0E]" eob
+
+l_0xef6d26:
+    "[1F 12 0F]" eob
+
+l_0xef6d2a:
+    newline
+    "@{target} staje si[C3] kup[C1] puchu...{sound(32)}" next
+    "[1D 01 FF 02]" eob
+
+l_0xef6d4c:
+    newline
+    "@{target} staje si[C3] du[C8][C1] kup[C1] puchu...{sound(32)}" next
+    "[1D 01 FF 03]" eob
+
+l_0xef6d71:
+    newline
+    "@{target} zostaje pokonany!{sound(33)}" eob
+
+l_0xef6d83:
+    newline
+    "@{target} przestaje si[C3] rusza[C2]!{sound(33)}" eob
+
+l_0xef6d96:
+    newline
+    "@{target} zostaje oswojony!{sound(33)}" eob
+
+l_0xef6da7:
+    newline
+    "@{target} znika!{sound(33)}" eob
+
+l_0xef6db8:
+    newline
+    "@{target} rozp[C4]ywa si[C3] w powietrzu!{sound(33)}" eob
+
+l_0xef6dd8:
+    newline
+    "@{target} zostaje zniszczony na kawa[C4]ki!{sound(33)}" eob
+
+l_0xef6df0:
+    newline
+    "@{target} zostaje zniszczony!{sound(33)}" eob
+
+l_0xef6e03:
+    newline
+    "@{target} zostaje ca[C4]kowicie zez[C4]omowany!{sound(33)}" eob
+
+l_0xef6e19:
+    newline
+    "@{target} wraca do normalno[C7]ci!{sound(33)}" eob
+
+l_0xef6e31:
+    newline
+    "@{target} zmienia si[C3] w proch!{sound(33)}" eob
+
+l_0xef6e4a:
+    newline
+    "@Cia[C4]o {target} wraca do normalno[C7]ci!{sound(37)}[03]" eob
+
+l_0xef6e67:
+    newline
+    "@Parali[C8] {target} min[C1][C4]!{sound(37)}[03]" eob
+
+l_0xef6e81:
+    newline
+    "@{target} czuj[C3] si[C3] znacznie lepiej!{sound(37)}[03]" eob
+
+l_0xef6e97:
+    newline
+    "@Usuni[C3]to trucizn[C3] z cia[C4]a {target}!{sound(37)}[03]" eob
+
+l_0xef6ebc:
+    newline
+    "@{target} wyzdrowia[C4] z przezi[C3]bienia!{sound(37)}[03]" eob
+
+l_0xef6ed1:
+    newline
+    "@{target} nareszcie przestaje p[C4]aka[C2]...{sound(37)}[03]" eob
+
+l_0xef6eed:
+    newline
+    "@Cia[C4]o {target} zn[C6]w poruszy[C4]o si[C3] swobodnie!{sound(37)}[03]" eob
+
+l_0xef6f0b:
+    newline
+    "@{target} mo[C8]e si[C3] znowu rusza[C2]!{sound(37)}[03]" eob
+
+l_0xef6f1e:
+    newline
+    "@{target} wraca do normalno[C7]ci!{sound(37)}[03]" eob
+
+l_0xef6f38:
+    newline
+    "@Udar s[C4]oneczny {target} zostaje wyleczony!{sound(37)}[03]" eob
+
+l_0xef6f54:
+    newline
+    "@{target} budzi si[C3]!{sound(37)}[03]" eob
+
+l_0xef6f64:
+    newline
+    "@{target} mo[C8]e si[C3] w stanie skoncentrowa[C2]!{sound(37)}[03]" eob
+
+l_0xef6f7c:
+    newline
+    "@{target} zostaje o[C8]ywiony!{sound(37)}[03]" eob
+
+l_0xef6f8e:
+    newline
+    "@To nie dzia[C4]a...[03]" eob
+
+l_0xef6f9a:
+    newline
+    "@Cia[C4]o {target} jest chronione przez tarcz[C3] [C7]wiat[C4]a![03]" eob
+
+l_0xef6fbd:
+    newline
+    "@Tarcza [C7]wiat[C4]a {target} staje si[C3] silniejsza![03]" eob
+
+l_0xef6fd3:
+    newline
+    "@Cia[C4]o {target} jest chronione przez tarcz[C3] mocy![03]" eob
+
+l_0xef6ff4:
+    newline
+    "@Tarcza mocy {target} staje si[C3] silniejsza![03]" eob
+
+l_0xef700c:
+    newline
+    "@Cia[C4]o {target} jest chronione przez psychiczn[C1] tarcz[C3]![03]" eob
+
+l_0xef7032:
+    newline
+    "@Psychiczna tarcza {target} staje si[C3] silniejsza![03]" eob
+
+l_0xef7050:
+    newline
+    "@Cia[C4]o {target} jest chronione przez psychiczn[C1] tarcz[C3] mocy![03]" eob
+
+l_0xef707a:
+    newline
+    "@Psychiczna tarcza mocy {target} staje si[C3] silniejsza![03]" eob
+
+l_0xef7099:
+    newline
+    "@Tarcza {target} znikn[C3][C4]a![03]" eob
+
+l_0xef70b1:
+    newline
+    "@Tarcza mocy odbija atak!{sound(93)}{pause(30)}[03]" eob
+
+l_0xef70d2:
+    newline
+    "@Psychiczna tarcza mocy" linebreak
+    "[19 1F]{swap}  odbija [1C 12 00]!{sound(93)}[03]" eob
+
+l_0xef70fa:
+    newline
+    "@Psychiczna tarcza {target} sprawi[C4]a, [C8]e[19 1F]{swap} [1C 12 00] znikn[C1][C4]![03]" eob
+
+l_0xef7123:
+    newline
+    "@Wp[C4]yw mocy PSI na" linebreak
+    "  {target} znikn[C1][C4]!{sound(41)}[03]" eob
+
+l_0xef7142:
+    newline
+    "@[1C 01 4A] wraca do swojej pierwotnej formy![03]" eob
+
+l_0xef7160:
+    newline
+    "@Odznaka Franklina odbija b[C4]yskawic[C3]!{sound(93)}[03]" eob
+
+l_0xef7186:
+    newline
+    "@{user} nie mo[C8]e si[C3] ruszy[C2]![03]" eob
+
+l_0xef7192:
+    newline
+    "@Cia[C4]o {user} jest sparali[C8]owane i nie mo[C8]e si[C3] ruszy[C2]![03]" eob
+
+l_0xef71b4:
+    newline
+    "@{user} jest zbyt chory, by si[C3] rusza[C2]...[03]" eob
+
+l_0xef71cc:
+    newline
+    "@{target} jest otruty![03]" eob
+
+l_0xef71df:
+    newline
+    "@{user} zaczyna zasypia[C2]![03]" eob
+
+l_0xef71f6:
+    newline
+    "@{user} nie mo[C8]e si[C3] rusza[C2]![03]" eob
+
+l_0xef720c:
+    newline
+    "[1F 41 08][1B 02 {e(l_0xef721e)}]{sound(55)}" goto(l_0xef7221)
+
+l_0xef721e:
+    "{sound(29)}" goto(l_0xef7221)
+
+l_0xef7221:
+    "@{user}[19 1F]{swap} u[C8]ywa [1C 12 00]!{sound(87)}" next
+    "@Ale to nie zadzia[C4]a[C4]o zbyt dobrze![03]" eob
+
+l_0xef7249:
+    newline
+    "@{target} broni si[C3]![03]" eob
+
+l_0xef725a:
+    newline
+    "@{user} szaleje na punkcie <Muszego Miodu>![03]" eob
+
+l_0xef727f:
+    "[1D 21 03][09 03 {e(l_0xef72a0)} {e(l_0xef72b9)} {e(l_0xef72db)}]" newline
+    "@{user} t[C3]skni za domem.[03]" eob
+
+l_0xef72a0:
+    newline
+    "@{user} nagle my[C7]li o swojej mamie.[03]" eob
+
+l_0xef72b9:
+    newline
+    "@{user} my[C7]li o zjedzeniu [1C 01 04]u i zaczyna go pragn[C1][C2].[03]" eob
+
+l_0xef72db:
+    newline
+    "@{user} straci ca[C4][C1] motywacj[C3] podczas bitwy.[03]" eob
+
+l_0xef72f6:
+    eob
+
+l_0xef72f7:
+    newline
+    "@Czarny dym wylatuje z cia[C4]a {user}!{prompt}" linebreak
+    "@" call(data_37.l_0xc7e6d7) " " call(was) " przez dym!{prompt}" linebreak
+    "@Nic nie widzisz!{prompt}" eob
+
+was:
+    "[19 10 01]{swap}{counter(1)}" goto(was1)
+
+was1:
+    "{inc}{ctoarg}[1D 19 00][1B 03 {e(was2)}][19 10 00][1D 0D 00 01 02][1B 03 {e(was2)}][19 10 00][1D 0D 00 01 03][1B 03 {e(was2)}]" goto(was1)
+
+was2:
+    "{ctoarg}{swap}[09 05 {e(was3)} {e(was3)} {e(was4)} {e(was5)} {e(was5)}]" eob
+
+was3:
+    "zostaje poch[C4]oni[C3]ty" eob
+
+was4:
+    "zostaj[C1] poch[C4]oni[C3]ci" eob
+
+was5:
+    call(was4) eob
+
+l_0xef733d:
+    newline
+    "@Nagle znik[C1]d, jacy[C7] go[C7]cie wtargn[C3]li do pokoju!{prompt}{music(149)}{pause(60)}" newline
+    "@To Runaway Five!{prompt}{window_closetop}{pause(30)}{window_open(1)}" newline
+    "[1F 62 00]@Lucky szybko schowa[C4] si[C3] za robotem!{prompt}{sound(11)}{pause(60)}{window_clear}"
+    title(1, Lucky)
+    "@<Nacisn[C1][C4]em przycisk i zatrzyma[C4] si[C3].>" next
+    "@<Cha cha cha cha..." linebreak
+    "  Rany, co za frajerski robot.  By[C4] taki [C4]atwy do zatrzymania!>{pause(20)}{prompt}{window_clear}"
+    title(1, Nice)
+    "@<To by[C4]o szybkie my[C7]lenie!>{prompt}{pause(60)}[1F 62 01]{window_closetop}{window_open(14)}{set(flag 318)}" eob
+
+l_0xef7415:
+    "[1F 71 04 02]" newline
+    "@Nagle [1C 02 04] spada z nieba!{pause(50)}" eob
+
+l_0xef743b:
+    newline
+    "@[1C 02 04] u[C8]ywa swojej nowej mocy,{prompt}" linebreak
+    "  PK Gwiezdnej Burzy!{prompt}" linebreak
+    eob
+
+l_0xef745f:
+    "[1D 21 08][09 08 {e(l_0xef749d)} {e(l_0xef74b0)} {e(l_0xef74c9)} {e(l_0xef74e6)} {e(l_0xef74fa)} {e(l_0xef7514)} {e(l_0xef7530)} {e(l_0xef7548)}]" newline
+    "@Porky u[C8]ywa [1C 01 08]a jako tarczy![03]" eob
+
+l_0xef749d:
+    newline
+    "@Porky udaje trupa![03]" eob
+
+l_0xef74b0:
+    newline
+    "@Porky udaje, [C8]e p[C4]acz[C3]![03]" eob
+
+l_0xef74c9:
+    newline
+    "@Porky obficie przeprasza![03]" eob
+
+l_0xef74e6:
+    newline
+    "@Porky my[C7]li o sobie![03]" eob
+
+l_0xef74fa:
+    newline
+    "@Porky zachowuje si[C3] zupe[C4]nie niewinnie![03]" eob
+
+l_0xef7514:
+    newline
+    "@Porky u[C7]miecha si[C3] szczerze![03]" eob
+
+l_0xef7530:
+    newline
+    "@Porky skar[C8]y si[C3] na [1C 01 08]a![03]" eob
+
+l_0xef7548:
+    newline
+    "@Porky pr[C6]buj[C3] do[C4][C1]czy[C2] do dru[C8]yny wroga![03]" eob
+
+l_0xef7569:
+    newline
+    "@{user} szczeka![03]" eob
+
+l_0xef7579:
+    newline
+    "@{user} intonuje magiczne zakl[C3]cie![03]" eob
+
+l_0xef7591:
+    newline
+    eob
+
+l_0xef7593:
+    newline
+    "@{user} drapie si[C3] po g[C4]owie![03]" eob
+
+l_0xef75ab:
+    newline
+    "{sound(46)}@{target} odnosi {delta} HP obra[C8]e[C5]![03]" eob
+
+l_0xef75c2:
+    newline
+    "{sound(30)}@{target} odnosi {delta} HP obra[C8]e[C5]![03]" eob
+
+l_0xef75d9:
+    newline
+    "{sound(46)}@{target} odnosi {delta} HP obra[C8]e[C5]![03]" eob
+
+l_0xef75f0:
+    newline
+    "{sound(30)}@{target} odnosi {delta} HP obra[C8]e[C5]![03]" eob
+
+l_0xef7607:
+    newline
+    "{sound(47)}@{target} odnosi {delta} HP [C7]miertelnych obra[C8]e[C5]![03]" eob
+
+l_0xef7624:
+    newline
+    "{sound(31)}  [1C 08 01]" linebreak
+    "[03]" eob
+
+l_0xef7630:
+    newline
+    "  [1C 08 01]" linebreak
+    "{sound(47)}[03]" eob
+
+l_0xef763c:
+    newline
+    "{sound(35)}@{target} robi szybki unik![03]" eob
+
+l_0xef7655:
+    newline
+    "{sound(35)}@{target} robi szybki unik![03]" eob
+
+l_0xef766e:
+    newline
+    "@To nie dzia[C4]a na {target}![03]" eob
+
+l_0xef7682:
+    newline
+    "@To nie dzia[C4]a na {target}![03]" eob
+

@@ -1,0 +1,651 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc9f786:
+    "{pause(30)} modli si[C3] za dzieci, mimo [C8]e nigdy wcze[C7]niej ich nie spotka[C4].{pause(150)}{window_closeall}" eob
+
+l_0xc9f7af:
+    "#" goto(data_59.l_0xc9f750)
+
+l_0xc9f7b5:
+    "#" goto(data_59.l_0xc9f780)
+
+l_0xc9f7bb:
+    newline
+    "{pause(60)}{window_open(1)}@{counter(1)}" goto(l_0xc9f7c4)
+
+l_0xc9f7c4:
+    "[19 28 02][1B 02 {e(l_0xc9f7eb)}]{swap}[1D 21 63][18 07 28 00 00 00 00][1B 02 {e(l_0xc9f7fe)}][1C 11 00][1C 03 00]" goto(l_0xc9f7e5)
+
+l_0xc9f7e5:
+    "{inc}" goto(l_0xc9f7c4)
+
+l_0xc9f7eb:
+    "{pause(30)} modli si[C3] dalej.{pause(150)}{window_closeall}" eob
+
+l_0xc9f7fe:
+    "#" goto(l_0xc9f7e5)
+
+l_0xc9f804:
+    newline
+    "{pause(60)}{window_open(1)}@{counter(1)}" goto(l_0xc9f80d)
+
+l_0xc9f80d:
+    "[19 28 02][1B 02 {e(l_0xc9f834)}]{swap}[1D 21 63][18 07 14 00 00 00 00][1B 02 {e(l_0xc9f847)}][1C 11 00][1C 03 00]" goto(l_0xc9f82e)
+
+l_0xc9f82e:
+    "{inc}" goto(l_0xc9f80d)
+
+l_0xc9f834:
+    "{pause(30)} modli si[C3] dalej.{pause(150)}{window_closeall}" eob
+
+l_0xc9f847:
+    "#" goto(l_0xc9f82e)
+
+l_0xc9f84d:
+    newline
+    "{pause(60)}{window_open(1)}@" call(data_37.l_0xc7e77d) " modli si[C3] dalej.{pause(150)}{window_closeall}" eob
+
+l_0xc9f86a:
+    newline
+    "@Obrona Giygasa sta[C4]a si[C3] niestabilna.{sound(90)}{pause(70)}{sound(90)}{pause(65)}{sound(90)}{pause(74)}{sound(90)}" eob
+
+l_0xc9f897:
+    newline
+    "@{user}[19 1F]{swap} zak[C4]ada [1C 05 00] na sw[C6]j nos!{sound(115)}" next
+    "@{user} szuka zapachu Magicznej Trufli." next
+    "[1F D1][1B 02 {e(l_0xc9f970)}]{store_registers}{result_is(1)}[1B 03 {e(l_0xc9f946)}]{load_registers}{result_is(10)}[1B 03 {e(l_0xc9f936)}]{load_registers}" newline
+    "@(Musi by[C2] troch[C3] dalej na [1F C0 09 {e(data_32.l_0xc77eff)} {e(l_0xc9f990)} {e(l_0xc9f995)} {e(l_0xc9f99e)} {e(l_0xc9f9a4)} {e(l_0xc9f9ad)} {e(l_0xc9f9b2)} {e(l_0xc9f9bd)} {e(l_0xc9f9c4)}]" end
+
+l_0xc9f936:
+    newline
+    "@(Musi by[C2] tutaj!)" end
+
+l_0xc9f946:
+    newline
+    "@(Jest gdzie[C7] tutaj, ale nie mo[C8]na wskaza[C2] dok[C4]adnej lokalizacji.)" end
+
+l_0xc9f970:
+    newline
+    "@(Wydaje si[C3], [C8]e Trufli tu nie ma.)" end
+
+l_0xc9f990:
+    "p[C6][C4]noc.)" eob
+
+l_0xc9f995:
+    "p[C6][C4]nocny wsch[C6]d.)" eob
+
+l_0xc9f99e:
+    "wsch[C6]d.)" eob
+
+l_0xc9f9a4:
+    "po[C4]udniowy wsch[C6]d.)" eob
+
+l_0xc9f9ad:
+    "po[C4]udnie.)" eob
+
+l_0xc9f9b2:
+    "po[C4]udniowy zach[C6]d.)" eob
+
+l_0xc9f9bd:
+    "zach[C6]d.)" eob
+
+l_0xc9f9c4:
+    "p[C6][C4]nocny zach[C6]d.)" eob
+
+l_0xc9f9cf:
+    newline
+    "@Dzi[C3]ki Magicznemu Motylowi mog[C4]e[C7] ca[C4]kowicie si[C3] zrelaksowa[C2].{wait}{window_closeall}" eob
+
+l_0xc9f9f3:
+    "[06 FB 02 {e(l_0xc9fab9)}][06 49 00 {e(l_0xc9fab9)}][06 74 01 {e(data_35.l_0xc7c6f1)}]" call(data_36.l_0xc7dd8d) "[1B 03 {e(l_0xc9fa74)}][06 BE 01 {e(l_0xc9fa74)}][06 86 02 {e(l_0xc9fa74)}][06 87 02 {e(l_0xc9fa74)}][06 88 02 {e(l_0xc9fa74)}]" newline
+    "@{user}[19 1F]{swap} u[C8]ywa Znaku <Na Sprzeda[C8]>!" next
+    "@Klient zmierza w tym kierunku.{wait}{window_closeall}[1D 21 03][09 03 {e(l_0xc9fb43)} {e(l_0xc9fb4d)} {e(l_0xc9fb57)}][1F D3 04]{set(flag 446)}{set(flag 754)}" eob
+
+l_0xc9fa74:
+    newline
+    "@{user}[19 1F]{swap} u[C8]ywa Znaku <Na Sprzeda[C8]>!" next
+    "@Chwila!  Kto[C7] ju[C8] idzie w t[C3] stron[C3].  Zaczekaj, a[C8] si[C3] tu pojawi." end
+
+l_0xc9fab9:
+    "@Przez d[C4]ugi czas ten znak <Na Sprzeda[C8]> by[C4] przydatny..." next
+    "@Teraz jest stary, jego wiadomo[C7][C2] sta[C4]a si[C3] nieczytelna z up[C4]ywem czasu." next
+    "@Straci[C4] ju[C8] swoj[C1] skuteczno[C7][C2]." next
+    "@Dzi[C3]kuj[C3], znaku." linebreak
+    "  [B8]egnaj, znaku." end
+
+l_0xc9fb43:
+    "[1F D3 05]{set(flag 646)}{set(flag 754)}" eob
+
+l_0xc9fb4d:
+    "[1F D3 06]{set(flag 647)}{set(flag 754)}" eob
+
+l_0xc9fb57:
+    "[1F D3 07]{set(flag 648)}{set(flag 754)}" eob
+
+l_0xc9fb61:
+    newline
+    "@Ta ksi[C1][C8]ka powinna by[C2] wymagana do przeczytania ka[C8]dej cichej, nie[C7]mia[C4]ej osobie.[03]" eob
+
+l_0xc9fb8b:
+    newline
+    "@Czu[C4]e[C7] si[C3] smutny i pusty.[03]" eob
+
+l_0xc9fb9f:
+    newline
+    "@(Je[C7]li otrzymasz ten komunikat, oznacza to, [C8]e co[C7] jest nie tak.)[03]" eob
+
+l_0xc9fbc4:
+    newline
+    "@{user}[19 1F]{swap} otwiera [1C 05 00]." next
+    "@Wr[C6]g mo[C8]e nie zauwa[C8]y[C2] twojej obecno[C7]ci.[03]" eob
+
+l_0xc9fbf2:
+    newline
+    "@Aby z tego skorzysta[C2], podejd[C9] do bankomatu i w[C4][C6][C8] kart[C3].[03]" eob
+
+l_0xc9fc16:
+    newline
+    "@Jest to rodzaj pu[C4]apki u[C8]ywanej do schwytania zombie.[03]" eob
+
+l_0xc9fc32:
+    newline
+    "@Mo[C8]e by[C2] przydatny w ciemnym miejscu.[03]" eob
+
+l_0xc9fc48:
+    newline
+    "@{user}[19 1F]{swap} k[C4]adzie [1C 05 00] na pod[C4]odze.{sound(115)}{pause(1)}" next
+    "{set(flag 124)}[1D 01 FF AE]" eob
+
+l_0xc9fc6f:
+    newline
+    "@{user}[19 1F]{swap} u[C8]ywa [1C 05 00]!{sound(95)}{pause(1)}{wait}{window_closeall}[1D 01 FF AF]{set(flag 288)}[1F 1E CF 04 06]" call(data_50.l_0xc935b1) "){set(flag 508)}" eob
+
+l_0xc9fc9e:
+    "@(Z jakiego[C7] powodu" next
+    "@przeszkadza co[C7], co wygl[C1]da jak bardzo du[C8]a [C8]elazna gumka.)" end
+
+l_0xc9fcd5:
+    call(data_36.l_0xc7dd2c) "{result_is(210)}[1B 02 {e(data_35.l_0xc7c6f1)}]{load_registers}" call(data_36.l_0xc7dd37) newline
+    "@(Z jakiego[C7] powodu{pause(15)} statuetka [C8]elaznej gumki znikn[C3][C4]a w jednej chwili!){wait}{window_closeall}{pause(1)}{sound(33)}[1F 1E 9F 02 0A]{set(flag 299)}" eob
+
+l_0xc9fd2e:
+    newline
+    "[19 10 02][1B 03 {e(l_0xc9fd5a)}][19 10 01][1D 0D 00 02 02][1B 03 {e(l_0xc9fd60)}]@{user} wsiada na rower.[1F F0]" eob
+
+l_0xc9fd5a:
+    call(data_35.l_0xc7c802) eob
+
+l_0xc9fd60:
+    "@Je[C7]li nie czujesz si[C3] dobrze, nie powiniene[C7] je[C9]dzi[C2] na rowerze." end
+
+l_0xc9fd82:
+    newline
+    "@{user}[19 1F]{swap} u[C8]ywa Linijki!" next
+    "@Teraz mo[C8]esz [C4]atwo ustali[C2] d[C4]ugo[C7][C2] rzeczy.[03]" eob
+
+l_0xc9fdbb:
+    newline
+    "@{user}[19 1F]{swap} u[C8]ywa [1C 05 00]a!" next
+    "@Teraz mo[C8]esz ca[C4]kiem [C4]atwo okre[C7]li[C2] k[C1]t r[C6][C8]nych rzeczy.[03]" eob
+
+l_0xc9fdfb:
+    newline
+    "{sound(101)}@Widz[C1]c piskl[C3], jeste[C7] szcz[C3][C7]liwy.{sound(101)}[03]" eob
+
+l_0xc9fe1b:
+    newline
+    "{sound(104)}{pause(10)}{sound(104)}@Kurczak uciek[C4] tak szybko, jak m[C6]g[C4].[03]" eob
+
+l_0xc9fe41:
+    newline
+    " Skrzynia Teleportacyjna zacz[C3][C4]a j[C3]cze[C2].{sound(99)}" next
+    "[1C 13 30 00] Skrzynia Teleportacyjna rozpad[C4]a si[C3] na kawa[C4]ki z g[C4]o[C7]n[C1] eksplozj[C1].{sound(99)}[1C 13 23 00]" end
+
+l_0xc9fe9d:
+    newline
+    " Skrzynia Teleportacyjna zacz[C3][C4]a j[C3]cze[C2].{sound(99)}" next
+    "[1C 13 30 00] Skrzynia Teleportacyjna nie dzia[C4]a[C4]a zbyt dobrze...{sound(5)}{pause(30)}" end
+
+l_0xc9fee3:
+    newline
+    " Skrzynia Teleportacyjna nie mo[C8]e by[C2] tu u[C8]ywana." end
+
+l_0xc9fefd:
+    newline
+    "[19 19 00 00]{swap}@{user}{swap} dotyka [1C 05 00] o czo[C4]o i gromadzi my[C7]li.[03][1F 41 09]" eob
+
+l_0xe10000:
+    "[ 09 ][ 09 ][ 01 16 ]Przyby[C4]e[C7] z bardzo daleka ze[ 09 ][ 01 35 ]"
+    "swojego domu...[ 09 ][ 09 ][ 09 ][ 01 0F ]"
+    "Czy pami[C3]tasz, jak rozpocz[C3][C4]a[ 09 ][ 01 06 ]"
+    "si[C3] twoja d[C4]uga i kr[C3]ta podr[C6][C8], gdy[ 09 ][ 01 11 ]"
+    "kto[C7] zapuka[C4] do twoich drzwi?[ 09 ][ 01 0A ]"
+    "To by[C4] Porky, najgorsza osoba w[ 09 ][ 01 11 ]"
+    "twojej okolicy, kt[C6]ra zapuka[C4]a[ 09 ][ 01 1D ]"
+    "do drzwi tej fatalnej nocy.[ 09 ][ 09 ][ 09 ][ 01 13 ]"
+    "Po drodze chodzi[C4]e[C7], my[C7]la[C4]e[C7][ 09 ][ 01 14 ]"
+    "i walczy[C4]e[C7].  Jednak przy tym[ 09 ][ 01 16 ]"
+    "wszystkim nigdy nie straci[C4]e[C7][ 09 ][ 01 0C ]"
+    "swojej odwagi.  Sta[C4]e[C7] si[C3] o wiele[ 09 ][ 01 12 ]"
+    "silniejszy, cho[C2] mn[C6]stwo razy[ 09 ][ 01 07 ]"
+    "do[C7]wiadczy[C4]e[C7] b[C6]lu podczas bitwy.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 19 ]"
+    "Nie jeste[C7] ju[C8] sam w swojej[ 09 ][ 01 17 ]"
+    "przygodzie, [ 08 02 ], kt[C6]ra jest[ 09 ][ 01 0F ]"
+    "wytrwa[C4]a, mi[C4]a, a nawet [C4]adna,[ 09 ][ 01 13 ]"
+    "jest zawsze po twojej stronie.[ 09 ][ 01 27 ]"
+    "[ 08 03 ] tak[C8]e jest z tob[C1].[ 09 ][ 01 11 ]"
+    "Cho[C2] jest nie[C7]mia[C4]y, przyby[C4] z[ 09 ][ 01 12 ]"
+    "dalekiej krainy, [C8]eby ci pom[C6]c.[ 09 ][ 01 0D ]"
+    "[ 08 01 ], jak ju[C8] z pewno[C7]ci[C1] wiesz,[ 09 ][ 01 05 ]"
+    "nie jeste[C7] zwyk[C4]ym m[C4]odzie[C5]cem...[ 09 ][ 01 09 ]"
+    "Masz niesamowite przeznaczenie[ 09 ][ 01 3E ]"
+    "do spe[C4]nienia.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 13 ]"
+    "Podr[C6][C8] od tego miejsca b[C3]dzie[ 09 ][ 01 18 ]"
+    "d[C4]uga i b[C3]dzie trudniejsza ni[C8][ 09 ][ 01 1E ]"
+    "wszystko, co do tej pory[ 09 ][ 01 17 ]"
+    "prze[C8]y[C4]e[C7].  Wiem jednak, [C8]e[ 09 ][ 01 0E ]"
+    "wszystko b[C3]dzie dobrze.  Kiedy[ 09 ][ 01 15 ]"
+    "dobro walczy ze z[C4]em, kt[C6]ra[ 09 ][ 01 16 ]"
+    "strona wed[C4]ug ciebie wygra?[ 09 ][ 01 05 ]"
+    "Czy wierzysz, [C8]e dobro zwyci[C3][C8]y?[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 10 ]"
+    "Jedyn[C1] rzecz[C1], kt[C6]rej nigdy nie[ 09 ][ 01 15 ]"
+    "mo[C8]esz straci[C2], jest odwaga.[ 09 ][ 01 0F ]"
+    "Je[C7]li wierzysz w cel, do kt[C6]rego[ 09 ][ 01 0A ]"
+    "d[C1][C8]ysz, b[C3]dziesz odwa[C8]ny.  Przed[ 09 ][ 01 0E ]"
+    "tob[C1] wiele trudnych czas[C6]w, ale[ 09 ][ 01 05 ]"
+    "musisz zachowa[C2] poczucie humoru,[ 09 ][ 01 06 ]"
+    "pracowa[C2] przy ci[C3][C8]kich sytuacjach[ 09 ][ 01 32 ]"
+    "i dobrze si[C3] bawi[C2].[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 17 ]"
+    "Kiedy sko[C5]czysz pi[C2] fili[C8]ank[C3][ 09 ][ 01 0B ]"
+    "kawy, twoja przygoda znowu si[C3][ 09 ][ 01 0D ]"
+    "zacznie.  B[C3]dziesz musia[C4] przej[C7][C2][ 09 ][ 01 14 ]"
+    "przez rozleg[C4][C1] pustyni[C3] i uda[C2][ 09 ][ 01 0F ]"
+    "si[C3] do wielkiego miasta Fourside.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 0C ]"
+    "[ 08 01 ]...[ 09 ][ 01 0C ]           [ 08 02 ]...[ 09 ][ 01 0C ]                      [ 08 03 ]...[ 09 ][ 09 ][ 09 ][ 01 31 ]"
+    "[B8]ycz[C3] szcz[C3][C7]cia...[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 00 ]"
+
+l_0xe10652:
+    "[ 09 ][ 09 ][ 01 10 ]Jak w wielkiej tkaninie, pionowe[ 09 ][ 01 16 ]"
+    "oraz poziome nitki spotka[C4]y i[ 09 ][ 01 1B ]"
+    "poprzeplata[C4]y si[C3], tworz[C1]c[ 09 ][ 01 17 ]"
+    "ogromny, przepi[C3]kny obraz.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 20 ]"
+    "By[C2] mo[C8]e przeklina[C4]e[C7] t[C3][ 09 ][ 01 09 ]"
+    "nieko[C5]cz[C1]c[C1] si[C3] podr[C6][C8].  Pozna[C4]e[C7][ 09 ][ 01 16 ]"
+    "rany i pora[C8]ki, ale walczy[C4]e[C7],[ 09 ][ 01 12 ]"
+    "[C8]eby dotrze[C2] do tego miejsca.[ 09 ][ 01 14 ]"
+    "Twoja wrodzona inteligencja i[ 09 ][ 01 04 ]"
+    "odwaga pomog[C4]y ci[C3] tu sprowadzi[C2].[ 09 ][ 01 10 ]"
+    "Wierzysz w swoich przyjaci[C6][C4] i[ 09 ][ 01 03 ]"
+    "jako grupa wspieracie si[C3] wzajemnie.[ 09 ][ 01 0E ]"
+    "Czy kiedykolwiek zastanawia[C4]e[C7][ 09 ][ 01 09 ]"
+    "si[C3], jak i o ile wzros[C4]a twoja moc?[ 09 ][ 01 06 ]"
+    "Teraz mo[C8]esz pokona[C2] wrog[C6]w w[ 09 ][ 01 0C ]"
+    "Onett i Twoson jednym ciosem.[ 09 ][ 01 08 ]"
+    "Jak z pewno[C7]ci[C1] wiesz, nie mo[C8]esz[ 09 ][ 01 14 ]"
+    "zawr[C6]ci[C2].  Giygas, arcywr[C6]g[ 09 ][ 01 15 ]"
+    "wszech[C7]wiata, coraz bardziej[ 09 ][ 01 1B ]"
+    "boi si[C3] ciebie i twojej mocy.[ 09 ][ 01 17 ]"
+    "Szuka r[C6][C8]nych sposob[C6]w na[ 09 ][ 01 16 ]"
+    "zako[C5]czenie twojej podr[C6][C8]y.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 1C ]"
+    "Odt[C1]d wyzwanie ro[C7]nie, a[ 09 ][ 01 10 ]"
+    "twoja przygoda zabierze ci[C3] do[ 09 ][ 01 1A ]"
+    "miejsc, kt[C6]rych nigdy sobie[ 09 ][ 01 15 ]"
+    "nie wyobra[C8]a[C4]e[C7].  Zbli[C8]asz si[C3][ 09 ][ 01 17 ]"
+    "do Giygasa.  Pami[C3]taj, kiedy[ 09 ][ 01 13 ]"
+    "absolutnie cierpisz, tw[C6]j wr[C6]g[ 09 ][ 01 37 ]"
+    "r[C6]wnie[C8] walczy.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 0E ]"
+    "Tak poza tym, czy wiesz, gdzie[ 09 ][ 01 10 ]"
+    "poszed[C4] Porky?  Kiedy wypijesz[ 09 ][ 01 1A ]"
+    "t[C3] fili[C8]ank[C3] herbaty, twoja[ 09 ][ 01 0D ]"
+    "przygoda b[C3]dzie kontynuowana.[ 09 ][ 01 10 ]"
+    "Twoje przeznaczenie prowadzi[ 09 ][ 01 19 ]"
+    "ci[C3] we w[C4]a[C7]ciwym kierunku.[ 09 ][ 01 0D ]"
+    "Uwierz w siebie i ruszaj naprz[C6]d.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 02 ]"
+    "[ 08 01 ]![ 09 ][ 01 02 ]           [ 08 02 ]![ 09 ][ 01 02 ]                      [ 08 03 ]![ 09 ][ 01 02 ]                                 [ 08 04 ]![ 09 ][ 09 ][ 09 ][ 01 31 ]"
+    "[B8]ycz[C3] szcz[C3][C7]cia...[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 00 ]"
+
+l_0xe10b86:
+    "[ 02 0C ][ 01 3C ]Jest rok 199X[ 09 ][ 00 ]"
+
+l_0xe10b9c:
+    "[ 02 0C ][ 01 12 ]Onett, miasteczko w Orlandii[ 09 ][ 00 ]"
+
+l_0xe10bc2:
+    "[ 02 0C ][ 01 41 ]Dom [ 08 01 ]a[ 09 ][ 00 ]"
+
+l_0xe10bd2:
+    "[ 02 0C ][ 01 04 ]Winters, ma[C4]e pa[C5]stwo na p[C6][C4]nocy[ 09 ][ 00 ]"
+
+l_0xe10bfd:
+    "[ 02 0C ][ 01 1D ]Internat [B7]nie[C8]nych Drzew[ 09 ][ 00 ]"
+
+l_0xe10c1b:
+    "[ 02 0C ][ 01 10 ]Dalaam, na Dalekim Wschodzie[ 09 ][ 00 ]"
+
+l_0xe10c38:
+    "[ 02 0B ][ 01 25 ]Pa[C4]ac [ 08 04 ][ 09 ][ 01 30 ]Korona Ksi[C3]cia[ 09 ][ 00 ]"
+
+l_0xe10c61:
+    "[ 02 0C ][ 01 20 ]P[C6][C9]niej, tej samej nocy...[ 09 ][ 00 ]"
+
+l_0xe1413f:
+    "[ 03 02 ][ 02 ][ A3 A4 81 86 86 ][ 00 ]"
+    "[ 02 ][ 80 80 80 80 80 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 5B 7A 4B 54 6C 44 45 54 40 42 5A 54 40 54 48 7A 45 44 7B 45 54 40 52 6E ][ 00 ]"
+    "[ 02 ][ A3 88 89 87 85 A3 81 A4 8F 40 89 A4 8F 89 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 6D 7A 48 7B 7B 45 5A 40 52 6E ][ 00 ]"
+    "[ 02 ][ A3 88 89 87 85 A3 81 A4 8F 40 89 A4 8F 89 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 4A 6C 6B 48 44 40 52 6E ][ 00 ]"
+    "[ 02 ][ 8B 85 89 89 83 88 89 40 A3 A5 AA A5 8B 89 ][ 00 ]"
+    "[ 02 ][ 88 89 A2 8F 8B 81 AA A5 40 A4 81 8E 81 8B 81 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 46 42 4A 45 40 54 45 6B 48 46 5A 45 7A ][ 00 ]"
+    "[ 02 ][ 81 8B 89 88 89 8B 8F 40 8D 89 A5 A2 81 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 42 7A 7B 40 54 48 7A 45 44 7B 4B 7A ][ 00 ]"
+    "[ 02 ][ 8B 8F A5 89 83 88 89 40 8F 8F A9 81 8D 81 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 6B 4B 6C 5A 54 40 54 48 7A 45 44 7B 4B 7A ][ 00 ]"
+    "[ 02 ][ 88 89 A2 8F 8B 81 AA A5 40 A4 81 8E 81 8B 81 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 5B 7A 4B 46 7A 42 4A 40 54 48 7A 45 44 7B 4B 7A ][ 00 ]"
+    "[ 02 ][ A3 81 A4 8F A2 A5 40 89 A7 81 A4 81 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 6C AD 6B AD 40 44 4B 5A 7C 45 7A 6B 48 4B 5A 40 54 48 7A 45 44 7B 4B 7A ][ 00 ]"
+    "[ 02 ][ 8B 8F A5 8A 89 40 8D 81 8C A4 81 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 7B 7A 42 5A 6B 59 42 7B 48 4B 5A 40 54 48 7A 45 44 7B 4B 7A 6B ][ 00 ]"
+    "[ 02 ][ 8D 81 A2 83 A5 A3 40 8C 89 8E 84 82 8C 8F 8D ][ 00 ]"
+    "[ 02 ][ 8D 81 A3 81 A9 A5 8B 89 40 8D 89 A5 A2 81 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 5B 7A 4B 46 7A 42 4A 4A 45 7A 6B ][ 00 ]"
+    "[ 02 ][ A3 81 A4 8F A2 A5 40 89 A7 81 A4 81 ][ 00 ]"
+    "[ 02 ][ A3 81 A4 8F A3 88 89 40 8D 89 A4 A3 A5 88 81 A2 81 ][ 00 ]"
+    "[ 02 ][ A9 8F A3 88 89 8D 89 40 A4 81 8B 81 88 81 A3 88 89 ][ 00 ]"
+    "[ 02 ][ A3 85 89 8A 89 40 8F A4 8F 87 A5 A2 8F ][ 00 ]"
+    "[ 02 ][ 82 8F A5 40 8E 81 8B 81 8A 89 8D 81 ][ 00 ]"
+    "[ 02 ][ A3 85 89 8B 81 40 81 82 85 ][ 00 ]"
+    "[ 02 ][ A9 8F A3 88 89 8B 89 40 A3 A5 AA A5 8B 89 ][ 00 ]"
+    "[ 02 ][ 8A A5 8E 40 A9 81 8D 81 AA 81 8B 89 ][ 00 ]"
+    "[ 02 ][ A4 8F A3 88 89 A9 A5 8B 89 40 A5 85 8E 8F ][ 00 ]"
+    "[ 02 ][ A4 81 8B 81 A3 88 89 40 A3 81 A3 81 8B 89 ][ 00 ]"
+    "[ 02 ][ A4 81 8B 81 A3 88 89 40 A3 81 8B A5 8D 81 ][ 00 ]"
+    "[ 02 ][ 8B 81 AA A5 8F 40 A3 81 A4 8F ][ 00 ]"
+    "[ 02 ][ 8B 8F A5 8A 89 40 8D 81 8C A4 81 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 6B 4B 6C 5A 54 40 5B 7A 4B 46 7A 42 4A 4A 45 7A ][ 00 ]"
+    "[ 02 ][ 88 89 A2 8F 8B 81 AA A5 40 A4 81 8E 81 8B 81 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 6B 6E 6B 7B 45 4A 40 45 5A 46 48 5A 45 45 7A 48 5A 46 ][ 00 ]"
+    "[ 02 ][ 8D 81 8B 8F A4 8F 40 8B 81 8E 81 89 ][ 00 ]"
+    "[ 02 ][ A4 81 8B 81 A3 88 89 40 A3 81 8B A5 8D 81 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 46 7A 42 5B 56 48 44 6B 40 42 7A 7B 48 6B 7B 6B ][ 00 ]"
+    "[ 02 ][ 8B 8F A5 89 83 88 89 40 8F 8F A9 81 8D 81 ][ 00 ]"
+    "[ 02 ][ 88 89 A2 8F A9 A5 8B 89 40 A3 81 8B 89 A9 81 8D 81 ][ 00 ]"
+    "[ 02 ][ 8B 8F A5 89 83 88 89 40 A9 81 8D 81 84 81 ][ 00 ]"
+    "[ 02 ][ 8D 81 8B 89 8F 40 8B 81 A4 81 8F 8B 81 ][ 00 ]"
+    "[ 02 ][ A4 85 A4 A3 A5 A9 81 40 8E 8F A4 8F A9 81 ][ 00 ]"
+    "[ 02 ][ A9 81 A3 A5 8E 8F A2 89 40 A9 81 8E 81 87 89 A3 81 A7 81 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 6B 5B 45 44 48 42 59 40 45 55 55 45 44 7B 6B 40 42 7A 7B 48 6B 7B ][ 00 ]"
+    "[ 02 ][ A4 A3 A5 8E 85 8B 81 AA 40 89 A3 88 89 88 81 A2 81 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 55 4B 5A 7B 40 54 45 6B 48 46 5A 45 7A 6B ][ 00 ]"
+    "[ 02 ][ 81 8B 89 88 89 8B 8F 40 8D 89 A5 A2 81 ][ 00 ]"
+    "[ 02 ][ 8B 8F A5 89 83 88 89 40 8F 8F A9 81 8D 81 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 44 4B 5A 44 45 5B 7B 40 4B 55 40 6B 42 7B 6C 7A 5A 40 55 4B 5A 7B 40 52 6E ][ 00 ]"
+    "[ 02 ][ A3 88 89 87 85 A3 81 A4 8F 40 89 A4 8F 89 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 46 7A 42 5B 56 48 44 6B 40 54 42 7B 42 40 4A 42 5A 42 46 45 7A ][ 00 ]"
+    "[ 02 ][ A9 81 A3 A5 8E 8F A2 89 40 A9 81 8E 81 87 89 A3 81 A7 81 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 4A 45 6B 6B 42 46 45 40 54 42 7B 42 40 4A 42 5A 42 46 45 7A 6B ][ 00 ]"
+    "[ 02 ][ 8D 81 A3 81 A9 A5 8B 89 40 8D 89 A5 A2 81 ][ 00 ]"
+    "[ 02 ][ 88 89 A4 8F A3 88 89 40 8D 81 A4 A3 A5 89 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 42 54 54 48 7B 48 4B 5A 42 59 40 4A 6C 6B 48 44 40 44 4B 4A 5B 4B 6B 45 54 40 52 6E ][ 00 ]"
+    "[ 02 ][ 88 89 A2 8F A3 88 89 40 8B 81 8E 81 AA A5 ][ 00 ]"
+    "[ 02 ][ A4 8F A3 88 89 A9 A5 8B 89 40 A5 85 8E 8F ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 6B 4B 6C 5A 54 40 6B 7B 42 55 55 ][ 00 ]"
+    "[ 02 ][ A4 8F A3 88 89 A9 A5 8B 89 40 A5 85 8E 8F ][ 00 ]"
+    "[ 02 ][ 8B 8F AA A5 85 40 89 A3 88 89 8B 81 A7 81 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 42 6B 6B 48 6B 7B 42 5A 7B 40 5B 7A 4B 46 7A 42 4A 4A 45 7A 6B ][ 00 ]"
+    "[ 02 ][ 89 8B A5 88 8F 40 88 81 87 89 A9 81 ][ 00 ]"
+    "[ 02 ][ 8B 81 A4 A3 A5 A9 8F A3 88 89 40 89 A2 89 85 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 42 6B 6B 48 6B 7B 42 5A 7B 40 46 42 4A 45 40 54 45 6B 48 46 5A 45 7A 6B ][ 00 ]"
+    "[ 02 ][ 8B 8F A5 89 83 88 89 40 8F 8F A9 81 8D 81 ][ 00 ]"
+    "[ 02 ][ A4 81 8B 85 88 89 8B 8F 40 8D 81 A3 A5 84 81 ][ 00 ]"
+    "[ 02 ][ 83 88 89 81 8B 89 40 A9 8F A3 88 89 AA 81 A7 81 ][ 00 ]"
+    "[ 02 ][ 8D 81 A3 81 A9 A5 8B 89 40 8D 89 A5 A2 81 ][ 00 ]"
+    "[ 02 ][ 81 8B 89 88 89 A4 8F 40 A4 8F 84 81 ][ 00 ]"
+    "[ 02 ][ 88 89 A4 8F A3 88 89 40 8D 81 A4 A3 A5 89 ][ 00 ]"
+    "[ 02 ][ 8B 81 A4 A3 A5 A9 8F A3 88 89 40 89 A2 89 85 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 42 6B 6B 48 6B 7B 42 5A 7B 40 6B 44 45 5A 42 7A 48 4B 40 6D 7A 48 7B 45 7A 6B ][ 00 ]"
+    "[ 02 ][ 8D 81 A3 81 A9 A5 8B 89 40 8D 89 A5 A2 81 ][ 00 ]"
+    "[ 02 ][ 81 8B 89 88 89 A4 8F 40 A4 8F 84 81 ][ 00 ]"
+    "[ 02 ][ 88 89 A2 8F A9 A5 8B 89 40 8A 89 8E 8E 81 89 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 45 5A 46 59 48 6B 56 40 7B 45 7D 7B 40 6D 7A 48 7B 45 7A 6B ][ 00 ]"
+    "[ 02 ][ 8D 81 A2 83 A5 A3 40 8C 89 8E 84 82 8C 8F 8D ][ 00 ]"
+    "[ 02 ][ 84 81 8E 40 8F A7 A3 85 8E ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 7B 7A 42 5A 6B 59 42 7B 4B 7A 6B ][ 00 ]"
+    "[ 02 ][ 8B 85 89 8B 8F 40 A4 81 8D A5 A2 81 ][ 00 ]"
+    "[ 02 ][ A9 A5 8B 81 40 8E 81 8B 81 A4 81 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 44 56 48 45 55 40 54 45 52 6C 46 46 45 7A 6B ][ 00 ]"
+    "[ 02 ][ A4 81 8B A5 8D 89 40 81 8B 81 82 81 8E 85 ][ 00 ]"
+    "[ 02 ][ 88 89 A4 8F A3 88 89 40 8D 81 A4 A3 A5 89 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 5A 4B 42 40 54 45 52 6C 46 40 44 4B 4B 7A 54 48 5A 42 7B 4B 7A 6B ][ 00 ]"
+    "[ 02 ][ A3 85 81 8E 40 8F 47 83 8F 8E 8E 8F A2 ][ 00 ]"
+    "[ 02 ][ 8D 89 83 88 81 85 8C 40 8B 85 8C 82 81 A5 87 88 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 42 5B 45 40 54 45 52 6C 46 46 48 5A 46 40 7B 45 42 4A ][ 00 ]"
+    "[ 02 ][ A4 81 8B 81 88 89 A2 8F 40 8E 81 87 81 89 ][ 00 ]"
+    "[ 02 ][ 8A A5 8E 89 83 88 89 40 81 8B 81 8D 81 ][ 00 ]"
+    "[ 02 ][ 81 8B 89 A2 81 40 8D 81 A4 A3 A5 8D 8F A4 8F ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 5A 48 5A 7B 45 5A 54 4B 40 54 45 52 6C 46 40 44 4B 4B 7A 54 48 5A 42 7B 4B 7A 6B ][ 00 ]"
+    "[ 02 ][ A4 8F 88 A2 A5 40 88 81 A3 88 89 8D 8F A4 8F ][ 00 ]"
+    "[ 02 ][ A4 81 A4 A3 A5 A9 81 40 88 89 A3 88 89 84 81 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 5A 48 5A 7B 45 5A 54 4B 40 54 45 52 6C 46 46 48 5A 46 40 7B 45 42 4A ][ 00 ]"
+    "[ 02 ][ 8B 81 AA A5 88 89 84 85 40 8F 88 87 8F 85 ][ 00 ]"
+    "[ 02 ][ 81 A4 A3 A5 A3 88 89 40 8D 89 A9 81 8B 85 ][ 00 ]"
+    "[ 02 ][ 88 81 8A 89 8D 85 40 8E 81 8B 81 8D A5 A2 81 ][ 00 ]"
+    "[ 02 ][ 8D 81 8F 40 88 81 8D 81 8D 8F A4 8F ][ 00 ]"
+    "[ 02 ][ 8D 81 A9 A5 8D 89 40 A4 81 84 81 ][ 00 ]"
+    "[ 02 ][ 8D 81 8B 8F A4 8F 40 8B 85 84 8F A5 89 8E ][ 00 ]"
+    "[ 02 ][ 8B 89 8D 89 8B 8F 40 A4 A3 A5 83 88 89 84 81 ][ 00 ]"
+    "[ 02 ][ A3 81 A9 81 8B 81 40 8B 8F 8D A5 A2 81 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 4A 42 5B 40 44 56 45 44 49 45 7A 6B ][ 00 ]"
+    "[ 02 ][ 8D 81 A0 A0 85 A2 40 8B 8F 8A 89 8D 81 ][ 00 ]"
+    "[ 02 ][ 8B 81 A4 A3 A5 A9 8F A3 88 89 40 89 A2 89 85 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 6B 42 4A 5B 59 48 5A 46 40 7C 4B 48 44 45 6B ][ 00 ]"
+    "[ 02 ][ A3 88 89 87 85 A3 81 A4 8F 40 8F 8B 6F 40 89 A4 8F 89 ][ 00 ]"
+    "[ 02 ][ A9 A5 8B 81 A2 89 40 A7 88 89 A3 A4 8C 85 40 A3 81 89 A4 8F ][ 00 ]"
+    "[ 02 ][ 88 89 A2 8F 8B 81 AA A5 40 82 85 8C 83 88 40 8B 8F A9 81 8E 8F ][ 00 ]"
+    "[ 02 ][ 85 A4 A3 A5 8B 8F 40 A6 85 8E A5 A3 40 8B 81 A7 81 8E 8F ][ 00 ]"
+    "[ 02 ][ A4 81 8B 81 A3 88 89 40 8D A5 40 A7 81 A4 81 8E 81 82 85 ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 4B 5B 45 5A 48 5A 46 40 7A 4B 44 49 40 46 6C 48 7B 42 7A ][ 00 ]"
+    "[ 02 ][ 8D 4E 84 4E A3 85 85 87 85 A2 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 56 42 7A 54 6D 42 7A 45 40 6B 6C 5B 5B 4B 7A 7B ][ 00 ]"
+    "[ 02 ][ 88 89 A2 8F 8E 8F 82 A5 40 8B 81 8B A5 89 ][ 00 ]"
+    "[ 02 ][ A3 88 89 87 85 8B 89 40 A9 81 8D 81 A3 88 89 A2 8F ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 5B 7A 4B 54 6C 44 7B 48 4B 5A 40 4A 42 5A 42 46 45 7A 6B ][ 00 ]"
+    "[ 02 ][ A4 81 8B 81 A3 88 89 40 8B 81 A7 81 87 A5 83 88 89 ][ 00 ]"
+    "[ 02 ][ 8B 85 89 AA 8F 40 8B 81 A4 8F ][ 00 ]"
+    "[ 02 ][ 89 8B A5 8F 40 88 A9 81 8B A5 A4 81 ][ 00 ]"
+    "[ 02 ][ A9 A5 8B 81 A2 89 40 A3 81 89 A4 8F ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 44 4B 4B 7A 54 48 5A 42 7B 4B 7A 6B ][ 00 ]"
+    "[ 02 ][ A4 81 8B 81 A3 88 89 40 A7 81 A4 81 8E 81 82 85 ][ 00 ]"
+    "[ 02 ][ A2 A9 8F 40 8B 81 87 81 A7 81 ][ 00 ]"
+    "[ 02 ][ 88 89 A2 8F A9 A5 8B 89 40 8A 89 8E 8E 81 89 ][ 00 ]"
+    "[ 02 ][ 85 A4 A3 A5 8B 8F 40 8B 81 A7 81 8E 8F ][ 00 ]"
+    "[ 02 ][ 8B 81 AA A5 A9 A5 8B 89 40 A9 81 8D 81 8D 8F A4 8F ][ 00 ]"
+    "[ 02 ][ 81 A4 A3 A5 8B 8F 40 8B 81 A7 81 88 81 A2 81 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 6B 4B 6C 5A 54 40 5B 7A 4B 54 6C 44 45 7A 6B ][ 00 ]"
+    "[ 02 ][ 81 8B 89 8F 40 8F 88 8D 8F A2 89 ][ 00 ]"
+    "[ 02 ][ A2 89 A4 A3 A5 8F 40 8B 81 8D 89 8D A5 A2 81 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 6B 5B 45 44 48 42 59 40 7B 56 42 5A 49 6B 40 7B 4B ][ 00 ]"
+    "[ 02 ][ 8B 85 8E 8A 89 40 81 8E 84 8F ][ 00 ]"
+    "[ 02 ][ 8D 89 A9 A5 8B 89 40 8B A5 A2 85 ][ 00 ]"
+    "[ 02 ][ A4 81 8B 81 A9 A5 8B 89 40 8F 8E 8F 84 85 A2 81 ][ 00 ]"
+    "[ 02 ][ 86 A5 8B 81 A3 88 89 40 8F 8D 8F A2 89 A4 81 ][ 00 ]"
+    "[ 02 ][ A9 A5 8B 89 8F 40 A4 81 8B 81 88 81 A3 88 89 ][ 00 ]"
+    "[ 02 ][ 8B 81 AA A5 88 89 8B 8F 40 81 8D 85 8D 89 A9 81 ][ 00 ]"
+    "[ 02 ][ A9 81 A3 A5 88 89 A2 8F 40 8B A5 8D 81 87 81 89 ][ 00 ]"
+    "[ 02 ][ A9 8F A3 88 89 8F 40 88 8F 8E 87 8F ][ 00 ]"
+    "[ 02 ][ 8E 81 8F 8B 8F 40 8B 81 8E 81 AA 81 A7 81 ][ 00 ]"
+    "[ 02 ][ 82 85 8E 89 8D 81 A2 A5 40 89 A4 8F 88 ][ 00 ]"
+    "[ 02 ][ 8D 8F A4 8F 88 89 A2 8F 40 89 A3 88 89 89 ][ 00 ]"
+    "[ 02 ][ 88 89 A2 8F 8B 81 AA A5 40 8B 8F A9 81 8E 8F ][ 00 ]"
+    "[ 02 ][ 8D 81 A3 81 8F 40 A4 8F A4 A4 8F A2 89 ][ 00 ]"
+    "[ 02 ][ 8E 8F 82 A5 A9 81 A3 A5 40 8D 81 8B 89 8E 8F ][ 00 ]"
+    "[ 02 ][ 88 89 A2 8F 8D 89 40 A4 81 8D 81 87 81 A7 81 ][ 00 ]"
+    "[ 02 ][ 8E 81 8E 83 A9 40 A9 8F A3 88 89 A4 81 8B 85 ][ 00 ]"
+    "[ 03 02 ][ 02 ][ 81 8E 84 40 8D 81 8E A9 40 8F A4 88 85 A2 A3 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 7B 56 45 40 5B 7A 4B 54 6C 44 45 7A 6B 40 6D 48 6B 56 40 7B 4B 40 7B 56 42 5A 49 ][ 00 ]"
+    "[ 02 ][ 89 A3 88 85 8C 40 81 A2 A4 A6 89 A3 89 8F 8E ][ 00 ]"
+    "[ 02 ][ 8D 8F 8F 8E A2 89 84 85 A2 A3 40 8F 86 86 89 83 85 ][ 00 ]"
+    "[ 02 ][ A3 85 84 89 83 40 89 8E 83 4E ][ 00 ]"
+    "[ 02 ][ A3 85 A4 81 40 83 8F 4E 4C 8C A4 84 4E ][ 00 ]"
+    "[ 02 ][ 8C A5 83 8B A9 40 8E 89 83 85 ][ 00 ]"
+    "[ 02 ][ 8F 8B A5 82 8F 40 84 85 A3 89 87 8E 40 A3 A4 A5 84 89 8F ][ 00 ]"
+    "[ 02 ][ 8F 8E 40 81 A3 A3 8F 83 89 81 A4 85 A3 ][ 00 ]"
+    "[ 02 ][ A3 81 89 40 8B 8F A5 82 8F A5 ][ 00 ]"
+    "[ 02 ][ 81 A3 88 A5 A2 81 40 8F 86 86 89 83 85 ][ 00 ]"
+    "[ 02 ][ A3 88 8F 87 81 8B A5 8B 81 8E ][ 00 ]"
+    "[ 02 ][ A3 88 89 8E 83 88 8F 40 A3 88 81 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 44 56 48 45 55 40 44 4B 4B 7A 54 48 5A 42 7B 4B 7A ][ 00 ]"
+    "[ 02 ][ 8D 81 A2 83 A5 A3 40 8C 89 8E 84 82 8C 8F 8D ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 59 48 5A 45 40 5B 7A 4B 54 6C 44 45 7A ][ 00 ]"
+    "[ 02 ][ A4 A3 A5 8E 85 8B 81 AA 40 89 A3 88 89 88 81 A2 81 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 44 4B 5B 7A 4B 54 6C 44 45 7A ][ 00 ]"
+    "[ 02 ][ A3 81 A4 8F A2 A5 40 89 A7 81 A4 81 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 5A 4B 42 40 5B 7A 4B 54 6C 44 45 7A ][ 00 ]"
+    "[ 02 ][ 8D 89 8B 85 40 86 A5 8B A5 84 81 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 6B 6C 5B 45 7A 7C 48 6B 4B 7A ][ 00 ]"
+    "[ 02 ][ A3 88 89 87 85 A2 A5 40 8D 89 A9 81 8D 8F A4 8F ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 45 7D 45 44 6C 7B 48 7C 45 40 5B 7A 4B 54 6C 44 45 7A 6B ][ 00 ]"
+    "[ 02 ][ 88 89 A2 8F A3 88 89 40 A9 81 8D 81 A5 83 88 89 ][ 00 ]"
+    "[ 02 ][ 8D 89 8E 8F A2 A5 40 81 A2 81 8B 81 A7 81 ][ 00 ]"
+    "[ 03 06 ][ 01 ][ 5B 7A 45 6B 45 5A 7B 45 54 40 52 6E ][ 00 ]"
+    "[ 02 ][ 8E 89 8E A4 85 8E 84 8F ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 48 5A 40 42 6B 6B 4B 44 48 42 7B 48 4B 5A 40 6D 48 7B 56 ][ 00 ]"
+    "[ 02 ][ 81 A0 85 40 89 8E 83 4E ][ 00 ]"
+    "[ 03 02 ][ 01 ][ 42 5A 54 ][ 00 ]"
+    "[ 02 ][ 88 81 8C 40 8C 81 82 8F A2 81 A4 8F A2 A9 4C 89 8E 83 4E ][ 00 ]"
+    "[ 03 0C ][ 01 ][ 42 5A 54 AD AD AD ][ 00 ]"
+    "[ 01 ][ 40 ][ 00 ]"
+    "[ 03 0E ][ 01 ][ 5B 59 42 6E 45 7A ][ 00 ]"
+    "[ 04 ][ 03 0D ][ FF ]"
+
+l_0xef4e20:
+    call(data_05.l_0xc568c9) " zadaje ka[C8]demu wrogowi oko[C4]o 50 punkt[C6]w obra[C8]e[C5]." eob
+
+l_0xef4e38:
+    call(data_05.l_0xc568c9) " zadaje ka[C8]demu wrogowi oko[C4]o 180 punkt[C6]w obra[C8]e[C5]." eob
+
+l_0xef4e51:
+    call(data_05.l_0xc568c9) " zadaje ka[C8]demu wrogowi oko[C4]o 320 punkt[C6]w obra[C8]e[C5]." eob
+
+l_0xef4e6a:
+    call(data_05.l_0xc568c9) " zadaje ka[C8]demu wrogowi oko[C4]o 640 punkt[C6]w obra[C8]e[C5]." eob
+
+l_0xef4e83:
+    call(data_05.l_0xc56913) " ka[C8]demu oko[C4]o 80 punkt[C6]w obra[C8]e[C5]." eob
+
+l_0xef4e99:
+    call(data_05.l_0xc56913) " ka[C8]demu oko[C4]o 160 punkt[C6]w obra[C8]e[C5]." eob
+
+l_0xef4eb0:
+    call(data_05.l_0xc56913) " ka[C8]demu oko[C4]o 240 punkt[C6]w obra[C8]e[C5]." eob
+
+l_0xef4ec7:
+    call(data_05.l_0xc56913) " ka[C8]demu oko[C4]o 320 punkt[C6]w obra[C8]e[C5]." eob
+
+l_0xef4ede:
+    call(data_05.l_0xc56935) " zadaje oko[C4]o 180 punkt[C6]w obra[C8]e[C5]." linebreak
+    call(data_05.l_0xc56955) newline
+    call(data_05.l_0xc56b3e) eob
+
+l_0xef4f06:
+    call(data_05.l_0xc56935) " zadaje oko[C4]o 360 punkt[C6]w obra[C8]e[C5]." linebreak
+    call(data_05.l_0xc56955) newline
+    call(data_05.l_0xc56b3e) eob
+
+l_0xef4f2e:
+    call(data_05.l_0xc56935) " zadaje oko[C4]o 540 punkt[C6]w obra[C8]e[C5]." linebreak
+    call(data_05.l_0xc56955) newline
+    call(data_05.l_0xc56b3e) eob
+
+l_0xef4f56:
+    call(data_05.l_0xc56935) " zadaje oko[C4]o 720 punkt[C6]w obra[C8]e[C5]." linebreak
+    call(data_05.l_0xc56955) linebreak
+    call(data_05.l_0xc56b3e) eob
+
+l_0xef4f7e:
+    "@Wr[C6]g zostaje uderzony piorunem, zadaj[C1]cym oko[C4]o 120 punkt[C6]w obra[C8]e[C5]." linebreak
+    call(data_05.l_0xc5696c) eob
+
+l_0xef4fa6:
+    "@Wr[C6]g zostaje dwa razy uderzony piorunem, zadaj[C1]cym oko[C4]o 120 punkt[C6]w obra[C8]e[C5]." linebreak
+    call(data_05.l_0xc5696c) eob
+
+l_0xef4fdc:
+    "@Wr[C6]g zostaje trzy razy uderzony piorunem, zadaj[C1]cym oko[C4]o 200 punkt[C6]w obra[C8]e[C5]." linebreak
+    call(data_05.l_0xc5696c) eob
+
+l_0xef5013:
+    "@Wr[C6]g zostaje cztery razy uderzony piorunem, zadaj[C1]cym oko[C4]o 200 punkt[C6]w obra[C8]e[C5]." linebreak
+    call(data_05.l_0xc5696c) eob
+
+l_0xef5049:
+    call(data_05.l_0xc569a9) call(data_05.l_0xc569ca) ", a w niekt[C6]rych okoliczno[C7]ciach dziwnie si[C3] czuje." eob
+
+l_0xef506b:
+    call(data_05.l_0xc569a9) call(data_05.l_0xc569ca) ", a w niekt[C6]rych okoliczno[C7]ciach mo[C8]e sprawi[C2], [C8]e wr[C6]g poczuje si[C3] dziwnie, zostanie sparali[C8]owany, a nawet zniszczony." eob
+
+l_0xef50af:
+    call(data_05.l_0xc569a9) call(data_05.l_0xc569ca) "." linebreak
+    "@Cz[C3]sto zniszczy wroga jednym uderzeniem." eob
+
+l_0xef50e1:
+    "@Generuje wspania[C4]e promienie, kt[C6]re z du[C8]ym prawdopodobie[C5]stwem zniszcz[C1] wszystkich wrog[C6]w na scenie jednym uderzeniem." eob
+
+l_0xef5131:
+    call(data_05.l_0xc569df) newline
+    "@Zadaje ka[C8]demu wrogowi oko[C4]o 360 punkt[C6]w obra[C8]e[C5]." eob
+
+l_0xef5152:
+    call(data_05.l_0xc569df) newline
+    "@Zadaje ka[C8]demu wrogowi oko[C4]o 720 punkt[C6]w obra[C8]e[C5]." eob
+
+l_0xef5173:
+    "@Przywraca 100 HP jednej osobie." eob
+
+l_0xef5189:
+    "@Przywraca 300 HP jednej osobie." eob
+
+l_0xef519f:
+    "@Ca[C4]kowicie przywraca HP jednej osobie." eob
+
+l_0xef51bb:
+    "@Przywraca wszystkim 400 HP." eob
+
+l_0xef51cf:
+    "@Leczy przezi[C3]bienie, udar s[C4]oneczny lub sen." eob
+
+l_0xef51f0:
+    "@Opr[C6]cz efekt[C6]w Leczenia [8B], leczy zatrucia, nudno[C7]ci, uczucie dziwno[C7]ci i niekontrolowany p[C4]acz." eob
+
+l_0xef5239:
+    "@Opr[C6]cz efekt[C6]w Leczenia [8C], leczy diamentyzacje i parali[C8]." linebreak
+    "@O[C8]ywia tak[C8]e przyjaciela, kt[C6]ry sta[C4] si[C3] nieprzytomny, chocia[C8] HP nie jest zmaksymalizowane." eob
+
+l_0xef52a5:
+    "@Opr[C6]cz efekt[C6]w Leczenia [8D], wskrzesza przyjaciela, kt[C6]ry sta[C4] si[C3] nieprzytomny, i ca[C4]kowicie przywraca jego HP po o[C8]ywieniu." eob
+
+l_0xef5301:
+    "@Chroni jedn[C1] osob[C3] za pomoc[C1] tarczy [C7]wiat[C4]a." linebreak
+    "@Zmniejsza obra[C8]enia zadawane przez atak wroga o 50%." linebreak
+    "@U[C8]ycie innej tarczy anuluje te efekty." eob
+
+l_0xef5361:
+    "@Chroni wszystkich za pomoc[C1] tarczy [C7]wiat[C4]a." linebreak
+    "@Zmniejsza obra[C8]enia zadawane przez atak wroga o 50%." linebreak
+    "@U[C8]ycie innej tarczy anuluje te efekty." eob
+
+l_0xef53c0:
+    "@Chroni jedn[C1] osob[C3] za pomoc[C1] tarczy mocy." linebreak
+    "@Obni[C8]a obra[C8]enia o po[C4]ow[C3], a niekt[C6]re zablokowane obra[C8]enia s[C1] zwracane wrogowi." linebreak
+    "@U[C8]ycie innej tarczy anuluje te efekty." eob
+

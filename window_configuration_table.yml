@@ -1,0 +1,265 @@
+0: # Okno menu (Plecak, Ekwipunek, PSI, Status)
+  Height: 6
+  Width: 15
+  X Offset: 1
+  Y Offset: 1
+1: # Okno dialogowe i PSI
+  Height: 8
+  Width: 22
+  X Offset: 9
+  Y Offset: 1
+2: # Okno przedmiotów
+  Height: 16
+  Width: 32
+  X Offset: 0
+  Y Offset: 4
+3: # Okno opcji przedmiotu (Użyj, Daj, Wyrzuć, Pomoc!)
+  Height: 10
+  Width: 8
+  X Offset: 1
+  Y Offset: 1
+4: # Okno krótkiego opisu PSI i "Cena PP:"
+  Height: 6
+  Width: 13
+  X Offset: 1
+  Y Offset: 9
+5: # Okno telefonu
+  Height: 16
+  Width: 14
+  X Offset: 17
+  Y Offset: 1
+6: # Okno ekwipunku
+  Height: 10
+  Width: 22
+  X Offset: 9
+  Y Offset: 1
+7: # Okno wybierania broni itp.
+  Height: 16
+  Width: 15
+  X Offset: 16
+  Y Offset: 1
+8: # Okno statusu
+  Height: 18
+  Width: 30
+  X Offset: 1
+  Y Offset: 1
+9: # Okno zakupowe
+  Height: 18
+  Width: 19
+  X Offset: 12
+  Y Offset: 1
+10: # Okno gotówki
+  Height: 4
+  Width: 8
+  X Offset: 1
+  Y Offset: 8
+11: # nieznane
+  Height: 4
+  Width: 11
+  X Offset: 1
+  Y Offset: 15
+12: # Okno sprzedawcy Tenda i menu debugowania ATM
+  Height: 16
+  Width: 22
+  X Offset: 9
+  Y Offset: 1
+13: # Okno przedmiotów Tracy
+  Height: 16
+  Width: 32
+  X Offset: 0
+  Y Offset: 1
+14: # Okno walki
+  Height: 6
+  Width: 30
+  X Offset: 1
+  Y Offset: 1
+15: # Okno poleceń w walce
+  Height: 6
+  Width: 21
+  X Offset: 1
+  Y Offset: 1
+16: # Okno PSI w walce (Atak, Zdrowie, Asysta)
+  Height: 8
+  Width: 8
+  X Offset: 1
+  Y Offset: 1
+17: # Okno nazwy PSI w walce
+  Height: 4
+  Width: 12
+  X Offset: 12
+  Y Offset: 1
+18: # Okno poleceń w walce (Jeff)
+  Height: 6
+  Width: 14
+  X Offset: 1
+  Y Offset: 1
+19: # Okno wyboru pliku zapisu
+  Height: 8
+  Width: 30
+  X Offset: 1
+  Y Offset: 2
+20: # Okno opcji pliku zapisu (Kontynuuj, Kopiuj, Usuń, Opcje)
+  Height: 4
+  Width: 24
+  X Offset: 4
+  Y Offset: 9
+21: # Okno opcji kopiowania (dostępne 2 sloty)
+  Height: 8
+  Width: 10
+  X Offset: 11
+  Y Offset: 16
+22: # Okno opcji kopiowania (dostępny 1 slot)
+  Height: 6
+  Width: 10
+  X Offset: 11
+  Y Offset: 16
+23: # Okno opcji usuwania
+  Height: 10
+  Width: 20
+  X Offset: 6
+  Y Offset: 17
+24: # Okno prędkości tekstu
+  Height: 10
+  Width: 16
+  X Offset: 3
+  Y Offset: 14
+25: # Okno opcji dźwięku
+  Height: 8
+  Width: 18
+  X Offset: 9
+  Y Offset: 15
+26: # Okno imienia postaci (podczas nadawania imion)
+  Height: 4
+  Width: 8
+  X Offset: 5
+  Y Offset: 4
+27: # Okno "Nazwij go." itp.
+  Height: 4
+  Width: 17
+  X Offset: 13
+  Y Offset: 4
+28: # Okno klawiatury
+  Height: 16
+  Width: 30
+  X Offset: 1
+  Y Offset: 9
+29: # Okno podsumowania (Ness)
+  Height: 4
+  Width: 7
+  X Offset: 7
+  Y Offset: 3
+30: # Okno podsumowania (Paula)
+  Height: 4
+  Width: 7
+  X Offset: 7
+  Y Offset: 7
+31: # Okno podsumowania (Jeff)
+  Height: 4
+  Width: 7
+  X Offset: 7
+  Y Offset: 11
+32: # Okno podsumowania (Poo)
+  Height: 4
+  Width: 7
+  X Offset: 7
+  Y Offset: 15
+33: # Okno podsumowania (King)
+  Height: 4
+  Width: 8
+  X Offset: 20
+  Y Offset: 3
+34: # Okno podsumowania (Ulubione jedzenie)
+  Height: 6
+  Width: 13
+  X Offset: 15
+  Y Offset: 7
+35: # Okno podsumowania (Fajna rzecz)
+  Height: 6
+  Width: 13
+  X Offset: 15
+  Y Offset: 13
+36: # Okno "Zgadza się?"
+  Height: 4
+  Width: 24
+  X Offset: 4
+  Y Offset: 21
+37: # Okno opcji uzdrowiciela (Złagodź, Przywróć czucie, Oczyść), wyboru pizzy w Mach Pizza
+  Height: 8
+  Width: 13
+  X Offset: 18
+  Y Offset: 6
+38: # nieznane
+  Height: 4
+  Width: 12
+  X Offset: 12
+  Y Offset: 1
+39: # nieznane
+  Height: 6
+  Width: 26
+  X Offset: 3
+  Y Offset: 3
+40: # Okno "Które?" itp.
+  Height: 4
+  Width: 7
+  X Offset: 1
+  Y Offset: 1
+41: # Okno wyboru postaci (2 członkowie w drużynie)
+  Height: 4
+  Width: 15
+  X Offset: 16
+  Y Offset: 8
+42: # Okno wyboru postaci (3 członkowie w drużynie)
+  Height: 4
+  Width: 21
+  X Offset: 10
+  Y Offset: 8
+43: # Okno wyboru postaci (4 członkowie w drużynie)
+  Height: 4
+  Width: 27
+  X Offset: 4
+  Y Offset: 8
+44: # Okno przenoszenia przedmiotów po wybraniu opcji "Daj"
+  Height: 16
+  Width: 32
+  X Offset: 0
+  Y Offset: 5
+45: # Okno statusu w ekwipunku
+  Height: 12
+  Width: 15
+  X Offset: 1
+  Y Offset: 13
+46: # Okno PSI poza walką (Atak, Zdrowie, Asysta, Inne)
+  Height: 10
+  Width: 8
+  X Offset: 1
+  Y Offset: 1
+47: # Okno szczegółowych opisów PSI
+  Height: 12
+  Width: 30
+  X Offset: 1
+  Y Offset: 14
+48: # Okno poleceń w walce Pauli lub Poo (jeśli Ness jest nieprzytomny)
+  Height: 6
+  Width: 28
+  X Offset: 1
+  Y Offset: 1
+49: # Okno nazwy przeciwnika
+  Height: 4
+  Width: 20
+  X Offset: 10
+  Y Offset: 4
+50: # Okno z wyborem stylu okna (Zwykły, Truskawkowy itp.)
+  Height: 16
+  Width: 14
+  X Offset: 15
+  Y Offset: 11
+51: # Okno wyboru w menu debugowania
+  Height: 4
+  Width: 9
+  X Offset: 22
+  Y Offset: 8
+52: # Okno odporności
+  Height: 14
+  Width: 15
+  X Offset: 16
+  Y Offset: 13

@@ -1,0 +1,429 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc573dc:
+    "{window_open(1)}"
+    title(1, Star)
+    "@Gwiazdy przepowiedzia[C4]y, [C8]e ci[C3] tu spotkam..." next
+    "@Nadszed[C4] czas, abym przekaza[C4] ci <technik[C3] zrzucania gwiazd>." next
+    "@Przez jaki[C7] czas musisz [C8]y[C2] z dala od przyjaci[C6][C4] i [C8]y[C2] ze mn[C1]." next
+    "@Rozumiesz?" next
+    "@...Jest tylko jedna odpowied[C9]." next
+    "@Musz[C3] ci[C3] tu zatrzyma[C2], nawet je[C7]li tego nie chcesz." next
+    "@Zostaniesz ze mn[C1] przez jaki[C7] czas, rozumiesz?![03]{window_closeall}{pause(30)}" goto(data_50.l_0xc9329b)
+
+l_0xc5749a:
+    "{window_open(1)}"
+    title(1, Star)
+    "@To zale[C8]y od wysi[C4]k[C6]w [1C 02 04].  Okre[C7]li to ponowne przy[C4][C1]czenie do grupy." next
+    "@B[C1]d[C9]cie wierni i czekajcie, a[C8] nadejdzie czas!{wait}{window_closeall}" eob
+
+l_0xc574f6:
+    "[06 50 01 {e(l_0xc575f8)}]@Robi[C3] to jako hobby.{pause(20)}  Czy to nie fajne?" next
+    "@Niedawno zaprzyja[C9]ni[C4]em si[C3].{pause(20)}  Kiedy[C7] by[C4] Tw[C6]rc[C1] Loch[C6]w." next
+    "@A teraz jest <Cz[C4]owiekiem Lochem>." next
+    "@Czy chcia[C4]by[C7] go pozna[C2]?" linebreak
+    "[19 02]Tak" eob
+
+l_0xc57570:
+    "[19 02]Nie" eob
+
+l_0xc57575:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc5759d)} {e(l_0xc57584)}]" goto(l_0xc57584)
+
+l_0xc57584:
+    "@Rozumiem,{pause(15)} to bardzo dziwny go[C7][C2]." end
+
+l_0xc5759d:
+    "@W porz[C1]dku, dam ci klucz, [C8]eby[C7] m[C6]g[C4] do niego wej[C7][C2]." next
+    "@O nie... Nie mam go!" next
+    "@Musia[C4]em gdzie[C7] go zgubi[C2]." next
+    "@Przepraszam, nie martwi[C3] si[C3] o takie drobne rzeczy." end
+
+l_0xc575f8:
+    "@By[C4]em tu przez ca[C4]y czas, gdy ci[C3] nie by[C4]o." next
+    "@Ale teraz nie wiem, dlaczego tu by[C4]em." end
+
+l_0xc5762c:
+    "[06 50 01 {e(l_0xc576e0)}]"
+    title(1, Warrior)
+    "@Nie jestem pewien, czy to jest <Cz[C4]owiek Loch>, ale..." next
+    "@na p[C6][C4]nocny zach[C6]d znajduje si[C3] dziwnie wygl[C1]daj[C1]ca wie[C8]a." next
+    "@...Ten klucz, kt[C6]ry wzi[C1][C4]em jaki[C7] czas temu, mo[C8]e otworzy[C2] wie[C8][C3]." next
+    "@Mo[C8]ecie go wzi[C1][C2], nie potrzebuj[C3] go.[1D 03 FF][1B 02 {e(l_0xc57718)}][03][1D 0E 00 C0][1B 05]" call(data_36.l_0xc7dcb6) "{set(flag 336)}{wait}{window_closeall}{isset(flag 691)}[1B 02 {e(data_55.l_0xc9992f)}]{pause(60)}" call(data_24.l_0xc692f7) eob
+
+l_0xc576e0:
+    title(1, Warrior)
+    "@Nie jestem pewien, czy to jest <Cz[C4]owiek Loch>..." next
+    "@na p[C6][C4]nocny zach[C6]d znajduje si[C3] dziwnie wygl[C1]daj[C1]ca wie[C8]a." end
+
+l_0xc57718:
+    next
+    "@...Ale wydaje si[C3], [C8]e masz zbyt wiele rzeczy." end
+
+l_0xc57730:
+    "[06 5E 02 {e(l_0xc57753)}]@(Wygl[C1]da na to, [C8]e mo[C8]esz wej[C7][C2], ale jest zamkni[C3]te.)" end
+
+l_0xc57753:
+    "{window_closeall}{pause(1)}[1F 21 9F]" call(data_57.l_0xc9b112) eob
+
+l_0xc57760:
+    "{store_registers}[06 5E 02 {e(l_0xc577c5)}]{load_registers}" call(data_36.l_0xc7dd2c) "{result_is(192)}[1B 02 {e(l_0xc577b2)}]{load_registers}" call(data_36.l_0xc7dd37) newline
+    "@(Klucz zadzia[C4]a[C4], [C8]eby otworzy[C2] drzwi.{pause(20)} Mo[C8]esz wej[C7][C2].){wait}{wait}{set(flag 606)}{sound(119)}{window_closeall}[1F 21 9F]" call(data_57.l_0xc9b112) eob
+
+l_0xc577b2:
+    "@(Klucz nie pasuje!)" end
+
+l_0xc577c5:
+    "@(Drzwi s[C1] ju[C8] otwarte.)" end
+
+l_0xc577d8:
+    "[06 DA 00 {e(l_0xc57911)}]"
+    title(1, Warrior)
+    "@Straszne miejsce o nazwie G[C4][C3]boka Ciemno[C7][C2] znajduje si[C3] po drugiej stronie rzeki." next
+    "@Potwory s[C1] bardzo silne..." next
+    "@I mo[C8]ecie straci[C2] [C8]ycie, w[C3]druj[C1]c sobie po bagnach." next
+    "@Czy chcecie przep[C4]yn[C1][C2] rzek[C3],{pause(15)} cho[C2] wiecie, [C8]e to g[C4]upi pomys[C4]?" next
+    "[19 02]Tak" eob
+
+l_0xc57864:
+    "[19 02]Nie" eob
+
+l_0xc57869:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc578b3)} {e(l_0xc57878)}]" goto(l_0xc57878)
+
+l_0xc57878:
+    "@G[C4]upie by[C4]o to pytanie." next
+    "@Zobaczmy razem zach[C6]d s[C4]o[C5]ca nad G[C4][C3]bok[C1] Ciemno[C7]ci[C1]." end
+
+l_0xc578b3:
+    "@Bagno jest bezdenne." next
+    "@Nawet je[C7]li b[C3]dziecie p[C4]ywa[C2], zostaniecie wci[C1]gni[C3]ci." next
+    "@To inna historia, je[C7]li macie [C4][C6]d[C9] podwodn[C1].{wait}{set(flag 151)}{set(flag 762)}" eob
+
+l_0xc57911:
+    title(1, Warrior)
+    "@Wr[C6]cili[C7]cie z eksploracji G[C4][C3]bokiej Ciemno[C7]ci?" next
+    "@Nie mog[C3] uwierzy[C2], [C8]e wr[C6]cili[C7]cie [C8]ywi." end
+
+l_0xc57947:
+    "[06 DA 00 {e(l_0xc57955)}][06 97 00 {e(l_0xc57a26)}]" goto(l_0xc57955)
+
+l_0xc57955:
+    title(1, Brickroad)
+    "@Witajcie![03]{window_closeall}" call(data_49.l_0xc915f4) "{sound(37)}{pause(90)}{window_open(1)}"
+    title(1, Brickroad)
+    "[06 DA 00 {e(l_0xc57ad9)}]@Dawno si[C3] nie widzieli[C7]my." next
+    "@Panie [1C 02 03], spotkali[C7]my si[C3] w Winters dawno temu." next
+    "@Jestem Ceglan[C1] Drog[C1]." next
+    "@Dr. Andonuts w ko[C5]cu uczyni[C4] mnie Cz[C4]owiekiem Lochem." next
+    title(1, Dungeon)
+    "@Je[C7]li chcecie, p[C6]jd[C3] z wami na jaki[C7] czas." next
+    "@Tam jest <Dziura Powrotna>." next
+    "@Wskoczcie do tej dziury, [C8]eby wyj[C7][C2].{wait}{set(flag 24)}{set(flag 445)}[1F 66 01 09 81 33 C9 00]{set(flag 507)}" eob
+
+l_0xc57a26:
+    title(1, Dungeon)
+    "@Na ko[C5]cu lochu znajduje si[C3] stary okr[C3]t podwodny." next
+    "@Mo[C8]na go wykorzysta[C2] do przep[C4]yni[C3]cia rzeki." next
+    "@Tam jest <Wyj[C7]cie Po[C8]egnalne> ...w[C4]a[C7]nie tam." next
+    "@Zabior[C3] was do [C4]odzi podwodnej." next
+    "@Nie pope[C4]nijcie b[C4][C3]du przy wyborze wyj[C7]cia." next
+    "@Musicie wyj[C7][C2] <Wyj[C7]ciem Po[C8]egnalnym>!" next
+    "@Mam nadziej[C3], [C8]e si[C3] jeszcze zobaczymy!" end
+
+l_0xc57ad9:
+    title(1, Dungeon)
+    "@Nie wiem jak, ale moje domowe lochy pomog[C4]y ci." next
+    "@Bardzo si[C3] ciesz[C3].{wait}{window_closeall}" eob
+
+l_0xc57b04:
+    "[06 DA 00 {e(l_0xc57b3e)}]@<Wyj[C7]cie Po[C8]egnalne>" next
+    "@Pewnego dnia powiniene[C7] wej[C7][C2] z odwag[C1]." next
+    call(data_43.brickroad) end
+
+l_0xc57b3e:
+    "@Ta [C7]cie[C8]ka jest zamkni[C3]ta." next
+    call(data_43.brickroad) "{wait}" linebreak
+    eob
+
+l_0xc57b5c:
+    call(l_0xc57bdc) call(data_48.l_0xc90f7d) call(l_0xc57c10) call(data_49.l_0xc915d6) call(data_49.l_0xc91582) "[1F 21 38]{unset(flag 383)}" eob
+
+l_0xc57b7c:
+    call(l_0xc57bdc) call(data_48.l_0xc90f7d) call(l_0xc57c10) call(data_49.l_0xc915d6) call(data_49.l_0xc91582) "[1F 21 37]{unset(flag 383)}" eob
+
+l_0xc57b9c:
+    call(l_0xc57bdc) call(data_48.l_0xc90f7d) call(l_0xc57c10) call(data_49.l_0xc915d6) call(data_49.l_0xc91582) "[1F 21 39]{unset(flag 383)}" eob
+
+l_0xc57bbc:
+    call(l_0xc57bdc) call(data_48.l_0xc90f7d) call(l_0xc57c10) call(data_49.l_0xc915d6) call(data_49.l_0xc91582) "[1F 21 3A]{unset(flag 383)}" eob
+
+l_0xc57bdc:
+    "@<[B4]awka na Dobranoc.>" next
+    "@Pozw[C6]l si[C3] zrelaksowa[C2] i odzyska[C2] zdrowie i dusz[C3].{wait}" end
+
+l_0xc57c10:
+    "{window_open(1)}@Zdrowie " call(data_37.l_0xc7e6d7) " zosta[C4]o przywr[C6]cone.{wait}{window_closeall}" eob
+
+l_0xc57c2c:
+    "{counter(3)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc57c6f)}]@([1C 02 03] sprawdza zepsuty okr[C3]t podwodny.)" next
+    title_jeff(1)
+    "@Tak!{pause(20)}  Nadal mo[C8]e dzia[C4]a[C2].{wait}{window_closeall}" goto(data_50.l_0xc934ed)
+
+l_0xc57c6f:
+    "@(Nikt nie mo[C8]e naprawi[C2] [C4]odzi podwodnej opr[C6]cz [1C 02 03]a.)" end
+
+l_0xc57c96:
+    "@Och,{pause(20)} tylko b[C1]d[C9]cie ostro[C8]ni, jest tu co[C7] obrzydliwego." next
+    "@Jaki[C7] pulchny dzieciak z innego kraju, nasra[C4] na ziemi[C3]." end
+
+l_0xc57cd4:
+    "@(Smr[C6]d Porky'ego wci[C1][C8] unosi si[C3] w powietrzu...)" end
+
+l_0xc57cf3:
+    "@Aby rozwi[C1]za[C2] tajemnic[C3] Piramidy, musisz umie[C2] czyta[C2] hieroglify." next
+    "@...Nie mog[C4]em tego rozwi[C1]za[C2], chocia[C8] to przeczyta[C4]em." next
+    "@Nie czyta[C4]e[C7] przypadkiem hieroglif[C6]w z muzeum w Summers?" next
+    "[19 02]Tak" eob
+
+l_0xc57d71:
+    "[19 02]Nie" eob
+
+l_0xc57d76:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc57da9)} {e(l_0xc57d85)}]" goto(l_0xc57d85)
+
+l_0xc57d85:
+    "@To znaczy, [C8]e musisz wr[C6]ci[C2], przeczyta[C2] je, a potem tu wr[C6]ci[C2]." end
+
+l_0xc57da9:
+    "@A wi[C3]c powiniene[C7] by[C2] w stanie jako[C7] rozwi[C1]za[C2] tajemnic[C3]." end
+
+l_0xc57dc6:
+    "@Sklep Hassana" next
+    "@(Dopuszczalna waluta - $.)" end
+
+l_0xc57dea:
+    "@Ta twarz jest moja.{pause(20)}" linebreak
+    "  (Zapraszam do rozmowy.)" next
+    call(data_43.brickroad) end
+
+l_0xc57e1c:
+    title(1, Porky)
+    "@[1C 02 01]!{pause(20)}  Jeste[C7] zaskoczony?" next
+    "@To ja, Porky." next
+    "@S[C4]u[C8][C3] tylko silnym i zdolnym!" next
+    "@Taki w[C4]a[C7]nie jest Porky." next
+    "@Wygl[C1]dacie naprawd[C3] [C8]a[C4]o[C7]nie!" next
+    "@Jab[C4]ko O[C7]wiecenia dokona[C4]o ju[C8] przepowiedni." next
+    "@...Ale nie pozwol[C3], aby mia[C4]o miejsce to, co przewidywa[C4]o Jab[C4]ko O[C7]wiecenia." next
+    "@Zostaniecie zabici przez Giygasa." next
+    "@Giygas b[C3]dzie silniejszy, jeszcze silniejszy ni[C8] jakikolwiek inny byt!" next
+    "@Dlaczego?" next
+    "@Z mojego powodu." next
+    "@By[C4]em kierowany przez Giygasa, a teraz jestem tu." next
+    "@Jab[C4]ko O[C7]wiecenia nie mog[C4]o tego przewidzie[C2]." next
+    "@Mistrzu Giygasie...{pause(20)}" next
+    "  Nie,{pause(15)} Giygas nie jest ju[C8] w[C4]adc[C1] z[C4]a." next
+    "@Sta[C4] si[C3] uciele[C7]nieniem samego z[C4]a..." next
+    "@kt[C6]rego sam nie jest w stanie kontrolowa[C2]." next
+    "@On jest moc[C1] z[C4]a.[03]" eob
+
+l_0xc58000:
+    "{window_open(1)}" newline
+    "{diam}Tryb debugowania w[C4][C1]czony." next
+    goto(debug_main)
+
+debug_main:
+    "{window_open(1)}" newline
+    "{diam}Co chcesz zrobi[C2]?{wait}[18 02]{open_hp}{open_wallet}{window_open(2)}[19 02]Edytuj dru[C8]yn[C3]" eob
+
+l_0xc58023:
+    "[19 02]Edytuj plecak" eob
+
+l_0xc5802d:
+    "[19 02]Specjalny status" eob
+
+l_0xc58039:
+    "[19 02]Przenie[C7] do obszaru" eob
+
+l_0xc5803f:
+    "[19 02]Edytuj pieni[C1]dze" eob
+
+l_0xc5804a:
+    "[19 02]Poziomy" eob
+
+l_0xc58053:
+    "[19 02]Nieu[C8]ywany skrypt" eob //Unused Script
+
+l_0xc58060:
+    "[19 02]Zdarzenia" eob
+
+l_0xc58067:
+    "[19 02]Sklep z podpowiedziami" eob
+
+l_0xc5806e:
+    "[19 02]D[C9]wi[C3]k" eob
+
+l_0xc58075:
+    "[19 02]Opisy przedmiot[C6]w" eob
+
+l_0xc5807c:
+    "[19 02]Teleportacja" eob
+
+l_0xc58084:
+    "[19 02]Mapa z podpowiedziami" eob
+
+enemy_spawn:
+    "[19 02]Spawnowanie wrog[C6]w" eob
+
+l_0xc5808c:
+    "[1C 0C 02][11][1B 05]{window_closetop}{window_switch(1)}{window_clear}" newline
+    "[1B 06][09 0E {e(l_0xc58103)} {e(l_0xc58262)} {e(data_07.l_0xc58718)} {e(data_08.l_0xc588cd)} {e(data_08.l_0xc58afb)} {e(data_08.l_0xc58a36)} {e(data_08.l_0xc58c88)} {e(data_09.l_0xc59895)} {e(data_08.l_0xc58e13)} {e(data_08.l_0xc58d09)} {e(data_10.l_0xc5a57f)} {e(data_09.l_0xc58e73)} {e(l_0xc580da)} {e(data_08.l_0xc58dbf)} ]"
+    "{diam}Tryb debugowania wy[C4][C1]czony." end
+
+l_0xc580da:
+    newline
+    "{diam}Sklep z podpowiedziami zaznaczono na mapie." next
+    "{set(flag 681)}{set(flag 682)}{set(flag 683)}{set(flag 684)}{set(flag 685)}{set(flag 686)}" goto(debug_main)
+
+l_0xc58103:
+    newline
+    "{diam}Co chcesz zrobi[C2]?" linebreak
+    "[19 02]Dodaj" eob
+
+l_0xc58115:
+    "[19 02]Usu[C5]" eob
+
+l_0xc5811b:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc5812f)} {e(l_0xc581ee)}]" goto(debug_main)
+
+l_0xc5812f:
+    newline
+    "{open_hp}{diam}Wybierz cz[C4]onka dru[C8]yny.{wait}" linebreak
+    goto(l_0xc58148)
+
+l_0xc58148:
+    "{window_open(8)}[19 02]Ness" eob
+
+l_0xc58150:
+    "[19 02]Paula" eob
+
+l_0xc58156:
+    "[19 02]Jeff" eob
+
+l_0xc5815c:
+    "[19 02]Poo" eob
+
+l_0xc58161:
+    "[19 02]Porky" eob
+
+l_0xc58168:
+    "[19 02]Picky" eob
+
+l_0xc5816f:
+    "[19 02]King" eob
+
+l_0xc58174:
+    "[19 02]Tony" eob
+
+l_0xc5817a:
+    "[19 02]B. Ma[C4]pa" eob
+
+l_0xc58185:
+    "[19 02]Cz[C4]owiek Loch" eob
+
+l_0xc5818f:
+    "[19 02]Cz. Ptak 1" eob
+
+l_0xc5819a:
+    "[19 02]Cz. Ptak 2" eob
+
+l_0xc581a5:
+    "[19 02]Cz. Ptak 3" eob
+
+l_0xc581b0:
+    "[19 02]Cz. Ptak 4" eob
+
+l_0xc581bb:
+    "[19 02]Cz. Ptak 5" eob
+
+l_0xc581c6:
+    "[1C 0C 03][11][1B 05][19 04]{window_closetop}{window_switch(1)}[1B 06][1B 02 {e(l_0xc581e7)}]{swap}[1F 11 00]{open_hp}" goto(l_0xc58148)
+
+l_0xc581e7:
+    "{window_closetop}" goto(debug_main)
+
+l_0xc581ee:
+    "[19 10 02][1B 02 {e(l_0xc58250)}]{diam}Kt[C6]rego cz[C4]onka dru[C8]yny chcesz usun[C1][C2]?{wait}" linebreak
+    goto(l_0xc58214)
+
+l_0xc58214:
+    "[19 10 02][1B 02 {e(l_0xc5824b)}]  [1F 52 01][1B 02 {e(l_0xc5824b)}]{clearline}{swap}[19 10 00][1B 02 {e(l_0xc58214)}]{swap}[1F 12 00]"
+    "{diam}[1C 02 00] zosta[C4] usuni[C3]ty.{wait}" linebreak
+    goto(l_0xc58214)
+
+l_0xc5824b:
+    goto(debug_main)
+
+l_0xc58250:
+    "{diam}Nie mo[C8]na mie[C2] zero cz[C4]onk[C6]w!" next
+    "{diam}Je[C7]li to zrobisz, gra si[C3] zawiesi.{wait}" goto(l_0xc58103)
+
+l_0xc58262:
+    newline //For Inventory debug
+    "{diam}Wybierz opcj[C3].{wait}[18 02]{open_hp}{open_wallet}{window_open(7)}[19 02]Dodaj rzeczy" eob
+
+l_0xc58284:
+    "[19 02]Wa[C8]ne rzeczy" eob
+
+l_0xc5828f:
+    "[19 02]Maksimum kanapek" eob
+
+l_0xc58299:
+    "[19 02]Wyczy[C7][C2] ekwipunek" eob
+
+l_0xc582a3:
+    "[19 02]Maksymalny magazyn" eob
+
+l_0xc582b0:
+    "[19 02]Wyczy[C7][C2] magazyn" eob
+
+l_0xc582bb:
+    "[19 02]Ostatecznie bronie" eob
+
+l_0xc582c5:
+    "[1C 0C 01][11][1B 05]{window_closetop}[19 04]{window_switch(1)}" newline
+    "[1B 06][09 07 {e(l_0xc582f8)} {e(data_07.l_0xc58369)} {e(data_07.l_0xc58539)} {e(data_07.l_0xc58568)} {e(data_07.l_0xc585dc)} {e(data_07.l_0xc58614)} {e(data_07.l_0xc5863c)}]" goto(debug_main)
+
+l_0xc582f8:
+    "{diam}Wprowad[C9] ID rzeczy:" linebreak
+    "   [1F 52 03]{clearline}[1B 02 {e(l_0xc58364)}]{swap}[1D 03 FF][1B 02 {e(l_0xc58358)}]{store_registers}{diam}[1C 05 00]?" linebreak
+    "  Komu?{wait}" call(data_15.l_0xc5e52e) linebreak
+    "[1B 02 {e(l_0xc582f8)}][1D 0E 00 00]" newline
+    //"@GtZRNN KWEMST." next
+    "{diam}Dodano przedmiot do ekwipunku." next
+    goto(l_0xc582f8)
+
+l_0xc58358:
+    "{diam}Ekwipunek jest pe[C4]ny." linebreak
+    "{diam}Nie mo[C8]na doda[C2] wi[C3]cej przedmiot[C6]w.{wait}" goto(l_0xc58364)
+
+l_0xc58364:
+    goto(debug_main)
+
+l_0xc58369:
+    "[18 02]{window_open(12)}[19 02]Klucz do Chaty" eob
+
+l_0xc58378:
+    "[19 02]Odbiornik Telefonu" eob
+
+l_0xc58382:
+    "[19 02]Wymazywacz O[C4][C6]wk[C6]w" eob

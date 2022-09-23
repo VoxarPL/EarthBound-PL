@@ -1,0 +1,401 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc8dad5:
+    "@Potwor[C6]w nie ma ju[C8] w tunelu!" end
+
+l_0xc8daee:
+    "@Od czasu wyczyszczenia tunelu{pause(15)} wiele samochod[C6]w zacz[C3][C4]o przez niego przeje[C8]d[C8]a[C2]." next
+    "@Jest niesamowicie g[C4]o[C7]no." end
+
+l_0xc8db32:
+    "[06 47 00 {e(l_0xc8dc2f)}][06 7C 00 {e(l_0xc8dbbe)}][06 28 02 {e(l_0xc8db92)}]@A mo[C8]e zbierzemy wszystkich zombie w tym namiocie, a potem ich podpalimy?" next
+    "@Wszyscy mo[C8]emy zosta[C2] zjedzeni, zanim b[C3]dziemy mieli szans[C3] cokolwiek zrobi[C2]..." end
+
+l_0xc8db92:
+    "@Mo[C8]e dobrym pomys[C4]em by[C4]oby zebranie wszystkich zombie w jednym miejscu." end
+
+l_0xc8dbbe:
+    "@Hej!  G[C4]upie zombie!{pause(20)}  Chod[C9]cie, chod[C9]cie, gdziekolwiek jeste[C7]cie!" next
+    "@Napi[C3]cie mnie zabija..." end
+
+l_0xc8dbf8:
+    "@Dzi[C3]ki waszej pomocy" linebreak
+    "  mog[C4]em aresztowa[C2] wiele zombie." next
+    "@<Aresztowanie> brzmi dziwnie, nie s[C1]dzicie..." end
+
+l_0xc8dc2f:
+    "@W por[C6]wnaniu z wcze[C7]niejszymi sta[C4]o si[C3] naprawd[C3] ca[C4]kiem spokojnie." end
+
+l_0xc8dc4f:
+    "[06 D6 00 {e(l_0xc8dd12)}][06 47 00 {e(l_0xc8dcf9)}][06 7C 00 {e(l_0xc8dcb2)}][06 28 02 {e(l_0xc8dc8d)}]"
+    "@Ciesz[C3] si[C3], [C8]e nam pomo[C8]ecie,{pause(20)} ale jeste[C7]cie ca[C4]kiem m[C4]odzi." end
+
+l_0xc8dc8d:
+    "@No c[C6][C8], spr[C6]bujemy.{pause(20)}  To chyba lepsze ni[C8] nic." end
+
+l_0xc8dcb2:
+    "@Tutaj, zombie, zombie, zombie...  Mam dla was fajn[C1] ko[C7][C2]..." end
+
+l_0xc8dcd6:
+    "@By[C2] mo[C8]e nie zrozumiecie tego co m[C6]wi[C3],{pause(10)} ale,{pause(10)} biedne zombie..." end
+
+l_0xc8dcf9:
+    "@Teraz mo[C8]ecie przej[C7][C2] przez tunel, kiedy tylko zechcecie!" end
+
+l_0xc8dd12:
+    "@W[C4]a[C7]ciwie ciesz[C3] si[C3], [C8]e mog[C4]em zobaczy[C2] prawdziwe zombie." end
+
+l_0xc8dd35:
+    "[06 D6 00 {e(l_0xc8df28)}][06 47 00 {e(l_0xc8de88)}][06 7C 00 {e(l_0xc8de2c)}][06 28 02 {e(l_0xc8de13)}][06 0E 00 {e(l_0xc8dd98)}]"
+    "@Zombie powoli zbli[C8]aj[C1] si[C3] do namiotu." next
+    "@Powtarzam wszystkim...{pause(15)} zombie s[C1] w ci[C1]g[C4]ym ruchu!" end
+
+l_0xc8dd98:
+    "@Wi[C3]c, ten dziwny obiekt lata[C4] wok[C6][C4], kt[C6]ry rozbi[C4] si[C3] na cmentarzu..." next
+    "@Wygl[C1]da[C4]o to tak, jakby pochodzi[C4]o z{pause(20)} kresk[C6]wki z sobotniego poranka!" next
+    "@[B4]a[C4]!  Przyby[C4]e[C7] tutaj w tym lataj[C1]cym urz[C1]dzeniu?" end
+
+l_0xc8de13:
+    "@Wi[C3]c u[C8]yjecie tego namiotu jako pu[C4]apki..." end
+
+l_0xc8de2c:
+    "@Hej, hej, hej! ...g[C4]upie zombie... chod[C9]cie tu!" end
+
+l_0xc8de4a:
+    "@Uda[C4]o nam si[C3]!{pause(15)}  Zajrzeli[C7]cie do namiotu?" next
+    "@Ja cha!  Dali[C7]my tym g[C4]upim zombie porz[C1]dn[C1] nauczk[C3]!" end
+
+l_0xc8de88:
+    "@Ten okr[C1]g[C4]y lataj[C1]cy obiekt... dzieciak w okularach by[C4] na pok[C4]adzie." next
+    "@Statek wyl[C1]dowa[C4] w pobli[C8]u cmentarza, prawda?" next
+    "@Mo[C8]esz go naprawi[C2]?" linebreak
+    "[19 02]Tak" eob
+
+l_0xc8dee1:
+    " [19 02]Nie" eob
+
+l_0xc8dee7:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc8def6)} {e(l_0xc8df0d)}]" goto(l_0xc8def6)
+
+l_0xc8def6:
+    "@Jednak zosta[C4] powa[C8]nie uszkodzony, prawda?" end
+
+l_0xc8df0d:
+    "@To takie marnotrawstwo, ale niewiele mo[C8]emy na to poradzi[C2]..." end
+
+l_0xc8df28:
+    "@Nie lubi[C4]em walczy[C2] z zombie,{pause(15)} ale te dni nigdy nie by[C4]y nudne!" end
+
+l_0xc8df51:
+    "@Pr[C6]bowali[C7]my pomalowa[C2] zewn[C3]trzn[C1] cz[C3][C7][C2] Podniebnego [B7]migacza, [C8]eby wygl[C1]da[C4] na naprawiony," next
+    "@ale nie wiemy jak dzia[C4]aj[C1] maszyny,{pause(20)} wi[C3]c nie mo[C8]emy go uruchomi[C2]." end
+
+l_0xc8df8a:
+    "@Chc[C3], [C8]eby[C7]cie zostali,{pause(15)} ale je[C7]li nie mo[C8]ecie... do zobaczenia!" next
+    "@Dzi[C3]ki za ka[C8]d[C1] ma[C4][C1] rzecz." end
+
+l_0xc8dfbb:
+    call(data_22.l_0xc680e2) eob
+
+l_0xc8dfc1:
+    "[06 47 00 {e(l_0xc8dff7)}]@Zachowaj ostro[C8]no[C7][C2] podczas chodzenia na zewn[C1]trz,{pause(15)} szczeg[C6]lnie w pobli[C8]u cmentarza." end
+
+l_0xc8dff7:
+    "@Jest to szczeg[C6]lnie niebezpieczne{pause(15)} w pobli[C8]u cmentarza." next
+    "@Ale teraz zosta[C4] wyczyszczony, wi[C3]c jest bezpieczny,{pause(20)} aby da[C2] ci zna[C2]." end
+
+l_0xc8e044:
+    call(data_47.l_0xc900bd) eob
+
+l_0xc8e04a:
+    "[06 47 00 {e(l_0xc8e07c)}]@Jestem silniejszy ni[C8] zombie,{pause(15)} ale rzuci[C4]o si[C3] na mnie kilka zombie." end
+
+l_0xc8e07c:
+    "@Gdyby[C7] zabra[C4] mnie ze sob[C1] na polowanie na zombie lub co[C7] takiego," next
+    "@by[C4]bym bardzo pomocny." end
+
+l_0xc8e0ad:
+    "[06 47 00 {e(l_0xc8e0d8)}]@Zombie mnie dopad[C4]y..." next
+    "@Powinienem by[C4] dosta[C2] jakie[C7] ubezpieczenie na zombie." end
+
+l_0xc8e0d8:
+    "@Nie boj[C3] si[C3] [C8]adnego zombie." next
+    "@Kiedy tylko wyjd[C1], sam je pobij[C3]." next
+    "@W[C4]a[C7]ciwie nie chc[C3], [C8]eby wyszli.{pause(20)}  S[C1] zbyt przera[C8]aj[C1]ce." end
+
+l_0xc8e132:
+    call(data_47.l_0xc9002b) eob
+
+l_0xc8e138:
+    call(data_13.l_0xc5d317) eob
+
+l_0xc8e13e:
+    call(data_13.l_0xc5d323) eob
+
+l_0xc8e144:
+    call(data_13.l_0xc5d341) eob
+
+l_0xc8e14a:
+    "[06 47 00 {e(l_0xc8e176)}]@Zombie i duchy s[C1] tu na wolno[C7]ci.{pause(20)}  Witamy w Threed." end
+
+l_0xc8e176:
+    "@Zombie i duchy nie s[C1]{pause(20)} ju[C8] na wolno[C7]ci." next
+    "@O tak, pozbyli[C7]cie si[C3] potwor[C6]w.  Uuups!  Che che." end
+
+l_0xc8e1bd:
+    "[06 47 00 {e(l_0xc8e251)}][06 7D 00 {e(l_0xc8e218)}]@Zombie i duchy s[C1] tu na wolno[C7]ci, wi[C3]c nie mog[C3] dosta[C2] si[C3] do Twoson albo Fourside." next
+    "@Mo[C8]e ukryta droga na cmentarzu jest bezpieczna..." end
+
+l_0xc8e218:
+    "@Pozbyli[C7]cie si[C3] tych zombie," next
+    "@ale duchy w tunelu wydaj[C1] si[C3] straszniejsze ni[C8] kiedykolwiek!" end
+
+l_0xc8e251:
+    "@Gdyby ci[C3] tu nie by[C4]o,{pause(15)} by[C2] mo[C8]e musia[C4]bym by[C2] przyjazny dla zombie!" end
+
+l_0xc8e275:
+    "[06 47 00 {e(l_0xc8e2c7)}]@To miasteczko wydaje si[C3] bardzo mroczne, prawda?" next
+    "@Ludzie mieszkaj[C1] g[C4][C6]wnie w centrum miasteczka." next
+    "@Zastanawiam si[C3], jak powinni[C7]my odzyska[C2] miasteczko od zombie?" end
+
+l_0xc8e2c7:
+    "@To miasteczko by[C4]o kiedy[C7] ciemne,{pause(15)} ale dzi[C3]ki wam jest teraz jasne." end
+
+l_0xc8e2ea:
+    "[06 47 00 {e(l_0xc8e33b)}]@Hej, nie wygl[C1]dasz na szcz[C3][C7]liwego,{pause(15)} lepiej u[C7]miechnij si[C3], albo staniesz si[C3] zombie." next
+    "@Niekt[C6]re osoby sta[C4]y si[C3] ju[C8] narz[C3]dziami zombie." end
+
+l_0xc8e33b:
+    "[19 10 01]{result_is(2)}@Ciesz[C3] si[C3], [C8]e zlikwidowa[C4]e[C7] zombie.{pause(15)}  Pozw[C6]l, [C8]e dam ci buziaka." next
+    "@*cmok*  Ti chi chi...  Rumieni[C3] si[C3]." end
+
+l_0xc8e388:
+    "[06 47 00 {e(l_0xc8e42a)}][06 7D 00 {e(l_0xc8e3fb)}]@Siedziba Korpusu Pomocy Zombie znajduje si[C3]" next
+    "@w namiocie cyrkowym w centrum miasteczka." next
+    "@Chcemy zmia[C8]d[C8]y[C2] zombie, ale my[C7]l[C3], [C8]e oni nas zmia[C8]d[C8][C1]." end
+
+l_0xc8e3fb:
+    "@My[C7]la[C4]em, [C8]e zombie znikn[C3][C4]y...  Ale sp[C6]jrz na otoczenie..." next
+    "@Wci[C1][C8] jest tu ciemno!" end
+
+l_0xc8e42a:
+    "@Wygrali[C7]my dzi[C3]ki naszemu m[C6]zgowi,{pause(15)} [C7]mia[C4]o[C7]ci{pause(15)} i wsp[C6]lnocie." next
+    "@[B4]a[C4]!{pause(15)}  Co za po[C7]piech!" end
+
+l_0xc8e467:
+    "[06 47 00 {e(l_0xc8e501)}]@Kr[C1][C8][C1] plotki, [C8]e na skraju cmentarza" next
+    "@jest podziemna [C7]cie[C8]ka." next
+    "@Gdy przejdziesz [C7]cie[C8]k[C1]," next
+    "@spotkasz brudnego,{pause(15)} [C7]mierdz[C1]cego,{pause(15)} brzydkiego,{pause(15)} pot[C3][C8]nego potwora." next
+    "@Zmoczy[C4]em si[C3] w spodnie na my[C7]l o tym." end
+
+l_0xc8e501:
+    "@Prze[C8]y[C4]e[C7] trudne bitwy!" end
+
+l_0xc8e515:
+    "[06 47 00 {e(l_0xc8e5a4)}][06 45 00 {e(l_0xc8e576)}]@?{pause(5)}?{pause(5)}?  Przez d[C4]ugi czas w centrum miasteczka by[C4] namiot cyrkowy." next
+    "@Widzia[C4]am kolejny namiot na po[C4]udniu.  Ciekawe kiedy pojawi[C4] si[C3] ten drugi?" end
+
+l_0xc8e576:
+    "@Ten dziwny namiot...{pause(20)}  To by[C4] potw[C6]r!" next
+    "@Ciesz[C3] si[C3], [C8]e nie wszed[C4]em do [C7]rodka!" end
+
+l_0xc8e5a4:
+    "@Odwied[C9]cie kiedy[C7] Threed!" end
+
+l_0xc8e5b1:
+    "[06 47 00 {e(l_0xc8e5f7)}][06 7D 00 {e(l_0xc8e5f7)}]@Tak bardzo boj[C3] si[C3] zombie, [C8]e ca[C4]y czas uciekam przed nimi." next
+    "@Nie mog[C3] nawet wr[C6]ci[C2] do domu!" end
+
+l_0xc8e5f7:
+    "@Musia[C4]em biega[C2] w k[C6][C4]ko, by uciec od zombie." next
+    "@Teraz nie pami[C3]tam, gdzie jest m[C6]j dom..." end
+
+l_0xc8e62c:
+    "@Hej, pami[C3]tasz mnie?" next
+    "@Musia[C4]em biega[C2] w k[C6][C4]ko, by uciec od zombie." next
+    "@Teraz nie pami[C3]tam, gdzie jest m[C6]j dom..." next
+    "@M[C6]wi[C4]em ci to wcze[C7]niej, pami[C3]tasz?" next
+    "@H[C3]?  Nigdy ci[C3] nie widzia[C4]em?" next
+    "@Chyba nic ju[C8] nie pami[C3]tam dobrze." end
+
+l_0xc8e6a9:
+    "@(Jeste[C7] okropnie uprzejmy sp[C3]dzaj[C1]c czas na rozmowie z mysz[C1].{pause(20)}  Ta mysz ci[C3] kocha!)" end
+
+l_0xc8e6e3:
+    "@A[C4]uuuu![03]" eob
+
+l_0xc8e6ed:
+    "[06 47 00 {e(l_0xc8e715)}]@Jak mo[C8]na si[C3] u[C7]miecha[C2] w takim niebezpiecznym miejscu?" end
+
+l_0xc8e715:
+    "@My[C7]la[C4]am, [C8]e to by[C4]o dla was co[C7] wi[C3]cej ni[C8] tylko u[C7]miech." end
+
+l_0xc8e734:
+    "[06 47 00 {e(l_0xc8e7b3)}]@Widzia[C4]em autokar jad[C1]cy do Fourside.{pause(20)}  Nie mo[C8]emy przej[C7][C2] przez tunel." next
+    "@Zesp[C6][C4] by[C4] bardzo g[C4]o[C7]ny,{pause(15)} wi[C3]c duchy nie zbli[C8]a[C4]y si[C3] do autokaru." next
+    "@Musi by[C2] wspaniale by[C2] takim szcz[C3][C7]liwym farciarzem, co!" end
+
+l_0xc8e7b3:
+    "@Chcia[C4]em z[C4]apa[C2] jednego z duch[C6]w w tunelu i zatrzyma[C2] go jako zwierzaka." next
+    "@Ja tylko gryz[C3].  Mog[C3] tak dokucza[C2] teraz, kiedy ich nie ma." end
+
+l_0xc8e804:
+    "[06 49 00 {e(l_0xc8e9e8)}][06 47 00 {e(l_0xc8e95d)}]@M[C6]wi[C3] ci to tylko dlatego, [C8]e wygl[C1]dasz, jakby[C7] w[C4]a[C7]nie przechodzi[C4]." next
+    "@Prawda jest taka,{pause(15)} [C8]e pracuj[C3] dla potwor[C6]w." next
+    "@Ludzie wydaj[C1] si[C3] przegrywa[C2]," next
+    "@wi[C3]c jestem po stronie zombie dla w[C4]asnej ochrony." next
+    "@Przyw[C6]dca zombie lubi Muszy Mi[C6]d.  Sprawia, [C8]e jego wyznawcy go zbieraj[C1]." next
+    "@Wiesz, pszczo[C4]y robi[C1] pszczeli mi[C6]d, a muchy robi[C1] Muszy Mi[C6]d." next
+    "@Przyw[C6]dca zombie jest silny," next
+    "@poniewa[C8] zawsze je mas[C4]o orzechowe i kanapki z Muszym Miodem...[06 45 00 {e(l_0xc8e95b)}]" next
+    "@W namiocie na po[C4]udniu mam du[C8]o Muszego Miodu." next
+    "@Nied[C4]ugo dostarcz[C3] go przyw[C6]dcy zombie." end
+
+l_0xc8e95b:
+    end
+
+l_0xc8e95d:
+    "@S[C4]ysza[C4]em, [C8]e pokonali[C7]cie przyw[C6]dc[C3] zombie" next
+    "@po tym, jak dostali[C7]cie ode mnie wa[C8]ne informacje." next
+    "@Che che che..." next
+    "@Powinni[C7]cie mi przynajmniej podzi[C3]kowa[C2]... a mo[C8]e chcecie masa[C8] d[C4]oni..." next
+    "@Czemu patrzycie na mnie tak obrzydliwie, wy bachory!{pause(10)}  Ptooie!" end
+
+l_0xc8e9e8:
+    "@...Od tego momentu naprawd[C3] dojrza[C4]em." next
+    "@Mam si[C3] dobrze w bran[C8]y zdrowej [C8]ywno[C7]ci." next
+    "@Ludzie mog[C1] przezwyci[C3][C8]y[C2] ka[C8]d[C1] chorob[C3], kt[C6]r[C1] mog[C1] z[C4]apa[C2]." next
+    "@Nie uwa[C8]asz, [C8]e to [C7]wietny biznes?" linebreak
+    "[19 02]Tak" eob
+
+l_0xc8ea55:
+    " [19 02]Nie" eob
+
+l_0xc8ea5b:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc8ea79)} {e(l_0xc8ea6a)}]" goto(l_0xc8ea6a)
+
+l_0xc8ea6a:
+    "@Okej... wi[C3]c to nie jest dla ciebie." end
+
+l_0xc8ea79:
+    "@Sprawi[C3], [C8]e uwierzysz we wszystko..." end
+
+l_0xc8ea8b:
+    "@Po tym, jak autobusy zn[C6]w zacz[C3][C4]y je[C9]dzi[C2]," next
+    "@postanowi[C4]am przyjecha[C2] do mojego ch[C4]opaka... Naprawd[C3] nie powinnam tego robi[C2]." end
+
+l_0xc8eace:
+    "@[B4]o!  Kole[C7]!{pause(15)}  Wiesz co,{pause(15)} moja by[C4]a dziewczyna z Twoson dopad[C4]a mnie, stary." next
+    "@Jestem totalnie oszo[C4]omiony, bo mam tu inn[C1] dziewczyn[C3] w Threed." end
+
+l_0xc8eb2c:
+    "@Cha cha cha... obczaj go." next
+    "@My[C7]l[C3], [C8]e jest on rewelacyjny,{pause(15)} ups, mam na my[C7]li, [C8]e ca[C4]kiem fajny.{pause(20)}  On by[C4] w zespole." end
+
+l_0xc8eb75:
+    "{window_open(1)}@Ga{pause(5)}a{pause(5)}o{pause(5)}o{pause(1)}o{pause(1)}o{pause(1)}r{pause(1)}r{pause(1)}g{pause(1)}g!!![03]{window_closeall}{pause(1)}{unset(flag 49)}" call(data_23.l_0xc68538) "[1B 03 {e(l_0xc8ebdd)}][1F 1E 13 02 09][1F 1E 14 02 09][1F 1E 15 02 09]{pause(120)}{set(flag 669)}{set(flag 69)}{unset(flag 373)}{pause(1)}[1F 21 A0]{pause(1)}[1F E5 FF]" call(data_44.l_0xc88761) "{unset(flag 11)}" goto(data_34.l_0xc7a2f7)
+
+l_0xc8ebdd:
+    "{unset(flag 11)}{set(flag 49)}" eob
+
+l_0xc8ebe4:
+    "{window_open(1)}@(Wpatruje si[C3] w twoj[C1] dusz[C3].)[03]{window_closeall}[06 0E 00 {e(data_55.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob
+
+l_0xc8ec0f:
+    "[19 23 16 02 01 FF 00][1F 16 16 02 00][1F 1A 16 02 03]{pause(30)}[1F 1B 16 02]{window_open(1)}"
+    "@(Wpatruje si[C3] w twoj[C1] dusz[C3].)[03]{window_closeall}{sound(114)}{pause(60)}[1F F1 17 02 F7 02][1F 61][1F E6 17 02][19 23 17 02 01 01 00][1F 16 17 02 00][1F 1A 17 02 03]{pause(30)}[1F 1B 17 02]{window_open(1)}@(Patrzy si[C3] na ciebie.)[03]{window_closeall}[1F E9 17 02][06 0E 00 {e(data_55.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob
+
+l_0xc8ec90:
+    "{window_open(1)}@(Patrzy si[C3] na ciebie.)[03]{window_closeall}[06 0E 00 {e(data_55.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob
+
+l_0xc8ecb4:
+    call(data_13.l_0xc5d32f) eob
+
+l_0xc8ecba:
+    "@Sp[C6]jrz na t[C3] lask[C3] przed hotelem..." next
+    "@Wygl[C1]da blado, ale to gor[C1]ca laska...!" end
+
+l_0xc8ed1e:
+    "[06 D6 00 {e(l_0xc8edcc)}][06 47 00 {e(l_0xc8ed87)}]@Pods[C4]uchiwa[C4]am szept zombie," next
+    "@<Mistrz Bek przywr[C6]ci nam nasze [C8]ycie.>" next
+    "@...Mistrz Bek jest przyw[C6]dc[C1] zombie.{pause(15)}  On musi by[C2] niez[C4][C1] kup[C1] wymiocin." end
+
+l_0xc8ed87:
+    "@Tak jak m[C6]wi[C4]am, by[C4] tam z[C4]y go[C7][C2] o imieniu Bek." next
+    "@Dzi[C3]kuj[C3], [C8]e dali[C7]cie mu solidny wycisk." end
+
+l_0xc8edcc:
+    "@To miasto ca[C4]kowicie si[C3] zmieni[C4]o od pierwszego pobytu tutaj." next
+    "@Czy czujesz t[C3] mi[C4]o[C7][C2]?" end
+
+l_0xc8ee02:
+    "[06 49 00 {e(l_0xc8eeb4)}][06 47 00 {e(l_0xc8ee6e)}]@Zgadza si[C3], kr[C1][C8][C1] plotki, [C8]e potw[C6]r zwany Bek psuje miasteczko." next
+    "@Bek!{pause(20)}  To obrzydliwe,{pause(15)} pokr[C3]cone imi[C3] nawet dla potwora!" end
+
+l_0xc8ee6e:
+    "@Be{pause(5)}e{pause(5)}e{pause(5)}e{pause(5)}k!" next
+    "@Ups... teraz dostan[C3] <Bek> jako ksywk[C3].  Che che che... uch... niech to." end
+
+l_0xc8eeb4:
+    "@Czy tw[C6]j plecak nie jest zu[C8]yty?{pause(20)}  Och, gdyby tylko te paski potrafi[C4]y m[C6]wi[C2]..." end
+
+l_0xc8eee5:
+    "@Tak, pracowa[C4]em dla zombie," next
+    "@ale te[C8] ich zdradzi[C4]em.{pause(20)}  Jestem oszustem, wi[C3]c znam tego wynik." next
+    "@Bek daje [C8]ycie zombie, ale tak[C8]e pracuje dla Giygasa," next
+    "@o kt[C6]rym s[C4]ysza[C4]em, [C8]e mo[C8]e by[C2] kobiet[C1]." next
+    "@Nie jestem do ko[C5]ca pewien, czy Giygas to m[C3][C8]czyzna czy kobieta." next
+    "@Jestem pomocnym oszustem, nie s[C1]dzisz?" end
+
+l_0xc8ef99:
+    "@Widzia[C4]em podejrzan[C1] kobiet[C3] rozmawiaj[C1]c[C1] z zombie w[C4]a[C7]nie tu." end
+
+l_0xc8efb9:
+    "[06 47 00 {e(l_0xc8f0d2)}][06 7D 00 {e(l_0xc8f086)}][06 7C 00 {e(l_0xc8f066)}][06 28 02 {e(l_0xc8f031)}]@Szczerze m[C6]wi[C1]c, biegn[C3] przestraszony." next
+    "@Nie chodzi mi o to, [C8]e tak naprawd[C3] biegam.{pause(20)}  Mam na my[C7]li, [C8]e si[C3] boj[C3]." next
+    "@Warunki w miasteczku pogarszaj[C1] si[C3]." end
+
+l_0xc8f031:
+    "@Ten facet w pizzerii opowiedzia[C4] mi o nowym produkcie zwanym <Lep na Zombie>." end
+
+l_0xc8f066:
+    "@<Lep na Zombie> to g[C4]upia nazwa dla produktu." end
+
+l_0xc8f086:
+    "@Lep na Zombie naprawd[C3] dzia[C4]a, wi[C3]c mam nadziej[C3], [C8]e kto[C7] wymy[C7]li <lep na [C4]adne panienki>." next
+    "@Ups,{pause(15)} to nie by[C4]o zbyt mi[C4]e." end
+
+l_0xc8f0d2:
+    "@Sprawi[C4]e[C7], [C8]e nasze [C8]ycie sta[C4]o si[C3] spokojne.  Mog[C3] zn[C6]w spa[C2]." next
+    "@To tak, jakby[C7] u[C8]y[C4] kawa[C4]ka <lepu pokoju>, prawda?  Cha cha cha." end
+
+l_0xc8f11b:
+    "[06 47 00 {e(l_0xc8f208)}][06 7D 00 {e(l_0xc8f1b5)}][06 28 02 {e(l_0xc8f193)}]@Ludzie nazywali mnie z[C4]ym, ale te zombie s[C1] o wiele bardziej przera[C8]aj[C1]ce." next
+    "@Zostawi[C4]em [C8]on[C3] i dzieci w domu, [C8]eby uciec do tego namiotu." next
+    "@Tak straszne s[C1] zombie." end
+
+l_0xc8f193:
+    "@Mo[C8]esz robi[C2], co chcesz..." next
+    "@po prostu uratowa[C4]e[C7] mi [C8]ycie." end
+
+l_0xc8f1b5:
+    "@Te zombie przyklei[C4]y si[C3] do pod[C4]ogi..." next
+    "@Zastanawiam si[C3], czy nadal mnie dopadn[C1]." next
+    "@Nie obchodzi mnie, co si[C3] stanie z innymi,{pause(15)} chc[C3] tylko uratowa[C2] w[C4]asn[C1] sk[C6]r[C3]!" end
+
+l_0xc8f208:
+    "@W mie[C7]cie panuje spok[C6]j,{pause(15)} ale moja [C8]ona i dzieci nie chc[C1] ze mn[C1] rozmawia[C2]." next
+    "@Jaki jest problem?" end
+
+l_0xc8f240:
+    "@Kilka dni temu zombie mia[C4]y w tym hotelu dzieci." next
+    "{unset(flag 589)}{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 02 {e(data_47.l_0xc8f296)}]@Ch[C4]opiec mia[C4] czerwon[C1] czapk[C3]...{pause(30)} a mo[C8]e niebiesk[C1]?" end
+

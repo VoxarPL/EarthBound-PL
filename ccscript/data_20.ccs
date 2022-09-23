@@ -1,0 +1,404 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc646bb:
+    "[19 02]Przechowaj" eob
+
+l_0xc646c3:
+    "[19 02]Zabierz" eob
+
+l_0xc646cf:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc6474f)} {e(l_0xc6483c)}][06 49 00 {e(l_0xc646fa)}]@Uwa[C8]aj na siebie, porozmawiamy p[C6][C9]niej!" end
+
+l_0xc646fa:
+    "@Uwa[C8]aj na siebie i porozmawiamy p[C6][C9]niej!" next
+    "@Och, powiedzia[C4]am <uwa[C8]aj na siebie>!" next
+    "@Po prostu wy[C7]lizgn[C3][C4]o mi si[C3] z ust," next
+    "@tak jak rozmawia[C4]am z tob[C1], kiedy ci[C3] nie by[C4]o..." end
+
+l_0xc6474f:
+    call(data_15.l_0xc5e431) "[1B 02 {e(l_0xc6480c)}][1D 0C 01 01][18 07 02 00 00 00 00][1B 03 {e(l_0xc647ef)}]@Co chcesz przechowa[C2]?[03]{open_hp}" call(data_15.l_0xc5e456) newline
+    "[1B 02 {e(l_0xc6491e)}]{store_registers}[1D 0C 00 00][1B 03 {e(l_0xc64823)}]{load_registers}[19 19 00 00]{sound(118)}" newline
+    "@[1C 05 00]?" linebreak
+    "  Nie martw si[C3], zapewni[C3] bezpiecze[C5]stwo." next
+    "{load_registers}[1D 12 00 00]" goto(l_0xc647bd)
+
+l_0xc647bd:
+    newline
+    "@Czy masz co[C7] jeszcze, co chcesz, [C8]ebym przechowa[C4]a?" linebreak
+    "[19 02]Tak" eob
+
+l_0xc647d6:
+    "[19 02]Nie" eob
+
+l_0xc647db:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc6474f)} {e(l_0xc6491e)}]" goto(l_0xc6491e)
+
+l_0xc647ef:
+    newline
+    "@Przepraszam." linebreak
+    "  Moja szafka jest pe[C4]na.[03]" goto(l_0xc6491e)
+
+l_0xc6480c:
+    newline
+    "@Nie s[C1]dz[C3], [C8]eby[C7] mia[C4] co[C7] do przechowania.[03]" goto(l_0xc6491e)
+
+l_0xc64823:
+    newline
+    "@My[C7]l[C3], [C8]e powiniene[C7] to zatrzyma[C2]." next
+    goto(l_0xc647bd)
+
+l_0xc6483c:
+    "{counter(1)}[19 14][1B 02 {e(l_0xc648e3)}][1D 03 FF][1B 02 {e(l_0xc648fc)}]" newline
+    "@Co chcia[C4]by[C7] zabra[C2]?[03]{open_hp}[18 02]" goto(l_0xc64865)
+
+l_0xc64865:
+    "[1A 07]" newline
+    "[1B 02 {e(l_0xc64916)}]{swap}{store_registers}[18 02]" call(data_15.l_0xc5e54a) "[1B 02 {e(l_0xc648da)}][1B 05]{window_switch(13)}{window_closetop}{window_switch(1)}[1B 06]{sound(116)}[1D 13 00 00][19 19 00 00]@[1C 05 00]?" linebreak
+    "  Zadbam o to." next
+    "@Czy chcesz jeszcze co[C7] zabra[C2]?" linebreak
+    "[19 02]Tak" eob
+
+l_0xc648c1:
+    "[19 02]Nie" eob
+
+l_0xc648c6:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc6483c)} {e(l_0xc6491e)}]" goto(l_0xc6491e)
+
+l_0xc648da:
+    "{swap}{open_hp}" goto(l_0xc64865)
+
+l_0xc648e3:
+    newline
+    "@Nie przechowuj[C3] [C8]adnych twoich rzeczy." next
+    goto(l_0xc6491e)
+
+l_0xc648fc:
+    newline
+    "@My[C7]l[C3], [C8]e nosisz ju[C8] za du[C8]o rzeczy." next
+    goto(l_0xc6491e)
+
+l_0xc64916:
+    "{window_switch(13)}{window_closetop}{window_switch(1)}" goto(l_0xc6491e)
+
+l_0xc6491e:
+    newline
+    "@Potrzebujesz ode mnie co[C7] jeszcze?" linebreak
+    goto(l_0xc646bb)
+
+l_0xc64930:
+    newline
+    "@My[C7]l[C3], [C8]e [1C 02 00] nosi za du[C8]o rzeczy.[03]" eob
+
+l_0xc64946:
+    "@Dzwonisz w sprawie dostawy <Wymazywacza O[C4][C6]wk[C6]w>?" linebreak
+    "[19 02]Tak" eob
+
+l_0xc6496f:
+    "[19 02]Nie" eob
+
+l_0xc64974:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc64996)} {e(l_0xc64983)}]" goto(l_0xc64983)
+
+l_0xc64983:
+    "@Och, nie tego chcesz?" next
+    goto(data_19.l_0xc6372d)
+
+l_0xc64996:
+    "@Wy[C7]lemy to komu[C7] w mgnieniu oka." next
+    call(data_19.l_0xc645f2) "{set(flag 694)}[1F D3 09]{set(flag 754)}" eob
+
+l_0xc649b7:
+    "@Chodzi ci o dostaw[C3] <Jastrz[C3]biego Oka>?" linebreak
+    "[19 02]Tak" eob
+
+l_0xc649d4:
+    "[19 02]Nie" eob
+
+l_0xc649d9:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc649fb)} {e(l_0xc649e8)}]" goto(l_0xc649e8)
+
+l_0xc649e8:
+    "@Och, nie tego chcesz?" next
+    goto(data_19.l_0xc6372d)
+
+l_0xc649fb:
+    "@Wy[C7]lemy to komu[C7] natychmiast." next
+    call(data_19.l_0xc645f2) "{set(flag 695)}[1F D3 0A]{set(flag 754)}" eob
+
+l_0xc64a1c:
+    title(1, Mach)
+    "@Witaj! Tutaj Mach Pizza![06 49 00 {e(l_0xc64b59)}]" call(data_36.l_0xc7dd8d) "[1B 03 {e(l_0xc64b18)}][06 B4 00 {e(l_0xc64b18)}]" goto(l_0xc64a47)
+
+l_0xc64a47:
+    "  Co chcia[C4]by[C7] zam[C6]wi[C2]?" next
+    newline
+    "[18 02]{window_open(37)}[19 02]Ma[C4]a" eob
+
+l_0xc64a66:
+    "[19 02][B7]rednia" eob
+
+l_0xc64a6f:
+    "[19 02]Du[C8]a" eob
+
+l_0xc64a77:
+    "[1C 0C 01][11][1B 05]{window_closetop}{window_switch(1)}[1B 06][09 03 {e(l_0xc64ab8)} {e(l_0xc64aa0)} {e(l_0xc64acf)}]" goto(l_0xc64a92)
+
+l_0xc64a92:
+    "@Zadzwo[C5] p[C6][C9]niej!" next
+    goto(l_0xc64b0b)
+
+l_0xc64aa0:
+    "@Przepraszamy, wszystkie zosta[C4]y wyprzedane." linebreak
+    goto(l_0xc64a47)
+
+l_0xc64ab8:
+    "@Chcesz ma[C4][C1] pizz[C3]?" linebreak
+    goto(l_0xc64ae6)
+
+l_0xc64acf:
+    "@Chcesz du[C8][C1] pizz[C3]?" linebreak
+    "{set(flag 179)}" goto(l_0xc64ae6)
+
+l_0xc64ae6:
+    "{rtoarg}  Dostarczymy j[C1] w ci[C1]gu 3 minut." next
+    "{set(flag 180)}[1F D3 01]{set(flag 754)}" goto(l_0xc64b0b)
+
+l_0xc64b0b:
+    "{sound(11)}@(Klik!)" end
+
+l_0xc64b18:
+    next
+    "@Nasi dostawcy s[C1] obecnie niedost[C3]pni." next
+    "@Na razie nie mo[C8]emy dostarczy[C2] [C8]adnej pizzy." next
+    goto(l_0xc64a92)
+
+l_0xc64b59:
+    next
+    "@Nasi dostawcy zm[C3]czyli si[C3] i rzucili prace." next
+    "@Postanowili[C7]my zamkn[C1][C2] sklep." next
+    "@Dzi[C3]kujemy za wykorzystywanie nas do wszystkich potrzeb zwi[C1]zanych z pizz[C1]." next
+    "{sound(11)}  (Klik!)" end
+
+l_0xc64bbf:
+    call(data_21.l_0xc659bf) "{unset(flag 180)}"
+    title(1, Gonzales)
+    "@Witaj! Dostawa Mach Pizza!" linebreak
+    "  Oto pa[C5]ska pizza." next
+    "[1D 03 FF][1B 02 {e(l_0xc64c9e)}]{rtoarg}{store_registers}[06 B3 00 {e(l_0xc64c60)}]{counter(95)}" goto(l_0xc64c0a)
+
+l_0xc64c0a:
+    "{ctoarg}[1D 0A 00]{swap}@To b[C3]dzie $[1C 0A 00 00 00 00].  Masz pieni[C1]dze, co nie?" linebreak
+    "{store_registers}" call(data_36.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc64c6a)} {e(l_0xc64c42)}]" goto(l_0xc64c42)
+
+l_0xc64c42:
+    "@Rozumiem." linebreak
+    "  Zadzwo[C5] do nas p[C6][C9]niej." goto(l_0xc64c52)
+
+l_0xc64c52:
+    "{wait}{window_closeall}" call(data_36.l_0xc7dde8) call(data_21.l_0xc659c8) eob
+
+l_0xc64c60:
+    "{unset(flag 179)}{counter(97)}" goto(l_0xc64c0a)
+
+l_0xc64c6a:
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc64cc9)}]{load_registers}{swap}[1D 03 FF][1B 02 {e(l_0xc64c9e)}][1D 0E 00 00]{load_registers}[1D 09 00 00]{open_wallet}{sound(118)}"
+    "@Dzi[C3]kuj[C3] bardzo." goto(l_0xc64c52)
+
+l_0xc64c9e:
+    "{unset(flag 179)}@Och, zdaje si[C3], [C8]e nie mo[C8]esz ju[C8] wi[C3]cej nosi[C2]." linebreak
+    "  Zadzwo[C5] do nas innym razem." goto(l_0xc64c52)
+
+l_0xc64cc9:
+    "@Och? Brakuje ci troch[C3] got[C6]wki.  Zadzwo[C5] do nas innym razem." goto(l_0xc64c52)
+
+l_0xc64cf8:
+    "{unset(flag 180)}{unset(flag 179)}" call(data_36.l_0xc7de2f) "{window_open(1)}"
+    title(1, Mach)
+    "@Witaj!" linebreak
+    "  Tutaj Mach Pizza." linebreak
+    " (che, cha, chi, cha)" next
+    "@...Musisz by[C2] w jakim[C7] dziwnym miejscu (che, cha, chi, cha)..." next
+    "@Nie mog[C4]em dostarczy[C2] pizzy." linebreak
+    "  Pizza zrobi[C4]a si[C3] zbyt zimna i twarda, a moje nogi s[C1] ju[C8] zm[C3]czone..." next
+    "@Mam zamiar si[C3] podda[C2] i wr[C6]ci[C2]." next
+    "@...Mam nadziej[C3], [C8]e znajd[C3] drog[C3] do domu..." linebreak
+    " (che, cha, chi, cha)[03]" call(data_36.l_0xc7de54) call(data_36.l_0xc7de72) eob
+
+l_0xc64dd0:
+    newline
+    "@Chcia[C4]by[C7] co[C7] zwr[C6]ci[C2]?" linebreak
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc64e04)} {e(l_0xc64dee)}]" goto(l_0xc64dee)
+
+l_0xc64dee:
+    "@Och, to dobrze." next
+    goto(l_0xc64df8)
+
+l_0xc64df8:
+    "@Zapraszamy ponownie." end
+
+l_0xc64e04:
+    "@Co chcesz zwr[C6]ci[C2]?[03]{open_wallet}" call(data_15.l_0xc5e456) newline
+    "[1B 02 {e(l_0xc64dee)}]{store_registers}[19 19 00 00][1D 0B 00][1B 02 {e(l_0xc64ea4)}]@[1C 05 00]?" linebreak
+    "  Mo[C8]emy ci odda[C2] {swap}$[1C 0A 00 00 00 00]." next
+    "@Chcia[C4]by[C7] to zrobi[C2]?" linebreak
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc64e6e)} {e(l_0xc64e69)}]" goto(l_0xc64e69)
+
+l_0xc64e69:
+    goto(l_0xc64e86)
+
+l_0xc64e6e:
+    "[1D 08 00 00]{open_wallet}{sound(118)}{load_registers}[1D 0F 00 00]@Dzi[C3]kuj[C3] bardzo." next
+    goto(l_0xc64e86)
+
+l_0xc64e86:
+    "@Czy masz co[C7] jeszcze?" linebreak
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc64e04)} {e(l_0xc64df8)}]" goto(l_0xc64df8)
+
+l_0xc64ea4:
+    "@Bardzo nam przykro, ale nie mamy nic do czynienia z tym produktem." next
+    goto(l_0xc64e86)
+
+l_0xc64eca:
+    "@(Ufamy ci.  Zapraszamy na zakupy.)" next
+    "@Co chcia[C4]by[C7] kupi[C2]?[03]{open_wallet}{open_hp}[1A 06 30]" newline
+    "[1B 02 {e(l_0xc64fb3)}]{swap}[1D 03 FF][1B 02 {e(l_0xc64fde)}]{store_registers}@Ile chcesz zap[C4]aci[C2]?" linebreak
+    "[18 05 09 02]&[18 05 04 02]$[1F 52 04]{clearline}{swap}[1B 02 {e(l_0xc64fb3)}]{store_registers}[1D 14 00 00 00 00][1B 03 {e(l_0xc64ff3)}]{load_registers}{swap}[1B 02 {e(l_0xc64fc8)}]{swap}{result_is(190)}[1B 03 {e(l_0xc64f66)}][18 07 0C 00 00 00 01][1B 02 {e(l_0xc64fab)}]" goto(l_0xc64f73)
+
+l_0xc64f66:
+    "[18 07 05 00 00 00 01][1B 02 {e(l_0xc64fab)}]" goto(l_0xc64f73)
+
+l_0xc64f73:
+    "{load_registers}[1D 09 00 00]{open_wallet}{sound(118)}@[1C 02 01] zap[C4]aci[C4] $[1C 0A 00 00 00 00] na stoisku samoobs[C4]ugowym.{wait}" goto(l_0xc64f9f)
+
+l_0xc64f9f:
+    "{load_registers}{swap}[1D 0E 01 00]{set(flag 120)}" eob
+
+l_0xc64fab:
+    "{set(flag 121)}" goto(l_0xc64f73)
+
+l_0xc64fb3:
+    "@[1C 02 01] postanawia nic nie kupowa[C2]." end
+
+l_0xc64fc8:
+    "@[1C 02 01] nic nie zap[C4]aci[C4].{wait}{set(flag 121)}" goto(l_0xc64f9f)
+
+l_0xc64fde:
+    "@[1C 02 01] nie mo[C8]e ju[C8] nosi[C2] wi[C3]cej rzeczy." end
+
+l_0xc64ff3:
+    "@[1C 02 01] nie ma a[C8] tylu pieni[C3]dzy." end
+
+l_0xc65009:
+    call(data_13.l_0xc5d48b) eob
+
+l_0xc6500f:
+    call(data_13.l_0xc5d527) eob
+
+l_0xc65015:
+    call(data_13.l_0xc5d49d) eob
+
+l_0xc6501b:
+    call(data_13.l_0xc5d2ff) eob
+
+l_0xc65021:
+    call(data_13.l_0xc5d395) eob
+
+l_0xc65027:
+    call(data_13.l_0xc5d3ad) eob
+
+l_0xc6502d:
+    call(data_13.l_0xc5d503) eob
+
+l_0xc65033:
+    call(data_13.l_0xc5d503) eob
+
+l_0xc65039:
+    call(data_13.l_0xc5d515) eob
+
+l_0xc6503f:
+    call(data_13.l_0xc5d3b9) eob
+
+l_0xc65045:
+    call(data_13.l_0xc5d4af) eob
+
+l_0xc6504b:
+    call(data_13.l_0xc5d359) eob
+
+l_0xc65051:
+    call(data_13.l_0xc5d593) eob
+
+l_0xc65057:
+    call(data_35.l_0xc7c59e) eob
+
+l_0xc6505d:
+    "[06 AE 01 {e(l_0xc651cc)}]@Lubi[C3] [1C 05 82]." next
+    "@Daj mi [1C 05 82]," next
+    "@a dam ci co[C7] w zamian." next
+    "@Sp[C6]jrz na list[C3]." next
+    "{window_open(12)}[06 A8 01 {e(l_0xc650ac)}][19 02]Zwyk[C4]a Rolka" eob
+
+l_0xc650ac:
+    "[06 A9 01 {e(l_0xc650c2)}][19 02]Zwyk[C4]y Jogurt" eob
+
+l_0xc650c2:
+    "[06 AA 01 {e(l_0xc650d6)}][19 02]Zwyk[C4]a Rolka" eob
+
+l_0xc650d6:
+    "[06 AB 01 {e(l_0xc650eb)}][19 02]Pikantna Wo[C4]owina" eob
+
+l_0xc650eb:
+    "[06 AC 01 {e(l_0xc65105)}][19 02]Torba Smokonitu" eob
+
+l_0xc65105:
+    "[06 AD 01 {e(l_0xc6511c)}][19 02]Moneta Talizman" eob
+
+l_0xc6511c:
+    "[19 02]Kij Hali S[C4]awy" eob
+
+l_0xc6512f:
+    "[1C 0C 01]{wait}{window_closetop}{window_switch(1)}" newline
+    "@Dasz mi [1C 05 82]?[03]" call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc651a6)}]{store_registers}[19 19 00 00]{swap}{result_is(130)}[1B 02 {e(l_0xc651bf)}]{load_registers}[1D 0F 00 00]" call(l_0xc651ef) "{ctoarg}" newline
+    "@Dobrze." linebreak
+    "  Dam ci wtedy" linebreak
+    "  [1C 05 00]." next
+    "@Jeste[C7] szcz[C3][C7]liwy." linebreak
+    "  Te[C8] jestem szcz[C3][C7]liwy.[03]" newline
+    "[1D 03 FF]{store_registers}[1D 0E 00 00]" call(data_36.l_0xc7dccf) end
+
+l_0xc651a6:
+    newline
+    "@Nie chcesz tego? W porz[C1]dku." linebreak
+    "  Przyjd[C9] ponownie." end
+
+l_0xc651bf:
+    newline
+    "@To nie to." end
+
+l_0xc651cc:
+    "@Wi[C3]cej Rogu [B8]ycia?" next
+    "@Jestem zadowolony." next
+    "@Do zobaczenia!" end
+
+l_0xc651ef:
+    "[06 AD 01 {e(data_21.l_0xc6523d)}][06 AC 01 {e(data_21.l_0xc65237)}][06 AB 01 {e(l_0xc65231)}][06 AA 01 {e(l_0xc6522b)}][06 A9 01 {e(l_0xc65225)}][06 A8 01 {e(l_0xc6521f)}]{counter(239)}{set(flag 424)}" eob
+
+l_0xc6521f:
+    "{counter(241)}{set(flag 425)}" eob
+
+l_0xc65225:
+    "{counter(239)}{set(flag 426)}" eob
+
+l_0xc6522b:
+    "{counter(244)}{set(flag 427)}" eob
+
+l_0xc65231:
+    "{counter(160)}{set(flag 428)}" eob
+

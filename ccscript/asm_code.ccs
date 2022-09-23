@@ -1,0 +1,85 @@
+import asm65816
+
+// EARTH BOUND PL
+ROM[0xC0FFC0] = "[45 41 52 54 48 20 42 4F 55 4E 44 20 50 4C]"
+
+// Okno "Użyj, Daj, Wyrzuć, Pomoc!"
+ROM[0xC4C170] = "U[C8]yj[00 00 00 00]"
+ROM[0xC4C178] = "Daj[00 00 00 00 00]"
+ROM[0xC4C180] = "Wyrzu[C2][00 00]"
+ROM[0xC4C188] = "Pomoc![00 00]"
+ROM[0xC1369E] = "[70 C1]" // Pointer
+ROM[0xC136AB] = "[0A EA]" // Zwiększa limit długości wyrazów z 6 do 8 bajtów
+
+// Obniża o jeden punkt okienka HP/PP
+ROM[0xC2044C] = LDA_i(0x0013)
+ROM[0xC20453] = LDA_i(0x0014)
+ROM[0xC20856] = LDY_i(9)
+ROM[0xC21412] = ADC_i(0x80)
+ROM[0xC3E738] = ADC_i(0x82BE)
+ROM[0xC435BF] = ADC_i(0x84BE)
+
+// Skalny Cukierek może teraz losowo zwiększyć Szczęście
+ROM[0xC2B3AA] = LDA_i(0005)
+
+// Pozycja komendy "Odbicie"
+ROM[0xC2381F] = LDX_i(0x000B)
+
+// Zmienia "PSI Rockin" na "PK Rockin"
+ROM[0xC1C415] = byte [0] 0x26
+ROM[0xC1FE3D] = byte [0] 0x80
+ROM[0xC1FE42] = byte [0] 0x7B
+
+// Przywraca oryginalny dźwięk bicia Porky'ego z Mother 2
+ROM[0xC3B989] = "[62]"
+
+// Naprawia miejsce teleportacji na Zakurzone Wydmy podczas teleportacji małpy
+ROM[0xC37CD1] = "[07]"
+
+// Naprawia błąd wywołujący nieużyte zdarzenie, w którym Niezdarny Robot teleportuje gracza na zewnątrz budynku
+ROM[0xC292A0] = LDA_al(0xD57A6A)
+
+// Naprawia miejsce teleportacji do Fourside podczas nieużytego zdarzenia w walce z Niezdarnym Robotem
+ROM[0XC292DE] = "[08]"
+
+/* Crack for use in real hardware despite of region */
+ROM[0xC0281D] = {		//"[EA EA]"
+	NOP
+	NOP
+}
+
+ROM[0xC083A2] = BRA(0x0E)	//"[80]"
+ROM[0xC083AD] = BRA(0x03)	//"[80]"
+ROM[0xC0A12D] = BRA(0x0C)	//"[80]"
+ROM[0xC1FFE7] = {		//"[EA A9 00 00]"
+	NOP
+	LDA_i(0x0000)
+}
+
+ROM[0xC3FDD6] = {		//"[EA A9 00 00 80]"
+	NOP
+	LDA_i(0x0000)
+	BRA(0x15)
+}
+
+/* Region Fix */
+ROM[0xC0A141] = BRA(0x0C)	//"[80]"
+
+/* Apply the Crying effect to also affect enemies, instead of just the party members (Credit to The Kirby) */
+ROM[0xC283AE] = JSL(Crying_EnemyMissRates)
+Crying_EnemyMissRates: {
+	PHX			//Push X.
+	LDX_a(0xA970)		//Load attacker’s pointer.
+	LDA_x(0x001F)		//Load attacker’s status.(crying)
+	AND_i(0x00FF)		//Clear high byte.
+	PLX			//Pull X.
+	CMP_i(0x0002)		//Check if the attacker is crying.
+	BEQ_a(IncMissRate)	//Branch if attacker is crying.
+	LDA_xl(0xD59589)	//Load enemy’s miss rate from ROM.
+	RTL
+IncMissRate:
+	LDA_xl(0xD59589)	//Load enemy entry’s miss rate from ROM.
+	CLC			//Clear carry flag.
+	ADC_i(0x0008)		//Add “8” to the enemy’s miss rate.
+	RTL
+}

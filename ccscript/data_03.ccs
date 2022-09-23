@@ -1,0 +1,566 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc53b76:
+    newline
+    " <[1C 05 24]>" next // Pukawka
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53b86:
+    newline
+    " <[1C 05 25]>" next // Paralizator
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53b96:
+    newline
+    " <[1C 05 26]>" next // Wiatrówka Zabawka
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53ba6:
+    newline
+    " <[1C 05 27]>" next // Duża Wiatrówka
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53bb6:
+    newline
+    " <[1C 05 28]>" next // Pistolet Błyskawiczny
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53bc6:
+    newline
+    " <[1C 05 29]>" next // Pistolet Laserowy
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53bd6:
+    newline
+    " <[1C 05 2A]>" next // Hiper Promień
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53be6:
+    newline
+    " <[1C 05 2B]>" next // Miażdżący Promień
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53bf6:
+    newline
+    " <[1C 05 2C]>" next // Promień Widmo
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53c06:
+    newline
+    " <[1C 05 2D]>" next // Promień Śmierci
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53c16:
+    newline
+    " <[1C 05 2E]>" next // Najgorszy Promień
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53c26:
+    newline
+    " <[1C 05 2F]>" next // Księżycowy Pistolet
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53c36:
+    newline
+    " <[1C 05 30]>" next // Promień Gaia
+    call(data_05.l_0xc56ba0) end
+
+l_0xc53c46:
+    newline
+    " <[1C 05 31]>" next // Jo-jo
+    "@Taka sobie bro[C5]." end
+
+l_0xc53c5f:
+    newline
+    " <[1C 05 32]>" next // Proca
+    "@Przyzwoita ma[C4]a bro[C5]." end
+
+l_0xc53c7a:
+    newline
+    " <[1C 05 33]>" next // Bioniczna Proca
+    "@Ca[C4]kiem pot[C3][C8]na bro[C5]." end
+
+l_0xc53c95:
+    newline
+    " <[1C 05 34]>" next // Trikowe Jo-jo
+    "@Mocna, silna bro[C5]!" end
+
+l_0xc53caf:
+    newline
+    " <[1C 05 35]>" next // Bojowe Jo-jo
+    "@To na pewno wymiata." end
+
+l_0xc53cc8:
+    newline
+    " <[1C 05 36]>" next // Amulet Podróżny
+    call(data_05.l_0xc56bc0) end
+
+l_0xc53cd8:
+    newline
+    " <[1C 05 37]>" next // Wielki Amulet
+    call(data_05.l_0xc56bc0) next
+    "@Dodaje tak[C8]e troch[C3] Pr[C3]dko[C7]ci." end
+
+l_0xc53d00:
+    newline
+    " <[1C 05 38]>" next // Krystaliczny Amulet
+    call(data_05.l_0xc56bc0) next
+    "@Zwi[C3]ksza tak[C8]e Pr[C3]dko[C7][C2]." end
+
+l_0xc53d21:
+    newline
+    " <[1C 05 39]>" next // Królicza Łapa
+    call(data_05.rabbit) next
+    "@W du[C8]ym stopniu zwi[C3]ksza Pr[C3]dko[C7][C2]." end
+
+l_0xc53d46:
+    newline
+    " <[1C 05 3A]>" next // Płomienny Wisiorek
+    call(data_05.l_0xc56bdf) "@Chroni ci[C3] przed ognistymi atakami." end
+
+l_0xc53d6a:
+    newline
+    " <[1C 05 3B]>" next // Deszczowy Wisiorek
+    call(data_05.l_0xc56bdf) "@Chroni ci[C3] przed mro[C9]nymi atakami." end
+
+l_0xc53d8f:
+    newline
+    " <[1C 05 3C]>" next // Nocny Wisiorek
+    call(data_05.l_0xc56bdf) "@Poch[C4]ania [C7]wiat[C4]o b[C4]yskawicznego ataku." end
+
+l_0xc53db8:
+    newline
+    " <[1C 05 3D]>" next // Morski Wisiorek
+    call(data_05.l_0xc56bdf) "@Chroni ci[C3] przed ognistymi, mro[C9]nymi i b[C4]yskawicznymi atakami." end
+
+l_0xc53de8:
+    newline
+    " <[1C 05 3E]>" next // Gwiezdny Wisiorek
+    call(data_05.l_0xc56bdf) "@Chroni ci[C3] przed ognistymi, mro[C9]nymi, b[C4]yskawicznymi i parali[C8]uj[C1]cymi atakami." end
+
+l_0xc53e23:
+    newline
+    " <[1C 05 3F]>" next // Peleryna Królów
+    "@Wyposa[C8]enie cia[C4]a [1C 02 04]." next
+    "@Zwi[C3]ksza jego Obron[C3]." end
+
+l_0xc53e4f:
+    newline
+    " <[1C 05 40]>" next // Tania Bransoleta
+    call(data_05.l_0xc56bf4) end
+
+l_0xc53e5f:
+    newline
+    " <[1C 05 41]>" next // Miedziana Bransoleta
+    call(data_05.l_0xc56bf4) end
+
+l_0xc53e6f:
+    newline
+    " <[1C 05 42]>" next // Srebrna Bransoleta
+    call(data_05.l_0xc56bf4) end
+
+l_0xc53e7f:
+    newline
+    " <[1C 05 43]>" next // Złota Bransoleta
+    call(data_05.l_0xc56bf4) end
+
+l_0xc53e8f:
+    newline
+    " <[1C 05 44]>" next // Platynowa Obręcz
+    call(data_05.l_0xc56bf4) end
+
+l_0xc53e9f:
+    newline
+    " <[1C 05 45]>" next // Diamentowa Obręcz
+    call(data_05.l_0xc56bf4) end
+
+l_0xc53eaf:
+    newline
+    " <[1C 05 46]>" next // Bransoleta Pixie
+    call(data_05.l_0xc56bf4) next
+    call(data_05.l_0xc56c16) end
+
+l_0xc53ec6:
+    newline
+    " <[1C 05 47]>" next // Obręcz Anioła
+    call(data_05.l_0xc56bf4) next
+    call(data_05.l_0xc56c16) end
+
+l_0xc53edd:
+    newline
+    " <[1C 05 48]>" next // Boska Obręcz
+    call(data_05.l_0xc56bf4) next
+    call(data_05.l_0xc56c16) end
+
+l_0xc53ef4:
+    newline
+    " <[1C 05 49]>" next // Naramiennik Królów
+    "@Mo[C8]e by[C2] wyposa[C8]ony na" linebreak
+    "  ramieniu [1C 02 04]." next
+    "@Pomaga chroni[C2] przed zahipnotyzowaniem, a Szcz[C3][C7]cie wzro[C7]nie." next
+    "@Oczywi[C7]cie Obrona r[C6]wnie[C8] wzro[C7]nie." end
+
+l_0xc53f58:
+    newline
+    " <[1C 05 4A]>" next // Czapka Baseballowa
+    call(data_05.l_0xc56c40) next
+    "@Ma na sobie logo twojej ulubionej dru[C8]yny baseballowej." end
+
+l_0xc53f89:
+    newline
+    " <[1C 05 4B]>" next // Czapka Holmesa
+    call(data_05.l_0xc56c40) next
+    "@Poczujesz si[C3] jak wielki detektyw, Sherlock Holmes, gdy j[C1] wyposa[C8]ysz." end
+
+l_0xc53fc9:
+    newline
+    " <[1C 05 4C]>" next // Czapka Baseballisty
+    call(data_05.l_0xc56c40) next
+    "@M[C6]wi si[C3], [C8]e zosta[C4]a podana przyjacielowi przez znanego gracza na boisku." end
+
+l_0xc5400a:
+    newline
+    " <[1C 05 4D]>" next // Kask
+    call(data_05.hardhat) next
+    "@Powinien by[C2] noszony przy poszukiwaniu zakopanego skarbu" next
+    "@lub podczas pobytu na placu budowy." end
+
+l_0xc54055:
+    newline
+    " <[1C 05 4E]>" next // Wstążka
+    call(data_05.l_0xc56c6d) end
+
+l_0xc54065:
+    newline
+    " <[1C 05 4F]>" next // Czerwona Wstążka
+    call(data_05.l_0xc56c6d) end
+
+l_0xc54075:
+    newline
+    " <[1C 05 50]>" next // Boska Wstążka
+    call(data_05.l_0xc56c6d) end
+
+l_0xc54085:
+    newline
+    " <[1C 05 51]>" next // Moneta Drzemki
+    call(data_05.l_0xc56c54) end
+
+l_0xc54095:
+    newline
+    " <[1C 05 52]>" next // Moneta Obrony
+    call(data_05.l_0xc56c54) end
+
+l_0xc540a5:
+    newline
+    " <[1C 05 53]>" next // Moneta Szczęścia
+    call(data_05.l_0xc56c54) end
+
+l_0xc540b5:
+    newline
+    " <[1C 05 54]>" next // Moneta Talizman
+    call(data_05.l_0xc56c54) end
+
+l_0xc540c5:
+    newline
+    " <[1C 05 55]>" next // Błyszcząca Moneta
+    call(data_05.l_0xc56c54) end
+
+l_0xc540d5:
+    newline
+    " <[1C 05 56]>" next // Pamiątkowa Moneta
+    call(data_05.l_0xc56c54) end
+
+l_0xc540e5:
+    newline
+    " <[1C 05 57]>" next // Diadem Królów
+    call(data_05.l_0xc56c91) next
+    "@Zwi[C3]ksza jego Obron[C3]." end
+
+l_0xc54106:
+    newline
+    " <[1C 05 58]>" next // Ciastko
+    call(data_05.l_0xc56cb5) "6" call(data_05.l_0xc56cd6) end
+
+l_0xc5411c:
+    newline
+    " <[1C 05 59]>" next // Zestaw Frytek
+    call(data_05.l_0xc56cb5) "24" call(data_05.l_0xc56cd6) end
+
+l_0xc54133:
+    newline
+    " <[1C 05 5A]>" next // Hamburger
+    call(data_05.l_0xc56cb5) "50" call(data_05.l_0xc56cd6) next
+    "@100% wo[C4]owiny." end
+
+l_0xc54156:
+    newline
+    " <[1C 05 5B]>" next // Ugotowane Jajko
+    call(data_05.l_0xc56cb5) "40" call(data_05.l_0xc56cd6) end
+
+l_0xc5416d:
+    newline
+    " <[1C 05 5C]>" next // Świeże Jajko
+    call(data_05.l_0xc56cb5) "80" call(data_05.l_0xc56cd6) next
+    "@Bardzo [C7]wie[C8]e i wci[C1][C8] ciep[C4]e!" end
+
+l_0xc54197:
+    newline
+    " <[1C 05 5D]>" next // Piknikowy Lunch
+    call(data_05.l_0xc56cb5) "80" call(data_05.l_0xc56cd6) next
+    "@Jest nawet jak kawa[C4]ek twojego ulubionego ciasta!" end
+
+l_0xc541cb:
+    newline
+    " <[1C 05 5E]>" next // Makaron Summers
+    "@To makaronowe danie, kt[C6]re wed[C4]ug legendy by[C4]o ulubionym jedzeniem Kr[C6]la Summers III" next
+    "@w XVI wieku. W tamtych czasach by[C4]o wielu wspania[C4]ych szef[C6]w kuchni, pewnych" next
+    "@swoich kulinarnych umiej[C3]tno[C7]ci, kt[C6]rzy zawsze wchodzili do Pa[C4]acu Summers." next
+    "@Pewnego dnia, [C8]ona Kr[C6]la Summers, Anna Summers, powiedzia[C4]a:" next
+    "@<Och, czego nie da[C4]abym za naprawd[C3] pyszny makaron!>" linebreak
+    "  ... ... ..." next
+    "@...Dobrze, miejmy to ju[C8] za sob[C1]. Historia jest zbyt d[C4]uga, aby j[C1] ca[C4]kowicie om[C6]wi[C2]..." next
+    "@Ale naprawd[C3] jest pi[C3]kn[C1], wzruszaj[C1]c[C1] opowie[C7]ci[C1]..." next
+    call(data_05.l_0xc56cb5) "110" call(data_05.l_0xc56cd6) end
+
+l_0xc54321:
+    newline
+    " <[1C 05 5F]>" next // Pizza
+    call(data_05.l_0xc56cb5) "120" call(data_05.l_0xc56cd6) end
+
+l_0xc54339:
+    newline
+    " <[1C 05 60]>" next // Specjalność Szefa
+    "@To dzisiejsza specjalno[C7][C2]. Jest wysoce polecana przez naszego szefa kuchni," next
+    "@kt[C6]ry trenowa[C4] w pi[C3]ciogwiazdowej restauracji w Pary[C8]u." next
+    call(data_05.l_0xc56cb5) "200" call(data_05.l_0xc56cd6) end
+
+l_0xc543a4:
+    newline
+    " <[1C 05 61]>" next // Duża Pizza
+    "@Poniewa[C8] jest to naprawd[C3] du[C8]a pizza, ka[C8]dy mo[C8]e odzyska[C2] oko[C4]o 240 HP podczas jedzenia." end
+
+l_0xc543da:
+    newline
+    " <[1C 05 62]>" next // Karmelek PSI
+    "@Uzupe[C4]nia 20 PP." end
+
+l_0xc543f5:
+    newline
+    " <[1C 05 63]>" next // Magiczna Trufla
+    "@Wymarzony przysmak, o kt[C6]rym" linebreak
+    "  m[C6]wi si[C3], [C8]e ro[C7]nie u podn[C6][C8]a drzew" next
+    "@w mokrych, b[C4]otnistych miejscach." next
+    "@Przywraca oko[C4]o 80 PP." end
+
+l_0xc54451:
+    newline
+    " <[1C 05 64]>" next // Lunch Mózgowca
+    call(data_05.l_0xc56cb5) "300 HP i oko[C4]o 50 PP." end
+
+l_0xc54471:
+    newline
+    " <[1C 05 65]>" next // Skalny Cukierek
+    "@Kiedy go zjesz, zwi[C3]kszy si[C3] Pr[C3]dko[C7][C2], [B7]mia[C4]o[C7][C2], Witalno[C7][C2], Inteligencja lub Szcz[C3][C7]cie." end
+
+l_0xc544af:
+    newline
+    " <[1C 05 66]>" next // Rogalik
+    call(data_05.l_0xc56cb5) "60" call(data_05.l_0xc56cd6) end
+
+l_0xc544c6:
+    newline
+    " <[1C 05 67]>" next // Bułka
+    call(data_05.l_0xc56cb5) "30" call(data_05.l_0xc56cd6) end
+
+l_0xc544dd:
+    newline
+    " <[1C 05 68]>" next // Paczka Gum Balonowych
+    "@Ulubiona rzecz B[C1]belkowej Ma[C4]py." next
+    "@Nie pomo[C8]e ci doj[C7][C2] do siebie, ale" next
+    "@te[C8] nigdy si[C3] nie sko[C5]czy, bo to super jumbo paczka!" end
+
+l_0xc5453e:
+    newline
+    " <[1C 05 69]>" next // Słoik Muszego Miodu
+    "@Ulubione jedzenie Beka na ca[C4]ym [C7]wiecie." next
+    "@Jednak[C8]e... pachnie NAPRAWD[B3], naprawd[C3] okropnie! M[C6]wimy tu o du[C8]ym smrodzie!" end
+
+l_0xc545a1:
+    newline
+    " <[1C 05 6A]>" next // Puszka Soku
+    call(data_05.l_0xc56cc5) "6" call(data_05.l_0xc56cd6) end
+
+l_0xc545b7:
+    newline
+    " <[1C 05 6B]>" next // Królewska Herbata
+    "@Herbata najwy[C8]szej jako[C7]ci, wyprodukowana przez eksperta Pana Y. Todaara," next
+    "@kt[C6]ry starannie wybiera tylko r[C3]cznie zbierane li[C7]cie herbaty." next
+    "@Dawno temu tylko arystokraci na dworze kr[C6]lewskim mogli pi[C2] t[C3] herbat[C3]." next
+    call(data_05.l_0xc56cc5) "60" call(data_05.l_0xc56cd6) end
+
+l_0xc54660:
+    newline
+    " <[1C 05 6C]>" next // Napój Białkowy
+    "@Do budowy silniejszego, zdrowszego cia[C4]a." next
+    "@Daje ci podmuch po[C8]ywienia, kiedy jeste[C7] zm[C3]czony." next
+    call(data_05.l_0xc56cc5) "80" call(data_05.l_0xc56cd6) end
+
+l_0xc546bc:
+    newline
+    " <[1C 05 6D]>" next // Zupa Krakena
+    "@Zupa zrobiona z p[C4]etwy morskiego potwora znanego jako Kraken." next
+    "@Ta bestia [C8]yje w oceanie u wybrze[C8]y Summers." next
+    "@Bardzo droga, ale gwarantowane jest znaczne zwi[C3]kszenie mocy." end
+
+l_0xc54733:
+    newline
+    " <[1C 05 6E]>" next // Butelka Wody
+    "@Kiedy j[C1] wypijesz, twoje PP nieco wzro[C7]nie." end
+
+l_0xc5475a:
+    newline
+    " <[1C 05 6F]>" next // Lek na Przeziębienie
+    "@To najbardziej skuteczna rzecz, jak[C1] mo[C8]na wzi[C1][C2], gdy si[C3] przezi[C3]bisz." end
+
+l_0xc54789:
+    newline
+    " <[1C 05 70]>" next // Fiolka z Surowicą
+    "@To najlepsza rzecz, kt[C6]r[C1] nale[C8]y wzi[C1][C2], gdy zostaniesz otruty." end
+
+l_0xc547b0:
+    newline
+    " <[1C 05 71]>" next // Kapsułka Inteligencji
+    "@Zwi[C3]kszy twoj[C1] Inteligencj[C3], gdy zostanie u[C8]yta." end
+
+l_0xc547cb:
+    newline
+    " <[1C 05 72]>" next // Kapsułka Śmiałości
+    "@Zwi[C3]kszy twoj[C1] [B7]mia[C4]o[C7][C2], gdy zostanie u[C8]yta." end
+
+l_0xc547e8:
+    newline
+    " <[1C 05 73]>" next // Kapsułka Prędkości
+    "@Zwi[C3]kszy twoj[C1] Pr[C3]dko[C7][C2], gdy zostanie u[C8]yta." end
+
+l_0xc54806:
+    newline
+    " <[1C 05 74]>" next // Kapsułka Witalności
+    "@Zwi[C3]kszy twoj[C1] Witalno[C7][C2], gdy zostanie u[C8]yta." end
+
+l_0xc54826:
+    newline
+    " <[1C 05 75]>" next // Kapsułka Szczęścia
+    "@Zwi[C3]kszy twoje Szcz[C3][C7]cie, gdy zostanie u[C8]yta." end
+
+l_0xc54842:
+    newline
+    " <[1C 05 76]>" next // Paczka Keczupu
+    call(data_05.l_0xc56d63) end
+
+l_0xc54852:
+    newline
+    " <[1C 05 77]>" next // Paczka Cukru
+    call(data_05.l_0xc56d63) end
+
+l_0xc54862:
+    newline
+    " <[1C 05 78]>" next // Puszka Kakao
+    call(data_05.l_0xc56d63) end
+
+l_0xc54872:
+    newline
+    " <[1C 05 79]>" next // Karton Śmietany
+    call(data_05.l_0xc56d63) end
+
+l_0xc54882:
+    newline
+    " <[1C 05 7A]>" next // Gałązka Natki Pietruszki
+    call(data_05.l_0xc56d63) end
+
+l_0xc54892:
+    newline
+    " <[1C 05 7B]>" next // Słoik Gorącego Sosu
+    call(data_05.l_0xc56d63) end
+
+l_0xc548a2:
+    newline
+    " <[1C 05 7C]>" next // Paczka Soli
+    call(data_05.l_0xc56d63) end
+
+l_0xc548b2:
+    newline
+    " <[1C 05 7D]>" next // Wejściówka za Kulisy
+    "@Pozwala wej[C7][C2] za kulisy w Teatrze Chaosu." next
+    "@Oczywi[C7]cie mo[C8]esz tak[C8]e obejrze[C2] wyst[C3]p, korzystaj[C1]c z przepustki." end
+
+l_0xc548fc:
+    newline
+    " <[1C 05 7E]>" next // Słoik Delikatesów
+    "@U[C8]yj tego, posypuj[C1]c nim jedzenie." next
+    "@Smakuje dobrze z ka[C8]dym rodzajem [C8]ywno[C7]ci" next
+    "@zwi[C3]kszaj[C1]c w ten spos[C6]b moc jedzenia." end
+
+l_0xc54952:
+    newline
+    " <[1C 05 7F]>" next // Mokry Ręcznik
+    "@Jest [C7]wietny w tych czasach, kiedy mo[C8]na dosta[C2] udaru s[C4]onecznego." end
+
+l_0xc54979:
+    newline
+    " <[1C 05 80]>" next // Odświeżające Zioło
+    "@Pomaga, kiedy jeste[C7] otruty lub czujesz md[C4]o[C7]ci." next
+    "@Ma r[C6]wnie[C8] inne zastosowania..." next
+    call(data_05.l_0xc56d02) call(data_05.l_0xc56d36) end
+
+l_0xc549c3:
+    newline
+    " <[1C 05 81]>" next // Sekretne Zioło
+    "@Mo[C8]e o[C8]ywi[C2] nieprzytomnego przyjaciela." next
+    call(data_05.l_0xc56cdb) call(data_05.l_0xc56d02) next
+    call(data_05.l_0xc56d36) call(data_05.l_0xc56d38) end
+
+l_0xc549ff:
+    newline
+    " <[1C 05 82]>" next // Róg Życia
+    goto(l_0xc54a08)
+
+l_0xc54a08:
+    "@O[C8]ywia nieprzytomnego przyjaciela." next
+    call(data_05.l_0xc56cdb) call(data_05.l_0xc56d02) next
+    call(data_05.l_0xc56d37) call(data_05.l_0xc56d38) end
+
+l_0xc54a3a:
+    newline
+    " <[1C 05 83]>" next // Przetrzymywacz PSI
+    call(data_05.l_0xc56db7) "@Hamuje u[C8]ycie PSI przez wroga podczas walki." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54a6c:
+    newline
+    " <[1C 05 84]>" next // Zabójca Tarcz
+    call(data_05.l_0xc56db7) "@Przebija tarcz[C3] wroga podczas walki." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54aa1:
+    newline
+    " <[1C 05 85]>" next // Bazuka
+    call(data_05.l_0xc56db7) call(data_05.l_0xc56dc5) next
+    "@Ze wzgl[C3]du na swoj[C1] wybuchow[C1] moc," next
+    "@mo[C8]e mie[C2] wp[C4]yw na innych opr[C6]cz docelowego stworzenia." next
+    call(data_05.item_extra) end
+
+l_0xc54af5:
+    newline
+    " <[1C 05 86]>" next // Ciężka Bazuka
+    call(data_05.l_0xc56db7) "@Zadaje wrogowi mn[C6]stwo obra[C8]e[C5] podczas walki." next
+    "@Ze wzgl[C3]du na swoj[C1] wybuchow[C1] moc," next
+    "@mo[C8]e mie[C2] wp[C4]yw na innych opr[C6]cz docelowego stworzenia." next
+    call(data_05.item_extra) end
+

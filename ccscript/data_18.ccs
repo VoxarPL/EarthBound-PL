@@ -1,0 +1,489 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc61e81:
+    "@....." next
+    "@(.....)" end
+
+l_0xc61e8e:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc61e81)}]{store_registers}" call(l_0xc62380) "[1B 02 {e(l_0xc61e81)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Unkikkie!" next
+    "@([1C 05 5A]!){wait}{window_closeall}[1F 1E 27 03 06][1F 17 29 03 2B 00 01]{set(flag 458)}" eob
+
+l_0xc61ed7:
+    "@Uki Ukkinki Ukinkie." next
+    "@(Ma[C4]pa obok mnie to m[C6]j brat bli[C9]niak.)" end
+
+l_0xc61f07:
+    "[06 CB 01 {e(l_0xc62008)}]@Ukie Ukikikie." next
+    "@(Jestem Man K. Man.)" next
+    title(1, Mankman)
+    "@Ukie Ukikikie." next
+    "@(Dla mnie najbardziej interesuj[C1]c[C1] rzecz[C1] jest [1C 05 A6].)" next
+    "@Ukie?  Ukikikie?" next
+    "@(Co?{pause(20)}  Czy dasz mi prezent?)" next
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61fab)} {e(l_0xc61f97)}]" goto(l_0xc61f97)
+
+l_0xc61f97:
+    "@Uki..." next
+    "@(Dusigrosz...)" end
+
+l_0xc61fab:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc61f97)}]{store_registers}[19 19 00 00]{swap}{result_is(166)}[1B 02 {e(l_0xc61f97)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Ukki, Ukie!" next
+    "@(Och, umar[C4]em i poszed[C4]em do ma[C4]piego nieba!){wait}{window_closeall}[1F 1E 37 03 06][1F 17 39 03 2B 00 01]{set(flag 459)}" eob
+
+l_0xc62008:
+    "@Ukki Ukikie." next
+    title(1, Mankman)
+    "@(Jestem Man K. Man.)" end
+
+l_0xc62026:
+    "[06 CC 01 {e(l_0xc620e3)}]@Uikkie. Uiki Uki." next
+    "@(Przejd[C9]my do sedna.{pause(20)} Daj mi [1C 05 5A]a.)" linebreak
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc62089)} {e(l_0xc6206b)}]" goto(l_0xc6206b)
+
+l_0xc6206b:
+    "@Uiki, Uikki." next
+    "@(Ok, odsun[C3] si[C3].)" end
+
+l_0xc62089:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc6206b)}]{store_registers}" call(l_0xc62380) "[1B 02 {e(l_0xc6206b)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}"
+    "@Uikki Uiki Uiki Uiki." next
+    "@(Jestem ci bardzo wdzi[C3]czny.){wait}{window_closeall}[1F 1E 36 03 06][1F 17 38 03 2B 00 01]{set(flag 460)}" eob
+
+l_0xc620e3:
+    "@Uiki." next
+    "@(Uwa[C8]aj na siebie.)" end
+
+l_0xc620f7:
+    "[06 CD 01 {e(l_0xc62236)}]@Miau Miau fss fss fssss?" next
+    "@(Co za dziwne gadaj[C1]ca ma[C4]pa.)" next
+    "@Ku ku, pipipi." next
+    "@(Je[C7]li zjem [1C 05 5C],{pause(15)} odzyskam zdrowie.)" next
+    "@Krok krok, briiiiiip?" next
+    "@(Je[C7]li je masz, czy mog[C3] je mie[C2]?)" linebreak
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc621d0)} {e(l_0xc6219a)}]" goto(l_0xc6219a)
+
+l_0xc6219a:
+    "@Ba[C4] [C4]a[C4], raff raff bark!" next
+    "@(Dobrze,{pause(15)} b[C3]d[C3] po prostu dziwn[C1] ma[C4]p[C1].)" end
+
+l_0xc621d0:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc6219a)}]{store_registers}[19 19 00 00]{swap}{result_is(92)}[1B 02 {e(l_0xc6219a)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}"
+    "@[B4]yk,{pause(15)} [C4]yk...{pause(20)} Ukiki!" next
+    "@([B4]yk,{pause(15)} [C4]yk...{pause(20)} Widzisz!){wait}{window_closeall}[1F 1E 32 03 06][1F 17 34 03 2B 00 01]{set(flag 461)}" eob
+
+l_0xc62236:
+    "@Ukiki!" next
+    "@(Prawdziwa mowa ma[C4]py!)" end
+
+l_0xc62257:
+    "[06 CE 01 {e(l_0xc6235d)}]@Kiki, kikkeki!" next
+    "@(Och, chc[C3] co[C7] zmierzy[C2]!)" next
+    "@Kiki kiku eki..." next
+    "@(Ale nie mam Linijki...)" next
+    "@Kuki keikuki?" next
+    "@(Czy masz takie co[C7], co mog[C3] po[C8]yczy[C2]?)" linebreak
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc622fc)} {e(l_0xc622dc)}]" goto(l_0xc622dc)
+
+l_0xc622dc:
+    "@Kiki Kikurek ki!" next
+    "@(Bez pomiaru!)" end
+
+l_0xc622fc:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc622dc)}]{store_registers}[19 19 00 00]{swap}{result_is(140)}[1B 02 {e(l_0xc622dc)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}"
+    "@Kikki ekruiki!" next
+    "@(Wreszcie mog[C3] zmierzy[C2] sw[C6]j w[C4]asny ogon!){wait}{window_closeall}[1F 1E 31 03 06][1F 17 33 03 2B 00 01]{set(flag 462)}" eob
+
+l_0xc6235d:
+    "@Kikoke Ukike!" next
+    "@(Mog[C3] te[C8] zmierzy[C2] jego ogon!)" end
+
+l_0xc62380:
+    "[19 19 00 00]{swap}{rtoarg}{result_is(90)}[1B 03 {e(l_0xc62394)}]{swap}{result_is(233)}" goto(l_0xc62394)
+
+l_0xc62394:
+    eob
+
+l_0xc62395:
+    "[19 19 00 00]{swap}{rtoarg}{result_is(95)}[1B 03 {e(l_0xc623a9)}]{swap}{result_is(97)}" goto(l_0xc623a9)
+
+l_0xc623a9:
+    eob
+
+l_0xc623aa:
+    "[19 19 00 00]{swap}{rtoarg}{result_is(224)}[1B 03 {e(l_0xc623be)}]{swap}{result_is(225)}" goto(l_0xc623be)
+
+l_0xc623be:
+    eob
+
+l_0xc623bf:
+    "[06 CF 01 {e(l_0xc624f5)}]@Kiakiako Kiakie..." next
+    "@(Gdzie[C7] w[C7]r[C6]d tych wszystkich pokoi...)" next
+    "@Ukkiki Kiako Kiakki." next
+    "@(powiniene[C7] by[C2] w stanie zdoby[C2] Smokonit.)" next
+    "@Ukiakki Kikiiakoke?" next
+    "@(Czy uwa[C8]asz, [C8]e Smokonit jest tak naprawd[C3] zrobiony ze smok[C6]w?)" next
+    "@Kiokekioke, Ukiokie." next
+    "@(A tak przy okazji, dam ci [1C 05 5C].)" next
+    "@Ukia, Kiokio Kiekio." next
+    "@(Je[C7]li zabraknie ci jajek,{pause(15)} po prostu wr[C6][C2], a dam ci tyle, ile chcesz.)[03][1D 03 FF][1B 02 {e(l_0xc624d6)}][1D 0E 00 5C]" call(data_36.l_0xc7dccf) "{set(flag 463)}" end
+
+l_0xc624d6:
+    next
+    "@Kiokiukio kiakie!" next
+    "@(Masz za du[C8]o rzeczy!)" end
+
+l_0xc624f5:
+    "@Ukiako kiakki?" next
+    "@(Znalaz[C4]e[C7] [1C 05 3A]?)" next
+    "@Ukiakki, Kokekiakia?" next
+    "@(O nie,{pause(15)} nie musisz m[C6]wi[C2].)" next
+    "@Kiokekioke Ukiokie..." next
+    "@(Oto kolejne [1C 05 5C]...)[03][1D 03 FF][1B 02 {e(l_0xc624d6)}][1D 0E 00 5C]" call(data_36.l_0xc7dccf) end
+
+l_0xc62578:
+    "[06 D0 01 {e(l_0xc6266c)}]@Kiuie." next
+    "@(Jeden z moich przyjaci[C6][C4] potrafi u[C8]ywa[C2] teleportacji.)" next
+    "@Kiu?{pause(15)}  Kikki?" next
+    "@(Co?{pause(20)}  Nigdy o tym nie s[C4]ysza[C4]e[C7]?)" next
+    "@Kiukiu, Kiui." next
+    "@(A wi[C3]c,{pause(15)} dam ci Kr[C6]lewskiego Banana.)" next
+    "[1D 03 FF][1B 02 {e(l_0xc62641)}][1D 0E 00 A6]@Kiu, Ukiakki?  Uki, Ukiukui?" next
+    "@(To nie mia[C4]o sensu, czy[C8] nie?{pause(20)}  Ale w ka[C8]dym razie jestem atrakcyjna, nie s[C1]dzisz?)[03]" call(data_36.l_0xc7dcb6) "{set(flag 464)}" end
+
+l_0xc62641:
+    "@Kiee. Kiee" next
+    "@(Nie mo[C8]esz nosi[C2] wi[C3]cej przedmiot[C6]w.{pause(20)}  Masz za du[C8]o rzeczy.)" end
+
+l_0xc6266c:
+    "@Kiu Kiuii." next
+    "@(Urodzili[C7]my si[C3] na pustyni.)" next
+    "@Kiu?  Kiuikki?" next
+    "@(Co?  Nie pyta[C4]e[C7] mnie o to?)" next
+    "@Kiukiu Kiui kiukiu." next
+    "@(Musicie ci[C3][C8]ko pracowa[C2].)" next
+    "@Kiuiki, Kiu?{pause(20)}  Ukiu, kioi?" next
+    "@(Nie ma to sensu, prawda?{pause(20)}  Ale jestem atrakcyjna, nie s[C1]dzisz?)" end
+
+l_0xc6271a:
+    "@[AC] Ukikki Rukikki. [AC]" next
+    "@([AC] Najbardziej uwielbiam Talah Ram[C3]. [AC])" next
+    "@[AC] [B4]aakikki Hoikikki. [AC]" next
+    "@([AC] Jest przyjacielem ma[C4]p. [AC])" next
+    "@...Uki Ukiukiukia!" next
+    "@(...Oto piosenka, kt[C6]r[C1] stworzy[C4]em dla Talah Ramy!)" end
+
+l_0xc6279f:
+    "[06 13 01 {e(l_0xc62819)}][06 2A 02 {e(l_0xc627ca)}]@Kiakiakiaa Kia." next
+    "@(Czeka[C4]em na ciebie.)" end
+
+l_0xc627ca:
+    "@Kiakiekiai kia." next
+    "@(Naucz[C3] ci[C3] teleportacji.)" next
+    "@Kiakiakia." next
+    "@(Wyjd[C9]my na zewn[C1]trz.){wait}{window_closeall}[1F F1 3C 03 9C 02][1F 61]{set(flag 764)}{set(flag 613)}{set(flag 614)}" eob
+
+l_0xc62819:
+    "@Kiakia... kieki?" next
+    "@(Wi[C3]c... jak si[C3] masz?)" end
+
+l_0xc6283d:
+    "@Hik, ikki." next
+    "@(Chod[C9]cie za mn[C1],{pause(15)} t[C3]dy.){wait}{window_closeall}[1F F1 04 03 9D 02]" eob
+
+l_0xc62865:
+    "[1F 1E 04 03 06][1F 17 05 03 08 00 01]{unset(flag 614)}{set(flag 615)}{pause(1)}[19 23 05 03 01 FF 00][1F 16 05 03 00]" eob
+
+l_0xc62886:
+    "[06 13 01 {e(l_0xc62b6f)}]{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc62a9b)}][06 02 00 {e(l_0xc62a30)}]" goto(l_0xc628a1)
+
+l_0xc628a1:
+    "@Kiakia, Kiokio." next
+    "@(Ok,{pause(15)} zademonstruje ci.)" next
+    "@Kiakiakia, Kiakkia." next
+    "@(Je[C7]li si[C3] tego nauczy[C2],{pause(15)} b[C3]dziesz m[C6]g[C4] p[C6]j[C7][C2] gdziekolwiek wcze[C7]niej.)" next
+    "@Kiakkiaki kiki." next
+    "@(Mo[C8]esz tam p[C6]j[C7][C2] natychmiast.)" next
+    "@Kiakki, Kiaki." next
+    "@(Tej umiej[C3]tno[C7]ci nie mo[C8]na jednak u[C8]ywa[C2], gdy jest si[C3] w pokoju albo w podziemiu.)[03]{window_closeall}[1F F1 05 03 9E 02][1F 61][1F E6 05 03]{music(13)}[1F E9 05 03][1F 61][1F E6 05 03]{music_resume}[1F E9 05 03][1F 61][1F F1 05 03 08 00][19 23 05 03 01 FF 00][1F 16 05 03 00]{pause(30)}{window_open(1)}"
+    "@Ukkie." next
+    "@(Poszed[C4]em do Fourside i wr[C6]ci[C4]em.)" next
+    "@Kiaa, kiakkia." next
+    "@(Pokaza[C4]em ci podstawowy, prosty kurs," next
+    "@ale mo[C8]esz tak[C8]e skr[C3]ci[C2], je[C7]li masz wystarczaj[C1]co du[C8]o miejsca.)" next
+    "@Ukki! Ukkiekie!" next
+    "@(Ok!{pause(15)}  Czemu nie spr[C6]bujesz, m[C4]ody cz[C4]owieku!){wait}{window_closeall}{set(flag 2)}" eob
+
+l_0xc62a30:
+    "{window_open(1)}@Kiakiakiakia." next
+    "@(Spr[C6]buj ponownie, wierz[C1]c w ma[C4]piego nauczyciela.)" linebreak
+    "[19 02]Tak" eob
+
+l_0xc62a61:
+    "[19 02]Nie" eob
+
+l_0xc62a66:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc628a1)} {e(l_0xc62a75)}]" goto(l_0xc62a75)
+
+l_0xc62a75:
+    "@Kiakiakia?" next
+    "@(Nie lubisz ma[C4]piego nauczyciela?){wait}{window_closeall}" eob
+
+l_0xc62a9b:
+    "@Uki? Kiakikie." next
+    "@(Co si[C3] sta[C4]o z ch[C4]opcem w czerwonej czapce?" next
+    "@Chcia[C4]em go tylko czego[C7] nauczy[C2].)" next
+    "@Kiakio..." next
+    "@(Nie ma go tu...)" end
+
+l_0xc62ae7:
+    "{window_open(1)}@[1C 02 01] nauczy[C4] si[C3] u[C8]ywa[C2] teleportacji PSI.{wait}{window_closeall}[1F 71 01 01]{set(flag 275)}[19 23 05 03 01 FF 00][1F 16 05 03 00][1F 1A 05 03 03]{pause(60)}[1F 1B 05 03][1F F1 05 03 80 02][1F 61]{window_open(1)}"
+    "@Kiaho!  Uki, Kiakkia." next
+    "@([B7]wietnie!{pause(20)}  Okej,{pause(15)} nauczyciel idzie teraz do domu.){wait}{window_closeall}[1F F1 05 03 9F 02]{unset(flag 2)}{unset(flag 615)}{unset(flag 613)}" eob
+
+l_0xc62b6f:
+    "@Kiai Kiai." next
+    "@(Na razie.)" end
+
+l_0xc62b87:
+    "@Kukkukukku!" next
+    "@(Witajcie!)" next
+    "@Kikikikki." next
+    "@(Nasz raj istnieje pod t[C1] dziur[C1].)" next
+    "@Kuikku kikki..." next
+    "@(Talah Rama jest wspania[C4]y i mi[C4]y...)" next
+    "@Kikki, Kuikku..." next
+    "@(oraz wie wszystko, co robi Talah Rama...)" next
+    "@Kikku Kuekki..." next
+    "@(Zrobi[C4] nam podziemne pokoje...)" end
+
+l_0xc62c50:
+    "@Kiakkiekiaekia Kikkia." next
+    "@(Talah Rama po[C7]ci i [C2]wiczy cich[C1] medytacj[C3].)" next
+    "@Kiakkia, kiekiakia." next
+    "@(Wstrzymuje si[C3] tak[C8]e od gadania, picia alkoholu i palenia papieros[C6]w.)" next
+    "@Kiapi, Kiapi." next
+    "@(Prosz[C3], nie przeszkadzajcie mu.)" end
+
+l_0xc62cf5:
+    "@....." end
+
+l_0xc62cf9:
+    "@(Siedziba Zakurzonych Wydm szukaj[C1]ca zakopanego z[C4]ota.)" end
+
+l_0xc62d23:
+    "@(Na wsch[C6]d do Fourside.)" end
+
+l_0xc62d30:
+    "{counter(0)}{ctoarg}@Witamy w Bankomacie." next
+    "@Wybierz swoj[C1] transakcj[C3]:" linebreak
+    "[19 02]Wyp[C4]a[C2]" eob
+
+l_0xc62d71:
+    "[19 02]Wp[C4]a[C2]" eob
+
+l_0xc62d7b:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc62e6d)} {e(l_0xc62d93)}]" goto(l_0xc62d8a)
+
+l_0xc62d8a:
+    "@Dzi[C3]kuj[C3] bardzo." goto(l_0xc62d91)
+
+l_0xc62d91:
+    end
+
+l_0xc62d93:
+    "[1D 17 7F 96 98 00][1B 02 {e(l_0xc62e3b)}]" call(l_0xc62fd6) "[1B 02 {e(l_0xc62d8a)}]{rtoarg}[1D 14 00 00 00 00][1B 03 {e(l_0xc62df3)}][1D 09 00 00][1D 06 00 00 00 00]{open_wallet}{sound(118)}{pause(10)}"
+    "@Twoje konto otrzyma" linebreak
+    "  $[1C 0A 00 00 00 00]." next
+    "@Dzi[C3]kuj[C3] bardzo." goto(l_0xc62d91)
+
+l_0xc62df3:
+    "@Nieprawid[C4]owe wprowadzenie wp[C4]aty.  Spr[C6]buj ponownie." next
+    goto(l_0xc62d93)
+
+l_0xc62e1b:
+    "@Nie masz tylu pieni[C3]dzy do wp[C4]acenia." next
+    goto(l_0xc62d93)
+
+l_0xc62e3b:
+    "@Ta maszyna nie mo[C8]e zaakceptowa[C2] wp[C4]aty wi[C3]kszej ni[C8]" linebreak
+    "  $9,999,999." next
+    goto(l_0xc62d8a)
+
+l_0xc62e6d:
+    "[1D 17 01 00 00 00][1B 03 {e(l_0xc62f49)}][1D 14 9F 86 01 00][1B 02 {e(l_0xc62f72)}]" call(l_0xc62f99) "[1B 02 {e(l_0xc62d8a)}]{rtoarg}[1D 17 00 00 00 00][1B 03 {e(l_0xc62eef)}]{store_registers}[1D 07 00 00 00 00][1D 08 00 00][1D 14 A0 86 01 00][1B 02 {e(l_0xc62f1a)}]"
+    "@Twoje konto zosta[C4]o obci[C1][C8]one" linebreak
+    "  $[1C 0A 00 00 00 00]." next
+    "@Prosz[C3] wzi[C1][C2] swoj[C1] got[C6]wk[C3].[03]{open_wallet}{sound(116)}{pause(20)}" eob
+
+l_0xc62eea:
+    goto(l_0xc62d91)
+
+l_0xc62eef:
+    "@[B8][C1]dana kwota przekracza stan twojego konta." next
+    goto(l_0xc62e6d)
+
+l_0xc62f1a:
+    "{load_registers}[1D 06 00 00 00 00]@Nie mo[C8]esz ze sob[C1] nosi[C2] wi[C3]cej ni[C8]" linebreak
+    "  $99,999." next
+    goto(l_0xc62e6d)
+
+l_0xc62f49:
+    "@Twoje konto wykazuje obecnie zerowe saldo." next
+    goto(l_0xc62d8a)
+
+l_0xc62f72:
+    "@Nie mo[C8]esz ze sob[C1] nosi[C2] wi[C3]cej ni[C8]" linebreak
+    "  $99,999." next
+    goto(l_0xc62d8a)
+
+l_0xc62f99:
+    call(l_0xc63004) "@Prosz[C3] poda[C2] kwot[C3] twojej wyp[C4]aty." next
+    "@Stan konta: $[1C 01 07]" linebreak
+    goto(l_0xc62fc5)
+
+l_0xc62fc5:
+    "{open_wallet}[18 05 0A 02]&[18 05 04 02]$[1F 52 05]{clearline}" eob
+
+l_0xc62fd6:
+    call(l_0xc63004) "@Prosz[C3] poda[C2] kwot[C3] twojej wp[C4]aty." next
+    "@Stan konta: $[1C 01 07]" linebreak
+    goto(l_0xc62fc5)
+
+l_0xc63004:
+    "@Saldo twojego konta wynosi obecnie $[1C 01 07]." next
+    eob
+
+l_0xc63029:
+    "[1A 0A][1B 03 {e(l_0xc63032)}]" newline
+    goto(l_0xc63032)
+
+l_0xc63032:
+    eob
+
+l_0xc63033:
+    "[1A 0A][1B 03 {e(l_0xc63042)}]" newline
+    "[1D 08 01 00]{open_wallet}" goto(l_0xc63042)
+
+l_0xc63042:
+    eob
+
+l_0xc63043:
+    "@WPROWAD[B9] SWOJE POLECENIE." linebreak
+    "{open_hp}[06 74 01 {e(l_0xc63089)}][19 02]Uzdrowienie" eob
+
+l_0xc6306b:
+    "[19 02]Komunikacja" eob
+
+l_0xc63079:
+    "[1C 07 02]" goto(l_0xc6307c)
+
+l_0xc6307c:
+    "[11]{clearline}[09 02 {e(data_49.l_0xc915e1)} {e(l_0xc630a8)}]" eob
+
+l_0xc63089:
+    "[19 02]Naprawa" eob
+
+l_0xc63092:
+    "[19 02]Komunikacja" eob
+
+l_0xc630a0:
+    "[1C 07 02]" goto(l_0xc6307c)
+
+l_0xc630a8:
+    call(l_0xc63229) eob
+
+l_0xc630ae:
+    "[06 58 00 {e(l_0xc630c7)}]@(Bip-bip-bip...)" end
+
+l_0xc630c7:
+    "{ctoarg}[1B 05]@Witam!  Witam!" linebreak
+    "  Tutaj Maxwell Labs." next
+    title(1, Gauss)
+    "@Och, witaj [1C 01 34]!" next
+    "@Czy chcia[C4]by[C7], [C8]ebym zapisa[C4] post[C3]py twojej podr[C6][C8]y?" linebreak
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc6314c)} {e(l_0xc6311e)}]" goto(l_0xc6311e)
+
+l_0xc6311e:
+    "@Chcia[C4]e[C7] tylko us[C4]ysze[C2] m[C6]j g[C4]os?" linebreak
+    "  G[C4]achachachachachacha!" next
+    goto(l_0xc63146)
+
+l_0xc63146:
+    goto(data_19.l_0xc634ea)
+
+l_0xc6314b:
+    eob
+
+l_0xc6314c:
+    "[1B 06][19 26 00][06 0C 03 {e(l_0xc6315a)}]{save}" goto(l_0xc6315a)
+
+l_0xc6315a:
+    "@W porz[C1]dku, mam wszystko zapisane." next
+    "@Czy chcesz teraz zrobi[C2] sobie przerw[C3]?" linebreak
+    "[19 02]Kontynuuj" eob
+
+l_0xc6318c:
+    "[19 02]Zako[C5]cz" eob
+
+l_0xc63192:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc631a1)} {e(l_0xc631e3)}]" goto(l_0xc631a1)
+
+l_0xc631a1:
+    "@Sta[C4]e[C7] si[C3] takim ci[C3][C8]kim pracownikiem!" next
+    "@Ja sam musz[C3] wr[C6]ci[C2] do pracy!" next
+    "@Naprz[C6]d, z[C4]y ch[C4]opcze!" next
+    goto(l_0xc63146)
+
+l_0xc631e3:
+    "@Nie wiem, gdzie planujesz spa[C2], ale lepiej odpocznij!" next
+    "@No [C7]mia[C4]o, wy[C4][C1]cz zasilanie i dobranoc.[1F 50]" end
+
+l_0xc63229:
+    "[06 04 03 {e(data_31.l_0xc75929)}][06 49 00 {e(data_19.l_0xc635bd)}]{ctoarg}[1B 05]" newline
+    "[19 10 01]{result_is(1)}[1B 03 {e(l_0xc632c7)}]"
+    title(1, Dad)
+    "@Halo?" next
+    "@...Czy to ty, [1C 01 08]{pause(10)}?" next
+    "@Dlaczego tak bardzo ukrywasz sw[C6]j g[C4]os?" next
+    "@Kim ty w[C4]a[C7]ciwie jeste[C7]?" next
+    "@No c[C6][C8].  To nie jest wielka sprawa." next
+    "@Podejrzewam, [C8]e w takim momencie musisz mie[C2] niez[C4]e poczucie humoru." next
+    goto(l_0xc632e2)
+
+l_0xc632c7:
+    title(1, Dad)
+    "@[1C 02 01]?  Tu tw[C6]j tata." next
+    "{isset(flag 372)}[1F C0 01 {e(data_19.l_0xc6354b)}]" goto(l_0xc632e2)
+
+l_0xc632e2:
+    "[1D 24 01][1B 02 {e(l_0xc6333c)}]{swap}@Wp[C4]aci[C4]em $[1C 0A 00 00 00 00] na twoje konto bankowe." next
+    "@Odbieraj[C1]c to, co wyda[C4]e[C7], powiniene[C7] mie[C2] teraz" next
+    "@$[1C 01 07] w banku." next
+    "[1D 24 02]" goto(l_0xc6333c)
+
+l_0xc6333c:
+    "{counter(1)}@C[C6][C8], wymagane do[C7]wiadczenie do nast[C3]pnego poziomu...[03]" goto(l_0xc63352)
+
+l_0xc63352:
+    "{ctoarg}[1D 19 00][1B 03 {e(data_19.l_0xc633c9)}][19 10 00][1B 02 {e(data_19.l_0xc633c9)}]{rtoarg}[19 18 00][1B 02 {e(l_0xc63388)}]" newline
+    "@[1C 02 00]... {swap}[1C 0A 00 00 00 00].[03]" goto(l_0xc63382)
+
+l_0xc63382:
+    "{inc}" goto(l_0xc63352)
+
+l_0xc63388:
+    newline
+    "@[1C 02 00]..." linebreak
+    "  osi[C1]gn[C1][C4] ju[C8] sw[C6]j maksymalny poziom." next
+    "@Tak wi[C3]c w porz[C1]dku, ala..." next
+    next
+    next
+    goto(l_0xc63382)

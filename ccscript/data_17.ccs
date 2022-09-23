@@ -1,0 +1,476 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc605db:
+    "[06 5A 00 {e(l_0xc6060c)}]@Od d[C4]u[C8]szego czasu obserwuj[C3], jak kopi[C1]...{pause(20)}  Ciekawe co takiego znajd[C1]." end
+
+l_0xc6060c:
+    "@Znale[C9]li tylko diament...{pause(15)} wi[C3]c,{pause(15)} bierzesz to, co dostajesz..." end
+
+l_0xc60633:
+    "[06 5A 00 {e(l_0xc6060c)}]@Je[C7]li maj[C1] transmisj[C3] na [C8]ywo z wykopalisk," next
+    "@mog[C3] zobaczy[C2] wykopaliska, relaksuj[C1]c si[C3] na g[C6]rze." end
+
+l_0xc60678:
+    "[06 5A 00 {e(l_0xc6060c)}]@My[C7]l[C3], [C8]e powinien kopa[C2] gdzie indziej." end
+
+l_0xc60696:
+    "[06 5A 00 {e(l_0xc6060c)}]@Mam du[C8]o pracy przed sob[C1], ale nie mog[C3] si[C3] ruszy[C2]." next
+    "@Jestem bardzo ciekawy wykopalisk.{pause(20)}  Nic na to nie poradz[C3]." end
+
+l_0xc606d8:
+    call(l_0xc606de) eob
+
+l_0xc606de:
+    "[19 10 01][19 22 00 02 0B 03]{swap}{store_registers}{result_is(1)}[1B 03 {e(l_0xc6070c)}]{load_registers}{result_is(2)}[1B 03 {e(l_0xc6070c)}]{load_registers}{result_is(8)}[1B 03 {e(l_0xc6070c)}]" goto(l_0xc607b9)
+
+l_0xc6070c:
+    "@(Jestem zepsutym automatem do gry." next
+    "@Ale Bracia Sanchez i ich przyjaciel s[C1] bardzo szcz[C3][C7]liwym trio..." next
+    "@uszcz[C3][C7]liwi[C1] ci[C3].)" next
+    "@(Chcia[C4]by[C7] wrzuci[C2] jednego dolca?)" linebreak
+    call(data_36.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc6078b)} {e(l_0xc607a5)}]" goto(l_0xc607a5)
+
+l_0xc6078b:
+    "[1D 14 01 00 00 00][1B 03 {e(l_0xc607ae)}]{pause(1)}[1D 09 01 00]{open_wallet}" call(l_0xc607e4) eob
+
+l_0xc607a5:
+    "@(Okej...)" end
+
+l_0xc607ae:
+    "@(Nie masz pieni[C3]dzy.)" end
+
+l_0xc607b9:
+    "@(Jestem automatem do gry.{pause(20)}  Czy mo[C8]esz ze mn[C1] porozmawia[C2] z przodu?)" end
+
+l_0xc607e4:
+    "{window_closeall}{pause(2)}[1F F1 FD 02 AD 02]{pause(2)}[1F F1 FE 02 AE 02]{pause(2)}[1F F1 FF 02 AF 02]{pause(120)}{pause(120)}[1F F1 FD 02 B0 02][1F 61][06 0A 02 {e(l_0xc6081d)}][06 0B 02 {e(l_0xc60844)}]" goto(l_0xc60829)
+
+l_0xc6081d:
+    "[06 0B 02 {e(l_0xc6087a)}]" goto(l_0xc6085f)
+
+l_0xc60829:
+    "[1F F1 FE 02 B1 02][1F 61][06 0A 02 {e(l_0xc60b69)}][06 0B 02 {e(l_0xc60b69)}]" goto(l_0xc6089a)
+
+l_0xc60844:
+    "[1F F1 FE 02 B1 02][1F 61][06 0A 02 {e(l_0xc60b69)}][06 0B 02 {e(l_0xc608b5)}]" goto(l_0xc60b69)
+
+l_0xc6085f:
+    "[1F F1 FE 02 B1 02][1F 61][06 0B 02 {e(l_0xc60b69)}][06 0A 02 {e(l_0xc608d0)}]" goto(l_0xc60b69)
+
+l_0xc6087a:
+    "[1F F1 FE 02 B1 02][1F 61][06 0A 02 {e(l_0xc6088e)}]" goto(l_0xc60b69)
+
+l_0xc6088e:
+    "[06 0B 02 {e(l_0xc608eb)}]" goto(l_0xc60b69)
+
+l_0xc6089a:
+    "[1F F1 FF 02 B3 02][1F 61][06 0A 02 {e(l_0xc60b71)}][06 0B 02 {e(l_0xc60b71)}]" goto(l_0xc6090b)
+
+l_0xc608b5:
+    "[1F F1 FF 02 B3 02][1F 61][06 0A 02 {e(l_0xc60b71)}][06 0B 02 {e(l_0xc60985)}]" goto(l_0xc60b71)
+
+l_0xc608d0:
+    "[1F F1 FF 02 B3 02][1F 61][06 0B 02 {e(l_0xc60b71)}][06 0A 02 {e(l_0xc60a0d)}]" goto(l_0xc60b71)
+
+l_0xc608eb:
+    "[1F F1 FF 02 B3 02][1F 61][06 0A 02 {e(l_0xc608ff)}]" goto(l_0xc60b71)
+
+l_0xc608ff:
+    "[06 0B 02 {e(l_0xc60a97)}]" goto(l_0xc60b71)
+
+l_0xc6090b:
+    "{pause(120)}[1F F1 FF 02 B4 02][1F 61][1F E6 FF 02]{window_open(1)}"
+    title(1, Tomas)
+    "@Amigo, wygra[C4]e[C7] bardzo du[C8][C1] wygran[C1]!" next
+    "@Oto wielka nagroda dla ciebie, amigo!" next
+    "[1D 03 FF][1B 02 {e(l_0xc60b13)}][1D 0E 00 A8]@" call(data_37.l_0xc7e6d7) " wygrywa [1C 05 A8] jako nagrod[C3].{wait}{sound(116)}{window_closeall}[1F E9 FF 02][1F 61]" goto(l_0xc60b71)
+
+l_0xc60985:
+    "{pause(120)}[1F F1 FF 02 B4 02][1F 61][1F E6 FF 02]{window_open(1)}"
+    title(1, Tomas)
+    "@Amigo, wygra[C4]e[C7]!{pause(20)}  My[C7]l[C3], [C8]e to bardzo du[C8]a wygrana!" next
+    "@Oto bardzo dobra nagroda dla takiego amigo jak ty!" next
+    "[1D 03 FF][1B 02 {e(l_0xc60b13)}][1D 0E 00 E0]@" call(data_37.l_0xc7e6d7) " wygrywa Kanapk[C3] Przeskoku jako nagrod[C3].{wait}{sound(116)}{window_closeall}[1F E9 FF 02][1F 61]" goto(l_0xc60b71)
+
+l_0xc60a0d:
+    "{pause(120)}[1F F1 FF 02 B4 02][1F 61][1F E6 FF 02]{window_open(1)}"
+    title(1, Tomas)
+    "@Amigo, wygra[C4]e[C7]!{pause(20)}  Bardzo du[C8]a wygrana i trafi[C4]e[C7] j[C1]!" next
+    "@Oto nagroda dla takiego amigo jak ty!" next
+    "[1D 03 FF][1B 02 {e(l_0xc60b13)}][1D 0E 00 62]@" call(data_37.l_0xc7e6d7) " wygrywa [1C 05 62] jako nagrod[C3].{wait}{sound(116)}{window_closeall}[1F E9 FF 02][1F 61]" goto(l_0xc60b71)
+
+l_0xc60a97:
+    "{pause(120)}[1F F1 FF 02 B4 02][1F 61][1F E6 FF 02]{window_open(1)}"
+    title(1, Tomas)
+    "@Amigo, wygra[C4]e[C7]!{pause(20)}  Bardzo du[C8]a wygrana, m[C6]j przyjacielu!" next
+    "@Oto wielka nagroda dla ciebie!" next
+    "[1D 03 FF][1B 02 {e(l_0xc60b13)}][1D 0E 00 6A]@" call(data_37.l_0xc7e6d7) " wygrywa Puszk[C3] Soku jako nagrod[C3].{wait}{sound(116)}{window_closeall}[1F E9 FF 02][1F 61]" goto(l_0xc60b71)
+
+l_0xc60b13:
+    newline
+    "@Tak my[C7]la[C4]em, ale amigo, nie masz ju[C8] miejsca." next
+    "@Przepraszam, ale umowa jest nieaktualna." next
+    "@Twoja wyp[C4]ata wzi[C3][C4]a dzie[C5] wolny, amigo.{wait}{window_closeall}[1F E9 FF 02][1F 61]" goto(l_0xc60b71)
+
+l_0xc60b69:
+    "[1F F1 FF 02 B2 02][1F 61]" goto(l_0xc60b71)
+
+l_0xc60b71:
+    "{pause(2)}[1F F1 FD 02 08 00]{pause(2)}[1F F1 FE 02 08 00]{pause(2)}[1F F1 FF 02 08 00]" eob
+
+l_0xc60b8a:
+    title(1, Pancho)
+    "@Jestem starszym bratem, Pancho." end
+
+l_0xc60b9b:
+    title(1, Pincho)
+    "@Jestem m[C4]odszym bratem, Pincho." end
+
+l_0xc60bae:
+    title(1, Tomas)
+    "@Jestem Tomasz Jefferson." end
+
+l_0xc60bbf:
+    "@(...Jestem tu tylko kup[C1] wybielonych ko[C7]ci.{pause(20)} Nie umiem rozmawia[C2].)" end
+
+l_0xc60be3:
+    "@(Chocia[C8] jestem tylko kup[C1] ko[C7]ci," next
+    "@potrafi[C3] rozmawia[C2], ale jestem samotny na pustyni.)" end
+
+l_0xc60c1b:
+    "@(Czemu macie ochot[C3] rozmawia[C2] z ma[C4]ym czarnym sezamkiem, takim jak ja." next
+    "@Chc[C3] przeprosi[C2] bia[C4][C1] sezamk[C3], kt[C6]r[C1] wcze[C7]niej skrzywdzi[C4]em." next
+    "@Gdybym tylko m[C6]g[C4] j[C1] zobaczy[C2].)[06 8A 00 {e(l_0xc60c95)}]{wait}{window_closeall}{set(flag 135)}[06 C6 02 {e(data_55.l_0xc9992f)}]{pause(60)}" call(data_23.l_0xc68880) eob
+
+l_0xc60c95:
+    next
+    "@(Co?{pause(20)}  Bia[C4]a sezamka wci[C1][C8]... mnie kocha?!  P[C4]acz, p[C4]acz...){wait}{window_closeall}{set(flag 135)}[06 C6 02 {e(data_55.l_0xc9992f)}]{pause(60)}" call(data_23.l_0xc68880) eob
+
+l_0xc60cd8:
+    "@(S[C4]ysza[C4]am, [C8]e czarny sezamek, kt[C6]rego kocha[C4]am, jest gdzie[C7] na tej pustyni." next
+    "@Je[C7]li go zobaczycie,{pause(15)} powiedzcie mu, [C8]e nadal go kocham.)[06 87 00 {e(l_0xc60d31)}]{set(flag 138)}" end
+
+l_0xc60d31:
+    next
+    "@(Naprawd[C3]?{pause(20)}  Widzieli[C7]cie go?  Wszystko z nim porz[C1]dku?{pause(20)}  ...Hmmm, rozumiem.){wait}{set(flag 138)}" eob
+
+l_0xc60d6c:
+    "[19 10 01]{rtoarg}@[1C 02 00] zauwa[C8]a co[C7] b[C4]yszcz[C1]cego." next
+    "@To jest para soczewek kontaktowych!" next
+    "[1D 03 FF][1B 02 {e(l_0xc60db8)}][1D 0E FF BB][1F 1E 1A 03 06]" call(data_36.l_0xc7dccf) "{set(flag 385)}" end
+
+l_0xc60db8:
+    "@Nie masz ju[C8] miejsca." end
+
+l_0xc60dc4:
+    "@Ma[C4]py morskie [C8]yj[C1] w morzu...{pause(20)} na pustyni [C8]yj[C1] ma[C4]py deserowe." next
+    "@Znaczy pustynne, a nie deserowe!" next
+    "@Ciesz[C3] si[C3], [C8]e na pustyni s[C1] jakie[C7] zwierz[C3]ta, czy[C8] nie?" end
+
+l_0xc60e2a:
+    call(data_13.l_0xc5d3cb) eob
+
+l_0xc60e30:
+    "[06 49 00 {e(l_0xc611e2)}][06 FC 02 {e(l_0xc61139)}][06 2A 02 {e(l_0xc60ff3)}]{music(119)}"
+    title(1, Talah)
+    "@Prawda o przestrzeni i czasie porusza si[C3] po wszech[C7]wiecie jak fala..." next
+    "@Prawda przemawia przez przestrze[C5] i materi[C3] i daje o sobie zna[C2] ludzkim istnieniom." next
+    "@Czeka[C4]em na was,{pause(15)} i w ko[C5]cu przyszli[C7]cie.{pause(30)}  To mia[C4]o si[C3] wydarzy[C2]." next
+    "@W prawdzie,{pause(15)} wszystko jest z g[C6]ry okre[C7]lone..." next
+    "@[1C 01 08],{counter(1)}" call(data_49.l_0xc91675) "{sound(37)}{pause(20)} [1C 01 1E]," linebreak
+    "{counter(2)}" call(data_49.l_0xc91675) "{pause(20)}  [1C 01 34]{counter(3)}" call(data_49.l_0xc91675) "{sound(37)}{pause(20)} i [1C 01 4A]..." next
+    "@Kiedy te cztery moce si[C3] zgromadz[C1],{pause(20)} pokr[C3]cona przestrze[C5] przywr[C6]ci [C7]wiatu pok[C6]j." next
+    "@Rozumiecie to?" next
+    "@To nie ma znaczenia.{pause(20)}" linebreak
+    "  Post[C3]pujcie tak, jak tylko chcecie." next
+    "@Otw[C6]rzcie te skarby i zabierzcie ze sob[C1] to, co jest w [C7]rodku." next
+    "{pause(60)}" linebreak
+    "@...Czy w[C4]a[C7]nie tego szukali[C7]cie?" next
+    "@Kto[C7] zgubi[C4] to w tej dziurze." next
+    "[1D 03 FF][1B 02 {e(l_0xc610f1)}][1D 0E 00 8B]{set(flag 554)}" call(data_36.l_0xc7dcb6) next
+    goto(l_0xc60ff3)
+
+l_0xc60ff3:
+    "{window_open(1)}"
+    title(1, Talah)
+    "@Przygoda, kt[C6]ra ci[C3] czeka, nie b[C3]dzie [C4]atwa." next
+    "@Dam ci specjaln[C1] umiej[C3]tno[C7][C2], kt[C6]ra pomo[C8]e ci porusza[C2] si[C3] w przestrzeni, jak tylko chcesz." next
+    "@Nauczysz si[C3] tej umiej[C3]tno[C7]ci od ma[C4]py obok mnie..." next
+    "@Chcia[C4]by[C7] nauczy[C2] si[C3] tej specjalnej mocy?" linebreak
+    "[19 02]Tak" eob
+
+l_0xc6106e:
+    "[19 02]Nie" eob
+
+l_0xc61073:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc610c1)} {e(l_0xc61082)}]" goto(l_0xc61082)
+
+l_0xc61082:
+    "@Cha cha cha." linebreak
+    "  To twoja prerogatywa." next
+    "@Upewnij si[C3], [C8]e nie b[C3]dziesz rozmawia[C2] z ma[C4]p[C1] i wyjd[C9].{wait}{set(flag 2)}{window_closeall}[1F 07 03]{pause(20)}{music_resume}" eob
+
+l_0xc610c1:
+    "@Cha cha cha." linebreak
+    "  To takie wspaniale!" next
+    "@Porozmawiajcie z tamt[C1] ma[C4]p[C1].{wait}{set(flag 2)}{window_closeall}[1F 07 03]{pause(20)}{music_resume}" eob
+
+l_0xc610f1:
+    "@Nie mo[C8]esz ju[C8] nosi[C2] wi[C3]cej." next
+    "@Mo[C8]e pozb[C3]dziesz si[C3] czego[C7], czego nie potrzebujesz." next
+    "@B[C3]dziesz tego potrzebowa[C2], Maszyna do Jogurt[C6]w dla Smakoszy.{wait}[1F 07 03]{pause(20)}{music_resume}" eob
+
+l_0xc61139:
+    title(1, Talah)
+    "@Prawda o przestrzeni i czasie porusza si[C3] po wszech[C7]wiecie jak fala..." next
+    "@Prawda przemawia przez przestrze[C5] i materi[C3] i daje o sobie zna[C2] ludzkim istnieniom." next
+    "@Czeka[C4]em na wam,{pause(15)} i w ko[C5]cu przyszli[C7]cie.{pause(20)}  To mia[C4]o si[C3] wydarzy[C2]." next
+    "@W prawdzie,{pause(15)} wszystko jest z g[C6]ry okre[C7]lone...." end
+
+l_0xc611e2:
+    title(1, Talah)
+    "@Byli[C7]cie wyj[C1]tkowo cierpliwi." next
+    "@Pokonali[C7]cie wiele trudno[C7]ci." next
+    "@Wielbi[C3] was wszystkich za odwag[C3]." end
+
+l_0xc61228:
+    title(1, Gerardo)
+    "@Nie mia[C4]em problem[C6]w z kopaniem dop[C6]ki...{pause(20)} nie znalaz[C4]em labiryntu." next
+    "@Pojawi[C4]o si[C3] wiele potwor[C6]w, wi[C3]c musia[C4]em wstrzyma[C2] prac[C3]." next
+    "@Jest tam 5 wielkich kret[C6]w...!" next
+    "@Gdybym pokona[C4] potwory, m[C6]g[C4]bym dalej pracowa[C2]." next
+    "@Chyba mam krwawi[C1]cy wrz[C6]d od zbytniego zamartwiania si[C3]." next
+    "@Nie jestem w stanie nic zrobi[C2]." end
+
+l_0xc612d2:
+    "[06 15 01 {e(data_35.l_0xc7c588)}]" call(l_0xc613b3) call(data_23.l_0xc6858a) "[1B 03 {e(data_23.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 3F 03 7B 02]{set(flag 277)}" call(l_0xc615a7) eob
+
+l_0xc612ff:
+    "[06 16 01 {e(data_35.l_0xc7c588)}]" call(l_0xc613b3) call(data_23.l_0xc68591) "[1B 03 {e(data_23.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 40 03 7B 02]{set(flag 278)}" call(l_0xc615a7) eob
+
+l_0xc6132c:
+    "[06 17 01 {e(data_35.l_0xc7c588)}]" call(l_0xc613b3) call(data_23.l_0xc68598) "[1B 03 {e(data_23.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 41 03 7B 02]{set(flag 279)}" call(l_0xc615a7) eob
+
+l_0xc61359:
+    "[06 18 01 {e(data_35.l_0xc7c588)}]" call(l_0xc613b3) call(data_23.l_0xc6859f) "[1B 03 {e(data_23.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 45 03 7B 02]{set(flag 280)}" call(l_0xc615a7) eob
+
+l_0xc61386:
+    "[06 19 01 {e(data_35.l_0xc7c588)}]" call(l_0xc613b3) call(data_23.l_0xc685a6) "[1B 03 {e(data_23.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 46 03 7B 02]{set(flag 281)}" call(l_0xc615a7) eob
+
+l_0xc613b3:
+    "{music(155)}[06 09 02 {e(l_0xc614f2)}][06 08 02 {e(l_0xc614b1)}][06 07 02 {e(l_0xc6146d)}][06 06 02 {e(l_0xc61443)}]{window_open(1)}"
+    "@Jestem jednym z mistrz[C6]w tej dziury." next
+    "@W sumie jest pi[C3]ciu mistrz[C6]w.{pause(20)}  Oczywi[C7]cie wszyscy jeste[C7]my kretami." next
+    "@Uwa[C8]am, [C8]e jestem trzecim najsilniejszym z mistrz[C6]w." next
+    "@Zrobi[C3] z was ostateczn[C1] miazg[C3]![03]{window_closeall}" eob
+
+l_0xc61443:
+    "{window_open(1)}@Tak naprawd[C3] to ja jestem trzecim najsilniejszym mistrzem." next
+    "@Zniszcz[C3] was natychmiast![03]{window_closeall}" eob
+
+l_0xc6146d:
+    "{window_open(1)}@Moja si[C4]a mie[C7]ci si[C3] mi[C3]dzy drugim a czwartym najsilniejszym mistrzem." next
+    "@Chcecie mnie przetestowa[C2]?" next
+    "{window_closeall}" eob
+
+l_0xc614b1:
+    "{window_open(1)}@Jestem tak naprawd[C3] trzecim najsilniejszym mistrzem tej dziury." next
+    "@Poka[C8][C3] wam, [C8]e to ja jestem tym trzecim![03]{window_closeall}" eob
+
+l_0xc614f2:
+    "{window_open(1)}@Cha cha cha." next
+    "@Walczyli[C7]cie z najsilniejszym mistrzem tej dziury," next
+    "@drugim najsilniejszym mistrzem tej dziury," next
+    "@czwartym najsilniejszym mistrzem tej dziury" next
+    "@oraz najs[C4]abszym mistrzem tej dziury!" next
+    "@Tak naprawd[C3] to ja jestem trzecim najsilniejszym mistrzem tej dziury." next
+    "@Teraz zobaczycie prawdziw[C1] zalet[C3] bycia trzecim![03]{window_closeall}" eob
+
+l_0xc615a7:
+    "{isset(flag 277)}[1B 02 {e(l_0xc615e8)}]{isset(flag 278)}[1B 02 {e(l_0xc615e8)}]{isset(flag 279)}[1B 02 {e(l_0xc615e8)}]{isset(flag 280)}[1B 02 {e(l_0xc615e8)}]{isset(flag 281)}[1B 02 {e(l_0xc615e8)}]{set(flag 282)}{set(flag 72)}" call(data_36.l_0xc7dd85) "{unset(flag 54)}{unset(flag 55)}{set(flag 492)}" goto(l_0xc615e8)
+
+l_0xc615e8:
+    eob
+
+l_0xc615e9:
+    "[06 09 02 {e(l_0xc61615)}][06 08 02 {e(l_0xc61611)}][06 07 02 {e(l_0xc6160d)}][06 06 02 {e(l_0xc61609)}]{set(flag 518)}" eob
+
+l_0xc61609:
+    "{set(flag 519)}" eob
+
+l_0xc6160d:
+    "{set(flag 520)}" eob
+
+l_0xc61611:
+    "{set(flag 521)}" eob
+
+l_0xc61615:
+    eob
+
+l_0xc61616:
+    "[06 C3 01 {e(l_0xc61702)}]@Ukippkiako Ukikiki?" next
+    "@(Czy masz Kanapk[C3] Przeskoku?)" next
+    "@Ukii Ukieki..." next
+    "@(Zejd[C3] ci z drogi, je[C7]li mi j[C1] dasz...)" next
+    "@Ukiki?" next
+    "@(Czy mo[C8]esz mi j[C1] da[C2]?)" linebreak
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc616b2)} {e(l_0xc61696)}]" goto(l_0xc61696)
+
+l_0xc61696:
+    "@Uki Ukiakikia." next
+    "@(Nie rusz[C3] si[C3].)" end
+
+l_0xc616b2:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc61696)}]{store_registers}" call(data_18.l_0xc623aa) "[1B 02 {e(l_0xc61696)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}"
+    "@Ukippu Kiako!" next
+    "@([1C 05 E0]!){wait}{wait}{window_closeall}[1F 1E 20 03 06][1F 17 22 03 2B 00 01]{set(flag 451)}" eob
+
+l_0xc61702:
+    "@Ukki." next
+    "@(Szcz[C3][C7]ciarz.){wait}" end
+
+l_0xc61715:
+    "[06 C4 01 {e(l_0xc61803)}]@Kikiki Kiki!" next
+    "@(Chcia[C4]bym zje[C7][C2] Piknikowy Lunch!)" next
+    "@Kikiki, Kiki." next
+    "@(Je[C7]li spe[C4]nisz moje [C8]yczenie,{pause(15)} dam ci wtedy przej[C7][C2].)" next
+    "@Kikiki Kiki?" next
+    "@(Czy dasz mi [1C 05 5D]?)" linebreak
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc617bb)} {e(l_0xc6179b)}]" goto(l_0xc6179b)
+
+l_0xc6179b:
+    "@Kikiki Kiki!" next
+    "@(Chcia[C4]bym zje[C7][C2] Piknikowy Lunch!)" end
+
+l_0xc617bb:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc6179b)}]{store_registers}[19 19 00 00]{swap}{result_is(93)}[1B 02 {e(l_0xc6179b)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Kikie!" next
+    "@([B7]wietnie!){wait}{window_closeall}[1F 1E 1F 03 06][1F 17 21 03 2B 00 01]{set(flag 452)}" eob
+
+l_0xc61803:
+    "@Kikki." next
+    "@(Chii chi chi.)" end
+
+l_0xc61817:
+    "[06 C5 01 {e(l_0xc61949)}]@Uki? Ukikie!" next
+    "@(Czy nie jest tu gor[C1]co?{pause(20)}  Moje futro jest spocone!)" next
+    "@Ukie Kikukie," next
+    "@(Mo[C8]e zwykle nie nosisz Mokrego R[C3]cznika,)" next
+    "@Ukke Ukiki Ukkikie?" next
+    "@(je[C7]li jeden masz,{pause(15)} czy podzielisz si[C3] nim ze mn[C1]?)" next
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc618ed)} {e(l_0xc618c2)}]" goto(l_0xc618c2)
+
+l_0xc618c2:
+    "@Ukie, Ukie Ukikie." next
+    "@(W ka[C8]dym razie,{pause(15)} jest tu wilgotno.)" end
+
+l_0xc618ed:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc618c2)}]{store_registers}[19 19 00 00]{swap}{result_is(127)}[1B 02 {e(l_0xc618c2)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Ukokkie?  Ukike!" next
+    "@(Masz jeden?{pause(20)}" linebreak
+    "  Dzi[C3]kuj[C3]!){wait}{window_closeall}[1F 1E 24 03 06][1F 17 26 03 2B 00 01]{set(flag 453)}" eob
+
+l_0xc61949:
+    "@Ukri Ukrikie." next
+    "@(Wilgotno tu jest.)" end
+
+l_0xc61966:
+    "[06 C6 01 {e(l_0xc61a71)}]@Ukkkin... Uki Uki Ukkin." next
+    title(1, Monkonna)
+    "@(Oooooooo...{pause(15)} Jestem Monkonna.{pause(20)}" linebreak
+    "  Chcia[C4]abym zje[C7][C2] smaczn[C1] Pizz[C3].)" next
+    "@Ukkiou, kikinkiou?" next
+    "@(Je[C7]li masz jak[C1][C7],{pause(15)} dasz mi jedn[C1]?)" next
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61a14)} {e(l_0xc619ef)}]" goto(l_0xc619ef)
+
+l_0xc619ef:
+    "@Uki Ukiekkiki!" next
+    "@(Ty bezu[C8]yteczny hejterze ma[C4]p!)" end
+
+l_0xc61a14:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc619ef)}]{store_registers}" call(data_18.l_0xc62395) "[1B 02 {e(l_0xc619ef)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}"
+    "@Ukkin, Ukkikeen." next
+    "@(Cha,{pause(15)} Monkonna jest szcz[C3][C7]liwa.){wait}{window_closeall}[1F 1E 23 03 06][1F 17 25 03 2B 00 01]{set(flag 454)}" eob
+
+l_0xc61a71:
+    title(1, Monkonna)
+    "@Ukkien..." next
+    "@(Oooooooo...)" end
+
+l_0xc61a88:
+    "[06 C7 01 {e(l_0xc61b70)}]@Ukiakki KiaKie." next
+    "@(Chcia[C4]bym mie[C2] [1C 05 6C].)" next
+    "@Kia Kia?" next
+    "@(Czy mo[C8]esz mi go da[C2]?)" linebreak
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61b03)} {e(l_0xc61add)}]" goto(l_0xc61add)
+
+l_0xc61add:
+    "@KiaKia Kiokiokio?" next
+    "@(Bo nadal jestem dzieckiem?)" end
+
+l_0xc61b03:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc61add)}]{store_registers}[19 19 00 00]{swap}{result_is(108)}[1B 02 {e(l_0xc61add)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}"
+    "@[B4]yk,{pause(15)} [C4]yk...{pause(20)} Bliekki!" next
+    "@([B4]yk,{pause(15)} [C4]yk...{pause(20)} Bliekki!){wait}{window_closeall}[1F 1E 2E 03 06][1F 17 30 03 2B 00 01]{set(flag 455)}" eob
+
+l_0xc61b70:
+    "@Kia Kia." next
+    "@(Kia Kia.)" end
+
+l_0xc61b85:
+    "[06 C8 01 {e(l_0xc61c76)}]@Je[C7]li masz Pizz[C3],{pause(15)} daj mi jedn[C1]." next
+    "@...Ukiki, Ukkike." next
+    "@(...[B4]ups,{pause(20)} powiedzia[C4]em do ciebie ludzkim j[C3]zyku.)" next
+    "@Ukiki, Ukkike." next
+    "@(Je[C7]li masz Pizz[C3],{pause(15)} prosz[C3] daj mi j[C1].)" next
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61c20)} {e(l_0xc61c0f)}]" goto(l_0xc61c0f)
+
+l_0xc61c0f:
+    "@Kie..." next
+    "@(A niech to...)" end
+
+l_0xc61c20:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc61c0f)}]{store_registers}" call(data_18.l_0xc62395) "[1B 02 {e(l_0xc61c0f)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}"
+    "@Ukki, Ukikii!" next
+    "@([B7]wietnie,{pause(15)} pora na Pizz[C3]!){wait}{window_closeall}[1F 1E 2D 03 06][1F 17 2F 03 2B 00 01]{set(flag 456)}" eob
+
+l_0xc61c76:
+    "@Dzi[C3]kuj[C3]." next
+    "@...Kie ukkia." next
+    "@(...Kurcz[C3],{pause(15)} znowu u[C8]y[C4]em ludzkiego j[C3]zyka.)" end
+
+l_0xc61cac:
+    "[06 C9 01 {e(l_0xc61da4)}]@Unkikie!  Uukiuki!" next
+    "@(Uwielbiam [1C 05 5A]y!)" next
+    "@Ukie Unkikie..." next
+    "@(Ma[C4]pa obok mnie te[C8] uwielbia [1C 05 5A]y...)" next
+    "@Uuu,{pause(20)} Unkikkie Uki?" next
+    "@(Je[C7]li masz [1C 05 5A]a,{pause(15)} czy m[C6]g[C4]by[C7] mi go da[C2]?)" next
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61d5d)} {e(l_0xc61d50)}]" goto(l_0xc61d50)
+
+l_0xc61d50:
+    "@....." next
+    "@(.....)" end
+
+l_0xc61d5d:
+    call(data_15.l_0xc5e456) "[1B 02 {e(l_0xc61d50)}]{store_registers}" call(data_18.l_0xc62380) "[1B 02 {e(l_0xc61d50)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Unkikie!" next
+    "@([1C 05 5A]!){wait}{window_closeall}[1F 1E 28 03 06][1F 17 2A 03 2B 00 01]{set(flag 457)}" eob
+
+l_0xc61da4:
+    "@Uki, Unkinki Ukinkie." next
+    "@(Prawda jest taka, [C8]e ma[C4]pa obok mnie jest moim bratem bli[C9]niakiem.)" end
+
+l_0xc61ddb:
+    "[06 CA 01 {e(data_18.l_0xc61ed7)}]@Unkikkie Uuki Uki!" next
+    "@(Uwielbiam [1C 05 5A]y!)" next
+    "@Ukie Unkikie..." next
+    "@(Ma[C4]pa obok mnie te[C8] uwielbia [1C 05 5A]y...)" next
+    "@Uuu,{pause(20)} Unkikkie Uki?" next
+    "@(Je[C7]li masz [1C 05 5A],{pause(15)} czy m[C6]g[C4]by[C7] mi go da[C2]?)" next
+    call(data_36.l_0xc7dd4f) "[11]{clearline}[09 02 {e(data_18.l_0xc61e8e)} {e(data_18.l_0xc61e81)}]" goto(data_18.l_0xc61e81)

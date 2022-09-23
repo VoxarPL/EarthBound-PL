@@ -1,0 +1,24 @@
+# List all text characters that you would like to substitute
+# As of CoilSnake 2.3, this only affects YML files, and has no impact on CCScript files.
+# Example:
+#
+# 'я': '[B0]'
+
+'Ą': '[B1]'
+'Ć': '[B2]'
+'Ę': '[B3]'
+'Ł': '[B4]'
+'Ń': '[B5]'
+'Ó': '[B6]'
+'Ś': '[B7]'
+'Ż': '[B8]'
+'Ź': '[B9]'
+'ą': '[C1]'
+'ć': '[C2]'
+'ę': '[C3]'
+'ł': '[C4]'
+'ń': '[C5]'
+'ó': '[C6]'
+'ś': '[C7]'
+'ż': '[C8]'
+'ź': '[C9]'

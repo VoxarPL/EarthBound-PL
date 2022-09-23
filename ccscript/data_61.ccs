@@ -1,0 +1,469 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xef5428:
+    "@Chroni wszystkich za pomoc[C1] tarczy mocy." linebreak
+    "@Obni[C8]a obra[C8]enia o po[C4]ow[C3], a niekt[C6]re zablokowane obra[C8]enia s[C1] zwracane wrogowi." linebreak
+    "@U[C8]ycie innej tarczy anuluje te efekty." eob
+
+l_0xef548f:
+    "@Chroni jedn[C1] osob[C3] za pomoc[C1] psychicznej tarczy." linebreak
+    "@Blokuje ataki PSI wroga." linebreak
+    "@U[C8]ycie innej tarczy anuluje te efekty." eob
+
+l_0xef54e6:
+    "@Chroni wszystkich za pomoc[C1] psychicznej tarczy." linebreak
+    "@Blokuje ataki PSI wroga." linebreak
+    "@U[C8]ycie innej tarczy anuluje te efekty." eob
+
+l_0xef553c:
+    "@Chroni jedn[C1] osob[C3] za pomoc[C1] psychicznej tarczy mocy." linebreak
+    "@Odbija ataki PSI wroga z powrotem na atakuj[C1]cego." linebreak
+    "@U[C8]ycie innej tarczy anuluje te efekty." eob
+
+l_0xef55a0:
+    "@Chroni wszystkich za pomoc[C1] psychicznej tarczy mocy." linebreak
+    "@Odbija ataki PSI wroga z powrotem na atakuj[C1]cego." linebreak
+    "@U[C8]ycie innej tarczy anuluje te efekty." eob
+
+l_0xef5603:
+    "@Zwi[C3]ksza Atak jednej osobie na czas obecnej bitwy." linebreak
+    call(data_05.l_0xc56b0d) eob
+
+l_0xef562e:
+    "@Zwi[C3]ksza Atak wszystkim na czas obecnej bitwy." linebreak
+    call(data_05.l_0xc56b0d) eob
+
+l_0xef5658:
+    "@Zmniejsza Obron[C3] jednego wroga na czas obecnej bitwy." linebreak
+    call(data_05.l_0xc56b0d) eob
+
+l_0xef5687:
+    "@Zmniejsza Obron[C3] wszystkich wrog[C6]w na czas obecnej bitwy." linebreak
+    call(data_05.l_0xc56b0d) eob
+
+l_0xef56b9:
+    "@Usypia jednego wroga." linebreak
+    call(data_05.l_0xc56ac0) eob
+
+l_0xef56d0:
+    "@Usypia wszystkich wrog[C6]w." linebreak
+    call(data_05.l_0xc56ac0) eob
+
+l_0xef56eb:
+    "@Zabiera 2-8 punkt[C6]w PP od jednego wroga i dodaje je do PP u[C8]ytkownika." eob
+
+l_0xef5712:
+    "@Zabiera 2-8 punkt[C6]w PP od ka[C8]dego wroga i dodaje je do PP u[C8]ytkownika." eob
+
+l_0xef5739:
+    "@Zmusza jednego wroga do" call(data_05.l_0xc56ac2) eob
+
+l_0xef574e:
+    "@Zmusza wszystkich wrog[C6]w do" call(data_05.l_0xc56ac2) eob
+
+l_0xef5766:
+    "@Sprawia, [C8]e wr[C6]g czuje si[C3] dziwnie." eob
+
+l_0xef5777:
+    "@Sprawia, [C8]e wszyscy wrogowie czuj[C1] si[C3] dziwnie." eob
+
+l_0xef578b:
+    call(data_05.l_0xc56ae4) newline
+    "@Aby to zadzia[C4]a[C4]o, potrzebujesz dobrego miejsca do biegania." eob
+
+l_0xef57ae:
+    call(data_05.l_0xc56ae4) newline
+    "@Aby skorzysta[C2] z tego, nie potrzebujesz miejsca do biegania." linebreak
+    "@Jest r[C6]wnie[C8] nazywany <Teleportacj[C1] Tornado>." eob
+
+l_0xef57eb:
+    "[06 C5 00 {e(data_35.l_0xc7c588)}]{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(data_24.l_0xc690a6)}]{music(155)}@W ko[C5]cu si[C3] tu dosta[C4]e[C7]." next
+    "@To jest [C6]sma lokacja <Twojego Sanktuarium>.{pause(20)}" linebreak
+    "  Ale teraz jest moja." next
+    "@Zabierz j[C1] ode mnie,{pause(30)} je[C7]li tylko [C7]miesz...[03]" call(data_23.l_0xc6843a) "[1B 03 {e(data_23.l_0xc683de)}][1F 1E FC 04 08]{pause(120)}{set(flag 197)}" eob
+
+l_0xef5864:
+    "{font_saturn}@Porwany.{pause(20)}" linebreak
+    "  By[C4]em." linebreak
+    "  Boing!" next
+    "@Porywacz.{pause(20)}" linebreak
+    "  Z[C4]y go[C7][C2]." next
+    "@Z[C4]y go[C7][C2] znikn[C1][C4]." linebreak
+    "  Zum!" next
+    "@Gdzie?" linebreak
+    "  Do przesz[C4]o[C7]ci." next
+    "@Ding, ding!{wait}{font_normal}" eob
+
+l_0xef58c7:
+    "[06 DF 00 {e(data_23.l_0xc685cb)}][19 10 01]{rtoarg}@[1C 02 00] sprawdza zepsuty Zniekszta[C4]cacz Fazy." next
+    "@Tam by[C4] [1C 05 82]." next
+    "[1D 03 FF][1B 02 {e(data_23.l_0xc685bb)}][1D 0E 00 82]" call(data_36.l_0xc7dccf) "{set(flag 223)}" end
+
+l_0xef5917:
+    "{sound(99)}[1F 15 A9 00 6C 02 01][1F 61][1F 1F A9 00 06][1F 15 62 00 08 00 01][1F E4 62 00 07][1F E4 62 00 01][1F E4 62 00 03][1F E4 62 00 05][1F E4 62 00 07]{pause(1)}[1F E4 62 00 01]{pause(2)}[1F E4 62 00 03]{pause(3)}[1F E4 62 00 05]{pause(4)}[1F E4 62 00 07]{pause(5)}[1F E4 62 00 01]{pause(6)}[1F E4 62 00 03]{pause(7)}[1F E4 62 00 05]{pause(8)}[1F E4 62 00 07]{window_open(1)}"
+    title(1, Star)
+    "@Witaj!{pause(20)}" linebreak
+    "  Wi[C3]c w ko[C5]cu tu jeste[C7]![03]{window_closeall}" call(data_49.l_0xc915f4) "{sound(37)}{pause(90)}{window_open(1)}"
+    title(1, Star)
+    "@Doskonale!{pause(20)}" linebreak
+    "  Jeste[C7] naprawd[C3] [C7]wietny!" next
+    "@Zosta[C4]o tylko troch[C3] czasu!{pause(15)}" linebreak
+    "  Dam ci ostatni[C1] moc." next
+    "@Musz[C3] ju[C8] i[C7][C2]...[03]{window_closeall}[1F 71 04 03][1F 1F 62 00 06]{sound(99)}[1F 15 A9 00 6D 02 01][1F 61][1F 71 04 03]{window_open(1)}"
+    "@([1C 01 4A] zdaje sobie spraw[C3] z" linebreak
+    "  PK Gwiezdnej Burzy _!){sound(103)}{wait}{window_closeall}" eob
+
+l_0xef5a3e:
+    "[06 A7 01 {e(l_0xef5a81)}]@Chocia[C8] s[C4]ucha[C4]em gadatliwej opowie[C7]ci Tajemniczej Ska[C4]y," next
+    "@nie rozumiem o czym m[C6]wi[C4]a." end
+
+l_0xef5a81:
+    "@Ska[C4]a nagle przesta[C4]a m[C6]wi[C2]." next
+    "@Innymi s[C4]owy..." next
+    "@jest cicha jak nagrobek." end
+
+l_0xef5ab5:
+    "@...Masz fajny przedmiot." next
+    "@Odk[C1]d przyby[C4]em do Zaginionego Za[C7]wiata, nie widzia[C4]em ani nie w[C1]cha[C4]em Tendapusty." end
+
+l_0xef5aed:
+    "[06 A7 01 {e(l_0xef5bc8)}][06 68 02 {e(l_0xef5b97)}]@Co robicie w klatce dinozaur[C6]w?" next
+    "@Otworz[C3] wam drzwi, a wy szybko wyjdziecie z klatki." next
+    "@To rozkaz od szefa.{pause(15)}  ...Tak przy okazji,{pause(15)} dzi[C3]ki za Tendapust[C3]." next
+    "[19 10 01]{rtoarg}@([1C 05 D3] zostaje zabrana z r[C1]k [1C 02 00].)" next
+    "@(Ten paskudny zapach opu[C7]ci[C4] was jednocze[C7]nie!){wait}{set(flag 616)}" eob
+
+l_0xef5b97:
+    "@Czemu nie widzicie gadaj[C1]cej Tajemniczej Ska[C4]y." next
+    "@Ta ska[C4]a naprawd[C3] co[C7] be[C4]kocze!!" end
+
+l_0xef5bc8:
+    "@Ska[C4]a, kt[C6]ra nie m[C6]wi, wcale nie jest fajna." end
+
+l_0xef5be6:
+    "[06 49 00 {e(l_0xef5c46)}]@Jeste[C7]my tymi samymi Tenda, co ci nad ziemi[C1]." next
+    "@...Wydajemy si[C3] inni?" next
+    "@Tak,{pause(15)} wiecie, tamci Tenda s[C1] nie[C7]miali i nie lubi[C1] z nami rozmawia[C2]." end
+
+l_0xef5c46:
+    "@To mo[C8]e by[C2] moja wyobra[C9]nia,{pause(15)} ale wydaje mi si[C3], [C8]e s[C4]ysz[C3] odg[C4]os innego Tendy przemawiaj[C1]cego nad nami." next
+    "@Zastanawiam si[C3]... czy pokonali nie[C7]mia[C4]o[C7][C2]?" end
+
+l_0xef5c98:
+    "[06 49 00 {e(l_0xef5ce4)}]@Nie s[C1]dzisz, [C8]e Tenda nad nami maj[C1] jakie[C7] szczeg[C6]lnie pi[C3]kne kobiety?" next
+    "@Jednak nadal s[C1] nie[C7]miali." end
+
+l_0xef5ce4:
+    "@Kobiety Tenda nad ziemi[C1] s[C1] [C4]adne, ale m[C3][C8]czy[C9]ni wydaj[C1] si[C3] nieco zaniedbani." end
+
+l_0xef5d16:
+    "[06 FF 02 {e(l_0xef5df8)}]{set(flag 767)}@Jeste[C7] dziwny, ale [C4]adnie pachniesz.{pause(20)}  Wi[C3]c powiem ci sekret." next
+    "@Czy czu[C4]e[C7] kiedy[C7] trz[C3]sienie ziemi?" next
+    "@...Wiesz, ca[C4]y czas mamy trz[C3]sienia ziemi." next
+    "@Po trz[C3]sieniu ziemi wybuchn[C1] gor[C1]ce [C9]r[C6]d[C4]a." next
+    "@Niebieskie [C9]r[C6]d[C4]a [C7]wietnie nadaj[C1] si[C3] do odzyskiwania zdrowia." next
+    "@Czerwone [C9]r[C6]d[C4]a s[C1] idealne do leczenia parali[C8]u lub trucizny." end
+
+l_0xef5df8:
+    "@Hej!  Dziwny go[C7]ciu." next
+    "@Po trz[C3]sieniu ziemi gor[C1]ce [C9]r[C6]d[C4]a wybuchaj[C1] z ziemi." next
+    "@Czy zauwa[C8]y[C4]e[C7] to kiedy[C7]?" next
+    "@Niebieskie [C9]r[C6]d[C4]a [C7]wietnie nadaj[C1] si[C3] do odzyskiwania zdrowia." next
+    "@Czerwone [C9]r[C6]d[C4]a s[C1] idealne do leczenia parali[C8]u lub trucizny." end
+
+l_0xef5e94:
+    "[06 49 00 {e(l_0xef5f31)}]@Tenda, kt[C6]rzy lubi[C1] rozmawia[C2], przybyli do Zaginionego Za[C7]wiata," next
+    "@poniewa[C8] nie mogli[C7]my znie[C7][C2] ciszy nad g[C6]rze." next
+    "@Wi[C3]c za[C4]o[C8]yli[C7]my oddzielne plemi[C3]." next
+    "@Mam nadziej[C3], [C8]e pewnego dnia zn[C6]w b[C3]dziemy przyja[C9]ni." next
+    "@...Tak,{pause(20)} by[C4]o o wiele [C4]atwiej [C8]y[C2] na powierzchni." end
+
+l_0xef5f31:
+    "@Pomogli[C7]cie nadziemnemu i podziemnemu plemieniu ponownie uzyska[C2] jedno[C7][C2]." next
+    "@Wkr[C6]tce zn[C6]w b[C3]dziemy jedn[C1] wiosk[C1]!{pause(20)}  Dzi[C3]kuj[C3]." end
+
+l_0xef5f7d:
+    "@Zrobili[C7]my klatk[C3] dla dinozaur[C6]w i zamkn[C3]li[C7]my je..." next
+    "@Tak m[C6]wi[C4] mi m[C6]j brat." next
+    "@Ale nie wierz[C3] w to...{pause(20)}" linebreak
+    "  On po prostu wylewa si[C3] ze swojej dziury z ciastem." end
+
+l_0xef5fdf:
+    "[06 49 00 {e(l_0xef6038)}]@Puco[C4]owaty, wstr[C3]tny dzieciak z obcego kraju powiedzia[C4] co[C7] pocieszaj[C1]cego..." next
+    "@Wi[C3]c lecz[C3] swoje rany w gor[C1]cych [C9]r[C6]d[C4]ach." end
+
+l_0xef6038:
+    "@Gor[C1]ce [C9]r[C6]d[C4]a rz[C1]dz[C1]!" end
+
+l_0xef6049:
+    call(data_21.l_0xc655b1) eob
+
+l_0xef604f:
+    "@Tamten ptak m[C6]wi dziwne s[C4]owa, takie jak <Halo?> i <klik bip bip bip>." end
+
+l_0xef6084:
+    "[06 49 00 {e(l_0xef60c5)}]@Tutaj dinozaury nie przyjd[C1] i nie zaatakuj[C1] mnie.  Mog[C3] si[C3] zrelaksowa[C2]." next
+    "@...Tyle [C8]e teraz nie mog[C3] si[C3] wydosta[C2]." end
+
+l_0xef60c5:
+    "@Bez dinozaur[C6]w wydaje si[C3], [C8]e w tym miejscu brakuje czego[C7] du[C8]ego." end
+
+l_0xef60f2:
+    "@Dzy[C5], dzy[C5], dzzzyyy[C5]!!" next
+    call(data_18.l_0xc63029) eob
+
+l_0xef610c:
+    eob
+
+l_0xef610d:
+    "@(Nie karm dinozaur[C6]w w klatce!{pause(20)}" linebreak
+    "                            - Szef)" end
+
+l_0xef6132:
+    "@(Nie m[C6]w do ska[C4]y, je[C7]li nie masz nic do powiedzenia.{pause(20)}" linebreak
+    "                            - Szef)" end
+
+l_0xef6157:
+    "@(W razie niebezpiecze[C5]stwa ewakuuj si[C3] tu!{pause(20)}" linebreak
+    "                            - Szef)" end
+
+l_0xef617b:
+    "[06 6E 01 {e(data_35.l_0xc7c588)}]{window_open(1)}@Przynie[C7]li[C7]cie troch[C3] <Muszego Miodu>?" next
+    "@To ulubione jedzenie Mistrza Beka." linebreak
+    "[19 02]Tak" eob
+
+l_0xef61b6:
+    " [19 02]Nie" eob
+
+l_0xef61bc:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xef61f3)} {e(l_0xef61cb)}]" goto(l_0xef61cb)
+
+l_0xef61cb:
+    "@Wi[C3]c dlaczego tu jeste[C7]cie?![03]{window_closeall}" call(data_23.l_0xc6853f) "[1B 03 {e(data_23.l_0xc683de)}]{pause(1)}[1F F1 B0 02 7B 02]{set(flag 366)}" eob
+
+l_0xef61f3:
+    "[1D 05 FF 69][1B 03 {e(l_0xef6247)}]@Nie przynie[C7]li[C7]cie go?{pause(20)}  Wydajecie mi si[C3] podejrzani..." next
+    "@Nie mo[C8]ecie t[C3]dy przej[C7][C2]![03]{window_closeall}" call(data_23.l_0xc6853f) "[1B 03 {e(data_23.l_0xc683de)}]{pause(1)}[1F F1 B0 02 7B 02]{set(flag 366)}" eob
+
+l_0xef6247:
+    "@Ok, mo[C8]ecie przej[C7][C2]." next
+    "@Hej, b[C1]d[C9]cie ostro[C8]ni!{pause(20)}  Upewnijcie si[C3], [C8]e go nie zgubicie![03]{window_closeall}" eob
+
+l_0xef6276:
+    "@Urp!" next
+    "@...Ci[C3][C8]ko wydaje si[C3] ohydne d[C9]wi[C3]ki, kt[C6]re wydaje Mistrz Bek." next
+    "@Wiem, [C8]e nie potrafi[C3] tego zrobi[C2]." end
+
+l_0xef62b1:
+    "@Mistrz Bek jest najbardziej [C7]luzowaty!" next
+    "@Jednak s[C4]ysza[C4]em, [C8]e s[C4]u[C8]y tak[C8]e jakiemu[C7] Giygasowi.{pause(15)}  Nie mog[C3] w to uwierzy[C2]." end
+
+l_0xef62f5:
+    "[06 6F 01 {e(data_35.l_0xc7c588)}]{window_open(1)}@Nie jeste[C7] tym ch[C4]opem dostarczaj[C1]cym Muszy Mi[C6]d?{pause(15)}  Jakie jest has[C4]o!" next
+    "@To nie znaczy, [C8]e ci nie ufam.{pause(15)}  Po prosu tak m[C6]wi[C3]!" next
+    "@M[C6]wi[C3] to teraz!" next
+    "@Kto[C7] tak cichy jest albo wyj[C1]tkowo nie[C7]mia[C4]y, albo bardzo niebezpieczny..." next
+    "@Co za podejrzany go[C7][C2]![03]{window_closeall}" call(data_23.l_0xc68546) "[1B 03 {e(data_23.l_0xc683de)}]{pause(1)}[1F F1 B3 02 7B 02]{set(flag 367)}" eob
+
+l_0xef63b5:
+    "[06 70 01 {e(data_35.l_0xc7c588)}]{window_open(1)}@Wi[C3]c to wy zniszczyli[C7]cie zombie, kt[C6]re sprowadzi[C4]em do Threed!![03]{window_closeall}" call(data_23.l_0xc6854d) "[1B 03 {e(data_23.l_0xc683de)}]{pause(1)}[1F F1 B4 02 7B 02]{set(flag 368)}" eob
+
+l_0xef6400:
+    "{font_saturn}@Zm[C3]czony." next
+    "@Ale tak dobrze.  Ding!{wait}{font_normal}" eob
+
+l_0xef6419:
+    "{font_saturn}@Uch!  Ra{pause(5)}a{pause(5)}a{pause(5)}ny!  To naprawd[C3]..." next
+    "@U[C7]miechni[C3]ty.  Boing!{wait}{font_normal}" eob
+
+l_0xef6446:
+    "[06 47 00 {e(data_35.l_0xc7c588)}]{music(134)}{sound(78)}"
+    title(1, Belch)
+    "@Beeek!" next
+    "@Wi[C3]c ty jeste[C7] [1C 02 01]?" next
+    "{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xef66ca)}]@...Rozumiem...  Giork!{pause(15)}  Giork!{pause(15)}  Giork!" next
+    "@Podobno istnieje przepowiednia, [C8]e to ty zniszczysz Mistrza Giygasa." next
+    "@Chig!  Chig!  Chig!" linebreak
+    "  Roz[C7]mieszasz mnie tak mocno..." next
+    "@Je[C7]li Mistrz Giygas si[C3] kogo[C7] boi..." next
+    "{sound(78)}@musia[C4]by by[C2] gorszy ni[C8] najwi[C3]ksze z[C4]o..." next
+    "@Garg!  Ga!  Garg!  Ga!  Ga!  Ga!" next
+    "@Ju[C8] ja was pokonam, wi[C3]c przygotujcie si[C3] na najgorsz[C1] walk[C3] waszego [C8]ycia!" next
+    "{sound(78)}{pause(40)}" linebreak
+    goto(l_0xef6569)
+
+l_0xef6569:
+    "@G[C4]a G[C4]a G[C4]a!" linebreak
+    "  Poczujecie b[C6]l prawdziwych md[C4]o[C7]ci!" next
+    "{sound(78)}{pause(40)}@G[C4]e G[C4]e!" linebreak
+    "  No dalej, zaczynamy![03]" call(data_23.l_0xc68554) "[1B 03 {e(data_23.l_0xc683de)}]{window_open(1)}{music(134)}"
+    title(1, Belch)
+    "@{sound(78)}{pause(40)}Wygl[C1]da na to, [C8]e to by[C4]a wyr[C6]wnana walka...{pause(20)}  Beek!" next
+    "@Ale Mistrzowi Giygasowi uda[C4]o si[C3] przenie[C7][C2] Statuetk[C3] Mani Mani do Fourside.{pause(20)}{sound(78)}{pause(40)}" next
+    "@Miasto wkr[C6]tce b[C3]dzie w gorszym stanie ni[C8] wasze [C8]ycie we w[C4]asnych wymiotach!" next
+    "@B[C3]dziecie cierpie[C2]!{pause(20)}{sound(78)}" linebreak
+    "  {pause(40)}G[C4]a G[C4]a G[C4]a G[C4]a G[C4]a!" next
+    "@Be{pause(5)}e{pause(5)}e{pause(5)}ek!{sound(78)}{pause(40)}" next
+    "{window_closeall}{pause(1)}[1F F1 B9 02 7B 02]{set(flag 71)}{set(flag 366)}{set(flag 367)}{set(flag 368)}{set(flag 590)}{set(flag 623)}{set(flag 629)}{set(flag 489)}{set(flag 490)}{unset(flag 125)}{unset(flag 773)}{unset(flag 761)}[19 26 04]{music_resume}" eob
+
+l_0xef66ca:
+    "@...Nie?" linebreak
+    "  Giork, Giork, Giork!" next
+    "@S[C4]ysza[C4]em, [C8]e istnieje przepowiednia, w kt[C6]rej ​​pokonasz Mistrza Giygasa..." next
+    "@Chig chig chig!" linebreak
+    "  Roz[C7]mieszasz mnie tak mocno!" next
+    "@Je[C7]li Mistrz Giygas si[C3] kogo[C7] boi...{sound(78)}" next
+    "@musia[C4]by by[C2] gorszy ni[C8] najwi[C3]ksze z[C4]o..." next
+    "@Ju[C8] ja was pokonam,{pause(15)} wi[C3]c przygotujcie si[C3] na najgorsz[C1] walk[C3] waszego [C8]ycia!" next
+    goto(l_0xef6569)
+
+l_0xef679a:
+    "[06 C1 00 {e(data_35.l_0xc7c588)}]{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(data_24.l_0xc690a6)}]{music(155)}@W ko[C5]cu si[C3] tu dosta[C4]e[C7]." next
+    "@To jest trzecia lokacja <Twojego Sanktuarium>.{pause(20)}" linebreak
+    "  Ale teraz jest moja." next
+    "@Zabierz j[C1] ode mnie,{pause(30)} je[C7]li tylko [C7]miesz...[03]" call(data_23.l_0xc6841e) "[1B 03 {e(data_23.l_0xc683de)}][1F 1E C1 02 08]{pause(120)}{set(flag 193)}" eob
+
+l_0xef6814:
+    call(data_13.l_0xc5d36b) eob
+
+l_0xef681a:
+    "[1D 05 FF 69][1B 03 {e(l_0xef6874)}]@Giork Giork!" next
+    "@Hej ty, cz[C4]owieku!{pause(20)}  W[C3]drujesz tu bez [C8]adnego <Muszego Miodu>..." next
+    "@Jestem [C7]miertelnym wrogiem waszego gatunku.[03]" eob
+
+l_0xef6874:
+    "@Giork!  Giork!" next
+    "@My[C7]licie, [C8]e je[C7]li macie <Muszy Mi[C6]d>, uznam was za przyjaci[C6][C4]." next
+    "@Ale tak naprawd[C3] jeste[C7]cie zwyk[C4]ymi lud[C9]mi!{pause(20)}" next
+    "  Jestem [C7]miertelnym wrogiem waszego gatunku.[03]" eob
+
+l_0xef68d7:
+    "{window_open(1)}[1D 05 FF 69][1B 03 {e(l_0xef6954)}]@Pokona[C4]e[C7] mnie..." next
+    "@Pozw[C6]l mi zje[C7][C2] troch[C3] Muszego Miodu po raz ostatni..." next
+    "@Mistrz Bek nienawidzi ludzi takich jak ty." next
+    "@...Widzicie, ci, kt[C6]rzy nie maj[C1] <Muszego Miodu> s[C1] naszymi [C7]miertelnymi wrogami...[03]{window_closeall}" eob
+
+l_0xef6954:
+    "@Chcia[C4]em wzi[C1][C2] wasz Muszy Mi[C6]d i go prze[C4]kn[C1][C2]." next
+    "@Mistrz Belch i ja kochamy Muszy Mi[C6]d.{pause(20)}  Giorg Giorg![03]{window_closeall}" eob
+
+l_0xef69a1:
+    newline
+    "@HP {target} jest maksymalne!{sound(36)}[03]" eob
+
+l_0xef69ba:
+    newline
+    "@{target} odzyskuje {delta} HP!{sound(36)}[03]" eob
+
+l_0xef69d2:
+    newline
+    "@{target} odzyskuje {delta} PP!{sound(36)}[03]" eob
+
+l_0xef69ea:
+    newline
+    "@Atak wynosi {delta} pkt![03]" eob
+
+l_0xef69ff:
+    newline
+    "@Obrona wynosi {delta} pkt![03]" eob
+
+l_0xef6a0d:
+    newline
+    "@Podatny na PK Ogie[C5]![03]" eob
+
+l_0xef6a24:
+    newline
+    "@Podatny na PK Zamro[C8]enie![03]" eob
+
+l_0xef6a3c:
+    newline
+    "@Podatny na PK B[C4]ysk![03]" eob
+
+l_0xef6a54:
+    newline
+    "@Podatny na Parali[C8]![03]" eob
+
+l_0xef6a6c:
+    newline
+    "@Otwarty na Hipnoz[C3]![03]" eob
+
+l_0xef6a7f:
+    newline
+    "@Wra[C8]liwy na Wstrz[C1]s M[C6]zgu.[03]" eob
+
+l_0xef6a99:
+    newline
+    "@Jaj[C2]! {user} zmienia si[C3] w {target}![03]" eob
+
+l_0xef6ab3:
+    newline
+    "@{user} nie mo[C8]e si[C3] zmieni[C2] w {target}![03]" eob
+
+l_0xef6ac7:
+    newline
+    "@{target} zostaje zdiamentyzowany!{sound(83)}[03]" eob
+
+l_0xef6ae0:
+    newline
+    "@Cia[C4]o {target} staje si[C3] sparali[C8]owane!{sound(83)}[03]" eob
+
+l_0xef6afb:
+    newline
+    "@{target} czuje md[C4]o[C7]ci...{sound(83)}[03]" eob
+
+l_0xef6b18:
+    newline
+    "@{target} zostaje otruty!{sound(83)}[03]" eob
+
+l_0xef6b2f:
+    newline
+    "@{target} przezi[C3]bi[C4] si[C3]!{sound(83)}[03]" eob
+
+l_0xef6b43:
+    "[1C 15 01][09 03 {e(l_0xef6b54)} {e(l_0xef6b59)} {e(l_0xef6b5f)}]" goto(l_0xef6b54)
+
+l_0xef6b54:
+    "(on)" eob
+
+l_0xef6b59:
+    "(ona)" eob
+
+l_0xef6b5f:
+    "(ono)" eob
+
+l_0xef6b64:
+    "[1C 15 02][09 03 {e(l_0xef6b75)} {e(l_0xef6b79)} {e(l_0xef6b7d)}]" goto(l_0xef6b75)
+
+l_0xef6b75:
+    "(1)" eob
+
+l_0xef6b79:
+    "(2)" eob
+
+l_0xef6b7d:
+    "(3)" eob
+
+l_0xef6b81:
+    newline
+    "@{target} zaczyna czu[C2] si[C3] dziwnie!{sound(83)}[03]" eob
+
+l_0xef6b98:
+    newline
+    "@{target} zostaje op[C3]tany przez mini-ducha!{sound(83)}[03]" eob
+
+l_0xef6bbb:
+    newline
+    "@{target} nie mo[C8]e przesta[C2] p[C4]aka[C2]!{sound(83)}[03]" eob
+
+l_0xef6bd3:
+    newline
+    "@{target} nagle nie mo[C8]e si[C3] ruszy[C2]!{sound(83)}[03]" eob
+

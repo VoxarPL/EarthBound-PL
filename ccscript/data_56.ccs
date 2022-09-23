@@ -1,0 +1,390 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc99d1c:
+    "[06 6F 00 {e(data_33.l_0xc7916c)}]" eob
+
+l_0xc99d24:
+    call(l_0xc99d92) "{isset(flag 309)}[1B 02 {e(data_55.l_0xc9992f)}]" eob
+
+l_0xc99d33:
+    "[1F 66 01 03 12 9B C7 00]" eob
+
+l_0xc99d3c:
+    eob
+
+l_0xc99d3d:
+    "[06 92 00 {e(l_0xc99d45)}]" eob
+
+l_0xc99d45:
+    "[06 93 00 {e(l_0xc99d59)}][1F 63 {e(data_44.l_0xc89238)}]{set(flag 147)}{set(flag 759)}" eob
+
+l_0xc99d59:
+    "[06 A7 02 {e(data_55.l_0xc9992f)}][1F 63 {e(data_44.l_0xc88991)}]{set(flag 679)}" eob
+
+l_0xc99d6a:
+    "[06 92 00 {e(l_0xc99d78)}][1F 63 {e(data_44.l_0xc88d91)}]" eob
+
+l_0xc99d78:
+    "{isset(flag 680)}[1B 02 {e(data_55.l_0xc9992f)}][1F 63 {e(data_44.l_0xc88991)}]{unset(flag 680)}" eob
+
+l_0xc99d8b:
+    "{unset(flag 374)}{unset(flag 536)}" eob
+
+l_0xc99d92:
+    "{isset(flag 322)}[1B 02 {e(data_55.l_0xc9992f)}][06 0D 00 {e(data_55.l_0xc9992f)}]{set(flag 118)}" eob
+
+l_0xc99da6:
+    "[1F 07 08]{unset(flag 383)}" call(l_0xc99d92) "[06 76 00 {e(l_0xc99db9)}]" eob
+
+l_0xc99db9:
+    "[06 E3 02 {e(data_55.l_0xc9992f)}][06 0D 00 {e(data_55.l_0xc9992f)}][1F 63 {e(data_58.l_0xc9c65b)}]" eob
+
+l_0xc99dce:
+    "{unset(flag 383)}{isset(flag 611)}[1B 02 {e(data_55.l_0xc9992f)}][1F 63 {e(l_0xc99de1)}]" eob
+
+l_0xc99de1:
+    "[1F 1A 43 01 03]{pause(10)}[19 22 FF 02 43 01][1F 13 FF 00]{pause(50)}[1F 1B 43 01][1F F1 43 01 80 02][1F 61]{window_open(1)}@Witaj?  [1C 01 08]?" next
+    "{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc99e48)}]" goto(l_0xc99e1b)
+
+l_0xc99e1b:
+    "@Jestem pos[C4]a[C5]cem Everdreda, jednym z jego s[C4]ugus[C6]w." next
+    "@Everdred czeka na ciebie." next
+    "@Ma co[C7] dla ciebie.{wait}{window_closeall}[1F F1 43 01 82 02]{pause(60)}{unset(flag 611)}[1F 41 06]" eob
+
+l_0xc99e48:
+    "{pause(20)}@Co jest?  To nie ty?!" next
+    "@Wi[C3]c, je[C7]li zobaczysz [1C 01 08]a, powt[C6]rz mu t[C3] wiadomo[C7][C2] s[C4]owo po s[C4]owie..." next
+    goto(l_0xc99e1b)
+
+l_0xc99e8b:
+    "[06 4F 01 {e(data_55.l_0xc9992f)}][1F 66 01 05 BA A1 C7 00]" eob
+
+l_0xc99e9b:
+    "{unset(flag 383)}{set(flag 370)}[06 88 00 {e(data_55.l_0xc9992f)}][1F 66 01 06 B1 9E C9 00]" eob
+
+l_0xc99eb1:
+    "{set(flag 136)}[1F 67 01]" eob
+
+l_0xc99eb8:
+    eob
+
+l_0xc99eb9:
+    call(data_57.l_0xc9b10b) "[06 47 00 {e(data_55.l_0xc9992f)}]{set(flag 312)}" eob
+
+l_0xc99ec9:
+    call(data_57.l_0xc9b10b) "[06 47 00 {e(data_55.l_0xc9992f)}]{set(flag 315)}" eob
+
+l_0xc99ed9:
+    "{unset(flag 312)}" eob
+
+l_0xc99edd:
+    "[06 78 02 {e(data_57.l_0xc9b20e)}][06 6C 00 {e(data_55.l_0xc9992f)}]{window_open(1)}[1D 05 FF AA][1B 02 {e(l_0xc99f2d)}][1D 01 FF AA]"
+    "@(" call(data_37.l_0xc7e6d7) " u[C8]ywa klucza do chaty podr[C6][C8]nych artyst[C6]w.)[03]{sound(119)}{set(flag 108)}{window_closeall}" eob
+
+l_0xc99f2d:
+    "@(Drzwi s[C1] zamkni[C3]te.){wait}{window_closeall}" eob
+
+l_0xc99f40:
+    eob
+
+l_0xc99f41:
+    "{window_open(1)}@(" call(data_37.l_0xc7e6d7) " u[C8]ywa <Maszyn[C3], kt[C6]ra otwiera drzwi," next
+    "@zw[C4]aszcza gdy masz nieco z[C4]y klucz>" next
+    "@...aby otworzy[C2] drzwi.)[03]{window_closeall}" eob
+
+l_0xc99f91:
+    "[06 77 00 {e(data_55.l_0xc9992f)}]{sound(111)}{pause(40)}{window_open(1)}[06 73 00 {e(l_0xc99fc7)}]"
+    title(1, Nice)
+    "@Teraz przebieramy si[C3].  Nie wchodzi[C2]!{wait}{window_closeall}" eob
+
+l_0xc99fc7:
+    title(1, Nice)
+    "@Wejd[C9] szybko!  Nie wstyd[C9] si[C3].{wait}{window_closeall}" eob
+
+l_0xc99fe0:
+    "[06 3F 01 {e(data_55.l_0xc9992f)}]{set(flag 319)}{set(flag 751)}[1F 63 {e(l_0xc99ff4)}]" eob
+
+l_0xc99ff4:
+    goto(data_33.l_0xc79223)
+
+l_0xc99ff9:
+    eob
+
+l_0xc99ffa:
+    "{isset(flag 146)}[1B 02 {e(l_0xc9a062)}][06 8B 00 {e(data_55.l_0xc9992f)}][06 39 00 {e(data_55.l_0xc9992f)}][1F 66 01 0B 5A 95 C8 00]" eob
+
+l_0xc9a01a:
+    "[1F 41 06]{unset(flag 556)}{isset(flag 690)}[1B 02 {e(data_55.l_0xc9992f)}][1F 63 {e(data_24.l_0xc692f7)}]" eob
+
+l_0xc9a030:
+    "{isset(flag 139)}[1B 02 {e(data_55.l_0xc9992f)}]{isset(flag 555)}[1B 02 {e(data_55.l_0xc9992f)}][1F 63 {e(l_0xc9a049)}]" eob
+
+l_0xc9a049:
+    "[1F E1 14 01 00]{pause(20)}[1F E1 1F 00 00]{pause(20)}[1F E1 14 01 1E]{pause(1)}{unset(flag 555)}" eob
+
+l_0xc9a062:
+    "{window_open(1)}@(Tymczasowo zamkni[C3]te." linebreak
+    "  ...G[C4]aarch!){wait}{sound(114)}{window_closeall}" eob
+
+l_0xc9a08b:
+    "[1F 21 9B]" call(data_34.l_0xc7a7dd) "{set(flag 376)}{set(flag 591)}[19 26 05]" eob
+
+l_0xc9a09d:
+    "{isset(flag 591)}[1B 02 {e(data_55.l_0xc9992f)}][1F 63 {e(l_0xc9a0ad)}]" eob
+
+l_0xc9a0ad:
+    "[1F 41 06]" call(data_34.l_0xc7b550) eob
+
+l_0xc9a0b6:
+    eob
+
+l_0xc9a0b7:
+    "[06 D5 00 {e(data_55.l_0xc9992f)}][06 44 00 {e(l_0xc9a10c)}]{sound(111)}{pause(40)}{window_open(1)}{font_saturn}@Nie jestem pewien.{pause(20)}" linebreak
+    "  Boing!" next
+    "@Przyjaciele " next
+    "@w dolinie" linebreak
+    "  za Threed." next
+    "@Ding! Ding!{wait}{window_closeall}{font_normal}" eob
+
+l_0xc9a10c:
+    "{sound(111)}{pause(40)}{window_open(1)}{font_saturn}@Och, hej ho.{wait}{window_closeall}{font_normal}" eob
+
+l_0xc9a123:
+    "{unset(flag 660)}{isset(flag 44)}[1B 02 {e(data_55.l_0xc9992f)}][1F 41 05][1F 63 {e(data_54.l_0xc98cd3)}]" eob
+
+l_0xc9a139:
+    "{isset(flag 211)}[1B 02 {e(l_0xc9a193)}]" goto(l_0xc9a142)
+
+l_0xc9a142:
+    "{isset(flag 68)}[1B 02 {e(data_55.l_0xc9992f)}]{window_open(1)}@(Grupa Religijna Happy Happy rozpad[C4]a si[C3]." next
+    "@Ten budynek jest tymczasowo zamkni[C3]ty.){wait}{window_closeall}" eob
+
+l_0xc9a193:
+    "[06 44 00 {e(data_55.l_0xc9992f)}]{set(flag 660)}" goto(l_0xc9a142)
+
+l_0xc9a1a2:
+    eob
+
+l_0xc9a1a3:
+    "{unset(flag 660)}" eob
+
+l_0xc9a1a7:
+    "[06 44 00 {e(data_55.l_0xc9992f)}]{set(flag 660)}" eob
+
+l_0xc9a1b2:
+    "{set(flag 743)}" eob
+
+l_0xc9a1b6:
+    "[06 78 02 {e(data_57.l_0xc9b20e)}]{sound(111)}{pause(40)}{window_open(1)}@<Psss. Szept.>" next
+    "@<Szept pssst psssssss.>" next
+    "@<Szzzzz, co je[C7]li kto[C7] nas us[C4]yszy...?>" next
+    "@<Racja.{pause(20)}  Szept.>" next
+    "@<Psst. Pss.  [B4]a cha cha!>{pause(30)}" linebreak
+    next
+    "  <Ty durniu.>" next
+    "@<Wiesz co...>" next
+    "@<Che che che.>" next
+    "@<Che che che.>{wait}{window_closetop}" eob
+
+l_0xc9a270:
+    "[06 78 02 {e(data_57.l_0xc9b20e)}]{sound(111)}{pause(40)}{window_open(1)}"
+    "@Apteka jest na wschodzie!{pause(20)}  ...Wsch[C6]d jest przeciwie[C5]stwem zachodu!{wait}{window_closetop}" eob
+
+l_0xc9a2ac:
+    "[06 78 02 {e(data_57.l_0xc9b20e)}]{sound(111)}{pause(40)}{window_open(1)}@Je[C7]li pr[C6]bujesz sprzeda[C2] nam gazet[C3], odejd[C9]!{pause(20)}  Nie czytamy gazet!" next
+    "@I nie chcemy te[C8] mleka!{wait}{window_closetop}" eob
+
+l_0xc9a306:
+    "[06 78 02 {e(data_57.l_0xc9b20e)}]{window_open(1)}@(Wkr[C6]tce otwarcie!" linebreak
+    "  Oddzia[C4] Onett Mach Pizza.){wait}{window_closetop}" eob
+
+l_0xc9a336:
+    "[06 78 02 {e(data_57.l_0xc9b20e)}]{sound(111)}{pause(40)}{window_open(1)}"
+    "@Jeste[C7] [1C 01 08]?{pause(15)}  M[C6]j syn powiedzia[C4] co[C7] o chowaniu si[C3] w kryj[C6]wce." next
+    "@Nie wiem o czym on m[C6]wi[C4].{wait}{window_closeall}" eob
+
+l_0xc9a381:
+    "[06 78 02 {e(data_57.l_0xc9b20e)}]{sound(111)}{pause(40)}{window_open(1)}"
+    "@K-{pause(5)}Kt-{pause(1)}Kto tam?{pause(30)}  Tutaj jest strasznie.{pause(20)}  I co, nie odpowiesz?{wait}{window_closetop}" eob
+
+l_0xc9a3c5:
+    "[06 78 02 {e(data_57.l_0xc9b20e)}]{sound(111)}{pause(40)}{window_open(1)}@Powiedz co[C7] [C7]miesznego.{pause(15)}  B[C3]d[C3] s[C4]ucha[C2]." next
+    "@....." next
+    "@....." next
+    "@Mmm,{pause(15)} nie mog[C3] ju[C8] d[C4]u[C8]ej czeka[C2]!" next
+    "  Wracam do ogl[C1]dania wiadomo[C7]ci... s[C1] zabawniejsze ni[C8] ty.{wait}{window_closetop}" eob
+
+l_0xc9a432:
+    "[06 78 02 {e(data_57.l_0xc9b20e)}]{sound(111)}{pause(40)}{window_open(1)}@OK,{pause(15)} ma[C4]y quiz!{pause(30)} <Piosenka Beatles[C6]w,{pause(15)} XXXterday.>" next
+    "@Czy potrafisz wype[C4]ni[C2] puste pola?" linebreak
+    "[19 02]Tak" eob
+
+l_0xc9a488:
+    "[19 02]Nie" eob
+
+l_0xc9a48d:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc9a4ce)} {e(l_0xc9a49c)}]" goto(l_0xc9a49c)
+
+l_0xc9a49c:
+    "@Buzzzzt!{pause(20)}" linebreak
+    "  <Piosenka Beatles[C6]w,{pause(15)} Noterday.> [B9]le!{wait}{window_closetop}" eob
+
+l_0xc9a4ce:
+    "@Dobra odpowied[C9]!{pause(20)}  Jestem pod wra[C8]eniem.{wait}{window_closetop}" eob
+
+l_0xc9a4e6:
+    "{sound(111)}{pause(40)}{window_open(1)}@D[C9]wi[C3]k dochodz[C1]cy z Teatru Chaosu jest tak g[C4]o[C7]ny, [C8]e musz[C3] nosi[C2] zatyczki do uszu." next
+    "@Chyba nawet nie zauwa[C8][C3], je[C7]li go[C7][C2] spr[C6]buje wej[C7][C2]." next
+    "@...Do licha, sp[C6]jrz na mnie, m[C6]wi[C3] do siebie!{wait}{window_closetop}" eob
+
+l_0xc9a56a:
+    "{sound(111)}{pause(40)}{window_open(1)}@Je[C7]li szukasz domu Venus, jest tu[C8] obok.{wait}{window_closetop}" eob
+
+l_0xc9a593:
+    "{sound(111)}{pause(40)}{window_open(1)}@Tak, nadchodz[C3]!{pause(20)}" linebreak
+    "  *[B7]wist!  Bum{pause(5)} Wstrz[C1]s{pause(5)} Wstrz[C1]s{pause(5)} Wstrz[C1]s{pause(5)} Wstrz[C1]s... TRZASK!!*" next
+    "@Uchhhh... W[C4]a[C7]nie spad[C4]em ze schod[C6]w... Nie mog[C3] teraz podej[C7][C2] do drzwi.{wait}{window_closetop}" eob
+
+l_0xc9a604:
+    "{sound(111)}{pause(40)}{window_open(1)}[06 44 00 {e(l_0xc9a69f)}]@M[C6]wi[C4]em ci tysi[C1]c razy." linebreak
+    "  *chrup, chrup*" next
+    "@Nie do[C4][C1]cz[C3] do Grupy Religijnej Happy Happy. *chrup, chrup, chrup*" next
+    "@Je[C7]li b[C3]dziesz ze mn[C1] nachalny, obrzuc[C3] ci[C3] orzeszkami ziemnymi! *chrup, chrup*{wait}{window_closetop}" eob
+
+l_0xc9a69f:
+    "@Orzechy ziemne, w[C4]oskie..." linebreak
+    "  Orzechy laskowe..." linebreak
+    "  Pekany..." next
+    "@Orzechy makadamia..." linebreak
+    "  Orzechy nerkowca..." linebreak
+    "  Migda[C4]y..." next
+    "@Wielkie orzechy sosny..." linebreak
+    "  Orzechy sosny..." linebreak
+    "  Nasiona s[C4]onecznik[C6]w..." next
+    "@Nasiona dyni..." linebreak
+    "  Pistacje..." next
+    "@...Kt[C6]re z nich lubisz?" linebreak
+    "[19 02]Tak" eob
+
+l_0xc9a752:
+    "[19 02]Nie" eob
+
+l_0xc9a757:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc9a766)} {e(l_0xc9a766)}]" goto(l_0xc9a766)
+
+l_0xc9a766:
+    "@Zapyta[C4]em ci[C3] <Kt[C6]re z nich lubisz?>...{wait}{window_closeall}" eob
+
+l_0xc9a783:
+    "{sound(111)}{pause(40)}{window_open(1)}[06 47 00 {e(l_0xc9a7c8)}]@Jeste[C7] zombie?" next
+    "@Moja mama powiedzia[C4]a mi, [C8]eby nie otwiera[C2] drzwi, bo nadchodz[C1] zombie.{wait}{window_closetop}" eob
+
+l_0xc9a7c8:
+    "@Ucz[C3] si[C3] teraz, wi[C3]c nie mog[C3] si[C3] z tob[C1] bawi[C2].{wait}{window_closeall}" eob
+
+l_0xc9a7e4:
+    "{sound(111)}{pause(40)}{window_open(1)}@Aaaa{pause(5)}ji{pause(5)}i{pause(5)}i{pause(5)}i{pause(5)}i{pause(5)}i!{pause(20)}  Zombie!" next
+    "@{pause(120)}...Ogl[C1]dam film o zombie.{pause(20)}  Czy mo[C8]esz przyj[C7][C2] p[C6][C9]niej?!{wait}{window_closetop}" eob
+
+l_0xc9a83d:
+    "{sound(111)}{pause(40)}{window_open(1)}[06 47 00 {e(l_0xc9a880)}]@Jestem s[C4]abym, ma[C4]ym go[C7]ciem.{pause(20)}  A wi[C3]c nie mog[C3] otworzy[C2] drzwi." next
+    "@...Wiesz, to przera[C8]aj[C1]ce.{wait}{window_closetop}" eob
+
+l_0xc9a880:
+    "@Nie jestem pewien, kim jeste[C7], ale gratulacje!{wait}{window_closeall}" eob
+
+l_0xc9a89b:
+    "{sound(111)}{pause(40)}{window_open(1)}@Nikogo tu nie ma!{wait}{window_closetop}" eob
+
+l_0xc9a8b2:
+    "{sound(111)}{pause(40)}{window_open(1)}[06 47 00 {e(l_0xc9a8cf)}]@Cze[C7][C2]... witaj?{wait}{window_closetop}" eob
+
+l_0xc9a8cf:
+    "@Dzisiaj jest s[C4]onecznie.{wait}{window_closeall}" eob
+
+l_0xc9a8e0:
+    "[06 47 00 {e(l_0xc9a9dc)}]{sound(111)}{pause(40)}{window_open(1)}@Przepraszam, ale my[C7]l[C3], [C8]e powiniene[C7] teraz wyj[C7][C2]..." next
+    "@Nie mam gwarancji, [C8]e nie jeste[C7] zombie szukaj[C1]cym lunchu.{wait}{window_closetop}" eob
+
+l_0xc9a930:
+    "[06 D6 00 {e(l_0xc9a998)}]@W ko[C5]cu mo[C8]emy wzi[C1][C2] g[C4][C3]boki wdech [C7]wie[C8]ego powietrza," next
+    "@teraz, gdy zombie znikn[C3][C4]y." next
+    "@*KICHNI[B3]CIE*{pause(20)} Achhhh!{pause(15)}  Na zewn[C1]trz jest bardzo{pause(5)}o{pause(5)}o orze[C9]wiaj[C1]co!" end
+
+l_0xc9a998:
+    "@Zgubi[C4]em klucz do mojego domu, wi[C3]c nie mog[C3] wej[C7][C2]." next
+    "@Nie, nie.  Nie musisz go szuka[C2].  Sam go poszukam.{wait}{unset(flag 623)}" eob
+
+l_0xc9a9dc:
+    "{window_open(1)}@C[C6][C8], teraz klucz jest zepsuty i nie mog[C3] wyj[C7][C2]." next
+    "@Nie zawracaj sobie g[C4]owy, postaram si[C3] go naprawi[C2] samodzielnie.{wait}{window_closeall}" eob
+
+l_0xc9aa1c:
+    "{sound(111)}{pause(40)}{window_open(1)}[06 47 00 {e(l_0xc9aa6b)}]@To nie twoja sprawa, [C8]e mamy ma[C4]y dom..." next
+    "@Po prostu cicho szepcze...{wait}{window_closetop}" eob
+
+l_0xc9aa6b:
+    "@Piekarnia jest tu[C8] obok!{wait}{window_closeall}" eob
+
+l_0xc9aa7f:
+    "[06 71 01 {e(l_0xc9aa91)}]{window_open(1)}" call(data_44.l_0xc8886a) "{window_closetop}" eob
+
+l_0xc9aa91:
+    "[06 47 00 {e(data_55.l_0xc9992f)}]{window_open(1)}{music(134)}@Nigdy si[C3] nie poddajesz, co nie?" next
+    "@Je[C7]li nie masz nic przeciwko, wejd[C9] do [C7]rodka!{pause(10)}{sound(78)}" next
+    "@Blee Blee Beeeek!" next
+    "{window_closeall}[1F 21 64]" eob
+
+l_0xc9aaf0:
+    "{set(flag 523)}[1F 63 {e(l_0xc9aafa)}]" eob
+
+l_0xc9aafa:
+    "{set(flag 2)}{unset(flag 523)}" eob
+
+l_0xc9ab01:
+    "{sound(111)}{pause(40)}{window_open(1)}[06 D9 00 {e(l_0xc9ab53)}]@Nie chc[C3] wychodzi[C2] na morze z powodu Krakena." next
+    "@To znaczy, ka[C8]da normalna osoba czu[C4]aby si[C3] tak samo.{wait}{window_closetop}" eob
+
+l_0xc9ab53:
+    "@S[C4]ysza[C4]em, [C8]e z p[C4]etwy Krakena mo[C8]na zrobi[C2] dobr[C1] zup[C3]." next
+    "@Nie mog[C3] uwierzy[C2], [C8]e ludzie to jedz[C1]!" next
+    "@A jednak s[C4]ysza[C4]em, [C8]e to danie dla smakoszy.{pause(20)}" linebreak
+    "  Po prostu tego nie rozumiem!{wait}{window_closeall}" eob
+
+l_0xc9abbd:
+    "{sound(111)}{pause(40)}{window_open(1)}@Miau.{wait}{window_closetop}" eob
+
+l_0xc9abcf:
+    "{sound(111)}{pause(40)}{window_open(1)}@*j[C3]k*...{wait}{window_closetop}" eob
+
+l_0xc9abe5:
+    eob
+
+l_0xc9abe6:
+    "{sound(111)}{pause(40)}{window_open(1)}@Hej, tu jestem!{pause(10)}  Id[C9] i znajd[C9] inn[C1] cel[C3]!{pause(20)}  Cha,{pause(15)} tylko [C8]artowa[C4]em!{wait}{window_closetop}" eob
+
+l_0xc9ac22:
+    "{sound(111)}{pause(40)}{window_open(1)}@To jest wi[C3]zienie!{pause(20)}  Nie masz tutaj [C8]adnego interesu.{wait}{window_closetop}" eob
+
+l_0xc9ac4d:
+    "{sound(111)}{pause(40)}{window_open(1)}@Nie gadaj do mnie.{pause(20)}  Ja... Ja my[C7]l[C3]...!{wait}{window_closetop}" eob
+
+l_0xc9ac6f:
+    "{sound(111)}{pause(40)}{window_open(1)}@Uch, nie, jestem tu." next
+    "@Nie pr[C6]buj wchodzi[C2]... zw[C4]aszcza, je[C7]li nie musisz skorzysta[C2] z [C4]azienki!{wait}{window_closeall}" eob
+
+l_0xc9acae:
+    "{sound(111)}{pause(40)}{window_open(1)}@Hmm,{pause(20)} co ja w[C4]a[C7]ciwie robi[C3] w toalecie w takim miejscu?" next
+    "@I kim ja jestem?{pause(10)}" linebreak
+    "  O co chodzi w [C8]yciu?" next
+    "@Och, przepraszam.{pause(20)}" linebreak
+    "  Czy zdenerwowa[C4]em ci[C3]?" next
+    "@Jestem tylko jakim[C7] niewa[C8]nym facetem.{wait}{window_closetop}" eob

@@ -1,0 +1,437 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc5bac5:
+    "@Co mog[C3] ci da[C2]?[03]" eob
+
+l_0xc5bad3:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5badb:
+    "@Kto z was to b[C3]dzie nosi[C2]?" next
+    eob
+
+l_0xc5bae8:
+    "@Zapraszamy ponownie." next
+    eob
+
+l_0xc5baf1:
+    "@Wygl[C1]da na to, [C8]e masz za ma[C4]o pieni[C3]dzy." next
+    eob
+
+l_0xc5bb02:
+    "@Masz ju[C8] tyle rzeczy...  Po prostu nie mo[C8]esz ju[C8] nic wi[C3]cej nosi[C2]!{wait}" linebreak
+    eob
+
+l_0xc5bb22:
+    "@Dzi[C3]kuj[C3] bardzo." next
+    eob
+
+l_0xc5bb2c:
+    "@Dzi[C3]kuj[C3] bardzo." next
+    eob
+
+l_0xc5bb36:
+    "@Czy masz jakie[C7] inne zam[C6]wienia?" linebreak
+    eob
+
+l_0xc5bb46:
+    "@[1C 02 00] wydaje si[C3] nie by[C2] w stanie zaakceptowa[C2] a[C8] tylu rzeczy." next
+    "@Czy kto[C7] inny mo[C8]e to wzi[C1][C2]?" linebreak
+    eob
+
+l_0xc5bb76:
+    "@Witam, mog[C3] przyj[C1][C2] zam[C6]wienie?" linebreak
+    "  *u[C7]miech, u[C7]miech*" next
+    eob
+
+l_0xc5bb9a:
+    "@Dzi[C3]kuj[C3] bardzo." linebreak
+    "  *u[C7]miech, u[C7]miech*" end
+
+l_0xc5bbb2:
+    "@Mi[C4]ego dnia!" linebreak
+    "  *u[C7]miech, u[C7]miech*" end
+
+l_0xc5bbce:
+    "@Co mog[C3] ci poda[C2]?[03]" eob
+
+l_0xc5bbdc:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5bbe4:
+    "@Kto z was to we[C9]mie?[03]" eob
+
+l_0xc5bbf2:
+    "@Zapraszamy ponownie." next
+    eob
+
+l_0xc5bbfb:
+    "@[B4]ups!  Masz za ma[C4]o pieni[C3]dzy." next
+    eob
+
+l_0xc5bc0d:
+    "@Uuups! Masz ju[C8] za du[C8]o rzeczy." end
+
+l_0xc5bc23:
+    "@Dzi[C3]kuj[C3] bardzo." next
+    eob
+
+l_0xc5bc2d:
+    "@Dzi[C3]kuj[C3] za dzisiejsze zakupy." next
+    eob
+
+l_0xc5bc3c:
+    "@Czy masz jakie[C7] inne zam[C6]wienia?" linebreak
+    eob
+
+l_0xc5bc4c:
+    "@[1C 02 00] wydaje si[C3] mie[C2] zbyt wiele rzeczy." next
+    "@Czy kto[C7] inny mo[C8]e to nosi[C2]?" linebreak
+    eob
+
+l_0xc5bc70:
+    "@Lubi[C3] sprzedawa[C2] moje rzeczy na ulicy." next
+    "@Oczywi[C7]cie muchy siadaj[C1] na nie, ale moim zdaniem sprawiaj[C1], [C8]e smakuj[C1] jeszcze lepiej!" next
+    eob
+
+l_0xc5bcc2:
+    "@Wielkie dzi[C3]ki." end
+
+l_0xc5bcca:
+    "@Zapraszamy ponownie." end
+
+l_0xc5bcd2:
+    "@Co by[C7] chcia[C4]?[03]" eob
+
+l_0xc5bcdd:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5bce5:
+    "@Kto z was to b[C3]dzie nosi[C2]?[03]" eob
+
+l_0xc5bcf4:
+    "@Zapraszamy ponownie." next
+    eob
+
+l_0xc5bcfd:
+    "@Wygl[C1]da na to, [C8]e masz za ma[C4]o pieni[C3]dzy." next
+    eob
+
+l_0xc5bd0c:
+    "@Nosisz ju[C8] za du[C8]o rzeczy." next
+    "@Powiniene[C7] sprzeda[C2] niekt[C6]re rzeczy, wyrzuci[C2] je lub po prostu zostawi[C2] gdzie[C7]." end
+
+l_0xc5bd49:
+    "@Dzi[C3]kuj[C3] bardzo." next
+    eob
+
+l_0xc5bd53:
+    "@Dzi[C3]ki." next
+    eob
+
+l_0xc5bd59:
+    "@Czy chcesz kupi[C2] co[C7] jeszcze?" linebreak
+    eob
+
+l_0xc5bd62:
+    "@[1C 02 00] nosi ju[C8] za du[C8]o rzeczy." next
+    "@Czy ktokolwiek mo[C8]e to nosi[C2] za {swap}" call(data_37.l_0xc7e6a4) "?" linebreak
+    eob
+
+l_0xc5bd92:
+    "@Wi[C3]c, gdzie s[C1] wasi rodzice?" next
+    "@Macie na my[C7]li to, [C8]e sami tu przybyli[C7]cie...?" next
+    "@No c[C6][C8], mog[C3] z[C4]o[C8]y[C2] zam[C6]wienie." next
+    eob
+
+l_0xc5bde0:
+    "@Dzi[C3]kuj[C3]." next
+    "@Uwa[C8]aj, [C8]eby[C7] tego nie upu[C7]ci[C4] ani nie rozla[C4]." end
+
+l_0xc5be00:
+    "@Czekamy na twoje ponowne przyj[C7]cie." end
+
+l_0xc5be16:
+    "@Co mog[C3] dla ciebie zrobi[C2]?[03]" eob
+
+l_0xc5be24:
+    "@Chcesz [1C 05 00]?" next
+    eob
+
+l_0xc5be34:
+    "@Czyje to jest zam[C6]wienie?[03]" eob
+
+l_0xc5be45:
+    "@Zapraszamy ponownie." next
+    eob
+
+l_0xc5be4e:
+    "@Przepraszam, ale masz za ma[C4]o [C7]rodk[C6]w na pokrycie tego." next
+    eob
+
+l_0xc5be6f:
+    "@Nosisz ju[C8] za du[C8]o rzeczy." next
+    "@Mo[C8]esz sprzeda[C2] swoje rzeczy, co[C7] wyrzuci[C2] lub po prostu porzuci[C2]." next
+    "@Potem przyjd[C9] ponownie." end
+
+l_0xc5beb3:
+    "@Dzi[C3]kuj[C3]." next
+    eob
+
+l_0xc5beba:
+    "@Dzi[C3]kuj[C3]." next
+    eob
+
+l_0xc5bec1:
+    "@Czy chcesz zam[C6]wi[C2] co[C7] jeszcze?" linebreak
+    eob
+
+l_0xc5becd:
+    "@[1C 02 00] nosi ju[C8] za du[C8]o rzeczy." next
+    "@Czy ktokolwiek mo[C8]e to nosi[C2] za {swap}" call(data_37.l_0xc7e6a4) "?" linebreak
+    eob
+
+l_0xc5bef9:
+    "@Witam!  Czy chcesz doda[C2] jakie[C7] przyprawy do posi[C4]k[C6]w w czasie jedzenia?" next
+    "@S[C1] naprawd[C3] cudowne!" next
+    "@Ilekro[C2] co[C7] zjesz, przyprawa posypie si[C3] automatycznie." next
+    "@Pochodz[C1] z tych uroczych ma[C4]ych paczek i s[C4]oik[C6]w." next
+    eob
+
+l_0xc5bf87:
+    "@Przyjd[C9] ponownie." end
+
+l_0xc5bf8e:
+    "@Przyjd[C9] ponownie." end
+
+l_0xc5bf95:
+    "@Jaki rodzaj lubisz?[03]" eob
+
+l_0xc5bfa1:
+    "@Chcesz [1C 05 00]?" next
+    eob
+
+l_0xc5bfb0:
+    "@Kto z was to we[C9]mie?" next
+    eob
+
+l_0xc5bfbf:
+    "@Przyjd[C9] ponownie." next
+    eob
+
+l_0xc5bfc7:
+    "@Och, masz za ma[C4]o pieni[C3]dzy." next
+    eob
+
+l_0xc5bfd3:
+    "@Masz ju[C8] maksymaln[C1] liczb[C3] rzeczy, kt[C6]re mo[C8]esz nosi[C2]." next
+    "@B[C3]dziesz musia[C4] sprzeda[C2] niekt[C6]re rzeczy lub po prostu je wyrzuci[C2]." next
+    "@Potem przyjd[C9] ponownie." end
+
+l_0xc5c025:
+    "@Dzi[C3]kuj[C3]." next
+    eob
+
+l_0xc5c02c:
+    "@Dzi[C3]kuj[C3]." next
+    eob
+
+l_0xc5c033:
+    "@Chcesz kupi[C2] co[C7] jeszcze?" linebreak
+    eob
+
+l_0xc5c03c:
+    "@[1C 02 00] nosi ju[C8] za du[C8]o rzeczy." next
+    "@Czy kto[C7] inny mo[C8]e to wzi[C1][C2]?" linebreak
+    eob
+
+l_0xc5c05f:
+    "@Jassssne, jesssstem Czerwonym W[C3][C8]em... Zaprasssszam!" next
+    title(1, Snake)
+    "@Poca[C4]unek Ognia! Naw[C6]z do w[C4]ossss[C6]w pod pachami!" linebreak
+    "  Tak!" next
+    eob
+
+l_0xc5c0ad:
+    title(1, Snake)
+    "@Tak, massssz ssssuper rzeczy!" end
+
+l_0xc5c0cb:
+    title(1, Snake)
+    "@O nie..." next
+    "@Rozczarowa[C4]e[C7] mnie..." end
+
+l_0xc5c0e3:
+    title(1, Snake)
+    "@Co chcessssz ssssobie kupi[C2]?[03]" eob
+
+l_0xc5c0f3:
+    title(1, Snake)
+    "@Jassssne, oto jesssst" linebreak
+    "  [1C 05 00]!" next
+    eob
+
+l_0xc5c10f:
+    title(1, Snake)
+    "@Kto z wassss to b[C3]dzie nossssi[C2]?[03]" eob
+
+l_0xc5c125:
+    title(1, Snake)
+    "@O nie..." next
+    "@Rozczarowa[C4]e[C7] mnie..." next
+    eob
+
+l_0xc5c13e:
+    title(1, Snake)
+    "@O nie..." next
+    "@Rozczarowa[C4]e[C7] mnie...  Massssz za ma[C4]o pieni[C3]dzy..." next
+    eob
+
+l_0xc5c161:
+    title(1, Snake)
+    "@Nossssissssz za du[C8]o rzeczy" next
+    "@Ssssprzedaj lub wyrzu[C2] je i przyjd[C9] ponownie!" end
+
+l_0xc5c192:
+    title(1, Snake)
+    "@Dzi[C3]kssssss!" next
+    eob
+
+l_0xc5c19d:
+    title(1, Snake)
+    "@Dzi[C3]ksssss!" next
+    eob
+
+l_0xc5c1a7:
+    title(1, Snake)
+    "@Czy mog[C3] co[C7] jesssszcze dla ciebie zrobi[C2]?" linebreak
+    eob
+
+l_0xc5c1be:
+    title(1, Snake)
+    "@Massssz za du[C8]o rzeczy do nosssszenia." next
+    "@Czy kto[C7] inny mo[C8]e to nossssi[C2]?" linebreak
+    eob
+
+l_0xc5c1e5:
+    "@No dalej!" linebreak
+    "  Mamy dobry towar, G!" next
+    eob
+
+l_0xc5c203:
+    "@Wielkie dzi[C3]ki, bracie!" end
+
+l_0xc5c210:
+    "@Ty ma[C4]y kretynie!" linebreak
+    "  Nie mo[C8]esz mi tego zrobi[C2]!" end
+
+l_0xc5c22e:
+    "@Czego szukasz?!" next
+    eob
+
+l_0xc5c23b:
+    "@Okej, stary.  Chcesz" linebreak
+    "  [1C 05 00]?" next
+    eob
+
+l_0xc5c252:
+    "@Hej, ludziska, kto to b[C3]dzie nosi[C4]?" next
+    eob
+
+l_0xc5c268:
+    "@Jestem z tob[C1]." linebreak
+    "  Szukasz czego[C7] jeszcze?" next
+    eob
+
+l_0xc5c27f:
+    "@Hej, ziomeczku!" linebreak
+    "  Nie masz forsy na ten zakup![03]" eob
+
+l_0xc5c2a5:
+    "@Bardzo niefortunne dla ciebie," linebreak
+    "  nosisz za du[C8]o rzeczy." end
+
+l_0xc5c2c6:
+    "@Dzi[C3]kuj[C3], dzi[C3]kuj[C3]." next
+    eob
+
+l_0xc5c2d2:
+    "@Dzi[C3]kuj[C3], dzi[C3]kuj[C3]." next
+    eob
+
+l_0xc5c2de:
+    "@Czy potrzebujesz czego[C7] jeszcze?" linebreak
+    eob
+
+l_0xc5c2e7:
+    "@Sorki, kolego!" linebreak
+    "  [1C 02 00] ma ju[C8] za du[C8]o rzeczy." next
+    "@Czy kt[C6]ry[C7] z was chce to nosi[C2] za {swap}" call(data_37.l_0xc7e6a4) "?" linebreak
+    eob
+
+l_0xc5c32a:
+    "@Musicie mie[C2] przed sob[C1] d[C4]ug[C1], trudn[C1] drog[C3], czy[C8] nie?" next
+    "@Nie, nie musicie wyja[C7]nia[C2].  Ju[C8] wiem... musicie by[C2] g[C4]odni." next
+    "@To dobry moment dla was.  Zdarza si[C3], [C8]e mam co[C7] do jedzenia." next
+    eob
+
+l_0xc5c39e:
+    "@Je[C7]li chcecie w pe[C4]ni wyzdrowie[C2], jest taka wioska pe[C4]na..." next
+    "@ciekawych ludzi... tu[C8] przed nami.  Id[C9]cie tam i odpocznijcie." next
+    "@S[C4]ysza[C4]em, [C8]e nazwa tej wioski to Dolina Saturn," next
+    "@ale nie mo[C8]na jej znale[C9][C2] na [C8]adnej mapie." next
+    "@Lubi[C3] pomaga[C2] tym, kt[C6]rzy maj[C1] k[C4]opoty." next
+    "@...przez to obci[C1][C8]am ich za moje k[C4]opoty." end
+
+l_0xc5c456:
+    "@Prosz[C3], jak najbardziej, przyjd[C9]cie kiedy[C7].  ...Ach, przypomnia[C4]em sobie..." next
+    "@Jest taka wioska pe[C4]na... ciekawych ludzi... tu[C8] przed nami." next
+    "@Powinni[C7]cie tam p[C6]j[C7][C2] i j[C1] odwiedzi[C2]." next
+    "@S[C4]ysza[C4]em, [C8]e nazwa tej wioski to Dolina Saturn," next
+    "@ale nie mo[C8]na jej znale[C9][C2] na [C8]adnej mapie." end
+
+l_0xc5c4e3:
+    "@Co by[C7]cie chcieli?[03]" eob
+
+l_0xc5c4ee:
+    "@Chcesz [1C 05 00]?" next
+    eob
+
+l_0xc5c4fd:
+    "@Kto to b[C3]dzie nosi[C2]?" next
+    eob
+
+l_0xc5c50d:
+    "@Rozumiesz.  To... wielka szkoda.[03]" eob
+
+l_0xc5c521:
+    "@Wygl[C1]da na to, [C8]e masz za ma[C4]o pieni[C3]dzy." next
+    eob
+
+l_0xc5c536:
+    "@Nosisz ju[C8] za du[C8]o rzeczy." next
+    "@Sprzedaj lub po prostu wyrzu[C2] co[C7] i przyjd[C9] ponownie." end
+
+l_0xc5c564:
+    "@Dzi[C3]kuj[C3]." next
+    eob
+
+l_0xc5c56b:
+    "@Dzi[C3]kuj[C3]." next
+    eob
+
+l_0xc5c572:
+    "@Czy chcesz kupi[C2] co[C7] jeszcze?" linebreak
+    eob
+

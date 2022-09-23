@@ -1,0 +1,196 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xef9a9e:
+    newline
+    "{sound(25)}@{user} stoi w p[C4]omieniach!{sound(75)}[03]{pause(30)}" eob
+
+l_0xef9abb:
+    newline
+    "@{user}[19 1F][1B 02 {e(l_0xef9ae8)}]{swap} kradnie [1C 05 00] w zamieszaniu podczas bitwy![03]" eob
+
+l_0xef9ae8:
+    " pr[C6]buj[C3] co[C7] ukra[C7][C2], ale nie udaje si[C3]![03]" eob
+
+l_0xef9b02:
+    newline
+    "{sound(25)}@{user} zamra[C8]a ci[C3] w czasie!{music(4)}[03]{pause(1)}" eob
+
+l_0xef9b20:
+    newline
+    "{sound(25)}@{user} spogl[C1]da swoimi strasznymi oczami![03]{pause(1)}" eob
+
+l_0xef9b43:
+    "{sound(25)}" newline
+    "@{user} generuje tajemnicze pole elektryczne!{sound(77)}[03]{pause(1)}" eob
+
+l_0xef9b73:
+    newline
+    "{sound(25)}@{user} potyka si[C3], ale wystrzeliwuje dziwn[C1] wi[C1]zk[C3].{sound(77)}[03]{pause(1)}" eob
+
+l_0xef9b96:
+    newline
+    "{sound(25)}@{user} beka i wydaje md[C4]y oddech!{sound(78)}[03]{pause(1)}" eob
+
+l_0xef9bc3:
+    newline
+    "{sound(25)}@{user} k[C1]si ci[C3] swoim zatrutym [C8][C1]d[C4]em![03]{pause(1)}" eob
+
+l_0xef9be6:
+    newline
+    "{sound(25)}@{user} daje poca[C4]unek [C7]mierci![03]{pause(1)}" eob
+
+l_0xef9c02:
+    newline
+    "{sound(25)}@{user} wypuszcza arktyczny oddech!{sound(81)}[03]{pause(1)}" eob
+
+l_0xef9c30:
+    newline
+    "{sound(25)}@{user} rozrzuca kilka zarodnik[C6]w!{sound(82)}[03]{pause(1)}" eob
+
+l_0xef9c51:
+    newline
+    "{sound(25)}@{user} pr[C6]buj[C3] ci[C3] op[C3]ta[C2] w przera[C8]aj[C1]cy spos[C6]b.{sound(96)}[03]{pause(1)}" eob
+
+l_0xef9c7e:
+    newline
+    "{sound(25)}@{user} sypie cudownie pachn[C1]cym proszkiem.{sound(82)}[03]{pause(1)}" eob
+
+l_0xef9cad:
+    newline
+    "{sound(25)}@{user} rozrzuca kilka zarodnik[C6]w ple[C7]ni!{sound(82)}[03]{pause(1)}" eob
+
+l_0xef9cd1:
+    newline
+    "{sound(25)}@{user} zastosowuje [C7]ciskaj[C1]cy atak![03]{pause(1)}" eob
+
+l_0xef9cf1:
+    newline
+    "{sound(25)}@{user} wypluwa lepki [C7]luz!{sound(81)}[03]{pause(1)}" eob
+
+l_0xef9d14:
+    newline
+    "{sound(25)}@{user} wypluwa <Muszy Mi[C6]d> ze swoich ust!{sound(81)}[03]{pause(1)}" eob
+
+l_0xef9d3e:
+    newline
+    "{sound(25)}@{user} zrzuca paj[C3]cz[C1] sie[C2] ze swojego cia[C4]a![03]" eob
+
+l_0xef9d62:
+    newline
+    "{sound(25)}@{user} m[C6]wi co[C7] naprawd[C3] przera[C8]aj[C1]cego!{sound(84)}[03]{pause(1)}" eob
+
+l_0xef9d81:
+    newline
+    "{sound(25)}@{user} robi co[C7] bardzo tajemniczego!{sound(85)}[03]{pause(1)}" eob
+
+l_0xef9da1:
+    newline
+    "{sound(25)}@{user} zak[C4][C6]ca twoje zmys[C4]y![03]" eob
+
+l_0xef9dbd:
+    newline
+    "{sound(25)}@{user} ocenia sytuacj[C3]![03]" eob
+
+l_0xef9dda:
+    newline
+    "{sound(25)}@{user} wypuszcza podmuch [C7]mierdz[C1]cego oddechu!{sound(92)}[03]{pause(1)}" eob
+
+l_0xef9e05:
+    newline
+    "{sound(25)}@{user} wzywa burz[C3]!{sound(86)}[03]{pause(1)}" eob
+
+l_0xef9e22:
+    newline
+    "{sound(25)}@{user} rozlewa troch[C3] gor[C1]cego espresso![03]" eob
+
+l_0xef9e47:
+    newline
+    "{sound(25)}@{user} gra nawiedzaj[C1]c[C1] melodi[C3]![03]{pause(1)}" eob
+
+l_0xef9e69:
+    newline
+    "{sound(25)}@{user} gasi wybuch!{sound(88)}[03]{pause(1)}" eob
+
+l_0xef9e92:
+    newline
+    "{sound(25)}@{user} u[C8]ywa ataku Trzask Bum Trach![03]" eob
+
+l_0xef9eb4:
+    newline
+    "{sound(25)}@{user} wystrzeliwuje ogie[C5]!{sound(75)}[03]{pause(1)}" eob
+
+l_0xef9ed7:
+    newline
+    "{sound(25)}@{user} zionie ogniem!{sound(75)}[03]{pause(1)}" eob
+
+l_0xef9ef4:
+    "{store_registers}" newline
+    "[1D 22][1B 02 {e(l_0xef9f9f)}][06 0A 03 {e(l_0xef9fe2)}]{isset(flag 180)}[1B 03 {e(l_0xefa002)}]{isset(flag 181)}[1B 03 {e(l_0xefa07e)}]{isset(flag 645)}[1B 03 {e(l_0xefa07e)}]{isset(flag 446)}[1B 03 {e(l_0xefa029)}]{isset(flag 646)}[1B 03 {e(l_0xefa029)}]{isset(flag 647)}[1B 03 {e(l_0xefa029)}]{isset(flag 648)}[1B 03 {e(l_0xefa029)}]{isset(flag 675)}[1B 03 {e(l_0xefa002)}]{isset(flag 694)}[1B 03 {e(l_0xefa07e)}]{isset(flag 695)}[1B 03 {e(l_0xefa07e)}][06 FE 02 {e(l_0xefa0b7)}][1F 41 05]@(Mysz znalaz[C4]a wyj[C7]cie i pomacha[C4]a do ciebie.)[03][1F 69]{load_registers}[1D 0F 00 00]{unset(flag 512)}[1F 41 06]" call(data_36.l_0xc7de60) eob
+
+l_0xef9f9f:
+    "@(Mysz Wyj[C7]cia nie mo[C8]e wykona[C2] swojej roboty," next
+    "@dop[C6]ki nie znajdzie si[C3] w dziurze, jaskini lub innym miejscu z wyj[C7]ciem!)" end
+
+l_0xef9fe2:
+    "@(W tym momencie mysz twardo [C7]pi.)" end
+
+l_0xefa002:
+    "@Nie nale[C8]y wypuszcza[C2] myszy, dop[C6]ki pizza nie dotrze." end
+
+l_0xefa029:
+    "@Je[C7]li wypu[C7]cisz teraz mysz, mo[C8]e nadepn[C1][C2] na ni[C1] nadchodz[C1]cy klient." next
+    "@Wi[C3]c... to nie jest dobry pomys[C4] na wypuszczenie myszy." end
+
+l_0xefa07e:
+    "@Pozosta[C5] w pobli[C8]u, a[C8] przyb[C3]dzie Escargo Express." next
+    "@Wi[C3]c... nie u[C8]ywaj Myszy Wyj[C7]cia!" eob
+
+l_0xefa0b7:
+    "@Z jakiego[C7] powodu mysz wyj[C7]cia nie jest przyjemna." end
+
+l_0xefa0dc:
+    "{swap}@[1C 02 00] czyta Hieroglify." next
+    "@<Aby walczy[C2] z naje[C9]d[C9]cami, zbudowali[C7]my t[C3] piramid[C3]." next
+    "@Jednak[C8]e nasze wysi[C4]ki by[C4]y daremne i przegrali[C7]my." next
+    "@Niemniej nasza piramida by[C4]a chroniona przez bog[C6]w Scaraba." next
+    "@Naje[C9]d[C9]cy b[C3]d[C1] si[C3] odradza[C2] co tysi[C1]clecie i b[C3]d[C1] atakowa[C2] za ka[C8]dym razem." next
+    "@Nawet teraz naje[C9]d[C9]cy ukrywaj[C1] si[C3] poza przestrzeni[C1] i czasem i buduj[C1] swoj[C1] z[C4][C1] twierdz[C3]." next
+    "@Miejsce poza czasem znajduje si[C3] poza Ciemno[C7]ci[C1], a nawet dalej ni[C8] Zaginiony Za[C7]wiat." next
+    "@G[C4][C3]boka Ciemno[C7][C2] jest spowita, nie ma [C7]wiat[C4]a." next
+    "@Tylko [1C 05 AF] mo[C8]e przebi[C2] ciemno[C7][C2]." next
+    "@Sfinks czuwa teraz nad wszystkim," next
+    "@czekaj[C1]c na przyj[C7]cie odwa[C8]nego bohatera." next
+    "@   #" linebreak
+    "  4   3" linebreak
+    "   2 5" next
+    "@Zata[C5]cz przed Sfinksem!>" end
+
+l_0xefa2ab:
+    "[1F 41 07][1B 02 {e(l_0xefa2b5)}]" eob
+
+l_0xefa2b5:
+    "@To miasto nie jest pokazane na mapie." end
+
+l_0xefa2c9:
+    "[06 6C 00 {e(l_0xefa2d5)}]" call(data_27.l_0xc6fb20) goto(l_0xefa2d5)
+
+l_0xefa2d5:
+    eob
+
+l_0xefa2d6:
+    "{store_registers}[19 19 00 00]{swap}{result_is(170)}[1B 02 {e(data_27.l_0xc6fb5d)}]" call(data_27.l_0xc6fb33) "{load_registers}[1D 0F 00 00][1F 1E 93 00 06]{set(flag 108)}" eob
+
+l_0xefa2fa:
+    "{set(flag 11)}[1F 15 6A 00 91 00 01][1F EF 6A 00][1F E8 FF][1F 61][1F EB FF 06]{music(83)}{music_switching_off}[1F ED][1F E5 FF][1F 15 A2 00 8B 00 01][1F 61][1F E9 6F 02][1F 61][1F 21 AE][1F 15 D1 00 92 00 01]{pause(1)}[1F EF D1 00][1F E8 FF]{pause(1)}[1F 61][1F ED][1F E5 FF][1F 11 01][1F 11 02][1F 12 03][1F 21 4D][1F 15 0D 00 B0 00 01]{pause(60)}[1F 1F 0D 00 06][1F 15 03 00 B1 00 01]{pause(1)}[1F E7 03 00]{window_open(1)}{unset(flag 11)}" goto(data_43.l_0xc884d0)
+
+l_0xefa379:
+    eob
+
